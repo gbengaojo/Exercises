@@ -1,0 +1,91 @@
+*A brute force algorithm is used for the first implementation (PHP), as the constraints in the requirements greatly reduces the number of candidate numbers to test.
+
+*The second implementation is written in Ruby and utilizes its Prime class along with regular expressions
+
+*The first implementation is considerably faster; from a cursory inspection the likely bottleneck culprit in the second implementation is the combined sieve and regular expression used to test all numbers (as opposed to a small subset used in the first implementation).
+
+##### PHP Implementation #####
+
+  1 <?php
+  2 /**
+  3  * find the 333rd prime number beginning and ending
+  4  * ending with the number 3.
+  5  *
+  6  * @param:
+  7  * @return:
+  8  * @throws:
+  9  */
+ 10 function prime() {
+ 11    // this will be our brute force attach, testing numbers that
+ 12    // begin and end with 3 for primality, and selecting the 333rd
+ 13    // one found.
+ 14
+ 15    // we can assume that 3 is not included, based on the reqs
+ 16
+ 17    // candidate #s will be of the following form:
+ 18    /*
+ 19    303, 313, ... 383, 393
+ 20    3003, 3013, ... 3983, 3993
+ 21    .
+ 22    .
+ 23    3n3; where n is any valid integer
+ 24    */
+ 25
+ 26    $count = 0;
+ 27
+ 28    // first, construct the first set of candidates
+ 29    $candidates[] = 33;
+ 30    for ($e = 1; $e <= 4; $e++) {
+ 31        for ($i = 0; $i < pow(10, $e); $i++) {
+ 32           $sub = sprintf("%0{$e}d", $i);
+ 33           $candidates[] = intval("3{$sub}3");
+ 34        }
+ 35    }
+ 36
+ 37    // test for primality
+ 38    foreach ($candidates as $candidate) {
+ 39       $prime = true;
+ 40       for ($i = 2; $i < ceil(sqrt($candidate)); $i++) {
+ 41          if ($candidate % $i == 0) {
+ 42             // not prime
+ 43             $prime = false;
+ 44             continue;
+ 45          }
+ 46       }
+ 47
+ 48       // assign primes to array and retrieve the
+ 49       // 333rd value
+ 50       if ($prime) {
+ 51          $primes[] = $candidate;
+ 52          if (count($primes) >= 333)
+ 53          break;
+ 54       }
+ 55    }
+ 56
+ 57    echo "<pre>";
+ 58    echo "The 333rd prime number beginning and ending with\n";
+ 59    echo "a 3 is " . array_pop($primes) . ".";
+ 60 }
+ 61
+ 62 prime();
+
+
+##### Ruby Implementation #####
+
+  1 ###
+  2 # This is a pretty straight-foward script utilizing
+  3 # Ruby's Prime class and regular expressions to
+  4 # find the 333rd prime number beginning and ending
+  5 # with the number 3
+  6 require 'prime'
+  7
+  8 count = 0
+  9 (1..399993).each do |n|
+ 10    if (n.prime? and n.to_s.match('^[3](\d)*[3]$'))
+ 11       count = count + 1
+ 12       if (count == 333)
+ 13          puts "The 333rd prime number beginning and ending with\n"
+ 14          puts "a 3 is #{n}."
+ 15       end
+ 16    end
+ 17 end

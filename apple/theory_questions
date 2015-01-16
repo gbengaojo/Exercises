@@ -1,0 +1,9 @@
+1. The copy/paste problem between Cat and Dog can be reduced by creating a base class, Animal, and then extending the Cat and Dog classes.
+
+2. I usually go about error handling by catching exceptions in a try/catch block, then logging errors and taking appropriate action so exceptions can be dealt with gracefully (instead of crashing the program).
+
+3. When working with a team of developers, a logical way to handle the division of labor would be to have an architect develop the necessary abstract base class templates, then developers develop by implementing those interfaces (e.g., one developer can flesh out an abstract Animal class; once that's subsequently fleshed out with working code, several developers can work on any class that would extend it). SQL and test cases can be written in close conjunction with the architects and developers.
+
+4. I would improve the Data object interface by implementing parameterized queries and exception handling; I would also adjust the construct to handle differences between production, development, and testing environments (or use some other configuration to handle this).
+
+5. Data integrity can be ensured by placing good constraints on the database itself and its tables, for starters. There are competing theories about the usefulness of an ORM, and that could be decided on a case by case basis. Validating information thoroughly at the application level is also valuable.
