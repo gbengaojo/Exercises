@@ -8,7 +8,6 @@ require 'sample_response.php';
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
    <script src="js/ui-bootstrap-tpls-0.13.4.min.js"></script>
    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
@@ -82,7 +81,15 @@ require 'sample_response.php';
    </section>
 
    <section id="ratings">
-
+      <ul>
+         <li ng-repeat="review in filterdReviews">{{review.description}}</li>
+      </ul>
+      <pagination
+         ng-model="currentPage"
+         total-items="totalItems"
+         max-size="maxSize"
+         boundary-links="true">
+      </pagination>
    </section>
 </div>
 
