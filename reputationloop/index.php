@@ -4,6 +4,7 @@ require 'sample_response.php';
 <!doctype html>
 <html lang="en">
 <head>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
@@ -11,6 +12,32 @@ require 'sample_response.php';
    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
    <script src="js/ui-bootstrap-tpls-0.13.4.min.js"></script>
    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+
+
+   <style>
+      body {
+         margin: 0px;
+         padding: 0px;
+      }
+
+      .container-fluid {
+         margin: 0px;
+         padding: 0px;
+         font-family: 'Helvetica', 'Arial', sans-serif; 
+      }
+
+      header {
+         color: #ccc;
+         background: no-repeat rgb(49, 64, 75);
+         padding-bottom: 20px;
+         padding-left: 10px;
+         padding-top: 5px;
+      }
+
+      .bold {
+         font-weight: bold;
+      }
+   </style>
 </head>
 
 <title>Reputation Loop Code Challenge</title>
@@ -23,15 +50,39 @@ require 'sample_response.php';
    </header>
 
    <section id="business_info">
-      <div class="col-md-4">
-         <p>Business Name: {{business_info.business_name}}</p>
+      <div class="row">
+         <div class="col-md-4">
+            <p><span class="bold">Business Name:</span> {{business_info.business_name}}</p>
+         </div>
+         <div class="col-md-4">
+            <p><span class="bold">Address:</span> {{business_info.business_address}}</p>
+         </div>
+         <div class="col-md-4">
+            <p><span class="bold">Phone:</span> {{business_info.business_phone}}</p>
+         </div>
       </div>
-      <div class="col-md-4">
-         <p>Address: {{business_info.
-      </div>
-      <div class="col-md-4">
 
+      <div class="row">
+         <div class="col-md-6">
+            <p><span class="bold">Average Rating:</span> {{business_info.total_rating.total_avg_rating}}</p>
+         </div>
+         <div class="col-md-6">
+            <p><span class="bold">Number of Reviews:</span> {{business_info.total_rating.total_no_of_reviews}}</p>
+         </div>
       </div>
+
+      <div class="row">
+         <div class="col-md-6">
+            <p><a ng-href="{{business_info.external_url}}">External URL</a></p>
+         </div>
+         <div class="col-md-6">
+            <p><a ng-href="{{business_info.external_page_url}}">External Page URL</a></p>
+         </div>
+      </div>
+   </section>
+
+   <section id="ratings">
+
    </section>
 </div>
 
