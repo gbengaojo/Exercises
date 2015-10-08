@@ -1,5 +1,0 @@
-[Wed Oct 07 02:30:51 2015] [error] [client 127.0.0.1] (13)Permission denied: file permissions deny server access: /home/gbenga/code/emp_screens/reputationloop/js/ui-bootstrap-tpls-0.13.4.min.js, referer: http://localhost/
-[Wed Oct 07 03:11:50 2015] [error] [client 127.0.0.1] File does not exist: /home/gbenga/code/emp_screens/reputationloop/js/services, referer: http://localhost/
-[Wed Oct 07 03:47:26 2015] [error] [client 127.0.0.1] Invalid method in request JSON /scripts/localfeedbackloop.js HTTP/1.1, referer: http://localhost/
-[Wed Oct 07 03:48:06 2015] [error] [client 127.0.0.1] File does not exist: /home/gbenga/code/emp_screens/reputationloop/scripts/localfeedbackloop.js, referer: http://localhost/
-[Wed Oct 07 03:48:19 2015] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/gbenga/code/emp_screens/reputationloop/scripts/localfeedbackloop.php on line 4, referer: http://localhost/
