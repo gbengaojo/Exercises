@@ -24,7 +24,4 @@ var controllers = angular.module('CodeChallengeApp.controllers', ['ui.bootstrap'
          console.log(response.business_info.business_name);
          console.log('total items count: ' + response.reviews.length);
       });
-
-
-
    });

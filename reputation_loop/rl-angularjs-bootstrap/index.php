@@ -1,5 +1,5 @@
 <?php
-// require 'sample_response.php';
+require 'sample_response.php';
 require 'scripts/localfeedbackloop.php';
 ?>
 <!doctype html>
@@ -13,7 +13,6 @@ require 'scripts/localfeedbackloop.php';
    <script src="js/app.js"></script>
    <script src="js/services.js"></script>
    <script src="js/controllers.js"></script>
-   
 
    <style>
       body {

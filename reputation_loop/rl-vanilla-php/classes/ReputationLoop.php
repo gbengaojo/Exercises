@@ -30,11 +30,18 @@ class ReputationLoop
    public function rlAPI($url) {
       // API call
       // get response
-      $response = curl_init?;
-   }
-}
+      $curl = curl_init();
 
+      curl_setopt($curl, CURLOPT_POST, 1);  
+      curl_setopt($curl, CURLOPT_URL, $url);  
+      curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+
+      $response = curl_exec($curl);
+      curl_close($curl);
+
+      return $response;
+   }
 
 $rl = new ReputationLoop()
-$url ="http://test.localfeedbackloop.com/api?apiKey=61067f81f8cf7e4a1f673cd230216112&noOfReviews=10&internal=1&yelp=1&google=1&offset=50&threshold=1"; 
-$rl->rlAPI($url);
+$url = "http://test.localfeedbackloop.com/api?apiKey=61067f81f8cf7e4a1f673cd230216112&noOfReviews=10&internal=1&yelp=1&google=1&offset=50&threshold=1"; 
+$rl_response = $rl->rlAPI($url);

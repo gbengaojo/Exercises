@@ -1,0 +1,5 @@
+[Thu Oct 15 14:28:52 2015] [error] [client 127.0.0.1] PHP Fatal error:  Call to undefined function curl_init() in /home/gbenga/code/emp_screens/reputation_loop/rl-angularjs-bootstrap/scripts/localfeedbackloop.php on line 5
+[Thu Oct 15 14:28:52 2015] [error] [client 127.0.0.1] File does not exist: /home/gbenga/code/emp_screens/reputation_loop/rl-angularjs-bootstrap/favicon.ico, referer: http://localhost/
+[Mon Oct 19 07:36:41 2015] [error] [client 127.0.0.1] File does not exist: /home/gbenga/code/emp_screens/reputation_loop/rl-angularjs-bootstrap/favicon.ico, referer: http://localhost/
+[Fri Oct 23 04:45:33 2015] [error] [client 127.0.0.1] File does not exist: /home/gbenga/code/emp_screens/reputation_loop/rl-angularjs-bootstrap/favicon.ico, referer: http://localhost/
+[Tue Oct 27 17:01:53 2015] [error] [client 127.0.0.1] File does not exist: /home/gbenga/code/emp_screens/reputation_loop/rl-angularjs-bootstrap/favicon.ico, referer: http://localhost/
