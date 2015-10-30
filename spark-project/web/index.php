@@ -23,7 +23,7 @@ $app->run();
 1. AssignedShifts(employee_id)
 2. ConcurrentEmployees(employee_id)
 3. HoursWorked(employee_id)
-4. ContactManger(employee_id, shift_id)
+4. ContactManger(manager_id, shift_id)
 5. ScheduleEmployees()
 6. CheckSchedule(start_time, end_time)
 7. UpdateShift(shift_id)
