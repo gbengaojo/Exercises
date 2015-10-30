@@ -20,12 +20,5 @@ class Hello implements DomainInterface
             ->withOutput([
                 'hello' => "<h1>$name</h1>",
             ]);
-/*
-        return (new Payload)
-            ->withStatus(Payload::OK)
-            ->withOutput([
-                'hello' => $name,
-            ]);
-*/
     }
 }
