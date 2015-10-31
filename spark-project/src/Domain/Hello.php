@@ -25,7 +25,8 @@ class Hello implements DomainInterface
 
         /**
          * ...which can itself be abstraced to a separate class
-         * that provides the response presentation
+         * that provides the response presentation; the appropriate
+         * output aruguments could be passed to the responder
          */
         // sample responder
         return (new Payload)

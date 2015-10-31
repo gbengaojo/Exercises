@@ -1,5 +1,20 @@
 <?php
 
+$conn = mysqli_connect('localhost', 'test', '_!p@ssw0rd!@');
+if (!$conn) {
+   echo "<pre>no available database connection. :(</pre>";
+} else {
+   mysqli_select_db($conn, 'test');
+
+   $query = "SELECT * FROM user";
+   $result = mysqli_query($conn, $query);
+
+   echo '<pre>';
+   print_r($result);
+}
+
+
+
 require __DIR__ . '/../vendor/autoload.php';
 
 $app = Spark\Application::boot();
@@ -29,4 +44,8 @@ $app->run();
 7. UpdateShift(shift_id)
 8. AssignShift(employee_id)
 9. ContactEmployee(employee_id)
+- Look into unit testing for this package
+- move Hello.php (and any similar files) to the Action dir
+- create MySQL table to store data, and provide a database dump for the deliverable
+- create dummy MySQL accout so we can version this code
 */
