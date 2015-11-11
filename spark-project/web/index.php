@@ -1,20 +1,5 @@
 <?php
 
-$conn = mysqli_connect('localhost', 'test', '_!p@ssw0rd!@');
-if (!$conn) {
-   echo "<pre>no available database connection. :(</pre>";
-} else {
-   mysqli_select_db($conn, 'test');
-
-   $query = "SELECT * FROM user";
-   $result = mysqli_query($conn, $query);
-
-   echo '<pre>';
-   print_r($result);
-}
-
-
-
 require __DIR__ . '/../vendor/autoload.php';
 
 $app = Spark\Application::boot();
@@ -30,7 +15,10 @@ $app->setMiddleware([
 $app->addRoutes(function (Spark\Router $r) {
     $r->get('/hello[/{name}]', 'Spark\Project\Domain\Hello');     // use this to pass parameters to the API
     $r->post('/hello[/{name}]', 'Spark\Project\Domain\Hello');    // as well as set the appropriate HTTP
-});                                                               // method (POST, GET, PUT, DELETE)
+                                                                  // method (POST, GET, PUT, DELETE)
+    $r->get('/contactmanager/[{manager_id}/{shift_id}]', 'Spark\Project\Domain\ContactManager');
+});
+
 
 $app->run();
 
@@ -47,5 +35,4 @@ $app->run();
 - Look into unit testing for this package
 - move Hello.php (and any similar files) to the Action dir
 - create MySQL table to store data, and provide a database dump for the deliverable
-- create dummy MySQL accout so we can version this code
 */

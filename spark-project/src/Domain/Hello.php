@@ -6,7 +6,7 @@ use Spark\Adr\DomainInterface;
 use Spark\Payload;
 
 // sample domain?
-// sample action, according to http://paul-m-jones.com/archives/6006 ?
+// sample action, according to http://paul-m-jones.com/archives/6006
 class Hello implements DomainInterface
 {
     public function __invoke(array $input)
