@@ -10,15 +10,19 @@ class Database {
 
         if (!$this->conn) {
             echo "<pre>no available database connection. :(</pre>";
-        } else {
-            $query = "SELECT * FROM user";
-            $result = mysqli_query($this->conn, $query);
-            $row = mysqli_fetch_array($result);
-
-            echo "<pre>";
-            print_r($row);
-echo "hello?";
-exit;
         }
+    }
+
+    /**
+     * set the query for this db object - note that these queries
+     * are not parameterized
+     *
+     * @param: (string) sql
+     * @throws:
+     * @returns: (mixed) {result set | false on error}
+     */
+    public function query($sql) {
+        return mysqli_query($this->conn, $sql);
+            // $row = mysqli_fetch_array($result);
     }
 }
