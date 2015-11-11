@@ -14,17 +14,23 @@ class ContactManager Implements DomainInterface
         $result = $db->query("SELECT * FROM shift WHERE employee_id = 1");
 
         while ($row = mysqli_fetch_assoc($result)) {
-            $output[] = json_encode($row);
+            $output[] = json_encode($row); // . ",";
         }
+
+        // finalize JSON format
+        $payload_str = "[" . implode(",", $output) . "]";
+        $payload_arr = array($payload_str);
+        
 
         // get the manager_id from $input
         // get the shift_id from $input
         // calculate stuff
 
 
+echo '<pre>';
         return (new Payload)
             ->withStatus(Payload::OK)
-            ->withOutput($output);
+            ->withOutput($payload_arr);
     }
 }  
 
