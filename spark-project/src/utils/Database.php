@@ -1,6 +1,6 @@
 <?php
 
-namespace utils\Database;
+namespace utils;
 
 class Database {
     protected $conn;
