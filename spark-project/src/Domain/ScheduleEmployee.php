@@ -34,12 +34,26 @@ class ScheduleEmployee Implements DomainInterface
             }
         }
 
+        if (!is_numeric(strtotime($start_time))) {
+            return (new Payload)
+                ->withStatus(Payload::INVALID)
+                ->withOutput(array("Bad start time"));
+        }
+
+        if (!is_numeric(strtotime($end_time))) {
+            return (new Payload)
+                ->withStatus(Payload::INVALID)
+                ->withOutput(array("Bad end time"));
+        }
+                               
 
         // todo: start and end time sanitization
 
         /* -- end input sanitization -- */
 
-echo "$break\n"; exit;
+
+
+
         $db = new Database('localhost', 'test', '_!p@ssw0rd!@', 'wheniwork');
         $query = "INSERT INTO shift (
                       manager_id,
@@ -61,15 +75,9 @@ echo "$break\n"; exit;
 
         $result = $db->query($query);
 
-        while ($row = mysqli_fetch_assoc($result)) {
-            $output[] = json_encode($row);
-        }
-
-        // finalize JSON format
-        $payload_str = "[" . implode(",", $output) . "]";
         
         return (new Payload)
             ->withStatus(Payload::OK)
-            ->withOutput(array($payload_str));
+            ->withOutput(array("OK"));
     }
 }  

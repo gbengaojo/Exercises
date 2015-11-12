@@ -16,6 +16,8 @@ $app->addRoutes(function (Spark\Router $r) {
     $r->get('/assignedshifts/[{employee_id}]', 'Spark\Project\Domain\AssignedShifts');
     $r->get('/concurrentemployees/[{employee_id}]', 'Spark\Project\Domain\ConcurrentEmployees');
     $r->get('/contactmanager/[{manager_id}/{shift_id}]', 'Spark\Project\Domain\ContactManager');
+
+    $r->post('/scheduleemployee/[{manager_id}/{employee_id}/{break}/{start_time}/{end_time}]', 'Spark\Project\Domain\ScheduleEmployee');
 });
 
 
