@@ -6,12 +6,18 @@ use Spark\Adr\DomainInterface;
 use Spark\Payload;
 use utils\Database;
 
-class ContactManager Implements DomainInterface
+class AssignedShifts Implements DomainInterface
 {
     public function __invoke(array $input)
     {
+        $employee_id = $input['employee_id'];
+
+        // input sanitization
+        if (!is_numeric($employee_id))
+            $employee_id = 0;
+
         $db = new Database('localhost', 'test', '_!p@ssw0rd!@', 'wheniwork');
-        $result = $db->query("SELECT * FROM shift WHERE employee_id = 1");
+        $result = $db->query("SELECT * FROM shift WHERE employee_id = $employee_id");
 
         while ($row = mysqli_fetch_assoc($result)) {
             $output[] = json_encode($row);
