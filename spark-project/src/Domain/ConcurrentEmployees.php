@@ -34,16 +34,17 @@ class ConcurrentEmployees Implements DomainInterface
             $query .= "(start_time BETWEEN '" . $time['start_time'] . "' AND '" . $time['end_time'] . "') OR " .
                       "(end_time BETWEEN '" . $time['start_time'] . "' AND '" . $time['end_time'] . "') AND ";
         }
-        // strip trailing OR and close parenthesis and add final conditions
+        // strip trailing AND, close parenthesis, and add final conditions
         $query = substr($query, 0, -5) . ") AND user.role != 'manager' AND user.id != $employee_id";
-echo $query;
 
-/*
-SELECT DISTINCT user.id FROM shift LEFT JOIN user ON employee_id WHERE ( (start_time BETWEEN '2015-12-01 08:00:00' AND '2015-12-01 17:00:00' OR end_time BETWEEN '2015-12-01 08:00:00' AND '2015-12-01 17:00:00') OR (start_time BETWEEN '2015-12-02 08:00:00' AND '2015-12-02 17:00:00' OR end_time BETWEEN '2015-12-02 08:00:00' AND '2015-12-02 17:00:00')) AND user.role != 'manager' AND user.id != 1
-*/
+        // execute query
+        $result = $db->query($query);
 
+        while ($row = mysqli_fetch_assoc($result)) {
+            $output[] = json_encode($row);
+        }
 
-        // finalize JSON format
+        // finalize JSON
         $payload_str = "[" . implode(",", $output) . "]";
         
         return (new Payload)
