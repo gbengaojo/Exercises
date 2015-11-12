@@ -45,14 +45,7 @@ class ScheduleEmployee Implements DomainInterface
                 ->withStatus(Payload::INVALID)
                 ->withOutput(array("Bad end time"));
         }
-                               
-
-        // todo: start and end time sanitization
-
         /* -- end input sanitization -- */
-
-
-
 
         $db = new Database('localhost', 'test', '_!p@ssw0rd!@', 'wheniwork');
         $query = "INSERT INTO shift (
@@ -72,12 +65,18 @@ class ScheduleEmployee Implements DomainInterface
                       '$created_at'
                   )";
 
-
         $result = $db->query($query);
-
+        
+        if ($result) {
+            $payload_status = Payload::OK;
+            $output = array('OK');
+        } else {
+            $payload_status = Paylod::ERROR;
+            $output = array('DB write error');
+        }
         
         return (new Payload)
-            ->withStatus(Payload::OK)
-            ->withOutput(array("OK"));
+            ->withStatus($payload_status)
+            ->withOutput($output);
     }
 }  
