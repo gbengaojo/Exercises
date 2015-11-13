@@ -10,15 +10,14 @@ class ConcurrentEmployees Implements DomainInterface
 {
     public function __invoke(array $input)
     {
-        // get employee by id (user)
-        // get employee's shift(s) (user)
-        // get start_time, end_time for shift(s) (shift)
-        // get all users except this user between these times (shift)
         $employee_id = $input['employee_id'];
 
         // input sanitization
-        if (!is_numeric($employee_id))
-            $employee_id = 0;
+        if (!is_numeric($employee_id)) {
+            return (new Payload)
+                ->withStatus(Payload::INVALID)
+                ->withOutput(array("Invalid Request: Bad end time"));            
+        }
 
         // get start and end times for this user
         $db = new Database('localhost', 'test', '_!p@ssw0rd!@', 'wheniwork');
