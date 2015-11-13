@@ -15,7 +15,7 @@ $app->setMiddleware([
 $app->addRoutes(function (Spark\Router $r) {
     $r->get('/assignedshifts/[{employee_id}]', 'Spark\Project\Domain\AssignedShifts'); // 1.
     $r->get('/concurrentemployees/[{employee_id}]', 'Spark\Project\Domain\ConcurrentEmployees'); // 2.
-
+    $r->get('/hoursworked/[{employee_id}]', 'Spark\Project\Domain\HoursWorked'); // 3.
     $r->get('/contactmanager/[{manager_id}/{shift_id}]', 'Spark\Project\Domain\ContactManager'); // 4.
     $r->post('/scheduleemployee/[{manager_id}/{employee_id}/{break}/{start_time}/{end_time}]', 'Spark\Project\Domain\ScheduleEmployee'); // 5.
 

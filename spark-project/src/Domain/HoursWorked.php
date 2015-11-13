@@ -21,34 +21,44 @@ class HoursWorked Implements DomainInterface
 
         // database
         $db = new Database('localhost', 'test', '_!p@ssw0rd!@', 'wheniwork');
-        $query = "select id, employee_id, start_time, end_time, break, WEEKOFYEAR(start_time), DAYOFWEEK(start_time), DAYNAME(start_time), TIMEDIFF(TIMEDIFF(end_time, start_time), SEC_TO_TIME(break*60*60)) AS hours FROM shift WHERE employee_id = 1 ORDER BY start_time";
+        $query = "SELECT
+                        id,
+                        employee_id,
+                        start_time,
+                        end_time,
+                        break,
+                        WEEKOFYEAR(start_time) AS week,
+                        DAYOFWEEK(start_time) AS dayofweek,
+                        DAYNAME(start_time) AS day,
+                        TIMEDIFF(TIMEDIFF(end_time, start_time),
+                        SEC_TO_TIME(break*60*60)) AS hours
+                  FROM
+                        shift
+                  WHERE
+                        employee_id = 1 ORDER BY start_time";
 
         $result = $db->query($query);
 
-        // calculate
         while ($row = mysqli_fetch_assoc($result)) {
-
+            $records[] = $row;
         }
 
-        // get hours (start_time - end_time - break)
-        // get days of week for each start time
-        // structure Mon - Sun
+        foreach ($records as $record) {
+            $output[][$week] = array(
+                                'date' => date("F j, Y", strtotime($record['start_time'])),
+                                'week' => $record['week'],
+                                'day' => $record['day'],
+                                'start_time' => $record['start_time'],
+                                'end_time' => $record['end_time'],
+                                'break' => $record['break'],
+                                'hours' => $record['hours']);
+        }
+
         // construct json
-echo '<pre>';
-print_r($records);
-
-
-
-
-
-
-
-
-
-
+        $payload_str = json_encode($output);
 
         return (new Payload)
             ->withStatus(Payload::OK)
-            ->withOutput(array($output));
+            ->withOutput(array($payload_str));
     }
 }  

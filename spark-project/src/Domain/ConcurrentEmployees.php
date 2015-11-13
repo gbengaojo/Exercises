@@ -21,7 +21,13 @@ class ConcurrentEmployees Implements DomainInterface
 
         // get start and end times for this user
         $db = new Database('localhost', 'test', '_!p@ssw0rd!@', 'wheniwork');
-        $result = $db->query("SELECT start_time, end_time FROM shift WHERE employee_id = $employee_id");
+        $result = $db->query("SELECT
+                                  start_time,
+                                  end_time
+                              FROM
+                                  shift
+                              WHERE
+                                  employee_id = $employee_id");
 
         while ($row = mysqli_fetch_assoc($result)) {
             $times[] = $row;
