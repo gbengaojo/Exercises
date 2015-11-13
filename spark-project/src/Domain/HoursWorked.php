@@ -44,7 +44,7 @@ class HoursWorked Implements DomainInterface
         }
 
         foreach ($records as $record) {
-            $output[][$week] = array(
+            $output[$record['id']][$week] = array(
                                 'date' => date("F j, Y", strtotime($record['start_time'])),
                                 'week' => $record['week'],
                                 'day' => $record['day'],
