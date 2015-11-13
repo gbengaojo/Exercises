@@ -1,0 +1,31 @@
+<div id="container">
+   <h1>Shadow and Act Films Movie Trivia</h1>
+
+   <?php if ($this->messages) : ?>
+      <?php foreach ($this->messages as $message) : ?>
+         <div class="flashmessages"><?php echo $message ?></div>   
+      <?php endforeach ?>
+   <?php endif ?>
+
+   <div id="nav"><a href="/register">Register</a></div>
+
+   <div id="login">
+      <form action="/login" name="login" id="login" method="post">
+         <input type="hidden" name="game_id" value="<?php echo $this->game_id ?>" />
+         <table>
+            <tr>
+               <td><span>email:</span></td>
+               <td><input type="text" name="username" id="username" />
+            </tr>
+            <tr>
+               <td><span>password:</span></td>
+               <td><input type="password" name="password" id="password" />
+            </tr>
+            <tr>
+               <td colspan="2"><input type="submit" name="submit" value="Login" />
+            </tr>
+         </table>
+      </form>
+   </div>
+
+</div>

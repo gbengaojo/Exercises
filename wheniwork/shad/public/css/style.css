@@ -1,0 +1,133 @@
+body {
+   margin: 0px;
+   /* background-color: #2a0f06; */
+   /* background-color: #c4c4c4; */
+   background-color: #6da1ce;
+   background-image: url('../images/background.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10pt;
+   color: #333;
+}
+
+input {
+   border: 1px solid #777;
+}
+
+h1 {
+}
+
+h2 {
+   text-align: center
+}
+
+h4 {
+   display: inline;
+   margin-bottom: 10px;
+}
+
+a {
+   text-decoration: none;
+   color: #009;
+}
+
+th {
+   text-align: left;
+}
+
+#listrecords {
+   width: 400px;
+   height: auto;
+   border: 1px solid #777;
+   background-color: #eee;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 120px;
+}
+
+#admindashboard {
+   padding: 10px;
+   margin: 20px;
+   border: 1px solid #777;
+}
+
+#game {
+   width: 950px;
+   height: 600px;
+   padding: 20px;
+   border: 1px solid #777;
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#timer {
+   width: 200px;
+   height: 40px;
+   border: 1px solid #777;
+}
+
+#player_list {
+   width: 200px;
+   height: auto;
+   margin-top: 50px;
+   padding: 3px;
+   border: 1px solid #777;
+}
+
+#game_left {
+   float: left;
+}
+
+#game_right {
+   width: 700px;
+   height: auto;
+   border: 1px solid #777;
+   padding: 5px;
+   float: right;
+}
+
+#trivia_img {
+   float: left;
+}
+
+#trivia_question {
+   width: 450px;
+   float: right;
+}
+
+#cluelink {
+   color: #009;
+}
+
+#submit {
+   float: right;
+   width: 100px;
+}
+
+#prompt {
+   padding-left: 10px;
+}
+
+#winner {
+   width: 400px;
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+}
+
+.border {
+   border: 1px solid #777;
+}
+
+.clear {
+   clear: both;
+}
+
+.largetext {
+   font-size: 12pt;
+   font-weight: bold;
+}

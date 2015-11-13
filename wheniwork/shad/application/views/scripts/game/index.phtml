@@ -1,0 +1,175 @@
+<?php
+/*
+echo '<pre>';
+print_r($_SESSION);
+*/
+?>
+
+<span style="font-weight: bold">Welcome <?php echo $this->firstname ?> </span>
+<span style="float: right; padding-right: 20px"><a href="/login/logout">logout</a></span>
+<div style="clear: both"></div>
+
+<div id="container">
+   <?php if ($this->messages) : ?>
+      <?php foreach ($this->messages as $message) : ?>
+         <div class="flashmessages"><?php echo $message ?></div>
+      <?php endforeach ?>
+   <?php endif ?>
+
+   <div id="game">
+      <h2>Monday Madness</h2>
+      <div id="game_left">
+         <div id="timer">
+            &nbsp;
+         </div>
+         <div id="player_list">
+            <!-- populate with AJAX -->
+            <h4>Players</h4>
+            <div id="players">
+
+            </div>
+         </div>
+      </div>
+      <div id="game_right">
+
+
+         <div class="trivia">
+            <div id="trivia_img">
+               <img class="border" src="/images/trivia/<?php echo ($this->question['img_filename'] == '' ? '1.jpg' : $this->question['img_filename']) ?>" border="0" width="200" height="200"></a>
+            </div>
+
+            <div id="trivia_question">
+               <p><?php echo $this->tie_breaker_prompt . $this->question['question'] ?></p>
+               <?php if ($this->bonus_question) : ?>
+                  <div id="cluelink0"><a href="javascript:;">show first clue</a></div>
+                  <div style="display: none" id="clue0">
+                     <?php echo $this->clues[0]['clue'] ?>
+                  </div>
+
+                  <div id="cluelink1"><a href="javascript:;">show second clue</a></div>
+                  <div style="display: none" id="clue1">
+                     <?php echo $this->clues[1]['clue'] ?>
+                  </div>
+                  <div id="cluelink2"><a href="javascript:;">show final clue</a></div>
+                  <div style="display: none" id="clue2">
+                     <?php echo $this->clues[2]['clue'] ?>
+                  </div>
+               <?php endif ?>
+            </div>
+
+            <div class="clear"></div>
+
+            <?php if (!$this->attempt_prompt) : ?>
+            <form id="" name="" action="/game/check-answer" method="post">
+               <input type="hidden" name="question_id" value="<?php echo $this->question['question_id'] ?>"/>
+               <input type="hidden" name="question_type_id" value="<?php echo $this->question['question_type_id'] ?>"/>
+               <input type="hidden" name="clue_deduction" id="clue_deduction" value="0"/>
+               <div id="answers">
+                  <?php if (!$this->bonus_question && !($this->tie_breaker)) : ?>
+                     <div><input type="radio" name="answer" value="<?php echo $this->answer[0]['correct'] ?>"/> <?php echo $this->answer[0]['answer'] ?></div>
+                     <div><input type="radio" name="answer" value="<?php echo $this->answer[1]['correct'] ?>"/> <?php echo $this->answer[1]['answer'] ?></div>
+                     <div><input type="radio" name="answer" value="<?php echo $this->answer[2]['correct'] ?>"/> <?php echo $this->answer[2]['answer'] ?></div>
+                  <?php else : ?>
+                     <div><input style="float: right; width: 300px" type="text" name="answer"/></div>
+                     <div style="clear: both"></div>
+                  <?php endif ?>
+               </div> <!-- end div answers -->
+
+               <input type="submit" id="submit" name="submit" value="OK"/></div>
+            </form>
+            <?php else : ?>
+            <?php echo $this->attempt_prompt ?>
+            <?php endif ?>
+
+         </div> <!-- end div trivia -->
+
+
+
+      </div> <!-- end div game_right -->
+   </div> <!-- end div game -->
+</div> <!-- end div container -->
+
+<script type="text/javascript">
+
+$('#cluelink0').click(function() {
+   $('#clue0').show();
+   var deduction = parseInt($('#clue_deduction').val()) + 50;
+   $('#clue_deduction').val(deduction);
+   console.log('deduction: ' + deduction);
+});
+
+$('#cluelink1').click(function() {
+   $('#clue1').show();
+   var deduction = parseInt($('#clue_deduction').val()) + 50;
+   $('#clue_deduction').val(deduction);
+   console.log('deduction: ' + deduction);
+});
+
+$('#cluelink2').click(function() {
+   $('#clue2').show();
+   var deduction = parseInt($('#clue_deduction').val()) + 50;
+   $('#clue_deduction').val(deduction);
+   console.log('deduction: ' + deduction);
+});
+
+/**
+ * serverTime
+ *
+ * @return (Date) time - a Date object initialized with the server's current
+ *                       time
+ */
+function serverTime() {
+   var time = null;
+   $.ajax({url: '/game/sync-server-time',
+           async: false,
+           dataType: 'text',
+           success: function(text) {
+               time = new Date(text);
+           }, error: function(http, message, exc) {
+               console.log('error syncing server time');
+               time = new Date();
+           }
+   });
+   return time;
+}
+
+/**
+ * countdownTime
+ *
+ * @param: (string) params - "?seconds=x"
+ * @return: (Date) time
+ */
+function countdownTime(params) {
+   console.log('countdown params: ' + params);
+   var time = null;
+   $.ajax({url: '/game/get-countdown-time' + params,
+           async: false,
+           datType: 'text',
+           success: function(text) {
+               console.log('response: ' + text);
+               time = new Date(text);
+           }, error: function(http, message, exc) {
+               console.log('error getting countdown time or game not active');
+               time = new Date();
+           }
+   });
+   return time;
+}
+
+function clockExpired() {
+   window.location.href='/game/stats';
+}
+
+function refreshPlayers() {
+   $('#players').load('/game/players/format/html');
+}
+
+var timeout = countdownTime('');
+$('#timer').countdown({ until:      timeout,
+                        serverSync: serverTime,
+                        onExpiry:   clockExpired
+});
+
+refreshPlayers();
+setInterval(refreshPlayers, 1000);
+</script>

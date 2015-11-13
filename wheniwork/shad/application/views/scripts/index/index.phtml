@@ -1,0 +1,85 @@
+<div id="container">
+   <h1>Shadow and Act Films Movie Trivia</h1>
+
+   <?php if ($this->messages) : ?>
+      <?php foreach ($this->messages as $message) : ?>
+         <div class="flashmessages"><?php echo $message ?></div>   
+      <?php endforeach ?>
+   <?php endif ?>
+
+   <div id="nav" style="">
+      <?php if (!$this->authenticated) : ?>
+         <?php $href = "/login/display" ?>
+         <span><a href="/register">Register</a> or <a href="login/display">Login</a></span>
+      <?php endif ?>
+
+      <?php if ($this->authenticated) : ?>
+         <?php $href = "/game" ?>
+         <span style="float: right; padding-right: 20px; font-weight: bold">
+            Welcome, <?php echo $this->firstname ?>
+            <a href="/login/logout" style="padding-left: 20px">logout</a>
+         </span>
+         <div style="clear: both"></div>
+      <?php endif ?>
+   </div>
+
+   <div id="game">
+      <?php if (!$this->isActive) : ?>
+         <p>There are currently no active games. Please try again later</p>
+      <?php elseif ($this->seconds_to_start > 0) : ?>
+         <p>
+            The next game is scheduled for
+            <b class="largetext"><?php echo date('M j, g:i A', strtotime($this->nextgame['start'])) ?></b>
+            and will start in <span id="countdown"></span>
+         </p>
+      <?php else : ?>
+         <p>The game is currently in progress...</p>
+      <?php endif ?>
+
+      <p><a href="<?php echo $href ?>">enroll in the next game</a></p>
+      <p><a href="/logout">withdraw from the game</a></p>
+      <p><a href="/register">register for an account</a></p>
+      <p><a href="/index/how-to-play">how to play</a></p>
+
+      <table id="listrecords" cellpadding="3">
+         <tr>
+            <th>Game</th>
+            <th>Next Starting</th>
+            <th>Prize</th>
+         </tr>
+
+         <?php foreach ($this->games as $game) : ?>
+            <?php if ($this->nextgame['game_id'] == $game['game_id'] && $this->isActive) {
+                     $title = '<a href="' . $href . '">' . $game['title'] . '</a>';
+                  } else {
+                     $title = $game['title'];
+                  }
+            ?>
+            <tr>
+               <td><?php echo $title ?></td>
+               <td><?php echo date('F j, Y g:i A (T)', strtotime($game['start'])) ?></td>
+               <td>N/A</td>
+
+               <!--
+               <td>$<?php echo $game['prize'] ?></td>
+               <td><?php echo $game['active'] ? '<a href="/dashboard/play?game_id=' . $game['game_id'] . '">Play</a>' : '' ?></td>
+               -->
+            </tr>
+         <?php endforeach ?>
+      </table>
+
+      
+   </div>
+
+</div>
+
+<script type="text/javascript">
+function startgame() {
+   window.location.href = '/game';
+}
+
+// window.onload = CreateTimer("countdown", 30, 'startgame', '');
+<?php if ($this->seconds_to_start > 0) : ?>
+window.onload = CreateTimer("countdown", <?php echo $this->seconds_to_start ?>, 'startgame', '');
+<?php endif ?>
+</script>

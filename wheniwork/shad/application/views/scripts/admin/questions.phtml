@@ -1,0 +1,15 @@
+<table id="listrecords" border="0" cellspacing="0" cellpadding="2" width="100%">
+   <tr>
+      <th width="200">Admin</th>
+      <th width="">Question</th>
+      <th width="100">Question Type</th>
+   </tr>
+
+   <?php foreach ($this->questions as $question) : ?>
+   <tr>
+      <td></td>
+      <td><?php echo $question['question'] ?></td>
+      <td><?php echo $question['question_type_id'] ?></td>
+   </tr>
+   <?php endforeach ?>
+</table>

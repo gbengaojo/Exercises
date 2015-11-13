@@ -1,0 +1,17 @@
+   <table id="listrecords" border="0" cellspacing="0" cellpadding="2">
+      <tr>
+         <th width="200">Admin</th>
+         <th width="200">Game</th>
+         <th width="200">Next Starting</th>
+         <th width="200">Prize</th>
+      </tr>
+
+      <?php foreach ($this->games as $game) : ?>
+      <tr>
+         <td></td>
+         <td><?php echo $game['title'] ?></td>
+         <td><?php echo date("M j, Y H:i:s", strtotime($game['start'])) ?></td>
+         <td><?php echo $game['prize'] ?></td>
+      </tr>
+      <?php endforeach ?>
+   </table>

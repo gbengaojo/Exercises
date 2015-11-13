@@ -1,0 +1,182 @@
+<?php
+/*
+echo '<pre>';
+echo "GAME STATE: " . $this->game_state . "</br>";
+echo "winner: "; print_r($this->winner);
+print_r($_SESSION);
+echo '</pre>';
+*/
+?>
+
+<span style="font-weight: bold">Welcome <?php echo $this->firstname ?> </span>
+<span style="float: right; padding-right: 20px"><a href="/login/logout">logout</a></span>
+<div style="clear: both"></div>
+
+<div id="container">
+   <?php if ($this->messages) : ?>
+      <?php foreach ($this->messages as $message) : ?>
+         <div class="flashmessages"><?php echo $message ?></div>
+      <?php endforeach ?>
+   <?php endif ?>
+
+   <div id="game">
+      <h2>Last Game Stats</h2>
+      <div id="game_left">
+<!--span style="color: red"><?php echo "round: " . $this->round ?></span-->
+         <div id="timer">
+            &nbsp;
+         </div>
+         <div id="player_list">
+            <!-- populate with AJAX -->
+            <h4>Players</h4>
+            <div id="players">
+
+            </div>
+         </div>
+      </div>
+
+      <div id="game_right">
+         <div id="prompt"><?php echo $this->prompt ?></div>
+
+         <!--
+         <h4>---- determine conditional here ----</h4>
+         <table id="winner" class="border">
+            <tr>
+               <td style="width: 300px">High Score</td>
+               <td><?php echo $this->highscore ?></td>
+            </tr>
+            <tr>
+               <td>Your Score</td>
+               <td><?php echo $this->score ?></td>
+            </tr>
+         </table>
+         <h4>---- end determine conditional ----</h4>
+         -->
+
+         <?php if ($this->game_state == GAME_STATE_OVER) : ?>
+         
+         <table id="winner" class="border" style="">
+            <tr><td colspan="2"><h4>Current Highest Scores:</h4></td></tr>
+            <?php foreach ($this->winners as $winner) : ?>
+            <tr>
+               <td style="width: 300px"><?php echo $winner['firstname'] ?></td>
+               <td>Score: <?php echo $winner['score'] ?></td></tr>
+            <?php endforeach ?>
+         </table>
+
+         <?php endif ?>
+
+      </div>
+
+   </div> <!-- end div game -->
+</div> <!-- end div container -->
+
+<script type="text/javascript">
+
+function refreshPlayers() {
+   $('#players').load('/game/players/format/html');
+}
+refreshPlayers();
+setInterval(refreshPlayers, 1000);
+
+function serverTime() {
+   console.log('in serverTime');
+   var time = null;
+   $.ajax({url: '/game/sync-server-time',
+           async: false, dataType: 'text',
+           success: function(text) {
+               time = new Date(text);
+           }, error: function(http, message, exc) {
+               console.log('error syncing server time');
+               time = new Date();
+           }
+   });
+   return time;
+}
+
+/**
+ * @param: (string) params - ?seconds=x
+ * @return: (Date) time
+ */
+function countdownTime(params) {
+   console.log('in countdownTime');
+   var time = null;
+   $.ajax({url: '/game/get-countdown-time' + params,
+           async: false, datType: 'text',
+           success: function(text) {
+               time = new Date(text);
+           }, error: function(http, message, exc) {
+               console.log('error getting countdown time or game not active');
+               time = new Date();
+           }
+   });
+   return time;
+}
+
+/**
+ * wrapping reload in a function because heartbeat's beat cannot
+ * be predicted. sometimes beat executes before javascript, sometimes
+ * vice versa
+ */
+function reload() {
+   window.location.reload();
+}
+
+function clockExpired() {
+   console.log('in clockExpired');
+   setTimeout('reload()', 1000);
+}
+
+function enterGame() {
+   window.location = '/game';
+}
+
+<?php
+   $message = "user: $this->firstname " .
+              "\n\t\t\ttie_breaker: " .      $this->tie_breaker . 
+              "\n\t\t\ttied: " .             $this->tied . 
+              "\n\t\t\thiatus: " .           $this->hiatus  .
+              "\n\t\t\tgame_state: " .       $this->game_state . 
+              "\n\t\t\tround: " .            $this->round .
+              "\n\t\t\tcurrent_question: " . $this->current_question;
+   $this->logger->log($message, Zend_Log::INFO);
+?>
+
+function startClock(params) {
+   <?php
+      if ($this->game_state == GAME_STATE_PLAY_NO_TIE ||
+          $this->game_state == GAME_STATE_WON         ||
+          $this->game_state == GAME_STATE_OVER        ||
+          $this->game_state == GAME_STATE_TIE) :
+   ?>
+      console.log('GAME_STATE' + <?php echo $this->game_state ?>);
+      return;
+   <?php endif ?>
+   <?php if ($this->tie_breaker == true && $this->tied == false) : ?>
+      console.log('bp1: $this->tie_breaker == true && $this->tied == false');
+      return;
+   <?php endif ?>
+
+   var timeout = countdownTime(params);
+   $('#timer').countdown({
+                          until:      timeout,
+                          serverSync: serverTime,
+                          onExpiry:   clockExpired
+   });
+}
+
+<?php if ($this->round != ROUND_INACTIVE) : ?>
+   startClock(''); // init countdown if game is still running
+<?php endif ?>
+
+// if tie-breaker mode
+<?php if ($this->game_state == GAME_STATE_TIE) : ?>
+   window.onload = CreateTimer("countdown", <?php echo $this->hiatus ?>, 'enterGame', '');
+<?php endif ?>
+
+// if game ovah..
+<?php if ($this->game_state == GAME_STATE_OVER) : ?>
+   setInterval('reload()', 30000);
+<?php endif ?>
+
+</script>

@@ -1,0 +1,60 @@
+<div id="container">
+   <?php if ($this->messages) : ?>
+      <?php foreach ($this->messages as $message) : ?>
+         <div class="flashmessages"><?php echo $message ?></div>
+      <?php endforeach ?>
+   <?php endif ?>
+
+   <div id="game">
+      <form action="/register/process" name="" id="" method="post">
+         <table>
+            <tr>
+               <td>First Name:</td>
+               <td><input type="text" name="firstname" id="" /></td>
+            </tr>
+            <tr>
+               <td>Last Name:</td>
+               <td><input type="text" name="lastname" id="" /></td>
+            </tr>
+            <tr>
+               <td>Email:</td>
+               <td><input type="text" name="email" id="" /></td>
+            </tr>
+            <tr>
+               <td>Password:</td>
+               <td><input type="password" name="password" id="" /></td>
+            </tr>
+<!--
+            <tr>
+               <td>:</td>
+               <td><input type="text" name="" id="" /></td>
+            </tr>
+            <tr>
+               <td>:</td>
+               <td><input type="text" name="" id="" /></td>
+            </tr>
+            <tr>
+               <td>:</td>
+               <td><input type="text" name="" id="" /></td>
+            </tr>
+            <tr>
+               <td>:</td>
+               <td><input type="text" name="" id="" /></td>
+            </tr>
+-->
+            <tr>
+               <td colspan="2"><input type="submit" name="submit" id="submit" /></td>
+            </tr>
+         </table>
+      </form>
+   </div> <!-- end div game -->
+</div> <!-- end div container -->
+
+<script type="text/javascript">
+var timeout = Date(2012, 10, 25);
+$('#timer').countdown({until: new Date(2012, 10-1, 24, 20)});
+
+$('#cluelink').click(function() {
+   $('#clue').toggle();
+});
+</script>

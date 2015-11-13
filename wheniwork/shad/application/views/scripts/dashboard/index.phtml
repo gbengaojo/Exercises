@@ -1,0 +1,28 @@
+<div id="container">
+   <h1>Shadow and Act Films Movie Trivia</h1>
+
+   <?php if ($this->messages) : ?>
+      <?php foreach ($this->messages as $message) : ?>
+         <div class="flashmessages"><?php echo $message ?></div>
+      <?php endforeach ?>
+   <?php endif ?>
+
+   <div id="nav"><a href="/login/logout">Logout</a> <a href="/game">debug</a></div>
+
+   <table id="listrecords" cellpadding="3">
+      <tr>
+         <th>Game</th>
+         <th>Next Starting</th>
+         <th>Prize</th>
+      </tr>
+
+      <?php foreach ($this->games as $game) : ?>
+      <tr>
+         <td><?php echo $game['title'] ?></td>
+         <td><?php echo date('F j, Y', strtotime($game['start'])) ?></td>
+         <td>$<?php echo $game['prize'] ?></td>
+         <td><?php echo $game['active'] ? '<a href="/dashboard/play?game_id=' . $game['game_id'] . '">Play</a>' : '' ?></td>
+      </tr>
+      <?php endforeach ?>
+   </table>
+</div>
