@@ -6,34 +6,19 @@ use Spark\Adr\DomainInterface;
 use Spark\Payload;
 use utils\Database;
 
-class ScheduleEmployee Implements DomainInterface
+class UpdateShift Implements DomainInterface
 {
     public function __invoke(array $input)
     {
-        $manager_id = $input['manager_id'];
-        $employee_id = $input['employee_id'];
-        $break = $input['break'];
+        $shift_id = $input['shift_id'];
         $start_time = urldecode($input['start_time']);  // to account for the %20 in RFC 2822 date
         $end_time = urldecode($input['end_time']);      // to account for the %20 in RFC 2822 date
-        $created_at = date("Y-m-d H:i:s");
-
 
         /* --  input sanitization -- */
-        if (!is_numeric($manager_id) || !is_numeric($employee_id))
+        if (!is_numeric($shift_id)) {
             return (new Payload)
                 ->withStatus(Payload::INVALID)
                 ->withOutput(array("Invalid Request"));
-
-        // Spark is having trouble with a floating point in the url
-        if (!is_numeric($break) || strlen($break) > 3) {
-            $break = 0.00;
-        } else {
-            if (strlen($break) == 3) {
-                $break = substr($break, 0, 1) . "." . substr($break, -2);
-            }
-            if (strlen($break) == 2) {
-                $break = ".$break";
-            }
         }
 
         if (!is_numeric(strtotime($start_time))) {
@@ -49,24 +34,14 @@ class ScheduleEmployee Implements DomainInterface
         }
         /* -- end input sanitization -- */
 
-        // Database query
+        // Execute query
         $db = new Database('localhost', 'test', '_!p@ssw0rd!@', 'wheniwork');
-        $query = "INSERT INTO shift (
-                      manager_id,
-                      employee_id,
-                      break,
-                      start_time,
-                      end_time,
-                      created_at
-                  )
-                  VALUES (
-                      $manager_id,
-                      $employee_id,
-                      $break,
-                      '$start_time',
-                      '$end_time',
-                      '$created_at'
-                  )";
+        $query = "UPDATE shift
+                  SET
+                      start_time = '$start_time',
+                      end_time = '$end_time'
+                  WHERE
+                      id = $shift_id";
 
         $result = $db->query($query);
         
@@ -75,7 +50,7 @@ class ScheduleEmployee Implements DomainInterface
             $payload_status = Payload::OK;
             $output = array('OK');
         } else {
-            $payload_status = Paylod::ERROR;
+            $payload_status = Payload::ERROR;
             $output = array('DB write error');
         }
         
