@@ -13,7 +13,7 @@ class Database {
         $this->conn = mysqli_connect("$host", "$user", "$password", "$database");
 
         if (!$this->conn) {
-            echo "<pre>no available database connection. :(</pre>";
+           // ...
         }
     }
 
@@ -27,6 +27,5 @@ class Database {
      */
     public function query($sql) {
         return mysqli_query($this->conn, $sql);
-            // $row = mysqli_fetch_array($result);
     }
 }

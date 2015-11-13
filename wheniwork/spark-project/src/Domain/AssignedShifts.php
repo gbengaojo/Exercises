@@ -13,8 +13,11 @@ class AssignedShifts Implements DomainInterface
         $employee_id = $input['employee_id'];
 
         // input sanitization
-        if (!is_numeric($employee_id))
-            $employee_id = 0;
+        if (!is_numeric($employee_id)) {
+            return (new Payload)
+                ->withStatus(Payload::INVALID)
+                ->withOutput(array("Invalid Request")); 
+        }
 
         $db = new Database();
         $result = $db->query("SELECT * FROM shift WHERE employee_id = $employee_id");

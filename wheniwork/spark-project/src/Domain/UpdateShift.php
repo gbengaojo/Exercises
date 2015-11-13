@@ -13,6 +13,7 @@ class UpdateShift Implements DomainInterface
         $shift_id = $input['shift_id'];
         $start_time = urldecode($input['start_time']);  // to account for the %20 in RFC 2822 date
         $end_time = urldecode($input['end_time']);      // to account for the %20 in RFC 2822 date
+        $updated_at = date("Y-m-d H:i:s");
 
         /* --  input sanitization -- */
         if (!is_numeric($shift_id)) {
@@ -39,7 +40,8 @@ class UpdateShift Implements DomainInterface
         $query = "UPDATE shift
                   SET
                       start_time = '$start_time',
-                      end_time = '$end_time'
+                      end_time = '$end_time',
+                      updated_at = '$updated_at'
                   WHERE
                       id = $shift_id";
 

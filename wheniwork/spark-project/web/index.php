@@ -25,18 +25,3 @@ $app->addRoutes(function (Spark\Router $r) {
 
 
 $app->run();
-
-/*
-1. AssignedShifts(employee_id)
-2. ConcurrentEmployees(employee_id)
-3. HoursWorked(employee_id)
-4. ContactManger(manager_id, shift_id)
-5. ScheduleEmployees()
-6. CheckSchedule(start_time, end_time)
-7. UpdateShift(shift_id)
-8. AssignShift(employee_id)
-9. ContactEmployee(employee_id)
-- Look into unit testing for this package
-- move Hello.php (and any similar files) to the Action dir
-- create MySQL table to store data, and provide a database dump for the deliverable
-*/

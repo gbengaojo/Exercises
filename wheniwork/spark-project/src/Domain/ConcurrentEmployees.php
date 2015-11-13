@@ -16,7 +16,7 @@ class ConcurrentEmployees Implements DomainInterface
         if (!is_numeric($employee_id)) {
             return (new Payload)
                 ->withStatus(Payload::INVALID)
-                ->withOutput(array("Invalid Request: Bad end time"));            
+                ->withOutput(array("Invalid Request"));            
         }
 
         // get start and end times for this user

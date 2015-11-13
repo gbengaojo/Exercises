@@ -27,7 +27,7 @@ class ContactUser Implements DomainInterface
         $db = new Database();
         $result = $db->query("SELECT name, email, phone
                               FROM user
-                              WHERE id = $user_id");
+                              WHERE id = $user_id AND role = '$role'");
 
         $row = mysqli_fetch_assoc($result);
         $output = json_encode($row);

@@ -35,7 +35,7 @@ class HoursWorked Implements DomainInterface
                   FROM
                         shift
                   WHERE
-                        employee_id = 1 ORDER BY start_time";
+                        employee_id = $employee_id ORDER BY start_time";
 
         $result = $db->query($query);
 
