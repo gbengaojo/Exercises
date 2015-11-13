@@ -20,7 +20,9 @@ class ScheduleEmployee Implements DomainInterface
 
         /* --  input sanitization -- */
         if (!is_numeric($manager_id) || !is_numeric($employee_id))
-            exit;
+            return (new Payload)
+                ->withStatus(Payload::INVALID)
+                ->withOutput(array("Invalid Request"));
 
         // Spark is having trouble with a floating point in the url
         if (!is_numeric($break) || strlen($break) > 3) {
