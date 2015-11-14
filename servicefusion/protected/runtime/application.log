@@ -1,0 +1,30 @@
+2015/11/13 22:28:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/emp_screens/servicefusion/index.php?r=gii
+---
+2015/11/13 22:28:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/emp_screens/servicefusion/index.php?r=gii
+---
+2015/11/13 22:33:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db600738973.person' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `person`.
+in /homepages/31/d166791469/htdocs/emp_screens/servicefusion/index.php (13)
+2015/11/13 22:45:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "person".' in /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person')
+#1 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/yii/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#2 /homepages/31/d166791469/htdocs/emp_screens/servicefusion/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/emp_screens/servicefusion/index.php?r=person
+---
