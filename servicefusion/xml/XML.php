@@ -2,12 +2,6 @@
 
 /* ----------------------------------------------------
 Class to create arbitrary XML file.
-
-
-construct()
-setRoot()
-void setAttribute(string, string)
-
 ------------------------------------------------------*/
 
 class XMLElement
@@ -16,8 +10,10 @@ class XMLElement
    public $value;
    public $attributes;
    public $children;
+   public $siblings;
 
    public static $depth = 0;
+   public static $tagname;
 
    public function __construct($name, $value = null) {
       $this->name = $name;
@@ -53,17 +49,18 @@ class XMLElement
        * if this element has children
        */
       if (is_array($this->children)) {
-         self::$siblings = count($this->children);
          self::$depth += 1;
+         self::$tagname[] = $this->name;
 
          foreach ($this->children as $child) {
+
             echo "\n";
-            for ($i = 0; $i < self::$depth; $i++)
+            for ($i = 0; $i < self::$depth; $i++) {
                echo "\t";
+            }
 
             $child->printXML();
          }
-      // if self::$depth > 0, but there ARE NO children, decrement
       }
 
       /**
@@ -73,9 +70,22 @@ class XMLElement
          echo $this->value;
       }
       
-      echo "</" . $this->name . ">";
 
-      self::$siblings -= 1;
+      /**
+       * keeping a stack of tag names to determine when to reduce the indentation.
+       */
+      if ((self::$tagname[count(self::$tagname) - 1] == $this->name) && (count($this->children) > 0)) {
+         $n = array_pop(self::$tagname);
+
+         self::$depth -= 1;
+         echo "\n";
+         for ($i = 0; $i < self::$depth; $i++) {
+            echo "\t";
+         }
+      }
+
+
+      echo "</" . $this->name . ">";
    }
 }
 
