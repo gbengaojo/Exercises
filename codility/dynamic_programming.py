@@ -18,7 +18,7 @@ def dynamic_coin_changing(C, k):
                                                                         # PHP equiv:
 
    for i in xrange(1, n + 1):                                           #  for ($i = 1; $i <= (3 + 1); $i++) { 
-      for j in xrange(C[i - 1]):                                        #     for ($j = 0; $j <= ($i - 1); $j++)
+      for j in xrange(C[i - 1]):                                        #     for ($j = 0; $j <= $c[$i - 1]; $j++)
          dp[i][j] = dp[i - 1][j]                                        #        $dp[$i][$j] = $dp[$i - 1][$j]
       for j in xrange(C[i - 1], k + 1):                                 #     for ($j = $C[$i - 1]; $j <= ($k + 1); $j++) 
          dp[i][j] = min(dp[i][j - C[i - 1]] + 1, dp[i - 1][j])          #        $dp[$i][$j] = min($dp[$i][$j - $C[$i - 1]] + 1, $dp[$i - 1][$j]
