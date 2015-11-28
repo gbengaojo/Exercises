@@ -17,11 +17,10 @@ function dynamic_coin_changing($C, $k) {
 
 
    // calculate sub-problem solutions for remainder of table
-
-   for ($i = 1; $i <= ($n); $i++) {
+   for ($i = 1; $i <= $n; $i++) {
       for ($j = 0; $j <= $C[$i - 1]; $j++)
          $dp[$i][$j] = $dp[$i - 1][$j];
-      for ($j = $C[$i - 1]; $j <= ($k); $j++)
+      for ($j = $C[$i - 1]; $j <= $k; $j++)
          $dp[$i][$j] = min($dp[$i][$j - $C[$i - 1]] + 1, $dp[$i - 1][$j]);
    }
 
