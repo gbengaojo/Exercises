@@ -1,0 +1,3453 @@
+Array
+(
+    [reports] => Array
+        (
+            [0] => Array
+                (
+                    [job_id] => 664554
+                    [job_number] => 664554
+                    [category] =>
+                    [customer_id] => 25
+                    [job_start_date] => 2015-12-01
+                    [startTime] => 03:15
+                    [public_notes] => Job desciptiin
+                    [job_po_number] =>
+                    [customer_name] => new job for binoy test:Test Customer:Test user
+                    [jobStatus] => Dispatched
+                    [total_labor_charges] => 0.00
+                    [total_expense_charges] => 0.00
+                    [serviceRate] => 70.00
+                    [productRate] => 78.00
+                    [total] => 84.00
+                    [users] => Array
+                        (
+                            [0] => 980191047
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [job_id] => 664556
+                    [job_number] => 664556
+                    [category] =>
+                    [customer_id] => 25
+                    [job_start_date] => 2015-12-01
+                    [startTime] => 04:23
+                    [public_notes] =>
+                    [job_po_number] =>
+                    [customer_name] => new job for binoy test:Test Customer:Test user
+                    [jobStatus] => Dispatched
+                    [total_labor_charges] => 0.00
+                    [total_expense_charges] => 0.00
+                    [serviceRate] => 0.00
+                    [productRate] => 78.00
+                    [total] => 78.00
+                    [users] => Array
+                        (
+                            [0] => 980190972
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [job_id] => 664558
+                    [job_number] => 664558
+                    [category] =>
+                    [customer_id] => 25
+                    [job_start_date] => 2015-12-01
+                    [startTime] => 04:25
+                    [public_notes] =>
+                    [job_po_number] =>
+                    [customer_name] => new job for binoy test:Test Customer:Test user
+                    [jobStatus] => Invoiced
+                    [total_labor_charges] => 0.00
+                    [total_expense_charges] =>
+                    [serviceRate] => 0.00
+                    [productRate] => 33.00
+                    [total] => 33.00
+                    [users] => Array
+                        (
+                            [0] => 980190972
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [job_id] => 664560
+                    [job_number] => 664560
+                    [category] =>
+                    [customer_id] => 25
+                    [job_start_date] => 2015-12-01
+                    [startTime] => 04:30
+                    [public_notes] => Restt
+                    [job_po_number] =>
+                    [customer_name] => new job for binoy test:Test Customer:Test user
+                    [jobStatus] => On the way
+                    [total_labor_charges] => 0.00
+                    [total_expense_charges] => 0.00
+                    [serviceRate] => 60.00
+                    [productRate] => 78.00
+                    [total] => 138.00
+                    [users] => Array
+                        (
+                            [0] => 980190972
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [job_id] => 467516
+                    [job_number] => 467516
+                    [category] =>
+                    [customer_id] => 267359
+                    [job_start_date] => 2015-12-01
+                    [startTime] => 07:00
+                    [public_notes] =>
+                    [job_po_number] =>
+                    [customer_name] => new job for binoy test:Test Customer:reshma
+                    [jobStatus] => Dispatched
+                    [total_labor_charges] => 0.00
+                    [total_expense_charges] => 0.00
+                    [serviceRate] => 0.00
+                    [productRate] => 0.00
+                    [total] => 8.12
+                    [users] => Array
+                        (
+                            [0] => 980192579
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [job_id] => 666667
+                    [job_number] => 666667
+                    [category] =>
+                    [customer_id] => 848492
+                    [job_start_date] => 2015-12-02
+                    [startTime] => 11:16
+                    [public_notes] =>
+                    [job_po_number] =>
+                    [customer_name] => soumya:Reshm:Reshm
+                    [jobStatus] => Invoiced
+                    [total_labor_charges] => 0.00
+                    [total_expense_charges] =>
+                    [serviceRate] => 211.00
+                    [productRate] => 120.00
+                    [total] => 202.92
+                    [users] => Array
+                        (
+                            [0] => 980190972
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [job_id] => 666670
+                    [job_number] => 666670
+                    [category] =>
+                    [customer_id] => 69121
+                    [job_start_date] => 2015-12-02
+                    [startTime] => 11:56
+                    [public_notes] =>
+                    [job_po_number] =>
+                    [customer_name] => new job for binoy test:Test Customer
+                    [jobStatus] => Dispatched
+                    [total_labor_charges] => 0.00
+                    [total_expense_charges] => 0.00
+                    [serviceRate] => 0.00
+                    [productRate] => 0.00
+                    [total] => 0.00
+                    [users] => Array
+                        (
+                            [0] => 980190972
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [job_id] => 666672
+                    [job_number] => 666672
+                    [category] =>
+                    [customer_id] => 25
+                    [job_start_date] => 2015-12-02
+                    [startTime] => 11:59
+                    [public_notes] =>
+                    [job_po_number] =>
+                    [customer_name] => new job for binoy test:Test Customer:Test user
+                    [jobStatus] => Dispatched
+                    [total_labor_charges] => 0.00
+                    [total_expense_charges] => 0.00
+                    [serviceRate] => 0.00
+                    [productRate] => 0.00
+                    [total] => 0.00
+                    [users] => Array
+                        (
+                            [0] => 980190972
+                        )
+
+                )
+
+            [labortimes] => Array
+                (
+                    [664554] => Array
+                        (
+                        )
+
+                    [664556] => Array
+                        (
+                        )
+
+                    [664558] => Array
+                        (
+                            [2015-12-01] => Array
+                                (
+                                    [nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => jnxZATJY2Wi2Twt3kMgz9wmrpKnMz231hfjgiTUt58w
+                                                    [ubase_user_id] => nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY
+                                                    [driving_time_min] => 0
+                                                    [labor_date] => 2015-12-01
+                                                    [labor_time_min] => 0
+                                                    [driving_time] => 0hr 0min
+                                                    [labor_time] => 0hr 0min
+                                                    [drive_time_rate] => 10.00
+                                                    [labor_rate] => 0.00
+                                                    [is_drive_time_billed] => 0
+                                                    [is_labor_time_billed] => 0
+                                                    [drive_time_start] =>
+                                                    [drive_time_end] =>
+                                                    [labor_time_start] => :
+                                                    [labor_time_end] => :
+                                                    [total] => 0.00
+                                                    [dramount] => 0
+                                                    [lbamount] => 0
+                                                    [name] => John Theowner
+                                                    [is_status_generated] => 1
+                                                    [regular_rate] => 10.00
+                                                    [drive_time_cost] => 0
+                                                    [labor_time_cost] => 0
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [664560] => Array
+                        (
+                            [2015-12-01] => Array
+                                (
+                                    [nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => _9n6WJEx9H6Kg8oT2QPrE8fspIFjgR1xBtO3PowzorI
+                                                    [ubase_user_id] => nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY
+                                                    [driving_time_min] => 0
+                                                    [labor_date] => 2015-12-01
+                                                    [labor_time_min] => 0
+                                                    [driving_time] => 0hr 0min
+                                                    [labor_time] => 0hr 0min
+                                                    [drive_time_rate] => 10.00
+                                                    [labor_rate] => 0.00
+                                                    [is_drive_time_billed] => 0
+                                                    [is_labor_time_billed] => 0
+                                                    [drive_time_start] =>
+                                                    [drive_time_end] =>
+                                                    [labor_time_start] =>
+                                                    [labor_time_end] =>
+                                                    [total] => 0.00
+                                                    [dramount] => 0
+                                                    [lbamount] => 0
+                                                    [name] => John Theowner
+                                                    [is_status_generated] => 1
+                                                    [regular_rate] => 10.00
+                                                    [drive_time_cost] => 0
+                                                    [labor_time_cost] => 0
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [467516] => Array
+                        (
+                        )
+
+                    [666667] => Array
+                        (
+                            [2015-12-02] => Array
+                                (
+                                    [nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [id] => DqO1Sj1mn6p3MftmaGxglN9OtHp9RF85qsVCc1i1WV8
+                                                    [ubase_user_id] => nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY
+                                                    [driving_time_min] => 0
+                                                    [labor_date] => 2015-12-02
+                                                    [labor_time_min] => 0
+                                                    [driving_time] => 0hr 0min
+                                                    [labor_time] => 0hr 0min
+                                                    [drive_time_rate] => 10.00
+                                                    [labor_rate] => 0.00
+                                                    [is_drive_time_billed] => 0
+                                                    [is_labor_time_billed] => 0
+                                                    [drive_time_start] =>
+                                                    [drive_time_end] =>
+                                                    [labor_time_start] => :
+                                                    [labor_time_end] => :
+                                                    [total] => 0.00
+                                                    [dramount] => 0
+                                                    [lbamount] => 0
+                                                    [name] => John Theowner
+                                                    [is_status_generated] => 1
+                                                    [regular_rate] => 10.00
+                                                    [drive_time_cost] => 0
+                                                    [labor_time_cost] => 0
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [666670] => Array
+                        (
+                        )
+
+                    [666672] => Array
+                        (
+                        )
+
+                )
+
+            [expenses] => Array
+                (
+                    [664554] => Array
+                        (
+                            [0] => Array
+                                (
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => H1woCtrBCX7zERP_k0qpC7VFTuSXycGXcNN2GbNHRUc
+                                            [category_name] => Accounting fees
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => IfKljQjHhYXuHlyIkvZS7ypGzxCP7SmSQh_xy5MOrK4
+                                            [category_name] => Advertising
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => lMmg9W4lYwHjpKhV4SDdUbn0GDnuSV7NCQOytDiyh5A
+                                            [category_name] => Bank charges
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => 2pggN9LeZff8jizXexOF3fCA6IpdVLJE0E0pjesTO7I
+                                            [category_name] => Commissions and sales expenses
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => rcbFzYY5xynTH4-ocORm5v32IjLxXDJcrhpB_UFD3Bk
+                                            [category_name] => Consultation expenses
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => Wn0ML_V_LuWn9F6rObziyBG32vI2e5Yup0UXbHwDFl0
+                                            [category_name] => Continuing professional education
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => 9jIKcp0MHBAii3B2reTyqOMcp5yyoXPYJEpp4xJp9Os
+                                            [category_name] => Contract labor
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => 9PGZUnxjwaviaSc51fqdKTgysY6iNMgenWLpA0Nifgs
+                                            [category_name] => Credit and collection fees
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => BygIBdN-uh0cl8GXzszZxYO7vgivv81jFsggDSCmwEk
+                                            [category_name] => Delivery charges
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => -xAk15DGgMUMBujNgaLcHf-mMy6r8VWYFEsYbb7Y-FQ
+                                            [category_name] => Dues and subscriptions
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => _WCowkQ_6cpWIf486bsnYOSanLFJcDBRz66ReigX5G0
+                                            [category_name] => Employee benefit programs
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => l7TVZAV7ZWxRTCZ1eGsz_rXZj_uWvWsGFc4gTbBwF68
+                                            [category_name] => Equipment rentals
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => cZA79UwCPva3VFGNtI9aivYld6C-MSEcMjbaOnBcQ54
+                                            [category_name] => Factory expenses
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => yTkaKn1_Iuzc1s2Z3ROg1DBhsPLPzSo9L0AKL2dHTNA
+                                            [category_name] => Insurance
+                                        )
+
+                                    [14] => Array
+                                        (
+                                            [id] => wo1Y7SdQYP5YcdncZ2XS4-foEb0csvUv_Y-uSW4S7S4
+                                            [category_name] => Interest paid
+                                        )
+
+                                    [15] => Array
+                                        (
+                                            [id] => ntSs7dHJ1WGDRxz5IJrOVZ88wGZV0MPMxBg36JVGJEo
+                                            [category_name] => Internet subscriptions, domain names, and hosting
+                                        )
+
+                                    [16] => Array
+                                        (
+                                            [id] => VcZXbHXKHytFocLWbX7v8hfgwSHEtfnZzRM58ZlDfTI
+                                            [category_name] => Laundry
+                                        )
+
+                                    [17] => Array
+                                        (
+                                            [id] => EhqPiLyIZNW2nyIPnbqcVL9z7NCHFTkWnzquzTp_BFM
+                                            [category_name] => Legal fees
+                                        )
+
+                                    [18] => Array
+                                        (
+                                            [id] => vzNsYaQH-eh7DihpxWlQXtvwO_53Pe44LunMx0CuLU4
+                                            [category_name] => Licenses
+                                        )
+
+                                    [19] => Array
+                                        (
+                                            [id] => i42KT80xw_XAjiXl7RUBaF4TnmLWMwivxKVUoz9qR8E
+                                            [category_name] => Maintenance and repairs
+                                        )
+
+                                    [20] => Array
+                                        (
+                                            [id] => iqY5BVFx1wRJJ1xSsvdmBKW7_fxQ6kUpxlF53VaLwfY
+                                            [category_name] => Office expenses and supplies
+                                        )
+
+                                    [21] => Array
+                                        (
+                                            [id] => 0ldBGK7ChpByet1niaXbIHo3IqeYo_-_K1xSxsl0I70
+                                            [category_name] => Pension and profit-sharing plans
+                                        )
+
+                                    [22] => Array
+                                        (
+                                            [id] => uhUAqXI-_PjAakYg6c2AgesDjeIG8h3IpYsURjO2vx0
+                                            [category_name] => Postage
+                                        )
+
+                                    [23] => Array
+                                        (
+                                            [id] => 4kP-ltvDhVIHpkQwzEQDQdraE5NXwzx5Ljr9efzK8Yw
+                                            [category_name] => Print and copy
+                                        )
+
+                                    [24] => Array
+                                        (
+                                            [id] => 3hmwo2w6YIWQrIl3F49Llgovf9Hy21m_uMMOHJS_wL0
+                                            [category_name] => Professional development and training
+                                        )
+
+                                    [25] => Array
+                                        (
+                                            [id] => YpWHJknlJ7NQL47yVsRwsG8ALi1ksdFPE3Glk15aiWg
+                                            [category_name] => Professional fees
+                                        )
+
+                                    [26] => Array
+                                        (
+                                            [id] => 2Mem8uvlqD6nmY6xFQO7im9ow2KCxzx8nhBsksmoOqw
+                                            [category_name] => Promotion
+                                        )
+
+                                    [27] => Array
+                                        (
+                                            [id] => BHqn9mKulp5s1zqnCpul7sBWtADHvMdZZJIqUajt1no
+                                            [category_name] => Rent
+                                        )
+
+                                    [28] => Array
+                                        (
+                                            [id] => OoN42Vp0UxIiqgUIrrBHqJjstbl-bHgaKiO0IlruqhM
+                                            [category_name] => Salaries, wages, and other compensation
+                                        )
+
+                                    [29] => Array
+                                        (
+                                            [id] => 30N-uSTRdoccBViofwe_nJDoo_s-tRecJl31RkWSfg8
+                                            [category_name] => Security
+                                        )
+
+                                    [30] => Array
+                                        (
+                                            [id] => YqzVkOUDzu1tP2XWyibMlfgxDZOz9HUquTYznbJBhq0
+                                            [category_name] => Small tools and equipment
+                                        )
+
+                                    [31] => Array
+                                        (
+                                            [id] => tTeRDMT2zSag0aiGbSKvbgBVExTRJZZvN2iQoY380Aw
+                                            [category_name] => Software
+                                        )
+
+                                    [32] => Array
+                                        (
+                                            [id] => J6VPWATxYa1419UKXSH9kOahr5qM8VvBwGxpzWAGKt8
+                                            [category_name] => Supplies
+                                        )
+
+                                    [33] => Array
+                                        (
+                                            [id] => rP43EFV-5ke0XZCtBcxsQOIGQ6LctIf9I6uuwnQJ_MU
+                                            [category_name] => Taxes
+                                        )
+
+                                    [34] => Array
+                                        (
+                                            [id] => aL2W4fsMPpTrWjbQa03JAchUzvQRjIvEN9ckDkvDtEI
+                                            [category_name] => Telephone
+                                        )
+
+                                    [35] => Array
+                                        (
+                                            [id] => 8u1bgSZH7o-yEujt72aSDbEB3Xp_jWZ-L9wKgQFlpqA
+                                            [category_name] => Trade discounts
+                                        )
+
+                                    [36] => Array
+                                        (
+                                            [id] => 3TPO_tDrQR3PsZva3_j8FJS0RLIYT3wqrbe6WH1Pa-c
+                                            [category_name] => Travel
+                                        )
+
+                                    [37] => Array
+                                        (
+                                            [id] => P5L49SBCfIQ18O7O543ukidGyxjhi47uTd1UGjNA-TM
+                                            [category_name] => Utilities
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 6G7B4wKN7j_lgzOQNjxvV6beYW4j8JpE8YewyrymMZA
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => ZG1tpevK84MpCmDek3RTTFA53pt3td7nv7-DHyiS7Ak
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => iCWG3mR0sBhqqYU00ZsudewT6rxDDc1G9AuI6Woee5s
+                                            [user_name] => bug  cust
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => kxirr_jWC3Lx2C8tjnIx_RXTR1E-_FcJ7jth-bJ2d9o
+                                            [user_name] => check test
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => l0v6QLu6HW2o0hYniXM3rR7ZSEAb7vTttpZ8Wcg1U9M
+                                            [user_name] => first last
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => srHOWwzLqwetLNFAfOU2zKTdlfnPZv2ZfvKGKg3_CIk
+                                            [user_name] => Jack Smith
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => NdTTp0yZZrR2hotpdIg_4Yk1GOy7LeySAd7jg97eUUc
+                                            [user_name] => Jason Paiva
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY
+                                            [user_name] => John Theowner
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => tvrzxAtUeKit4dMPXTrDVIDM86qPeeXD30KKuwB34NA
+                                            [user_name] => Jonathan Longlastname Jr.
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => upgRMKRcQxsfKqQaG96iq1IjjDiE8HiqnBWYJui8uaE
+                                            [user_name] => Test qa
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => 9PBLkfMnaHDmJfwygCOBKsHvH541b6V0_1qEmrglsFg
+                                            [user_name] => test wew
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => KebBnV8c5RHYJ6b5YgSW-wziqvd-iDgqM2p_8t00LNU
+                                            [user_name] => Tester Emp
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => U4RQRY3tzpzKgigPCgtwWdfmciy6tqHfUAgDtqt29V4
+                                            [user_name] => testttttt bb
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => sL9XRPrYZSDDXImbRZaBiusMYz_e8aBoiMebhhfxzJ4
+                                            [user_name] => Vicky  Arsiniega
+                                        )
+
+                                )
+
+                        )
+
+                    [664556] => Array
+                        (
+                            [0] => Array
+                                (
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => H1woCtrBCX7zERP_k0qpC7VFTuSXycGXcNN2GbNHRUc
+                                            [category_name] => Accounting fees
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => IfKljQjHhYXuHlyIkvZS7ypGzxCP7SmSQh_xy5MOrK4
+                                            [category_name] => Advertising
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => lMmg9W4lYwHjpKhV4SDdUbn0GDnuSV7NCQOytDiyh5A
+                                            [category_name] => Bank charges
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => 2pggN9LeZff8jizXexOF3fCA6IpdVLJE0E0pjesTO7I
+                                            [category_name] => Commissions and sales expenses
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => rcbFzYY5xynTH4-ocORm5v32IjLxXDJcrhpB_UFD3Bk
+                                            [category_name] => Consultation expenses
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => Wn0ML_V_LuWn9F6rObziyBG32vI2e5Yup0UXbHwDFl0
+                                            [category_name] => Continuing professional education
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => 9jIKcp0MHBAii3B2reTyqOMcp5yyoXPYJEpp4xJp9Os
+                                            [category_name] => Contract labor
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => 9PGZUnxjwaviaSc51fqdKTgysY6iNMgenWLpA0Nifgs
+                                            [category_name] => Credit and collection fees
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => BygIBdN-uh0cl8GXzszZxYO7vgivv81jFsggDSCmwEk
+                                            [category_name] => Delivery charges
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => -xAk15DGgMUMBujNgaLcHf-mMy6r8VWYFEsYbb7Y-FQ
+                                            [category_name] => Dues and subscriptions
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => _WCowkQ_6cpWIf486bsnYOSanLFJcDBRz66ReigX5G0
+                                            [category_name] => Employee benefit programs
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => l7TVZAV7ZWxRTCZ1eGsz_rXZj_uWvWsGFc4gTbBwF68
+                                            [category_name] => Equipment rentals
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => cZA79UwCPva3VFGNtI9aivYld6C-MSEcMjbaOnBcQ54
+                                            [category_name] => Factory expenses
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => yTkaKn1_Iuzc1s2Z3ROg1DBhsPLPzSo9L0AKL2dHTNA
+                                            [category_name] => Insurance
+                                        )
+
+                                    [14] => Array
+                                        (
+                                            [id] => wo1Y7SdQYP5YcdncZ2XS4-foEb0csvUv_Y-uSW4S7S4
+                                            [category_name] => Interest paid
+                                        )
+
+                                    [15] => Array
+                                        (
+                                            [id] => ntSs7dHJ1WGDRxz5IJrOVZ88wGZV0MPMxBg36JVGJEo
+                                            [category_name] => Internet subscriptions, domain names, and hosting
+                                        )
+
+                                    [16] => Array
+                                        (
+                                            [id] => VcZXbHXKHytFocLWbX7v8hfgwSHEtfnZzRM58ZlDfTI
+                                            [category_name] => Laundry
+                                        )
+
+                                    [17] => Array
+                                        (
+                                            [id] => EhqPiLyIZNW2nyIPnbqcVL9z7NCHFTkWnzquzTp_BFM
+                                            [category_name] => Legal fees
+                                        )
+
+                                    [18] => Array
+                                        (
+                                            [id] => vzNsYaQH-eh7DihpxWlQXtvwO_53Pe44LunMx0CuLU4
+                                            [category_name] => Licenses
+                                        )
+
+                                    [19] => Array
+                                        (
+                                            [id] => i42KT80xw_XAjiXl7RUBaF4TnmLWMwivxKVUoz9qR8E
+                                            [category_name] => Maintenance and repairs
+                                        )
+
+                                    [20] => Array
+                                        (
+                                            [id] => iqY5BVFx1wRJJ1xSsvdmBKW7_fxQ6kUpxlF53VaLwfY
+                                            [category_name] => Office expenses and supplies
+                                        )
+
+                                    [21] => Array
+                                        (
+                                            [id] => 0ldBGK7ChpByet1niaXbIHo3IqeYo_-_K1xSxsl0I70
+                                            [category_name] => Pension and profit-sharing plans
+                                        )
+
+                                    [22] => Array
+                                        (
+                                            [id] => uhUAqXI-_PjAakYg6c2AgesDjeIG8h3IpYsURjO2vx0
+                                            [category_name] => Postage
+                                        )
+
+                                    [23] => Array
+                                        (
+                                            [id] => 4kP-ltvDhVIHpkQwzEQDQdraE5NXwzx5Ljr9efzK8Yw
+                                            [category_name] => Print and copy
+                                        )
+
+                                    [24] => Array
+                                        (
+                                            [id] => 3hmwo2w6YIWQrIl3F49Llgovf9Hy21m_uMMOHJS_wL0
+                                            [category_name] => Professional development and training
+                                        )
+
+                                    [25] => Array
+                                        (
+                                            [id] => YpWHJknlJ7NQL47yVsRwsG8ALi1ksdFPE3Glk15aiWg
+                                            [category_name] => Professional fees
+                                        )
+
+                                    [26] => Array
+                                        (
+                                            [id] => 2Mem8uvlqD6nmY6xFQO7im9ow2KCxzx8nhBsksmoOqw
+                                            [category_name] => Promotion
+                                        )
+
+                                    [27] => Array
+                                        (
+                                            [id] => BHqn9mKulp5s1zqnCpul7sBWtADHvMdZZJIqUajt1no
+                                            [category_name] => Rent
+                                        )
+
+                                    [28] => Array
+                                        (
+                                            [id] => OoN42Vp0UxIiqgUIrrBHqJjstbl-bHgaKiO0IlruqhM
+                                            [category_name] => Salaries, wages, and other compensation
+                                        )
+
+                                    [29] => Array
+                                        (
+                                            [id] => 30N-uSTRdoccBViofwe_nJDoo_s-tRecJl31RkWSfg8
+                                            [category_name] => Security
+                                        )
+
+                                    [30] => Array
+                                        (
+                                            [id] => YqzVkOUDzu1tP2XWyibMlfgxDZOz9HUquTYznbJBhq0
+                                            [category_name] => Small tools and equipment
+                                        )
+
+                                    [31] => Array
+                                        (
+                                            [id] => tTeRDMT2zSag0aiGbSKvbgBVExTRJZZvN2iQoY380Aw
+                                            [category_name] => Software
+                                        )
+
+                                    [32] => Array
+                                        (
+                                            [id] => J6VPWATxYa1419UKXSH9kOahr5qM8VvBwGxpzWAGKt8
+                                            [category_name] => Supplies
+                                        )
+
+                                    [33] => Array
+                                        (
+                                            [id] => rP43EFV-5ke0XZCtBcxsQOIGQ6LctIf9I6uuwnQJ_MU
+                                            [category_name] => Taxes
+                                        )
+
+                                    [34] => Array
+                                        (
+                                            [id] => aL2W4fsMPpTrWjbQa03JAchUzvQRjIvEN9ckDkvDtEI
+                                            [category_name] => Telephone
+                                        )
+
+                                    [35] => Array
+                                        (
+                                            [id] => 8u1bgSZH7o-yEujt72aSDbEB3Xp_jWZ-L9wKgQFlpqA
+                                            [category_name] => Trade discounts
+                                        )
+
+                                    [36] => Array
+                                        (
+                                            [id] => 3TPO_tDrQR3PsZva3_j8FJS0RLIYT3wqrbe6WH1Pa-c
+                                            [category_name] => Travel
+                                        )
+
+                                    [37] => Array
+                                        (
+                                            [id] => P5L49SBCfIQ18O7O543ukidGyxjhi47uTd1UGjNA-TM
+                                            [category_name] => Utilities
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 6G7B4wKN7j_lgzOQNjxvV6beYW4j8JpE8YewyrymMZA
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => ZG1tpevK84MpCmDek3RTTFA53pt3td7nv7-DHyiS7Ak
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => iCWG3mR0sBhqqYU00ZsudewT6rxDDc1G9AuI6Woee5s
+                                            [user_name] => bug  cust
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => kxirr_jWC3Lx2C8tjnIx_RXTR1E-_FcJ7jth-bJ2d9o
+                                            [user_name] => check test
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => l0v6QLu6HW2o0hYniXM3rR7ZSEAb7vTttpZ8Wcg1U9M
+                                            [user_name] => first last
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => srHOWwzLqwetLNFAfOU2zKTdlfnPZv2ZfvKGKg3_CIk
+                                            [user_name] => Jack Smith
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => NdTTp0yZZrR2hotpdIg_4Yk1GOy7LeySAd7jg97eUUc
+                                            [user_name] => Jason Paiva
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY
+                                            [user_name] => John Theowner
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => tvrzxAtUeKit4dMPXTrDVIDM86qPeeXD30KKuwB34NA
+                                            [user_name] => Jonathan Longlastname Jr.
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => upgRMKRcQxsfKqQaG96iq1IjjDiE8HiqnBWYJui8uaE
+                                            [user_name] => Test qa
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => 9PBLkfMnaHDmJfwygCOBKsHvH541b6V0_1qEmrglsFg
+                                            [user_name] => test wew
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => KebBnV8c5RHYJ6b5YgSW-wziqvd-iDgqM2p_8t00LNU
+                                            [user_name] => Tester Emp
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => U4RQRY3tzpzKgigPCgtwWdfmciy6tqHfUAgDtqt29V4
+                                            [user_name] => testttttt bb
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => sL9XRPrYZSDDXImbRZaBiusMYz_e8aBoiMebhhfxzJ4
+                                            [user_name] => Vicky  Arsiniega
+                                        )
+
+                                )
+
+                        )
+
+                    [664558] => Array
+                        (
+                            [0] => Array
+                                (
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => H1woCtrBCX7zERP_k0qpC7VFTuSXycGXcNN2GbNHRUc
+                                            [category_name] => Accounting fees
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => IfKljQjHhYXuHlyIkvZS7ypGzxCP7SmSQh_xy5MOrK4
+                                            [category_name] => Advertising
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => lMmg9W4lYwHjpKhV4SDdUbn0GDnuSV7NCQOytDiyh5A
+                                            [category_name] => Bank charges
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => 2pggN9LeZff8jizXexOF3fCA6IpdVLJE0E0pjesTO7I
+                                            [category_name] => Commissions and sales expenses
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => rcbFzYY5xynTH4-ocORm5v32IjLxXDJcrhpB_UFD3Bk
+                                            [category_name] => Consultation expenses
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => Wn0ML_V_LuWn9F6rObziyBG32vI2e5Yup0UXbHwDFl0
+                                            [category_name] => Continuing professional education
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => 9jIKcp0MHBAii3B2reTyqOMcp5yyoXPYJEpp4xJp9Os
+                                            [category_name] => Contract labor
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => 9PGZUnxjwaviaSc51fqdKTgysY6iNMgenWLpA0Nifgs
+                                            [category_name] => Credit and collection fees
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => BygIBdN-uh0cl8GXzszZxYO7vgivv81jFsggDSCmwEk
+                                            [category_name] => Delivery charges
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => -xAk15DGgMUMBujNgaLcHf-mMy6r8VWYFEsYbb7Y-FQ
+                                            [category_name] => Dues and subscriptions
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => _WCowkQ_6cpWIf486bsnYOSanLFJcDBRz66ReigX5G0
+                                            [category_name] => Employee benefit programs
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => l7TVZAV7ZWxRTCZ1eGsz_rXZj_uWvWsGFc4gTbBwF68
+                                            [category_name] => Equipment rentals
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => cZA79UwCPva3VFGNtI9aivYld6C-MSEcMjbaOnBcQ54
+                                            [category_name] => Factory expenses
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => yTkaKn1_Iuzc1s2Z3ROg1DBhsPLPzSo9L0AKL2dHTNA
+                                            [category_name] => Insurance
+                                        )
+
+                                    [14] => Array
+                                        (
+                                            [id] => wo1Y7SdQYP5YcdncZ2XS4-foEb0csvUv_Y-uSW4S7S4
+                                            [category_name] => Interest paid
+                                        )
+
+                                    [15] => Array
+                                        (
+                                            [id] => ntSs7dHJ1WGDRxz5IJrOVZ88wGZV0MPMxBg36JVGJEo
+                                            [category_name] => Internet subscriptions, domain names, and hosting
+                                        )
+
+                                    [16] => Array
+                                        (
+                                            [id] => VcZXbHXKHytFocLWbX7v8hfgwSHEtfnZzRM58ZlDfTI
+                                            [category_name] => Laundry
+                                        )
+
+                                    [17] => Array
+                                        (
+                                            [id] => EhqPiLyIZNW2nyIPnbqcVL9z7NCHFTkWnzquzTp_BFM
+                                            [category_name] => Legal fees
+                                        )
+
+                                    [18] => Array
+                                        (
+                                            [id] => vzNsYaQH-eh7DihpxWlQXtvwO_53Pe44LunMx0CuLU4
+                                            [category_name] => Licenses
+                                        )
+
+                                    [19] => Array
+                                        (
+                                            [id] => i42KT80xw_XAjiXl7RUBaF4TnmLWMwivxKVUoz9qR8E
+                                            [category_name] => Maintenance and repairs
+                                        )
+
+                                    [20] => Array
+                                        (
+                                            [id] => iqY5BVFx1wRJJ1xSsvdmBKW7_fxQ6kUpxlF53VaLwfY
+                                            [category_name] => Office expenses and supplies
+                                        )
+
+                                    [21] => Array
+                                        (
+                                            [id] => 0ldBGK7ChpByet1niaXbIHo3IqeYo_-_K1xSxsl0I70
+                                            [category_name] => Pension and profit-sharing plans
+                                        )
+
+                                    [22] => Array
+                                        (
+                                            [id] => uhUAqXI-_PjAakYg6c2AgesDjeIG8h3IpYsURjO2vx0
+                                            [category_name] => Postage
+                                        )
+
+                                    [23] => Array
+                                        (
+                                            [id] => 4kP-ltvDhVIHpkQwzEQDQdraE5NXwzx5Ljr9efzK8Yw
+                                            [category_name] => Print and copy
+                                        )
+
+                                    [24] => Array
+                                        (
+                                            [id] => 3hmwo2w6YIWQrIl3F49Llgovf9Hy21m_uMMOHJS_wL0
+                                            [category_name] => Professional development and training
+                                        )
+
+                                    [25] => Array
+                                        (
+                                            [id] => YpWHJknlJ7NQL47yVsRwsG8ALi1ksdFPE3Glk15aiWg
+                                            [category_name] => Professional fees
+                                        )
+
+                                    [26] => Array
+                                        (
+                                            [id] => 2Mem8uvlqD6nmY6xFQO7im9ow2KCxzx8nhBsksmoOqw
+                                            [category_name] => Promotion
+                                        )
+
+                                    [27] => Array
+                                        (
+                                            [id] => BHqn9mKulp5s1zqnCpul7sBWtADHvMdZZJIqUajt1no
+                                            [category_name] => Rent
+                                        )
+
+                                    [28] => Array
+                                        (
+                                            [id] => OoN42Vp0UxIiqgUIrrBHqJjstbl-bHgaKiO0IlruqhM
+                                            [category_name] => Salaries, wages, and other compensation
+                                        )
+
+                                    [29] => Array
+                                        (
+                                            [id] => 30N-uSTRdoccBViofwe_nJDoo_s-tRecJl31RkWSfg8
+                                            [category_name] => Security
+                                        )
+
+                                    [30] => Array
+                                        (
+                                            [id] => YqzVkOUDzu1tP2XWyibMlfgxDZOz9HUquTYznbJBhq0
+                                            [category_name] => Small tools and equipment
+                                        )
+
+                                    [31] => Array
+                                        (
+                                            [id] => tTeRDMT2zSag0aiGbSKvbgBVExTRJZZvN2iQoY380Aw
+                                            [category_name] => Software
+                                        )
+
+                                    [32] => Array
+                                        (
+                                            [id] => J6VPWATxYa1419UKXSH9kOahr5qM8VvBwGxpzWAGKt8
+                                            [category_name] => Supplies
+                                        )
+
+                                    [33] => Array
+                                        (
+                                            [id] => rP43EFV-5ke0XZCtBcxsQOIGQ6LctIf9I6uuwnQJ_MU
+                                            [category_name] => Taxes
+                                        )
+
+                                    [34] => Array
+                                        (
+                                            [id] => aL2W4fsMPpTrWjbQa03JAchUzvQRjIvEN9ckDkvDtEI
+                                            [category_name] => Telephone
+                                        )
+
+                                    [35] => Array
+                                        (
+                                            [id] => 8u1bgSZH7o-yEujt72aSDbEB3Xp_jWZ-L9wKgQFlpqA
+                                            [category_name] => Trade discounts
+                                        )
+
+                                    [36] => Array
+                                        (
+                                            [id] => 3TPO_tDrQR3PsZva3_j8FJS0RLIYT3wqrbe6WH1Pa-c
+                                            [category_name] => Travel
+                                        )
+
+                                    [37] => Array
+                                        (
+                                            [id] => P5L49SBCfIQ18O7O543ukidGyxjhi47uTd1UGjNA-TM
+                                            [category_name] => Utilities
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 6G7B4wKN7j_lgzOQNjxvV6beYW4j8JpE8YewyrymMZA
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => ZG1tpevK84MpCmDek3RTTFA53pt3td7nv7-DHyiS7Ak
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => iCWG3mR0sBhqqYU00ZsudewT6rxDDc1G9AuI6Woee5s
+                                            [user_name] => bug  cust
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => kxirr_jWC3Lx2C8tjnIx_RXTR1E-_FcJ7jth-bJ2d9o
+                                            [user_name] => check test
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => l0v6QLu6HW2o0hYniXM3rR7ZSEAb7vTttpZ8Wcg1U9M
+                                            [user_name] => first last
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => srHOWwzLqwetLNFAfOU2zKTdlfnPZv2ZfvKGKg3_CIk
+                                            [user_name] => Jack Smith
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => NdTTp0yZZrR2hotpdIg_4Yk1GOy7LeySAd7jg97eUUc
+                                            [user_name] => Jason Paiva
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY
+                                            [user_name] => John Theowner
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => tvrzxAtUeKit4dMPXTrDVIDM86qPeeXD30KKuwB34NA
+                                            [user_name] => Jonathan Longlastname Jr.
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => upgRMKRcQxsfKqQaG96iq1IjjDiE8HiqnBWYJui8uaE
+                                            [user_name] => Test qa
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => 9PBLkfMnaHDmJfwygCOBKsHvH541b6V0_1qEmrglsFg
+                                            [user_name] => test wew
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => KebBnV8c5RHYJ6b5YgSW-wziqvd-iDgqM2p_8t00LNU
+                                            [user_name] => Tester Emp
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => U4RQRY3tzpzKgigPCgtwWdfmciy6tqHfUAgDtqt29V4
+                                            [user_name] => testttttt bb
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => sL9XRPrYZSDDXImbRZaBiusMYz_e8aBoiMebhhfxzJ4
+                                            [user_name] => Vicky  Arsiniega
+                                        )
+
+                                )
+
+                        )
+
+                    [664560] => Array
+                        (
+                            [0] => Array
+                                (
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => H1woCtrBCX7zERP_k0qpC7VFTuSXycGXcNN2GbNHRUc
+                                            [category_name] => Accounting fees
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => IfKljQjHhYXuHlyIkvZS7ypGzxCP7SmSQh_xy5MOrK4
+                                            [category_name] => Advertising
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => lMmg9W4lYwHjpKhV4SDdUbn0GDnuSV7NCQOytDiyh5A
+                                            [category_name] => Bank charges
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => 2pggN9LeZff8jizXexOF3fCA6IpdVLJE0E0pjesTO7I
+                                            [category_name] => Commissions and sales expenses
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => rcbFzYY5xynTH4-ocORm5v32IjLxXDJcrhpB_UFD3Bk
+                                            [category_name] => Consultation expenses
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => Wn0ML_V_LuWn9F6rObziyBG32vI2e5Yup0UXbHwDFl0
+                                            [category_name] => Continuing professional education
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => 9jIKcp0MHBAii3B2reTyqOMcp5yyoXPYJEpp4xJp9Os
+                                            [category_name] => Contract labor
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => 9PGZUnxjwaviaSc51fqdKTgysY6iNMgenWLpA0Nifgs
+                                            [category_name] => Credit and collection fees
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => BygIBdN-uh0cl8GXzszZxYO7vgivv81jFsggDSCmwEk
+                                            [category_name] => Delivery charges
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => -xAk15DGgMUMBujNgaLcHf-mMy6r8VWYFEsYbb7Y-FQ
+                                            [category_name] => Dues and subscriptions
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => _WCowkQ_6cpWIf486bsnYOSanLFJcDBRz66ReigX5G0
+                                            [category_name] => Employee benefit programs
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => l7TVZAV7ZWxRTCZ1eGsz_rXZj_uWvWsGFc4gTbBwF68
+                                            [category_name] => Equipment rentals
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => cZA79UwCPva3VFGNtI9aivYld6C-MSEcMjbaOnBcQ54
+                                            [category_name] => Factory expenses
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => yTkaKn1_Iuzc1s2Z3ROg1DBhsPLPzSo9L0AKL2dHTNA
+                                            [category_name] => Insurance
+                                        )
+
+                                    [14] => Array
+                                        (
+                                            [id] => wo1Y7SdQYP5YcdncZ2XS4-foEb0csvUv_Y-uSW4S7S4
+                                            [category_name] => Interest paid
+                                        )
+
+                                    [15] => Array
+                                        (
+                                            [id] => ntSs7dHJ1WGDRxz5IJrOVZ88wGZV0MPMxBg36JVGJEo
+                                            [category_name] => Internet subscriptions, domain names, and hosting
+                                        )
+
+                                    [16] => Array
+                                        (
+                                            [id] => VcZXbHXKHytFocLWbX7v8hfgwSHEtfnZzRM58ZlDfTI
+                                            [category_name] => Laundry
+                                        )
+
+                                    [17] => Array
+                                        (
+                                            [id] => EhqPiLyIZNW2nyIPnbqcVL9z7NCHFTkWnzquzTp_BFM
+                                            [category_name] => Legal fees
+                                        )
+
+                                    [18] => Array
+                                        (
+                                            [id] => vzNsYaQH-eh7DihpxWlQXtvwO_53Pe44LunMx0CuLU4
+                                            [category_name] => Licenses
+                                        )
+
+                                    [19] => Array
+                                        (
+                                            [id] => i42KT80xw_XAjiXl7RUBaF4TnmLWMwivxKVUoz9qR8E
+                                            [category_name] => Maintenance and repairs
+                                        )
+
+                                    [20] => Array
+                                        (
+                                            [id] => iqY5BVFx1wRJJ1xSsvdmBKW7_fxQ6kUpxlF53VaLwfY
+                                            [category_name] => Office expenses and supplies
+                                        )
+
+                                    [21] => Array
+                                        (
+                                            [id] => 0ldBGK7ChpByet1niaXbIHo3IqeYo_-_K1xSxsl0I70
+                                            [category_name] => Pension and profit-sharing plans
+                                        )
+
+                                    [22] => Array
+                                        (
+                                            [id] => uhUAqXI-_PjAakYg6c2AgesDjeIG8h3IpYsURjO2vx0
+                                            [category_name] => Postage
+                                        )
+
+                                    [23] => Array
+                                        (
+                                            [id] => 4kP-ltvDhVIHpkQwzEQDQdraE5NXwzx5Ljr9efzK8Yw
+                                            [category_name] => Print and copy
+                                        )
+
+                                    [24] => Array
+                                        (
+                                            [id] => 3hmwo2w6YIWQrIl3F49Llgovf9Hy21m_uMMOHJS_wL0
+                                            [category_name] => Professional development and training
+                                        )
+
+                                    [25] => Array
+                                        (
+                                            [id] => YpWHJknlJ7NQL47yVsRwsG8ALi1ksdFPE3Glk15aiWg
+                                            [category_name] => Professional fees
+                                        )
+
+                                    [26] => Array
+                                        (
+                                            [id] => 2Mem8uvlqD6nmY6xFQO7im9ow2KCxzx8nhBsksmoOqw
+                                            [category_name] => Promotion
+                                        )
+
+                                    [27] => Array
+                                        (
+                                            [id] => BHqn9mKulp5s1zqnCpul7sBWtADHvMdZZJIqUajt1no
+                                            [category_name] => Rent
+                                        )
+
+                                    [28] => Array
+                                        (
+                                            [id] => OoN42Vp0UxIiqgUIrrBHqJjstbl-bHgaKiO0IlruqhM
+                                            [category_name] => Salaries, wages, and other compensation
+                                        )
+
+                                    [29] => Array
+                                        (
+                                            [id] => 30N-uSTRdoccBViofwe_nJDoo_s-tRecJl31RkWSfg8
+                                            [category_name] => Security
+                                        )
+
+                                    [30] => Array
+                                        (
+                                            [id] => YqzVkOUDzu1tP2XWyibMlfgxDZOz9HUquTYznbJBhq0
+                                            [category_name] => Small tools and equipment
+                                        )
+
+                                    [31] => Array
+                                        (
+                                            [id] => tTeRDMT2zSag0aiGbSKvbgBVExTRJZZvN2iQoY380Aw
+                                            [category_name] => Software
+                                        )
+
+                                    [32] => Array
+                                        (
+                                            [id] => J6VPWATxYa1419UKXSH9kOahr5qM8VvBwGxpzWAGKt8
+                                            [category_name] => Supplies
+                                        )
+
+                                    [33] => Array
+                                        (
+                                            [id] => rP43EFV-5ke0XZCtBcxsQOIGQ6LctIf9I6uuwnQJ_MU
+                                            [category_name] => Taxes
+                                        )
+
+                                    [34] => Array
+                                        (
+                                            [id] => aL2W4fsMPpTrWjbQa03JAchUzvQRjIvEN9ckDkvDtEI
+                                            [category_name] => Telephone
+                                        )
+
+                                    [35] => Array
+                                        (
+                                            [id] => 8u1bgSZH7o-yEujt72aSDbEB3Xp_jWZ-L9wKgQFlpqA
+                                            [category_name] => Trade discounts
+                                        )
+
+                                    [36] => Array
+                                        (
+                                            [id] => 3TPO_tDrQR3PsZva3_j8FJS0RLIYT3wqrbe6WH1Pa-c
+                                            [category_name] => Travel
+                                        )
+
+                                    [37] => Array
+                                        (
+                                            [id] => P5L49SBCfIQ18O7O543ukidGyxjhi47uTd1UGjNA-TM
+                                            [category_name] => Utilities
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 6G7B4wKN7j_lgzOQNjxvV6beYW4j8JpE8YewyrymMZA
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => ZG1tpevK84MpCmDek3RTTFA53pt3td7nv7-DHyiS7Ak
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => iCWG3mR0sBhqqYU00ZsudewT6rxDDc1G9AuI6Woee5s
+                                            [user_name] => bug  cust
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => kxirr_jWC3Lx2C8tjnIx_RXTR1E-_FcJ7jth-bJ2d9o
+                                            [user_name] => check test
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => l0v6QLu6HW2o0hYniXM3rR7ZSEAb7vTttpZ8Wcg1U9M
+                                            [user_name] => first last
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => srHOWwzLqwetLNFAfOU2zKTdlfnPZv2ZfvKGKg3_CIk
+                                            [user_name] => Jack Smith
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => NdTTp0yZZrR2hotpdIg_4Yk1GOy7LeySAd7jg97eUUc
+                                            [user_name] => Jason Paiva
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY
+                                            [user_name] => John Theowner
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => tvrzxAtUeKit4dMPXTrDVIDM86qPeeXD30KKuwB34NA
+                                            [user_name] => Jonathan Longlastname Jr.
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => upgRMKRcQxsfKqQaG96iq1IjjDiE8HiqnBWYJui8uaE
+                                            [user_name] => Test qa
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => 9PBLkfMnaHDmJfwygCOBKsHvH541b6V0_1qEmrglsFg
+                                            [user_name] => test wew
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => KebBnV8c5RHYJ6b5YgSW-wziqvd-iDgqM2p_8t00LNU
+                                            [user_name] => Tester Emp
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => U4RQRY3tzpzKgigPCgtwWdfmciy6tqHfUAgDtqt29V4
+                                            [user_name] => testttttt bb
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => sL9XRPrYZSDDXImbRZaBiusMYz_e8aBoiMebhhfxzJ4
+                                            [user_name] => Vicky  Arsiniega
+                                        )
+
+                                )
+
+                        )
+
+                    [467516] => Array
+                        (
+                            [0] => Array
+                                (
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => H1woCtrBCX7zERP_k0qpC7VFTuSXycGXcNN2GbNHRUc
+                                            [category_name] => Accounting fees
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => IfKljQjHhYXuHlyIkvZS7ypGzxCP7SmSQh_xy5MOrK4
+                                            [category_name] => Advertising
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => lMmg9W4lYwHjpKhV4SDdUbn0GDnuSV7NCQOytDiyh5A
+                                            [category_name] => Bank charges
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => 2pggN9LeZff8jizXexOF3fCA6IpdVLJE0E0pjesTO7I
+                                            [category_name] => Commissions and sales expenses
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => rcbFzYY5xynTH4-ocORm5v32IjLxXDJcrhpB_UFD3Bk
+                                            [category_name] => Consultation expenses
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => Wn0ML_V_LuWn9F6rObziyBG32vI2e5Yup0UXbHwDFl0
+                                            [category_name] => Continuing professional education
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => 9jIKcp0MHBAii3B2reTyqOMcp5yyoXPYJEpp4xJp9Os
+                                            [category_name] => Contract labor
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => 9PGZUnxjwaviaSc51fqdKTgysY6iNMgenWLpA0Nifgs
+                                            [category_name] => Credit and collection fees
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => BygIBdN-uh0cl8GXzszZxYO7vgivv81jFsggDSCmwEk
+                                            [category_name] => Delivery charges
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => -xAk15DGgMUMBujNgaLcHf-mMy6r8VWYFEsYbb7Y-FQ
+                                            [category_name] => Dues and subscriptions
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => _WCowkQ_6cpWIf486bsnYOSanLFJcDBRz66ReigX5G0
+                                            [category_name] => Employee benefit programs
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => l7TVZAV7ZWxRTCZ1eGsz_rXZj_uWvWsGFc4gTbBwF68
+                                            [category_name] => Equipment rentals
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => cZA79UwCPva3VFGNtI9aivYld6C-MSEcMjbaOnBcQ54
+                                            [category_name] => Factory expenses
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => yTkaKn1_Iuzc1s2Z3ROg1DBhsPLPzSo9L0AKL2dHTNA
+                                            [category_name] => Insurance
+                                        )
+
+                                    [14] => Array
+                                        (
+                                            [id] => wo1Y7SdQYP5YcdncZ2XS4-foEb0csvUv_Y-uSW4S7S4
+                                            [category_name] => Interest paid
+                                        )
+
+                                    [15] => Array
+                                        (
+                                            [id] => ntSs7dHJ1WGDRxz5IJrOVZ88wGZV0MPMxBg36JVGJEo
+                                            [category_name] => Internet subscriptions, domain names, and hosting
+                                        )
+
+                                    [16] => Array
+                                        (
+                                            [id] => VcZXbHXKHytFocLWbX7v8hfgwSHEtfnZzRM58ZlDfTI
+                                            [category_name] => Laundry
+                                        )
+
+                                    [17] => Array
+                                        (
+                                            [id] => EhqPiLyIZNW2nyIPnbqcVL9z7NCHFTkWnzquzTp_BFM
+                                            [category_name] => Legal fees
+                                        )
+
+                                    [18] => Array
+                                        (
+                                            [id] => vzNsYaQH-eh7DihpxWlQXtvwO_53Pe44LunMx0CuLU4
+                                            [category_name] => Licenses
+                                        )
+
+                                    [19] => Array
+                                        (
+                                            [id] => i42KT80xw_XAjiXl7RUBaF4TnmLWMwivxKVUoz9qR8E
+                                            [category_name] => Maintenance and repairs
+                                        )
+
+                                    [20] => Array
+                                        (
+                                            [id] => iqY5BVFx1wRJJ1xSsvdmBKW7_fxQ6kUpxlF53VaLwfY
+                                            [category_name] => Office expenses and supplies
+                                        )
+
+                                    [21] => Array
+                                        (
+                                            [id] => 0ldBGK7ChpByet1niaXbIHo3IqeYo_-_K1xSxsl0I70
+                                            [category_name] => Pension and profit-sharing plans
+                                        )
+
+                                    [22] => Array
+                                        (
+                                            [id] => uhUAqXI-_PjAakYg6c2AgesDjeIG8h3IpYsURjO2vx0
+                                            [category_name] => Postage
+                                        )
+
+                                    [23] => Array
+                                        (
+                                            [id] => 4kP-ltvDhVIHpkQwzEQDQdraE5NXwzx5Ljr9efzK8Yw
+                                            [category_name] => Print and copy
+                                        )
+
+                                    [24] => Array
+                                        (
+                                            [id] => 3hmwo2w6YIWQrIl3F49Llgovf9Hy21m_uMMOHJS_wL0
+                                            [category_name] => Professional development and training
+                                        )
+
+                                    [25] => Array
+                                        (
+                                            [id] => YpWHJknlJ7NQL47yVsRwsG8ALi1ksdFPE3Glk15aiWg
+                                            [category_name] => Professional fees
+                                        )
+
+                                    [26] => Array
+                                        (
+                                            [id] => 2Mem8uvlqD6nmY6xFQO7im9ow2KCxzx8nhBsksmoOqw
+                                            [category_name] => Promotion
+                                        )
+
+                                    [27] => Array
+                                        (
+                                            [id] => BHqn9mKulp5s1zqnCpul7sBWtADHvMdZZJIqUajt1no
+                                            [category_name] => Rent
+                                        )
+
+                                    [28] => Array
+                                        (
+                                            [id] => OoN42Vp0UxIiqgUIrrBHqJjstbl-bHgaKiO0IlruqhM
+                                            [category_name] => Salaries, wages, and other compensation
+                                        )
+
+                                    [29] => Array
+                                        (
+                                            [id] => 30N-uSTRdoccBViofwe_nJDoo_s-tRecJl31RkWSfg8
+                                            [category_name] => Security
+                                        )
+
+                                    [30] => Array
+                                        (
+                                            [id] => YqzVkOUDzu1tP2XWyibMlfgxDZOz9HUquTYznbJBhq0
+                                            [category_name] => Small tools and equipment
+                                        )
+
+                                    [31] => Array
+                                        (
+                                            [id] => tTeRDMT2zSag0aiGbSKvbgBVExTRJZZvN2iQoY380Aw
+                                            [category_name] => Software
+                                        )
+
+                                    [32] => Array
+                                        (
+                                            [id] => J6VPWATxYa1419UKXSH9kOahr5qM8VvBwGxpzWAGKt8
+                                            [category_name] => Supplies
+                                        )
+
+                                    [33] => Array
+                                        (
+                                            [id] => rP43EFV-5ke0XZCtBcxsQOIGQ6LctIf9I6uuwnQJ_MU
+                                            [category_name] => Taxes
+                                        )
+
+                                    [34] => Array
+                                        (
+                                            [id] => aL2W4fsMPpTrWjbQa03JAchUzvQRjIvEN9ckDkvDtEI
+                                            [category_name] => Telephone
+                                        )
+
+                                    [35] => Array
+                                        (
+                                            [id] => 8u1bgSZH7o-yEujt72aSDbEB3Xp_jWZ-L9wKgQFlpqA
+                                            [category_name] => Trade discounts
+                                        )
+
+                                    [36] => Array
+                                        (
+                                            [id] => 3TPO_tDrQR3PsZva3_j8FJS0RLIYT3wqrbe6WH1Pa-c
+                                            [category_name] => Travel
+                                        )
+
+                                    [37] => Array
+                                        (
+                                            [id] => P5L49SBCfIQ18O7O543ukidGyxjhi47uTd1UGjNA-TM
+                                            [category_name] => Utilities
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 6G7B4wKN7j_lgzOQNjxvV6beYW4j8JpE8YewyrymMZA
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => ZG1tpevK84MpCmDek3RTTFA53pt3td7nv7-DHyiS7Ak
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => iCWG3mR0sBhqqYU00ZsudewT6rxDDc1G9AuI6Woee5s
+                                            [user_name] => bug  cust
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => kxirr_jWC3Lx2C8tjnIx_RXTR1E-_FcJ7jth-bJ2d9o
+                                            [user_name] => check test
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => l0v6QLu6HW2o0hYniXM3rR7ZSEAb7vTttpZ8Wcg1U9M
+                                            [user_name] => first last
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => srHOWwzLqwetLNFAfOU2zKTdlfnPZv2ZfvKGKg3_CIk
+                                            [user_name] => Jack Smith
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => NdTTp0yZZrR2hotpdIg_4Yk1GOy7LeySAd7jg97eUUc
+                                            [user_name] => Jason Paiva
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY
+                                            [user_name] => John Theowner
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => tvrzxAtUeKit4dMPXTrDVIDM86qPeeXD30KKuwB34NA
+                                            [user_name] => Jonathan Longlastname Jr.
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => upgRMKRcQxsfKqQaG96iq1IjjDiE8HiqnBWYJui8uaE
+                                            [user_name] => Test qa
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => 9PBLkfMnaHDmJfwygCOBKsHvH541b6V0_1qEmrglsFg
+                                            [user_name] => test wew
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => KebBnV8c5RHYJ6b5YgSW-wziqvd-iDgqM2p_8t00LNU
+                                            [user_name] => Tester Emp
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => U4RQRY3tzpzKgigPCgtwWdfmciy6tqHfUAgDtqt29V4
+                                            [user_name] => testttttt bb
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => sL9XRPrYZSDDXImbRZaBiusMYz_e8aBoiMebhhfxzJ4
+                                            [user_name] => Vicky  Arsiniega
+                                        )
+
+                                )
+
+                        )
+
+                    [666667] => Array
+                        (
+                            [0] => Array
+                                (
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => H1woCtrBCX7zERP_k0qpC7VFTuSXycGXcNN2GbNHRUc
+                                            [category_name] => Accounting fees
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => IfKljQjHhYXuHlyIkvZS7ypGzxCP7SmSQh_xy5MOrK4
+                                            [category_name] => Advertising
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => lMmg9W4lYwHjpKhV4SDdUbn0GDnuSV7NCQOytDiyh5A
+                                            [category_name] => Bank charges
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => 2pggN9LeZff8jizXexOF3fCA6IpdVLJE0E0pjesTO7I
+                                            [category_name] => Commissions and sales expenses
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => rcbFzYY5xynTH4-ocORm5v32IjLxXDJcrhpB_UFD3Bk
+                                            [category_name] => Consultation expenses
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => Wn0ML_V_LuWn9F6rObziyBG32vI2e5Yup0UXbHwDFl0
+                                            [category_name] => Continuing professional education
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => 9jIKcp0MHBAii3B2reTyqOMcp5yyoXPYJEpp4xJp9Os
+                                            [category_name] => Contract labor
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => 9PGZUnxjwaviaSc51fqdKTgysY6iNMgenWLpA0Nifgs
+                                            [category_name] => Credit and collection fees
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => BygIBdN-uh0cl8GXzszZxYO7vgivv81jFsggDSCmwEk
+                                            [category_name] => Delivery charges
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => -xAk15DGgMUMBujNgaLcHf-mMy6r8VWYFEsYbb7Y-FQ
+                                            [category_name] => Dues and subscriptions
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => _WCowkQ_6cpWIf486bsnYOSanLFJcDBRz66ReigX5G0
+                                            [category_name] => Employee benefit programs
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => l7TVZAV7ZWxRTCZ1eGsz_rXZj_uWvWsGFc4gTbBwF68
+                                            [category_name] => Equipment rentals
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => cZA79UwCPva3VFGNtI9aivYld6C-MSEcMjbaOnBcQ54
+                                            [category_name] => Factory expenses
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => yTkaKn1_Iuzc1s2Z3ROg1DBhsPLPzSo9L0AKL2dHTNA
+                                            [category_name] => Insurance
+                                        )
+
+                                    [14] => Array
+                                        (
+                                            [id] => wo1Y7SdQYP5YcdncZ2XS4-foEb0csvUv_Y-uSW4S7S4
+                                            [category_name] => Interest paid
+                                        )
+
+                                    [15] => Array
+                                        (
+                                            [id] => ntSs7dHJ1WGDRxz5IJrOVZ88wGZV0MPMxBg36JVGJEo
+                                            [category_name] => Internet subscriptions, domain names, and hosting
+                                        )
+
+                                    [16] => Array
+                                        (
+                                            [id] => VcZXbHXKHytFocLWbX7v8hfgwSHEtfnZzRM58ZlDfTI
+                                            [category_name] => Laundry
+                                        )
+
+                                    [17] => Array
+                                        (
+                                            [id] => EhqPiLyIZNW2nyIPnbqcVL9z7NCHFTkWnzquzTp_BFM
+                                            [category_name] => Legal fees
+                                        )
+
+                                    [18] => Array
+                                        (
+                                            [id] => vzNsYaQH-eh7DihpxWlQXtvwO_53Pe44LunMx0CuLU4
+                                            [category_name] => Licenses
+                                        )
+
+                                    [19] => Array
+                                        (
+                                            [id] => i42KT80xw_XAjiXl7RUBaF4TnmLWMwivxKVUoz9qR8E
+                                            [category_name] => Maintenance and repairs
+                                        )
+
+                                    [20] => Array
+                                        (
+                                            [id] => iqY5BVFx1wRJJ1xSsvdmBKW7_fxQ6kUpxlF53VaLwfY
+                                            [category_name] => Office expenses and supplies
+                                        )
+
+                                    [21] => Array
+                                        (
+                                            [id] => 0ldBGK7ChpByet1niaXbIHo3IqeYo_-_K1xSxsl0I70
+                                            [category_name] => Pension and profit-sharing plans
+                                        )
+
+                                    [22] => Array
+                                        (
+                                            [id] => uhUAqXI-_PjAakYg6c2AgesDjeIG8h3IpYsURjO2vx0
+                                            [category_name] => Postage
+                                        )
+
+                                    [23] => Array
+                                        (
+                                            [id] => 4kP-ltvDhVIHpkQwzEQDQdraE5NXwzx5Ljr9efzK8Yw
+                                            [category_name] => Print and copy
+                                        )
+
+                                    [24] => Array
+                                        (
+                                            [id] => 3hmwo2w6YIWQrIl3F49Llgovf9Hy21m_uMMOHJS_wL0
+                                            [category_name] => Professional development and training
+                                        )
+
+                                    [25] => Array
+                                        (
+                                            [id] => YpWHJknlJ7NQL47yVsRwsG8ALi1ksdFPE3Glk15aiWg
+                                            [category_name] => Professional fees
+                                        )
+
+                                    [26] => Array
+                                        (
+                                            [id] => 2Mem8uvlqD6nmY6xFQO7im9ow2KCxzx8nhBsksmoOqw
+                                            [category_name] => Promotion
+                                        )
+
+                                    [27] => Array
+                                        (
+                                            [id] => BHqn9mKulp5s1zqnCpul7sBWtADHvMdZZJIqUajt1no
+                                            [category_name] => Rent
+                                        )
+
+                                    [28] => Array
+                                        (
+                                            [id] => OoN42Vp0UxIiqgUIrrBHqJjstbl-bHgaKiO0IlruqhM
+                                            [category_name] => Salaries, wages, and other compensation
+                                        )
+
+                                    [29] => Array
+                                        (
+                                            [id] => 30N-uSTRdoccBViofwe_nJDoo_s-tRecJl31RkWSfg8
+                                            [category_name] => Security
+                                        )
+
+                                    [30] => Array
+                                        (
+                                            [id] => YqzVkOUDzu1tP2XWyibMlfgxDZOz9HUquTYznbJBhq0
+                                            [category_name] => Small tools and equipment
+                                        )
+
+                                    [31] => Array
+                                        (
+                                            [id] => tTeRDMT2zSag0aiGbSKvbgBVExTRJZZvN2iQoY380Aw
+                                            [category_name] => Software
+                                        )
+
+                                    [32] => Array
+                                        (
+                                            [id] => J6VPWATxYa1419UKXSH9kOahr5qM8VvBwGxpzWAGKt8
+                                            [category_name] => Supplies
+                                        )
+
+                                    [33] => Array
+                                        (
+                                            [id] => rP43EFV-5ke0XZCtBcxsQOIGQ6LctIf9I6uuwnQJ_MU
+                                            [category_name] => Taxes
+                                        )
+
+                                    [34] => Array
+                                        (
+                                            [id] => aL2W4fsMPpTrWjbQa03JAchUzvQRjIvEN9ckDkvDtEI
+                                            [category_name] => Telephone
+                                        )
+
+                                    [35] => Array
+                                        (
+                                            [id] => 8u1bgSZH7o-yEujt72aSDbEB3Xp_jWZ-L9wKgQFlpqA
+                                            [category_name] => Trade discounts
+                                        )
+
+                                    [36] => Array
+                                        (
+                                            [id] => 3TPO_tDrQR3PsZva3_j8FJS0RLIYT3wqrbe6WH1Pa-c
+                                            [category_name] => Travel
+                                        )
+
+                                    [37] => Array
+                                        (
+                                            [id] => P5L49SBCfIQ18O7O543ukidGyxjhi47uTd1UGjNA-TM
+                                            [category_name] => Utilities
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 6G7B4wKN7j_lgzOQNjxvV6beYW4j8JpE8YewyrymMZA
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => ZG1tpevK84MpCmDek3RTTFA53pt3td7nv7-DHyiS7Ak
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => iCWG3mR0sBhqqYU00ZsudewT6rxDDc1G9AuI6Woee5s
+                                            [user_name] => bug  cust
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => kxirr_jWC3Lx2C8tjnIx_RXTR1E-_FcJ7jth-bJ2d9o
+                                            [user_name] => check test
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => l0v6QLu6HW2o0hYniXM3rR7ZSEAb7vTttpZ8Wcg1U9M
+                                            [user_name] => first last
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => srHOWwzLqwetLNFAfOU2zKTdlfnPZv2ZfvKGKg3_CIk
+                                            [user_name] => Jack Smith
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => NdTTp0yZZrR2hotpdIg_4Yk1GOy7LeySAd7jg97eUUc
+                                            [user_name] => Jason Paiva
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY
+                                            [user_name] => John Theowner
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => tvrzxAtUeKit4dMPXTrDVIDM86qPeeXD30KKuwB34NA
+                                            [user_name] => Jonathan Longlastname Jr.
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => upgRMKRcQxsfKqQaG96iq1IjjDiE8HiqnBWYJui8uaE
+                                            [user_name] => Test qa
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => 9PBLkfMnaHDmJfwygCOBKsHvH541b6V0_1qEmrglsFg
+                                            [user_name] => test wew
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => KebBnV8c5RHYJ6b5YgSW-wziqvd-iDgqM2p_8t00LNU
+                                            [user_name] => Tester Emp
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => U4RQRY3tzpzKgigPCgtwWdfmciy6tqHfUAgDtqt29V4
+                                            [user_name] => testttttt bb
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => sL9XRPrYZSDDXImbRZaBiusMYz_e8aBoiMebhhfxzJ4
+                                            [user_name] => Vicky  Arsiniega
+                                        )
+
+                                )
+
+                        )
+
+                    [666670] => Array
+                        (
+                            [0] => Array
+                                (
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => H1woCtrBCX7zERP_k0qpC7VFTuSXycGXcNN2GbNHRUc
+                                            [category_name] => Accounting fees
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => IfKljQjHhYXuHlyIkvZS7ypGzxCP7SmSQh_xy5MOrK4
+                                            [category_name] => Advertising
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => lMmg9W4lYwHjpKhV4SDdUbn0GDnuSV7NCQOytDiyh5A
+                                            [category_name] => Bank charges
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => 2pggN9LeZff8jizXexOF3fCA6IpdVLJE0E0pjesTO7I
+                                            [category_name] => Commissions and sales expenses
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => rcbFzYY5xynTH4-ocORm5v32IjLxXDJcrhpB_UFD3Bk
+                                            [category_name] => Consultation expenses
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => Wn0ML_V_LuWn9F6rObziyBG32vI2e5Yup0UXbHwDFl0
+                                            [category_name] => Continuing professional education
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => 9jIKcp0MHBAii3B2reTyqOMcp5yyoXPYJEpp4xJp9Os
+                                            [category_name] => Contract labor
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => 9PGZUnxjwaviaSc51fqdKTgysY6iNMgenWLpA0Nifgs
+                                            [category_name] => Credit and collection fees
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => BygIBdN-uh0cl8GXzszZxYO7vgivv81jFsggDSCmwEk
+                                            [category_name] => Delivery charges
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => -xAk15DGgMUMBujNgaLcHf-mMy6r8VWYFEsYbb7Y-FQ
+                                            [category_name] => Dues and subscriptions
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => _WCowkQ_6cpWIf486bsnYOSanLFJcDBRz66ReigX5G0
+                                            [category_name] => Employee benefit programs
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => l7TVZAV7ZWxRTCZ1eGsz_rXZj_uWvWsGFc4gTbBwF68
+                                            [category_name] => Equipment rentals
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => cZA79UwCPva3VFGNtI9aivYld6C-MSEcMjbaOnBcQ54
+                                            [category_name] => Factory expenses
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => yTkaKn1_Iuzc1s2Z3ROg1DBhsPLPzSo9L0AKL2dHTNA
+                                            [category_name] => Insurance
+                                        )
+
+                                    [14] => Array
+                                        (
+                                            [id] => wo1Y7SdQYP5YcdncZ2XS4-foEb0csvUv_Y-uSW4S7S4
+                                            [category_name] => Interest paid
+                                        )
+
+                                    [15] => Array
+                                        (
+                                            [id] => ntSs7dHJ1WGDRxz5IJrOVZ88wGZV0MPMxBg36JVGJEo
+                                            [category_name] => Internet subscriptions, domain names, and hosting
+                                        )
+
+                                    [16] => Array
+                                        (
+                                            [id] => VcZXbHXKHytFocLWbX7v8hfgwSHEtfnZzRM58ZlDfTI
+                                            [category_name] => Laundry
+                                        )
+
+                                    [17] => Array
+                                        (
+                                            [id] => EhqPiLyIZNW2nyIPnbqcVL9z7NCHFTkWnzquzTp_BFM
+                                            [category_name] => Legal fees
+                                        )
+
+                                    [18] => Array
+                                        (
+                                            [id] => vzNsYaQH-eh7DihpxWlQXtvwO_53Pe44LunMx0CuLU4
+                                            [category_name] => Licenses
+                                        )
+
+                                    [19] => Array
+                                        (
+                                            [id] => i42KT80xw_XAjiXl7RUBaF4TnmLWMwivxKVUoz9qR8E
+                                            [category_name] => Maintenance and repairs
+                                        )
+
+                                    [20] => Array
+                                        (
+                                            [id] => iqY5BVFx1wRJJ1xSsvdmBKW7_fxQ6kUpxlF53VaLwfY
+                                            [category_name] => Office expenses and supplies
+                                        )
+
+                                    [21] => Array
+                                        (
+                                            [id] => 0ldBGK7ChpByet1niaXbIHo3IqeYo_-_K1xSxsl0I70
+                                            [category_name] => Pension and profit-sharing plans
+                                        )
+
+                                    [22] => Array
+                                        (
+                                            [id] => uhUAqXI-_PjAakYg6c2AgesDjeIG8h3IpYsURjO2vx0
+                                            [category_name] => Postage
+                                        )
+
+                                    [23] => Array
+                                        (
+                                            [id] => 4kP-ltvDhVIHpkQwzEQDQdraE5NXwzx5Ljr9efzK8Yw
+                                            [category_name] => Print and copy
+                                        )
+
+                                    [24] => Array
+                                        (
+                                            [id] => 3hmwo2w6YIWQrIl3F49Llgovf9Hy21m_uMMOHJS_wL0
+                                            [category_name] => Professional development and training
+                                        )
+
+                                    [25] => Array
+                                        (
+                                            [id] => YpWHJknlJ7NQL47yVsRwsG8ALi1ksdFPE3Glk15aiWg
+                                            [category_name] => Professional fees
+                                        )
+
+                                    [26] => Array
+                                        (
+                                            [id] => 2Mem8uvlqD6nmY6xFQO7im9ow2KCxzx8nhBsksmoOqw
+                                            [category_name] => Promotion
+                                        )
+
+                                    [27] => Array
+                                        (
+                                            [id] => BHqn9mKulp5s1zqnCpul7sBWtADHvMdZZJIqUajt1no
+                                            [category_name] => Rent
+                                        )
+
+                                    [28] => Array
+                                        (
+                                            [id] => OoN42Vp0UxIiqgUIrrBHqJjstbl-bHgaKiO0IlruqhM
+                                            [category_name] => Salaries, wages, and other compensation
+                                        )
+
+                                    [29] => Array
+                                        (
+                                            [id] => 30N-uSTRdoccBViofwe_nJDoo_s-tRecJl31RkWSfg8
+                                            [category_name] => Security
+                                        )
+
+                                    [30] => Array
+                                        (
+                                            [id] => YqzVkOUDzu1tP2XWyibMlfgxDZOz9HUquTYznbJBhq0
+                                            [category_name] => Small tools and equipment
+                                        )
+
+                                    [31] => Array
+                                        (
+                                            [id] => tTeRDMT2zSag0aiGbSKvbgBVExTRJZZvN2iQoY380Aw
+                                            [category_name] => Software
+                                        )
+
+                                    [32] => Array
+                                        (
+                                            [id] => J6VPWATxYa1419UKXSH9kOahr5qM8VvBwGxpzWAGKt8
+                                            [category_name] => Supplies
+                                        )
+
+                                    [33] => Array
+                                        (
+                                            [id] => rP43EFV-5ke0XZCtBcxsQOIGQ6LctIf9I6uuwnQJ_MU
+                                            [category_name] => Taxes
+                                        )
+
+                                    [34] => Array
+                                        (
+                                            [id] => aL2W4fsMPpTrWjbQa03JAchUzvQRjIvEN9ckDkvDtEI
+                                            [category_name] => Telephone
+                                        )
+
+                                    [35] => Array
+                                        (
+                                            [id] => 8u1bgSZH7o-yEujt72aSDbEB3Xp_jWZ-L9wKgQFlpqA
+                                            [category_name] => Trade discounts
+                                        )
+
+                                    [36] => Array
+                                        (
+                                            [id] => 3TPO_tDrQR3PsZva3_j8FJS0RLIYT3wqrbe6WH1Pa-c
+                                            [category_name] => Travel
+                                        )
+
+                                    [37] => Array
+                                        (
+                                            [id] => P5L49SBCfIQ18O7O543ukidGyxjhi47uTd1UGjNA-TM
+                                            [category_name] => Utilities
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 6G7B4wKN7j_lgzOQNjxvV6beYW4j8JpE8YewyrymMZA
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => ZG1tpevK84MpCmDek3RTTFA53pt3td7nv7-DHyiS7Ak
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => iCWG3mR0sBhqqYU00ZsudewT6rxDDc1G9AuI6Woee5s
+                                            [user_name] => bug  cust
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => kxirr_jWC3Lx2C8tjnIx_RXTR1E-_FcJ7jth-bJ2d9o
+                                            [user_name] => check test
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => l0v6QLu6HW2o0hYniXM3rR7ZSEAb7vTttpZ8Wcg1U9M
+                                            [user_name] => first last
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => srHOWwzLqwetLNFAfOU2zKTdlfnPZv2ZfvKGKg3_CIk
+                                            [user_name] => Jack Smith
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => NdTTp0yZZrR2hotpdIg_4Yk1GOy7LeySAd7jg97eUUc
+                                            [user_name] => Jason Paiva
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY
+                                            [user_name] => John Theowner
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => tvrzxAtUeKit4dMPXTrDVIDM86qPeeXD30KKuwB34NA
+                                            [user_name] => Jonathan Longlastname Jr.
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => upgRMKRcQxsfKqQaG96iq1IjjDiE8HiqnBWYJui8uaE
+                                            [user_name] => Test qa
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => 9PBLkfMnaHDmJfwygCOBKsHvH541b6V0_1qEmrglsFg
+                                            [user_name] => test wew
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => KebBnV8c5RHYJ6b5YgSW-wziqvd-iDgqM2p_8t00LNU
+                                            [user_name] => Tester Emp
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => U4RQRY3tzpzKgigPCgtwWdfmciy6tqHfUAgDtqt29V4
+                                            [user_name] => testttttt bb
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => sL9XRPrYZSDDXImbRZaBiusMYz_e8aBoiMebhhfxzJ4
+                                            [user_name] => Vicky  Arsiniega
+                                        )
+
+                                )
+
+                        )
+
+                    [666672] => Array
+                        (
+                            [0] => Array
+                                (
+                                )
+
+                            [1] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => H1woCtrBCX7zERP_k0qpC7VFTuSXycGXcNN2GbNHRUc
+                                            [category_name] => Accounting fees
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => IfKljQjHhYXuHlyIkvZS7ypGzxCP7SmSQh_xy5MOrK4
+                                            [category_name] => Advertising
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => lMmg9W4lYwHjpKhV4SDdUbn0GDnuSV7NCQOytDiyh5A
+                                            [category_name] => Bank charges
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => 2pggN9LeZff8jizXexOF3fCA6IpdVLJE0E0pjesTO7I
+                                            [category_name] => Commissions and sales expenses
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => rcbFzYY5xynTH4-ocORm5v32IjLxXDJcrhpB_UFD3Bk
+                                            [category_name] => Consultation expenses
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => Wn0ML_V_LuWn9F6rObziyBG32vI2e5Yup0UXbHwDFl0
+                                            [category_name] => Continuing professional education
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => 9jIKcp0MHBAii3B2reTyqOMcp5yyoXPYJEpp4xJp9Os
+                                            [category_name] => Contract labor
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => 9PGZUnxjwaviaSc51fqdKTgysY6iNMgenWLpA0Nifgs
+                                            [category_name] => Credit and collection fees
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => BygIBdN-uh0cl8GXzszZxYO7vgivv81jFsggDSCmwEk
+                                            [category_name] => Delivery charges
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => -xAk15DGgMUMBujNgaLcHf-mMy6r8VWYFEsYbb7Y-FQ
+                                            [category_name] => Dues and subscriptions
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => _WCowkQ_6cpWIf486bsnYOSanLFJcDBRz66ReigX5G0
+                                            [category_name] => Employee benefit programs
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => l7TVZAV7ZWxRTCZ1eGsz_rXZj_uWvWsGFc4gTbBwF68
+                                            [category_name] => Equipment rentals
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => cZA79UwCPva3VFGNtI9aivYld6C-MSEcMjbaOnBcQ54
+                                            [category_name] => Factory expenses
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => yTkaKn1_Iuzc1s2Z3ROg1DBhsPLPzSo9L0AKL2dHTNA
+                                            [category_name] => Insurance
+                                        )
+
+                                    [14] => Array
+                                        (
+                                            [id] => wo1Y7SdQYP5YcdncZ2XS4-foEb0csvUv_Y-uSW4S7S4
+                                            [category_name] => Interest paid
+                                        )
+
+                                    [15] => Array
+                                        (
+                                            [id] => ntSs7dHJ1WGDRxz5IJrOVZ88wGZV0MPMxBg36JVGJEo
+                                            [category_name] => Internet subscriptions, domain names, and hosting
+                                        )
+
+                                    [16] => Array
+                                        (
+                                            [id] => VcZXbHXKHytFocLWbX7v8hfgwSHEtfnZzRM58ZlDfTI
+                                            [category_name] => Laundry
+                                        )
+
+                                    [17] => Array
+                                        (
+                                            [id] => EhqPiLyIZNW2nyIPnbqcVL9z7NCHFTkWnzquzTp_BFM
+                                            [category_name] => Legal fees
+                                        )
+
+                                    [18] => Array
+                                        (
+                                            [id] => vzNsYaQH-eh7DihpxWlQXtvwO_53Pe44LunMx0CuLU4
+                                            [category_name] => Licenses
+                                        )
+
+                                    [19] => Array
+                                        (
+                                            [id] => i42KT80xw_XAjiXl7RUBaF4TnmLWMwivxKVUoz9qR8E
+                                            [category_name] => Maintenance and repairs
+                                        )
+
+                                    [20] => Array
+                                        (
+                                            [id] => iqY5BVFx1wRJJ1xSsvdmBKW7_fxQ6kUpxlF53VaLwfY
+                                            [category_name] => Office expenses and supplies
+                                        )
+
+                                    [21] => Array
+                                        (
+                                            [id] => 0ldBGK7ChpByet1niaXbIHo3IqeYo_-_K1xSxsl0I70
+                                            [category_name] => Pension and profit-sharing plans
+                                        )
+
+                                    [22] => Array
+                                        (
+                                            [id] => uhUAqXI-_PjAakYg6c2AgesDjeIG8h3IpYsURjO2vx0
+                                            [category_name] => Postage
+                                        )
+
+                                    [23] => Array
+                                        (
+                                            [id] => 4kP-ltvDhVIHpkQwzEQDQdraE5NXwzx5Ljr9efzK8Yw
+                                            [category_name] => Print and copy
+                                        )
+
+                                    [24] => Array
+                                        (
+                                            [id] => 3hmwo2w6YIWQrIl3F49Llgovf9Hy21m_uMMOHJS_wL0
+                                            [category_name] => Professional development and training
+                                        )
+
+                                    [25] => Array
+                                        (
+                                            [id] => YpWHJknlJ7NQL47yVsRwsG8ALi1ksdFPE3Glk15aiWg
+                                            [category_name] => Professional fees
+                                        )
+
+                                    [26] => Array
+                                        (
+                                            [id] => 2Mem8uvlqD6nmY6xFQO7im9ow2KCxzx8nhBsksmoOqw
+                                            [category_name] => Promotion
+                                        )
+
+                                    [27] => Array
+                                        (
+                                            [id] => BHqn9mKulp5s1zqnCpul7sBWtADHvMdZZJIqUajt1no
+                                            [category_name] => Rent
+                                        )
+
+                                    [28] => Array
+                                        (
+                                            [id] => OoN42Vp0UxIiqgUIrrBHqJjstbl-bHgaKiO0IlruqhM
+                                            [category_name] => Salaries, wages, and other compensation
+                                        )
+
+                                    [29] => Array
+                                        (
+                                            [id] => 30N-uSTRdoccBViofwe_nJDoo_s-tRecJl31RkWSfg8
+                                            [category_name] => Security
+                                        )
+
+                                    [30] => Array
+                                        (
+                                            [id] => YqzVkOUDzu1tP2XWyibMlfgxDZOz9HUquTYznbJBhq0
+                                            [category_name] => Small tools and equipment
+                                        )
+
+                                    [31] => Array
+                                        (
+                                            [id] => tTeRDMT2zSag0aiGbSKvbgBVExTRJZZvN2iQoY380Aw
+                                            [category_name] => Software
+                                        )
+
+                                    [32] => Array
+                                        (
+                                            [id] => J6VPWATxYa1419UKXSH9kOahr5qM8VvBwGxpzWAGKt8
+                                            [category_name] => Supplies
+                                        )
+
+                                    [33] => Array
+                                        (
+                                            [id] => rP43EFV-5ke0XZCtBcxsQOIGQ6LctIf9I6uuwnQJ_MU
+                                            [category_name] => Taxes
+                                        )
+
+                                    [34] => Array
+                                        (
+                                            [id] => aL2W4fsMPpTrWjbQa03JAchUzvQRjIvEN9ckDkvDtEI
+                                            [category_name] => Telephone
+                                        )
+
+                                    [35] => Array
+                                        (
+                                            [id] => 8u1bgSZH7o-yEujt72aSDbEB3Xp_jWZ-L9wKgQFlpqA
+                                            [category_name] => Trade discounts
+                                        )
+
+                                    [36] => Array
+                                        (
+                                            [id] => 3TPO_tDrQR3PsZva3_j8FJS0RLIYT3wqrbe6WH1Pa-c
+                                            [category_name] => Travel
+                                        )
+
+                                    [37] => Array
+                                        (
+                                            [id] => P5L49SBCfIQ18O7O543ukidGyxjhi47uTd1UGjNA-TM
+                                            [category_name] => Utilities
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 6G7B4wKN7j_lgzOQNjxvV6beYW4j8JpE8YewyrymMZA
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => ZG1tpevK84MpCmDek3RTTFA53pt3td7nv7-DHyiS7Ak
+                                            [user_name] => 2564 test qa
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => iCWG3mR0sBhqqYU00ZsudewT6rxDDc1G9AuI6Woee5s
+                                            [user_name] => bug  cust
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => kxirr_jWC3Lx2C8tjnIx_RXTR1E-_FcJ7jth-bJ2d9o
+                                            [user_name] => check test
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => l0v6QLu6HW2o0hYniXM3rR7ZSEAb7vTttpZ8Wcg1U9M
+                                            [user_name] => first last
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => srHOWwzLqwetLNFAfOU2zKTdlfnPZv2ZfvKGKg3_CIk
+                                            [user_name] => Jack Smith
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => NdTTp0yZZrR2hotpdIg_4Yk1GOy7LeySAd7jg97eUUc
+                                            [user_name] => Jason Paiva
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => nFSFh_JpuoSd1Oh59DgBjdn40EwYxBv4Aj1e0kqjEFY
+                                            [user_name] => John Theowner
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => tvrzxAtUeKit4dMPXTrDVIDM86qPeeXD30KKuwB34NA
+                                            [user_name] => Jonathan Longlastname Jr.
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => upgRMKRcQxsfKqQaG96iq1IjjDiE8HiqnBWYJui8uaE
+                                            [user_name] => Test qa
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => 9PBLkfMnaHDmJfwygCOBKsHvH541b6V0_1qEmrglsFg
+                                            [user_name] => test wew
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => KebBnV8c5RHYJ6b5YgSW-wziqvd-iDgqM2p_8t00LNU
+                                            [user_name] => Tester Emp
+                                        )
+
+                                    [12] => Array
+                                        (
+                                            [id] => U4RQRY3tzpzKgigPCgtwWdfmciy6tqHfUAgDtqt29V4
+                                            [user_name] => testttttt bb
+                                        )
+
+                                    [13] => Array
+                                        (
+                                            [id] => sL9XRPrYZSDDXImbRZaBiusMYz_e8aBoiMebhhfxzJ4
+                                            [user_name] => Vicky  Arsiniega
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [jobTotal] => Array
+                (
+                    [664554] => Array
+                        (
+                            [job_total] => 84.00
+                            [total_labor_charges] => 0.00
+                            [total_expense_charges] => 0.00
+                            [job_total_payments] => 0.00
+                        )
+
+                    [664556] => Array
+                        (
+                            [job_total] => 78.00
+                            [total_labor_charges] => 0.00
+                            [total_expense_charges] => 0.00
+                            [job_total_payments] => 0.00
+                        )
+
+                    [664558] => Array
+                        (
+                            [job_total] => 33.00
+                            [total_labor_charges] => 0.00
+                            [total_expense_charges] =>
+                            [job_total_payments] => 0.00
+                        )
+
+                    [664560] => Array
+                        (
+                            [job_total] => 138.00
+                            [total_labor_charges] => 0.00
+                            [total_expense_charges] => 0.00
+                            [job_total_payments] => 0.00
+                        )
+
+                    [467516] => Array
+                        (
+                            [job_total] => 8.12
+                            [total_labor_charges] => 0.00
+                            [total_expense_charges] => 0.00
+                            [job_total_payments] => 0.00
+                        )
+
+                    [666667] => Array
+                        (
+                            [job_total] => 202.92
+                            [total_labor_charges] => 0.00
+                            [total_expense_charges] =>
+                            [job_total_payments] => 49.00
+                        )
+
+                    [666670] => Array
+                        (
+                            [job_total] => 0.00
+                            [total_labor_charges] => 0.00
+                            [total_expense_charges] => 0.00
+                            [job_total_payments] => 0.00
+                        )
+
+                    [666672] => Array
+                        (
+                            [job_total] => 0.00
+                            [total_labor_charges] => 0.00
+                            [total_expense_charges] => 0.00
+                            [job_total_payments] => 0.00
+                        )
+
+                )
+
+            [jobPrdtSevc] => Array
+                (
+                    [664554] => Array
+                        (
+                            [1] => Array
+                                (
+                                    [name] => Delta LL-3343
+                                    [multiplier] => 1.00
+                                    [rate] => 78.00
+                                    [total] => 78
+                                    [parent_index] => 0
+                                    [item_index] => 1
+                                    [is_group] => 0
+                                    [service_product_total] => 78
+                                    [show_rate_items] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [name] => 2595 new service
+                                    [multiplier] => 3.00
+                                    [rate] => 10
+                                    [total] => 30
+                                    [parent_index] => 0
+                                    [item_index] => 2
+                                    [is_group] => 0
+                                    [service_product_total] => 30
+                                    [show_rate_items] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [name] => Rrrr
+                                    [multiplier] => 2.00
+                                    [rate] => 0
+                                    [total] => 0
+                                    [parent_index] => 0
+                                    [item_index] => 3
+                                    [is_group] => 0
+                                    [service_product_total] => 0
+                                    [show_rate_items] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [name] => 2595 new service
+                                    [multiplier] => 3.00
+                                    [rate] => 10
+                                    [total] => 30
+                                    [parent_index] => 0
+                                    [item_index] => 4
+                                    [is_group] => 0
+                                    [service_product_total] => 30
+                                    [show_rate_items] => 0
+                                )
+
+                            [5] => Array
+                                (
+                                    [name] => Rrrr
+                                    [multiplier] => 2.00
+                                    [rate] => 5
+                                    [total] => 10
+                                    [parent_index] => 0
+                                    [item_index] => 5
+                                    [is_group] => 0
+                                    [service_product_total] => 10
+                                    [show_rate_items] => 0
+                                )
+
+                        )
+
+                    [664556] => Array
+                        (
+                            [1] => Array
+                                (
+                                    [name] => Delta LL-3343
+                                    [multiplier] => 1.00
+                                    [rate] => 78.00
+                                    [total] => 78
+                                    [parent_index] => 0
+                                    [item_index] => 1
+                                    [is_group] => 0
+                                    [service_product_total] => 78
+                                    [show_rate_items] => 0
+                                )
+
+                        )
+
+                    [664558] => Array
+                        (
+                            [1] => Array
+                                (
+                                    [name] => Delta DL-123
+                                    [multiplier] => 1.00
+                                    [rate] => 33.00
+                                    [total] => 33
+                                    [parent_index] => 0
+                                    [item_index] => 1
+                                    [is_group] => 0
+                                    [service_product_total] => 33
+                                    [show_rate_items] => 0
+                                )
+
+                        )
+
+                    [664560] => Array
+                        (
+                            [1] => Array
+                                (
+                                    [name] => Delta LL-3343
+                                    [multiplier] => 1.00
+                                    [rate] => 78.00
+                                    [total] => 78
+                                    [parent_index] => 0
+                                    [item_index] => 1
+                                    [is_group] => 0
+                                    [service_product_total] => 78
+                                    [show_rate_items] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [name] => 2595 new service
+                                    [multiplier] => 3.00
+                                    [rate] => 10
+                                    [total] => 30
+                                    [parent_index] => 0
+                                    [item_index] => 2
+                                    [is_group] => 0
+                                    [service_product_total] => 30
+                                    [show_rate_items] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [name] => Rrrr
+                                    [multiplier] => 2.00
+                                    [rate] => 0
+                                    [total] => 0
+                                    [parent_index] => 0
+                                    [item_index] => 3
+                                    [is_group] => 0
+                                    [service_product_total] => 0
+                                    [show_rate_items] => 0
+                                )
+
+                            [4] => Array
+                                (
+                                    [name] => 2595 new service
+                                    [multiplier] => 3.00
+                                    [rate] => 10
+                                    [total] => 30
+                                    [parent_index] => 0
+                                    [item_index] => 4
+                                    [is_group] => 0
+                                    [service_product_total] => 30
+                                    [show_rate_items] => 0
+                                )
+
+                            [5] => Array
+                                (
+                                    [name] => Rrrr
+                                    [multiplier] => 2.00
+                                    [rate] => 0
+                                    [total] => 0
+                                    [parent_index] => 0
+                                    [item_index] => 5
+                                    [is_group] => 0
+                                    [service_product_total] => 0
+                                    [show_rate_items] => 0
+                                )
+
+                        )
+
+                    [666667] => Array
+                        (
+                            [1] => Array
+                                (
+                                    [name] => Delta LL-3343
+                                    [multiplier] => 1.00
+                                    [rate] => 78.00
+                                    [total] => 78
+                                    [parent_index] => 0
+                                    [item_index] => 1
+                                    [is_group] => 0
+                                    [service_product_total] => 78
+                                    [show_rate_items] => 0
+                                )
+
+                            [2] => Array
+                                (
+                                    [name] => 11
+                                    [multiplier] => 11.00
+                                    [rate] => 11
+                                    [total] => 121
+                                    [parent_index] => 0
+                                    [item_index] => 2
+                                    [is_group] => 0
+                                    [service_product_total] => 121
+                                    [show_rate_items] => 0
+                                )
+
+                            [3] => Array
+                                (
+                                    [name] => 2595 new service
+                                    [multiplier] => 3.00
+                                    [rate] => 10
+                                    [total] => 30
+                                    [parent_index] => 0
+                                    [item_index] => 3
+                                    [is_group] => 0
+                                    [service_product_total] => 30
+                                    [show_rate_items] => 0
+                                )
+
+                            [5] => Array
+                                (
+                                    [name] => 2595 new service
+                                    [multiplier] => 3.00
+                                    [rate] => 10
+                                    [total] => 30
+                                    [parent_index] => 0
+                                    [item_index] => 5
+                                    [is_group] => 0
+                                    [service_product_total] => 30
+                                    [show_rate_items] => 0
+                                )
+
+                            [6] => Array
+                                (
+                                    [name] => Rrrr
+                                    [multiplier] => 2.00
+                                    [rate] => 0
+                                    [total] => 0
+                                    [parent_index] => 0
+                                    [item_index] => 6
+                                    [is_group] => 0
+                                    [service_product_total] => 0
+                                    [show_rate_items] => 0
+                                )
+
+                            [7] => Array
+                                (
+                                    [name] => Delta DL-123
+                                    [multiplier] => 1.00
+                                    [rate] => 33.00
+                                    [total] => 33
+                                    [parent_index] => 0
+                                    [item_index] => 7
+                                    [is_group] => 0
+                                    [service_product_total] => 33
+                                    [show_rate_items] => 0
+                                )
+
+                            [8] => Array
+                                (
+                                    [name] => 2595 new service
+                                    [multiplier] => 3.00
+                                    [rate] => 10
+                                    [total] => 30
+                                    [parent_index] => 0
+                                    [item_index] => 8
+                                    [is_group] => 0
+                                    [service_product_total] => 30
+                                    [show_rate_items] => 0
+                                )
+
+                            [9] => Array
+                                (
+                                    [name] => Rrrr
+                                    [multiplier] => 2.00
+                                    [rate] => 0
+                                    [total] => 0
+                                    [parent_index] => 0
+                                    [item_index] => 9
+                                    [is_group] => 0
+                                    [service_product_total] => 0
+                                    [show_rate_items] => 0
+                                )
+
+                            [10] => Array
+                                (
+                                    [name] => New testtt
+                                    [multiplier] => 1.00
+                                    [rate] => 9.00
+                                    [total] => 9
+                                    [parent_index] => 0
+                                    [item_index] => 10
+                                    [is_group] => 0
+                                    [service_product_total] => 9
+                                    [show_rate_items] => 0
+                                )
+
+                        )
+
+                )
+
+            [jobOtherCharge] => Array
+                (
+                    [664554] => Array
+                        (
+                            [1] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 111747
+                                            [short_name] =>  fixed long discount
+                                            [is_percentage] => -1
+                                            [is_discount] => 1
+                                            [rate] => 16.000
+                                            [total] => 64.00
+                                        )
+
+                                )
+
+                        )
+
+                    [467516] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 89488
+                                            [short_name] => tax 2 grand
+                                            [is_percentage] => 0
+                                            [is_discount] => 0
+                                            [rate] => 8.120
+                                            [total] => 8.12
+                                        )
+
+                                )
+
+                        )
+
+                    [666667] => Array
+                        (
+                            [1] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 112398
+                                            [short_name] =>  fixed long discount
+                                            [is_percentage] => -1
+                                            [is_discount] => 1
+                                            [rate] => 16.000
+                                            [total] => 128.00
+                                        )
+
+                                )
+
+                            [2] => Array
+                                (
+                                    [1] => Array
+                                        (
+                                            [id] => 112399
+                                            [short_name] => grand disc
+                                            [is_percentage] => 0
+                                            [is_discount] => 1
+                                            [rate] => 5.000
+                                            [total] => 5.00
+                                        )
+
+                                )
+
+                            [3] => Array
+                                (
+                                    [2] => Array
+                                        (
+                                            [id] => 112400
+                                            [short_name] => Tax1
+                                            [is_percentage] => 1
+                                            [is_discount] => 0
+                                            [rate] => 8.625
+                                            [total] => 4.92
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [report_type] => SalesRevenue
+    [report_sub_type] => tech
+    [auxiliary] => Array
+        (
+            [post] => Array
+                (
+                    [start_date] => 12/01/2015
+                    [end_date] => 12/02/2015
+                    [JobCharges] => 1
+                    [job_status] => Array
+                        (
+                            [0] => 'OPEN','OPEN_ACTIVE'
+                            [1] => 'CLOSED'
+                        )
+
+                    [customer_name] =>
+                    [job_po_number] =>
+                    [job_techs] => Array
+                        (
+                            [0] =>
+                        )
+
+                )
+
+            [dateRange] => 12/01/2015 - 12/02/2015
+            [company] => Array
+                (
+                    [company_name] => XYZ Plumbing, LLC
+                    [company_logo] => 1440055894indexsmall.jpeg
+                )
+
+            [jobChargers] => 1
+        )
+
+)

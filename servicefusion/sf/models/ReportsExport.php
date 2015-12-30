@@ -4,7 +4,7 @@ Class: Csv for generating CSV files for the Reports
        http://timelist.com/task/575/2215/44705
 Author: Gbenga Ojo <gbenga@servicefusion.com>
 Origin Date: December 21, 2015
-Modifid: December 23, 2015
+Modified: December 30, 2015
 
 There is a distinction between the parameter being sent
 to differing Sales Revenue Reports pages. The  "All Sales
@@ -21,21 +21,14 @@ the different sections on the Reports page. Each implementation
 is different, and in addition, implementations themselves differ
 within individual sections.
 
-Since some necessary variables are calculated within the
-respective views, the CSV cannot be generated until the
+Some of the necessary variables are calculated within the
+respective views, so the file cannot be generated until the
 views are rendered.
 
 Because of the way in which data is being routed within the
 application, we'll need to HTTP POST our required data to the
 ReportController, then from there, call the appropriate
-methods here to construct and deliver our CSV. The only other
-option would be to (re)-construct all data within the controller,
-then call the appropriate methods here.
-
-> I'm not sure that will even work, because there are 2-d arrays
-as well.
-
-May, unfortunately, require the use of a session
+methods here to construct and deliver our file.
 ----------------------------------------------------------*/
 
 class ReportsExport extends Reports
@@ -68,7 +61,7 @@ class ReportsExport extends Reports
      *              any additional information we need.
      */
     public function __construct($params = null) {
-        if (is_null($reports)) {
+        if (is_null($params)) {
             // Exception handling;
         }
         
@@ -82,8 +75,7 @@ class ReportsExport extends Reports
     }
 
     /**
-     * calculate any additional data needed (it's currently being generated
-     *      in the view).
+     * calculate any additional data needed
      *
      * @return: (array) all the values necessary to generate our Excel file
      * @throws:
