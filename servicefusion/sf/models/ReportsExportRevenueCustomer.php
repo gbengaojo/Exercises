@@ -33,6 +33,8 @@ class ReportsExportRevenueCustomer extends ReportsExport
      * calculate data specific to this report
      */
     public function calculateData() {
+        $currencyFormat = Yii::app()->session['CurrencySymbol'];
+
         // Report title
         $this->obj->getActiveSheet()->mergeCells('A4:H4');
         $this->obj->setActiveSheetIndex(0)->setCellValue('A4', "Sales By Customer Report");
@@ -45,12 +47,21 @@ class ReportsExportRevenueCustomer extends ReportsExport
         $this->obj->getActiveSheet()->getStyle('A5:H5')->getFont()->setBold(true);
         $this->obj->getActiveSheet()->getStyle('A5')->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
 
+        $this->obj->getActiveSheet()->getColumnDimension('A')->setWidth(15);
+        $this->obj->getActiveSheet()->getColumnDimension('B')->setWidth(15);
+        $this->obj->getActiveSheet()->getColumnDimension('C')->setWidth(15);
+        $this->obj->getActiveSheet()->getColumnDimension('D')->setWidth(15);
+        $this->obj->getActiveSheet()->getColumnDimension('E')->setWidth(15);
+        $this->obj->getActiveSheet()->getColumnDimension('F')->setWidth(15);
+        $this->obj->getActiveSheet()->getColumnDimension('G')->setWidth(15);
+
         // increment row
-        $current_row = 7;
+        $current_row = 6;
 
         if (!empty($this->reports)) {
             foreach ($this->reports as $reports) {
                 // Client name
+                $current_row += 1;
                 $this->obj->getActiveSheet()->mergeCells("A$current_row:H$current_row");
                 $this->obj->setActiveSheetIndex(0)->setCellValue("A$current_row", $reports['name']);
                 // bold headers
@@ -88,6 +99,13 @@ class ReportsExportRevenueCustomer extends ReportsExport
                 $laborTotal    = 0;
                 $total         = 0;
 
+                $jobsAll          = 0;
+                $productsTotalAll = 0;
+                $serviceTotalAll  = 0;
+                $expenseTotalAll  = 0;
+                $laborTotalAll    = 0;
+                $totalAll         = 0;
+
                 foreach ($reports as $report) {
                     if (is_array($report)) {
                         // Display report data
@@ -106,11 +124,42 @@ class ReportsExportRevenueCustomer extends ReportsExport
                         $this->obj->setActiveSheetIndex(0)->setCellValue("C$current_row", $currencyFormat.number_format($report['total_labor_charges'], 2));
                         $this->obj->setActiveSheetIndex(0)->setCellValue("D$current_row", $currencyFormat.number_format($report['total_expense_charges'], 2));
                         $this->obj->setActiveSheetIndex(0)->setCellValue("E$current_row", $currencyFormat.number_format($report['total'], 2));
-                        $this->obj->getActiveSheet()->mergeCells("F$current_row:G$current_row");
                         $this->obj->setActiveSheetIndex(0)->setCellValue("F$current_row", $report['public_notes']);
+                        $current_row += 1;
+
+                        $jobs++;
+                        $productsTotal += $report['productRate'];
+                        $serviceTotal  += $report['serviceRate'];
+                        $expenseTotal  += $report['total_expense_charges'];
+                        $laborTotal    += $report['total_labor_charges'];
+                        $total         += $report['total'];
                     }
                 }
+                $jobsAll          += $jobs;
+                $productsTotalAll += $productsTotal;
+                $serviceTotalAll  += $serviceTotal;
+                $expenseTotalAll  += $expenseTotal;
+                $laborTotalAll    += $laborTotal;
+                $totalAll         += $total;
             }
+        } else {
+            $this->obj->setActiveSheetIndex(0)->setCellValue("A1", "No details available");
         }
+
+        // Grand Totals Title
+        $current_row += 2;
+        $this->obj->getActiveSheet()->mergeCells("A$current_row:H$current_row");
+        $this->obj->setActiveSheetIndex(0)->setCellValue("A$current_row", "Grand Total For All Customers");
+        $this->obj->getActiveSheet()->getStyle("A$current_row:H$current_row")->getFont()->setBold(true);
+        $this->obj->getActiveSheet()->getStyle("A$current_row")->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+        $current_row += 1;
+
+        // Grand Totals Headers
+        $this->obj->setActiveSheetIndex()->setCellValue("A$current_row", 'Jobs:');
+        $this->obj->setActiveSheetIndex()->setCellValue("B$current_row", 'Products:');
+        $this->obj->setActiveSheetIndex()->setCellValue("C$current_row", 'Services:');
+        $this->obj->setActiveSheetIndex()->setCellValue("D$current_row", 'Labor:');
+        $this->obj->setActiveSheetIndex()->setCellValue("E$current_row", 'Expenses (B):');
+        $this->obj->setActiveSheetIndex()->setCellValue("F$current_row", 'Grand Total:');
     }
 }
