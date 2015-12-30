@@ -135,6 +135,30 @@ class ReportsExportRevenueCustomer extends ReportsExport
                         $total         += $report['total'];
                     }
                 }
+
+                // Individual totals (titles)
+                $this->obj->setActiveSheetIndex(0)->setCellValue("A$current_row", 'Jobs:');
+                $this->obj->setActiveSheetIndex(0)->setCellValue("B$current_row", 'Products:');
+                $this->obj->setActiveSheetIndex(0)->setCellValue("C$current_row", 'Services:');
+                $this->obj->setActiveSheetIndex(0)->setCellValue("D$current_row", 'Labor:');
+                $this->obj->setActiveSheetIndex(0)->setCellValue("E$current_row", 'Expenses (B)');
+                $this->obj->setActiveSheetIndex(0)->setCellValue("F$current_row", 'Customer Total:');
+                $this->obj->getActiveSheet()->getStyle("A$current_row:H$current_row")->getFont()->setBold(true);
+                $this->obj->getActiveSheet()->getStyle("A$current_row:H$current_row")
+                                            ->applyFromArray(array('fill' => array('type'  => PHPExcel_Style_Fill::FILL_SOLID,
+                                                                                   'color' => array('rgb' => 'cccccc'))));
+                $current_row += 1;
+
+                // Individual totals (values)
+                $this->obj->setActiveSheetIndex(0)->setCellValue("A$current_row", $jobs);
+                $this->obj->setActiveSheetIndex(0)->setCellValue("B$current_row", $currencyFormat.number_format($productsTotal, 2));
+                $this->obj->setActiveSheetIndex(0)->setCellValue("C$current_row", $currencyFormat.number_format($serviceTotal, 2));
+                $this->obj->setActiveSheetIndex(0)->setCellValue("D$current_row", $currencyFormat.number_format($laborTotal, 2));
+                $this->obj->setActiveSheetIndex(0)->setCellValue("E$current_row", $currencyFormat.number_format($expenseTotal, 2));
+                $this->obj->setActiveSheetIndex(0)->setCellValue("F$current_row", $currencyFormat.number_format($total, 2));
+                $current_row += 1;
+
+                // Tally grand totals
                 $jobsAll          += $jobs;
                 $productsTotalAll += $productsTotal;
                 $serviceTotalAll  += $serviceTotal;
@@ -152,6 +176,9 @@ class ReportsExportRevenueCustomer extends ReportsExport
         $this->obj->setActiveSheetIndex(0)->setCellValue("A$current_row", "Grand Total For All Customers");
         $this->obj->getActiveSheet()->getStyle("A$current_row:H$current_row")->getFont()->setBold(true);
         $this->obj->getActiveSheet()->getStyle("A$current_row")->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+        $this->obj->getActiveSheet()->getStyle("A$current_row:H$current_row")
+                                    ->applyFromArray(array('fill' => array('type'  => PHPExcel_Style_Fill::FILL_SOLID,
+                                                                           'color' => array('rgb' => '999999'))));
         $current_row += 1;
 
         // Grand Totals Headers
@@ -161,5 +188,16 @@ class ReportsExportRevenueCustomer extends ReportsExport
         $this->obj->setActiveSheetIndex()->setCellValue("D$current_row", 'Labor:');
         $this->obj->setActiveSheetIndex()->setCellValue("E$current_row", 'Expenses (B):');
         $this->obj->setActiveSheetIndex()->setCellValue("F$current_row", 'Grand Total:');
+        $this->obj->getActiveSheet()->getStyle("A$current_row:H$current_row")->getFont()->setBold(true);
+        $this->obj->getActiveSheet()->getStyle("A$current_row")->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+        $current_row += 1;
+
+        // Grand Total Values
+        $this->obj->setActiveSheetIndex()->setCellValue("A$current_row", $jobsAll);
+        $this->obj->setActiveSheetIndex()->setCellValue("B$current_row", $currencyFormat.number_format($productsTotalAll, 2));
+        $this->obj->setActiveSheetIndex()->setCellValue("C$current_row", $currencyFormat.number_format($serviceTotalAll, 2));
+        $this->obj->setActiveSheetIndex()->setCellValue("D$current_row", $currencyFormat.number_format($laborTotalAll, 2));
+        $this->obj->setActiveSheetIndex()->setCellValue("E$current_row", $currencyFormat.number_format($expenseTotalAll, 2));
+        $this->obj->setActiveSheetIndex()->setCellValue("F$current_row", $currencyFormat.number_format($totalAll, 2));
     }
 }
