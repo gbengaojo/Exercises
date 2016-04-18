@@ -2,19 +2,22 @@
 // instantiate class and call appropriate method for rl API call; retrieve data (as an object)
 // and use this object and its members to populate the business fields on this page, as
 // well as the <li> elements for pagination. Use regular beootstrap for pagination.
+require_once 'classes/ReputationLoop.php';
 ?>
 <!doctype html>
 <html lang="en" id="ng-app" ng-app="CodeChallengeApp">
 <head>
    
    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-animate.js"></script>
-   <script src="js/ui-bootstrap-tpls-0.13.4.min.js"></script>
-   <script src="js/app.js"></script>
-   <script src="js/services.js"></script>
-   <script src="js/controllers.js"></script>
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
    
+   <script type="text/javascript">
+      $.fn.stars = function() {
+         return $(this).each(function() {
+            $(this).html($('<span />').width(Math.max(0, (Math.min(5, parseFloat($(this).html())))) * 16));
+         });
+      }
+   </script>
 
    <style>
       body {
@@ -39,6 +42,17 @@
       .bold {
          font-weight: bold;
       }
+
+      span.stars, span.stars span {
+         display: inline-block;
+         background: url(images/stars.png) 0 -16px repeat-x;
+         width: 80px;
+         height: 16px;
+      }
+
+      span.stars span {
+         background-position: 0 0;
+      }
    </style>
 </head>
 
@@ -54,55 +68,49 @@
    <section id="business_info">
       <div class="row">
          <div class="col-md-4">
-            <p><span class="bold">Business Name:</span> {{business_info.business_name}}</p>
+            <p><span class="bold">Business Name:</span> <?php echo $business_info->business_name ?></p>
          </div>
          <div class="col-md-4">
-            <p><span class="bold">Address:</span> {{business_info.business_address}}</p>
+            <p><span class="bold">Address:</span> <?php echo $business_info->business_address ?></p>
          </div>
          <div class="col-md-4">
-            <p><span class="bold">Phone:</span> {{business_info.business_phone}}</p>
+            <p><span class="bold">Phone:</span> <?php echo $business_info->business_phone ?></p>
          </div>
       </div>
 
       <div class="row">
          <div class="col-md-6">
-            <p><span class="bold">Average Rating:</span> {{business_info.total_rating.total_avg_rating}}</p>
+            <p><span class="bold">Average Rating: <span class="stars"><?php echo $business_info->total_rating->total_avg_rating ?></span></span></p>
          </div>
          <div class="col-md-6">
-            <p><span class="bold">Number of Reviews:</span> {{business_info.total_rating.total_no_of_reviews}}</p>
+            <p><span class="bold">Number of Reviews:</span> <?php echo $business_info->total_rating->total_no_of_reviews ?></p>
          </div>
       </div>
 
       <div class="row">
          <div class="col-md-6">
-            <p><a ng-href="{{business_info.external_url}}">External URL</a></p>
+            <p><a href="<?php echo $business_info->external_url ?>">External URL</a></p>
          </div>
          <div class="col-md-6">
-            <p><a ng-href="{{business_info.external_page_url}}">External Page URL</a></p>
+            <p><a href="<?php echo $business_info->external_page_url ?>">External Page URL</a></p>
          </div>
       </div>
    </section>
 
    <section id="ratings">
       <ul>
-         <li ng-repeat="review in filteredReviews"><a href="#">{{review.description}}</a></li>
+         <?php for ($i = 0; $i < count($reviews); $i++): ?>
+         <li><a href="#"><?php echo $reviews[$i]->description ?></a></li>
+         <?php endfor ?>
       </ul>
-
-      <pagination
-         ng-model="currentPage"
-         total-items="totalItems"
-         max-size="maxSize"
-         boundary-links="true">
-      </pagination>
-
    </section>
-</div>
 
-<!--
-<script src="js/app.js"></script>
-<script src="js/services.js"></script>
-<script src="js/controllers.js"></script>
--->
+   <script type="text/javascript">
+   $(function() {
+      $('span.stars').stars();
+   });
+   </script>
+</div>
 
 </body>
 
