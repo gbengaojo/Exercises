@@ -12,6 +12,7 @@ require_once 'classes/ReputationLoop.php';
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+   <script src="bower_components/moment/min/moment-with-locales.min.js" type="text/javascript"></script>
    
    <script type="text/javascript">
       $.fn.stars = function() {
@@ -31,7 +32,10 @@ require_once 'classes/ReputationLoop.php';
                $('#customer_name').text(obj.customer_name);
                $('#description').text(obj.description);
                $('#review_source').text(obj.review_source);
-               $('#date_of_submission').text(obj.date_of_submission);
+               // some simple date formatting
+               var d = new Date(obj.date_of_submission);
+               var date_of_submission = d.toString();
+               $('#date_of_submission').text(date_of_submission);
             }
          );
       }
@@ -141,7 +145,7 @@ require_once 'classes/ReputationLoop.php';
                By <a id="customer_url" href="<?php echo $reviews[0]->customer_url ?>" target="_blank">
                      <span id="customer_name"><?php echo $reviews[0]->customer_name ?></span>
                   </a>
-               on <span id="date_of_submission"><?php echo date('F d, Y', strtotime($reviews[0]->date_of_submission)) ?></span>
+               on <span id="date_of_submission"><?php echo date('D M j Y G:i:s \G\M\T O (T)', strtotime($reviews[0]->date_of_submission)) ?></span>
             </div>
             <div id="description">
                  <?php echo $reviews[0]->description ?>
@@ -167,3 +171,5 @@ $(function() {
 </body>
 
 </html>
+
+<?php echo '<pre>'; print_r($rl_response); echo '</pre>'; ?>
