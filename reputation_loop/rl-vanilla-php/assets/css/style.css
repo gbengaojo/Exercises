@@ -1,0 +1,34 @@
+html,body {
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden; 
+}   
+
+.container-fluid {
+   margin: 10px;
+   padding: 0px;
+   font-family: 'Helvetica', 'Arial', sans-serif; 
+}   
+
+header {
+   color: #ccc;
+   background: no-repeat rgb(49, 64, 75);
+   padding-bottom: 20px;
+   padding-left: 10px;
+   padding-top: 5px;
+}   
+
+.bold {
+   font-weight: bold;
+}   
+
+span.stars, span.stars span {
+   display: inline-block;
+   background: url('../images/stars.png') 0 -16px repeat-x;
+   width: 80px;
+   height: 16px;
+}   
+
+span.stars span {
+   background-position: 0 0;
+}   
