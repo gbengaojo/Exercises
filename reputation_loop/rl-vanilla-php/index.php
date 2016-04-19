@@ -8,8 +8,10 @@ require_once 'classes/ReputationLoop.php';
 <html lang="en" id="ng-app" ng-app="CodeChallengeApp">
 <head>
    
-   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
    
    <script type="text/javascript">
       $.fn.stars = function() {
@@ -17,16 +19,26 @@ require_once 'classes/ReputationLoop.php';
             $(this).html($('<span />').width(Math.max(0, (Math.min(5, parseFloat($(this).html())))) * 16));
          });
       }
+
+      function getReview(page_no) {
+         console.log('page no: ' + page_no);
+         $.post('assets/ajax/reviews.php?page_no=' + page_no,
+            function(data) {
+               console.log(data);
+            }
+         );
+      }
    </script>
 
    <style>
-      body {
+      html,body {
          margin: 0px;
          padding: 0px;
+         overflow-x: hidden; 
       }
 
       .container-fluid {
-         margin: 0px;
+         margin: 10px;
          padding: 0px;
          font-family: 'Helvetica', 'Arial', sans-serif; 
       }
@@ -45,7 +57,7 @@ require_once 'classes/ReputationLoop.php';
 
       span.stars, span.stars span {
          display: inline-block;
-         background: url(images/stars.png) 0 -16px repeat-x;
+         background: url(assets/images/stars.png) 0 -16px repeat-x;
          width: 80px;
          height: 16px;
       }
@@ -60,11 +72,12 @@ require_once 'classes/ReputationLoop.php';
 
 <body>
 
-<div class="container-fluid" ng-controller="CodeChallengeController">
-   <header>
-      <h4>Reputation Loop Code Challenge</h4>
-   </header>
+<header>
+   <h4>Reputation Loop Code Challenge</h4>
+</header>
 
+<div class="container-fluid" ng-controller="CodeChallengeController">
+   <!-- Business Info -->
    <section id="business_info">
       <div class="row">
          <div class="col-md-4">
@@ -96,21 +109,53 @@ require_once 'classes/ReputationLoop.php';
          </div>
       </div>
    </section>
+   <!-- end business info -->
 
+   <!-- Ratings -->
    <section id="ratings">
-      <ul>
-         <?php for ($i = 0; $i < count($reviews); $i++): ?>
-         <li><a href="#"><?php echo $reviews[$i]->description ?></a></li>
-         <?php endfor ?>
-      </ul>
-   </section>
+      <div class="row">
+         <div class="col-md-12">
+              <!-- pagination -->
+              <ul class="pagination">
+                 <?php for ($i = 1; $i < count($reviews) - 1; $i++): ?>
+                 <li><a href="#" onclick="getReview(<?php echo $i ?>)"><?php echo $i ?></a></li>
+                 <?php endfor ?>
 
-   <script type="text/javascript">
-   $(function() {
-      $('span.stars').stars();
-   });
-   </script>
+              </ul>
+              <!-- end pagination -->
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="col-md-6">
+            <!-- reviews -->
+            <div id="review">
+               <span class="stars"><?php echo $reviews[0]->rating ?></span>
+               By <a href="<?php echo $reviews[0]->customer_url ?>" target="_blank">
+                     <span id="name"><?php echo $reviews[0]->customer_name ?></span>
+                  </a>
+               on <?php echo date('F d, Y', strtotime($reviews[0]->date_of_submission)) ?>
+            </div>
+            <div>
+                 <?php echo $reviews[0]->description ?>
+            </div>
+            <div>
+               From <?php echo $reviews[0]->review_source ?>
+            </div>
+         </div>
+      </div>
+      <!-- end reviews -->
+   
+   </section>
+   <!-- end Ratings -->
 </div>
+
+<script type="text/javascript">
+$(function() {
+   $('span.stars').stars();
+});
+</script>
+
 
 </body>
 

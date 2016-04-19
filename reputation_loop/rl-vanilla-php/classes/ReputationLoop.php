@@ -2,7 +2,8 @@
 /*-----------------------------------------------------------
 Class: ReputationLoop
 Author: Gbenga Ojo <gbenga@lucidmediaconcepts.com>
-Origin Date: October 8, 2012
+Origin Date: October 8, 2015
+Modified: April 18, 2016
 
 (null) construct()
 (obj) rlAPI(string)
@@ -43,8 +44,8 @@ class ReputationLoop
    }
 }
 
-$rl = new ReputationLoop();
+$rl  = new ReputationLoop();
 $url = "http://test.localfeedbackloop.com/api?apiKey=61067f81f8cf7e4a1f673cd230216112&noOfReviews=10&internal=1&yelp=1&google=1&offset=50&threshold=1"; 
-$rl_response = json_decode($rl->rlAPI($url));
+$rl_response   = json_decode($rl->rlAPI($url));
 $business_info = $rl_response->business_info;
-$reviews = $rl_response->reviews;
+$reviews       = $rl_response->reviews;
