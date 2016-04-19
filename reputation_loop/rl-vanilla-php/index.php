@@ -5,7 +5,7 @@
 require_once 'classes/ReputationLoop.php';
 ?>
 <!doctype html>
-<html lang="en" id="ng-app" ng-app="CodeChallengeApp">
+<html lang="en">
 <head>
    
    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -21,10 +21,15 @@ require_once 'classes/ReputationLoop.php';
       }
 
       function getReview(page_no) {
-         console.log('page no: ' + page_no);
          $.post('assets/ajax/reviews.php?page_no=' + page_no,
             function(data) {
-               console.log(data);
+               var obj = $.parseJSON(data);
+               $('#rating').text(obj.rating);
+               $('#customer_url').attr('href', obj.customer_url);
+               $('#customer_name').text(obj.customer_name);
+               $('#description').text(obj.description);
+               $('#review_source').text(obj.review_source);
+               $('#date_of_submission').text(obj.date_of_submission);
             }
          );
       }
@@ -76,7 +81,7 @@ require_once 'classes/ReputationLoop.php';
    <h4>Reputation Loop Code Challenge</h4>
 </header>
 
-<div class="container-fluid" ng-controller="CodeChallengeController">
+<div class="container-fluid">
    <!-- Business Info -->
    <section id="business_info">
       <div class="row">
@@ -111,7 +116,7 @@ require_once 'classes/ReputationLoop.php';
    </section>
    <!-- end business info -->
 
-   <!-- Ratings -->
+   <!-- Ratings and Reviews -->
    <section id="ratings">
       <div class="row">
          <div class="col-md-12">
@@ -126,20 +131,20 @@ require_once 'classes/ReputationLoop.php';
          </div>
       </div>
 
+      <!-- reviews -->
       <div class="row">
          <div class="col-md-6">
-            <!-- reviews -->
             <div id="review">
-               <span class="stars"><?php echo $reviews[0]->rating ?></span>
-               By <a href="<?php echo $reviews[0]->customer_url ?>" target="_blank">
-                     <span id="name"><?php echo $reviews[0]->customer_name ?></span>
+               <span id="rating" class="stars"><?php echo $reviews[0]->rating ?></span>
+               By <a id="customer_url" href="<?php echo $reviews[0]->customer_url ?>" target="_blank">
+                     <span id="customer_name"><?php echo $reviews[0]->customer_name ?></span>
                   </a>
-               on <?php echo date('F d, Y', strtotime($reviews[0]->date_of_submission)) ?>
+               on <span id="date_of_submission"><?php echo date('F d, Y', strtotime($reviews[0]->date_of_submission)) ?></span>
             </div>
-            <div>
+            <div id="description">
                  <?php echo $reviews[0]->description ?>
             </div>
-            <div>
+            <div id="review_source">
                From <?php echo $reviews[0]->review_source ?>
             </div>
          </div>
@@ -147,7 +152,7 @@ require_once 'classes/ReputationLoop.php';
       <!-- end reviews -->
    
    </section>
-   <!-- end Ratings -->
+   <!-- end Ratings and Reviews -->
 </div>
 
 <script type="text/javascript">
