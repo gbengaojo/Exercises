@@ -29,15 +29,22 @@ require_once 'classes/ReputationLoop.php';
             function(data) {
                var obj = $.parseJSON(data);
                $('#rating').text(obj.rating);
-               $('span.stars').stars();  // refresh the rating stars...
+               $('#rating.stars').stars();  // refresh the rating stars...
                $('#customer_url').attr('href', obj.customer_url);
                $('#customer_name').text(obj.customer_name);
                $('#description').text(obj.description);
                $('#review_source').text(obj.review_source);
+
+               var d = new Date(obj.date_of_submission);
+               var date_of_submission = moment(d).format('MMMM D, YYYY hh:mm a');
+               // var date_of_submission = moment(d).format('MM/DD/YYYY ');
+               $('#date_of_submission').text(date_of_submission);
+/*
                // some simple date formatting
                var d = new Date(obj.date_of_submission);
                var date_of_submission = d.toString();
                $('#date_of_submission').text(date_of_submission);
+*/
             }
          );
       }
@@ -116,7 +123,7 @@ require_once 'classes/ReputationLoop.php';
                By <a id="customer_url" href="<?php echo $reviews[0]->customer_url ?>" target="_blank">
                      <span id="customer_name"><?php echo $reviews[0]->customer_name ?></span>
                   </a>
-               on <span id="date_of_submission"><?php echo date('D M j Y G:i:s \G\M\T O (T)', strtotime($reviews[0]->date_of_submission)) ?></span>
+               on <span id="date_of_submission"><?php echo date('F j, Y g:i a', strtotime($reviews[0]->date_of_submission)) ?></span>
             </div>
             <div id="description">
                  <?php echo $reviews[0]->description ?>
