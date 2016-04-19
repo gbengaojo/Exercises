@@ -21,10 +21,12 @@ require_once 'classes/ReputationLoop.php';
       }
 
       function getReview(page_no) {
+         page_no = page_no - 1;
          $.post('assets/ajax/reviews.php?page_no=' + page_no,
             function(data) {
                var obj = $.parseJSON(data);
                $('#rating').text(obj.rating);
+               $('span.stars').stars();  // refresh the rating stars...
                $('#customer_url').attr('href', obj.customer_url);
                $('#customer_name').text(obj.customer_name);
                $('#description').text(obj.description);
@@ -122,7 +124,7 @@ require_once 'classes/ReputationLoop.php';
          <div class="col-md-12">
               <!-- pagination -->
               <ul class="pagination">
-                 <?php for ($i = 1; $i < count($reviews) - 1; $i++): ?>
+                 <?php for ($i = 1; $i < count($reviews) + 1; $i++): ?>
                  <li><a href="#" onclick="getReview(<?php echo $i ?>)"><?php echo $i ?></a></li>
                  <?php endfor ?>
 
@@ -144,8 +146,8 @@ require_once 'classes/ReputationLoop.php';
             <div id="description">
                  <?php echo $reviews[0]->description ?>
             </div>
-            <div id="review_source">
-               From <?php echo $reviews[0]->review_source ?>
+            <div>
+               From <span id="review_source"><?php echo $reviews[0]->review_source ?></span>.
             </div>
          </div>
       </div>
