@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+   
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+   <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+   <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/additional-methods.min.js"></script>
+</head>
+
+<title>HomeCEUConnection.com Programmer Test v4</title>
+
+<body>
+
+<header>
+   <h4>HomeCEUConnection.com Programmer Test v4</h4>
+</header>
+
+<div class="container-fluid">
+   <form name="regform" id="regform" method="get" action="">
+   <section id="">
+      <div class="row">
+         <div class="col-md-4">
+            <span class="bold"><label for="firstname">First Name:</label></span>
+            <input type="text" name="firstname" id="firstname" value="" required>
+         </div>
+         <div class="col-md-4">
+            <span class="bold"><label for="lastname">Last Name:</label></span>
+            <input type="text" name="lastname" id="lastname" value="" required>
+         </div>
+         <div class="col-md-4">
+            <span class="bold"><label for="email">Email:</label></span>
+            <input type="text" name="email" id="email" value="" required>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-4">
+            <span class="bold"><label for="username">Username:</label></span>
+            <input type="text" name="username" id="username" value="" required>
+         </div>
+         <div class="col-md-4">
+            <span class="bold"><label for="phonenumber">Phone Number:</label></span>
+            <input type="text" name="phonenumber" id="phonenumber" value="" required>
+         </div>
+         <div class="col-md-4">
+            <span class="bold"><label for="zipcode">Zipcode:</label></span>
+            <input type="text" name="zipcode" id="zipcode" value="" required>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-12">
+            <input type="submit" name="submit" value="Submit">
+         </div>
+      </div>
+   </section>
+   </form>
+</div>
+<script type="text/javascript">
+jQuery.validator.addMethod("alphaspace", function(value, element) {
+  return this.optional(element) || /^[a-z\ ]+$/i.test(value);
+}, "Letters and spaces only please");
+jQuery.validator.addMethod("username", function(value, element) {
+  return this.optional(element) || /^[test||patrick]+$/i.test(value);
+}, "This username is already taken");
+jQuery.validator.addMethod("zipcode", function(value, element) {
+  return this.optional(element) || /^\d{5}(?:-\d{4})?$/.test(value);
+}, "Please provide a valid zipcode.");
+
+$('#regform').validate({
+   rules: {
+      firstname: {
+         alphaspace: true
+      },
+      lastname: {
+         alphaspace: true
+      },
+      email: {
+         email: true
+      },
+      username: {
+         username: true
+      },
+      phonenumber: {
+         phoneUS: true
+      },
+      zipcode: {
+         zipcode: true
+      }
+   }
+});
+</script>

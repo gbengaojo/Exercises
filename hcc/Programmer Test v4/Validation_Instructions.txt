@@ -1,0 +1,16 @@
+Create a simple user registration form with the following fields and validations:
+
+firstname – alpha’s and spaces only
+lastname – alpha’s and spaces only
+email – valid email
+username – not taken (take usernames are 'test' and 'patrick')
+phone number – valid us format (000-00-0000)
+zip code – either US format
+[submit]
+
+
+Instructions:  Complete the following in order
+1. Create the html form
+2. Implement client side validation (any validation library is allowed)
+3. Input masking for phone and zip (phone as: ###-###-#### zip as #####-####)
+4. Style the form as you see fit
