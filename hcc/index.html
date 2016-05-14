@@ -9,6 +9,7 @@
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
    <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
    <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/additional-methods.min.js"></script>
+   <script src="assets/js/jquery.maskedinput.js"></script>
 </head>
 
 <title>HomeCEUConnection.com Programmer Test v4</title>
@@ -59,6 +60,10 @@
    </form>
 </div>
 <script type="text/javascript">
+jQuery(function($){
+   $('#phonenumber').mask('999-999-9999');
+   $('#zipcode').mask('99999?-9999');
+});
 jQuery.validator.addMethod("alphaspace", function(value, element) {
   return this.optional(element) || /^[a-z\ ]+$/i.test(value);
 }, "Letters and spaces only please");
@@ -66,7 +71,7 @@ jQuery.validator.addMethod("username", function(value, element) {
   return this.optional(element) || /^[test||patrick]+$/i.test(value);
 }, "This username is already taken");
 jQuery.validator.addMethod("zipcode", function(value, element) {
-  return this.optional(element) || /^\d{5}(?:-\d{4})?$/.test(value);
+  return this.optional(element) || /^\d{5}(?:-\d{4})? || d{5}$/.test(value);
 }, "Please provide a valid zipcode.");
 
 $('#regform').validate({

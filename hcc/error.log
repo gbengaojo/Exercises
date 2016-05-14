@@ -1,0 +1,8 @@
+[Sat May 14 03:14:11.333710 2016] [:error] [pid 2328] [client 127.0.0.1:40964] PHP Warning:  mb_convert_encoding(): Unknown encoding &quot;UTF-4&quot; in /home/gbenga/code/emp_screens/hcc/article11.php on line 5
+[Sat May 14 03:14:21.984495 2016] [:error] [pid 2332] [client 127.0.0.1:40965] PHP Warning:  mb_convert_encoding(): Unknown encoding &quot;UTF-4*&quot; in /home/gbenga/code/emp_screens/hcc/article11.php on line 5
+[Sat May 14 03:14:28.738204 2016] [:error] [pid 2331] [client 127.0.0.1:40966] PHP Warning:  mb_convert_encoding(): Unknown encoding &quot;UTF-4*&quot; in /home/gbenga/code/emp_screens/hcc/article11.php on line 5
+[Sat May 14 03:14:41.967859 2016] [:error] [pid 2330] [client 127.0.0.1:40967] PHP Warning:  mb_convert_encoding(): Unknown encoding &quot;UTF-32*&quot; in /home/gbenga/code/emp_screens/hcc/article11.php on line 5
+[Sat May 14 03:14:44.369902 2016] [:error] [pid 2330] [client 127.0.0.1:40967] PHP Warning:  mb_convert_encoding(): Unknown encoding &quot;UTF-32*&quot; in /home/gbenga/code/emp_screens/hcc/article11.php on line 5
+[Sat May 14 03:14:49.328449 2016] [:error] [pid 2330] [client 127.0.0.1:40967] PHP Warning:  mb_convert_encoding(): Unknown encoding &quot;UTF-16*&quot; in /home/gbenga/code/emp_screens/hcc/article11.php on line 5
+[Sat May 14 03:16:13.825699 2016] [:error] [pid 2328] [client 127.0.0.1:40979] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/gbenga/code/emp_screens/hcc/article11.php on line 6
+[Sat May 14 03:24:50.057951 2016] [:error] [pid 2330] [client 127.0.0.1:40988] PHP Parse error:  syntax error, unexpected ';' in /home/gbenga/code/emp_screens/hcc/article11.php on line 6
