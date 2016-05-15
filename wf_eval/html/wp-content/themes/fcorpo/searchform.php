@@ -6,7 +6,6 @@
  * the search form should do a GET to the homepage of your blog. The input text field 
  * should be named s and you should always include a label. 
  *
- * @package WordPress
  * @subpackage fCorpo
  * @author tishonator
  * @since fCorpo 1.0.0

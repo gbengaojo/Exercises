@@ -18,7 +18,7 @@ class N2Element
     var $_inputname;
     var $_editableName = false;
 
-    function N2Element(&$form, &$tab, &$xml) {
+    function __construct(&$form, &$tab, &$xml) {
 
         $this->_form = $form;
         $this->_tab  = $tab;

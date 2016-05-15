@@ -11,6 +11,10 @@ class N2CSS
         N2AssetsManager::$css->addFiles($path, $files, $group);
     }
 
+    public static function addStaticGroup($file, $group) {
+        N2AssetsManager::$css->addStaticGroup($file, $group);
+    }
+
     public static function addCode($code, $group) {
         N2AssetsManager::$css->addCode($code, $group);
     }

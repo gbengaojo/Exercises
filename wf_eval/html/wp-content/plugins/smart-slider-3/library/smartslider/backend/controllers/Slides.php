@@ -11,7 +11,6 @@ class N2SmartsliderBackendSlidesController extends N2SmartSliderController
         N2Loader::import(array(
             'models.Sliders',
             'models.generator',
-            'models.Layouts',
             'models.Layers',
             'models.Item',
             'models.Slides'

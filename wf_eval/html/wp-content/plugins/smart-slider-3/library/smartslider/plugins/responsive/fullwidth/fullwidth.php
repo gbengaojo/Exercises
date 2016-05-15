@@ -1,7 +1,6 @@
 <?php
 
-class N2SSPluginResponsiveFullWidth extends N2PluginBase
-{
+class N2SSPluginResponsiveFullWidth extends N2PluginBase {
 
     private static $name = 'fullwidth';
 
@@ -17,18 +16,14 @@ class N2SSPluginResponsiveFullWidth extends N2PluginBase
 
 N2Plugin::addPlugin('ssresponsive', 'N2SSPluginResponsiveFullWidth');
 
-class N2SSResponsiveFullWidth
-{
+class N2SSResponsiveFullWidth {
 
     private $params, $responsive;
 
-    /**
-     * @param $params
-     * @param $responsive N2SmartSliderFeatureResponsive
-     */
-    public function __construct($params, $responsive) {
+    public function __construct($params, $responsive, $features) {
         $this->params     = $params;
         $this->responsive = $responsive;
+        $features->align->align = 'normal';
 
         $this->responsive->scaleDown = 1;
         $this->responsive->scaleUp   = 1;

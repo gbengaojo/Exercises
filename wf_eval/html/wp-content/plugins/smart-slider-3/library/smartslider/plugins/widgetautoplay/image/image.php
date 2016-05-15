@@ -2,8 +2,7 @@
 
 N2Loader::import('libraries.plugins.N2SliderWidgetAbstract', 'smartslider');
 
-class N2SSPluginWidgetAutoplayImage extends N2SSPluginWidgetAbstract
-{
+class N2SSPluginWidgetAutoplayImage extends N2SSPluginWidgetAbstract {
 
     private static $key = 'widget-autoplay-';
 
@@ -105,10 +104,9 @@ class N2SSPluginWidgetAutoplayImage extends N2SSPluginWidgetAbstract
         }
 
         if ($play && $pause) {
-
-            N2CSS::addFile(N2Filesystem::translate(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'image' . DIRECTORY_SEPARATOR . 'style.css'), $id);
-
-            N2JS::addFile(N2Filesystem::translate(dirname(__FILE__) . '/image/autoplay.js'), $id);
+            N2CSS::addFile(N2Filesystem::translate(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'image' . DIRECTORY_SEPARATOR . 'style.min.css'), $id);
+            N2JS::addFile(N2Filesystem::translate(dirname(__FILE__) . '/image/autoplay.min.js'), $id);
+        
 
             list($displayClass, $displayAttributes) = self::getDisplayAttributes($params, self::$key);
 
@@ -123,7 +121,13 @@ class N2SSPluginWidgetAutoplayImage extends N2SSPluginWidgetAbstract
             $html = N2Html::tag('div', $displayAttributes + $attributes + array(
                     'class' => $displayClass . $styleClass . 'nextend-autoplay nextend-autoplay-image',
                     'style' => $style
-                ), N2Html::image($play, 'Play', array('class' => 'nextend-autoplay-play n2-ow', 'data-no-lazy' => '1')) . N2Html::image($pause, 'Pause', array('class' => 'nextend-autoplay-pause n2-ow', 'data-no-lazy' => '1')));
+                ), N2Html::image($play, 'Play', array(
+                    'class'        => 'nextend-autoplay-play n2-ow',
+                    'data-no-lazy' => '1'
+                )) . N2Html::image($pause, 'Pause', array(
+                    'class'        => 'nextend-autoplay-pause n2-ow',
+                    'data-no-lazy' => '1'
+                )));
         }
 
         return $html;

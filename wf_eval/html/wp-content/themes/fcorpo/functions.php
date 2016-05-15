@@ -20,7 +20,6 @@
  * For more information on hooks, actions, and filters,
  * {@link https://codex.wordpress.org/Plugin_API}
  *
- * @package WordPress
  * @subpackage fCorpo
  * @author tishonator
  * @since fCorpo 1.0.0
@@ -59,7 +58,7 @@ if ( ! function_exists( 'fcorpo_setup' ) ) {
 
 
 		add_theme_support( 'post-thumbnails' );
-		set_post_thumbnail_size( 'full', 'full', true );
+		set_post_thumbnail_size( 1200, 0, true );
 
 		if ( ! isset( $content_width ) )
 			$content_width = 900;
@@ -71,7 +70,7 @@ if ( ! function_exists( 'fcorpo_setup' ) ) {
 		 * to output valid HTML5.
 		 */
 		add_theme_support( 'html5', array(
-			'search-form', 'comment-form', 'comment-list',
+			'comment-form', 'comment-list',
 		) );
 
 		// add custom header
@@ -90,16 +89,7 @@ if ( ! function_exists( 'fcorpo_setup' ) ) {
 						   'admin-preview-callback' => '',
 						) );
 
-		// add support for Post Formats.
-		add_theme_support( 'post-formats', array (
-												'aside',
-												'image',
-												'video',
-												'audio',
-												'quote', 
-												'link',
-												'gallery',
-						) );
+		
 	}
 } // fcorpo_setup
 add_action( 'after_setup_theme', 'fcorpo_setup' );
@@ -112,6 +102,7 @@ add_action( 'after_setup_theme', 'fcorpo_setup' );
 function fcorpo_load_scripts() {
 
 	// load main stylesheet.
+	wp_enqueue_style( 'fontawesome', get_template_directory_uri() . '/css/font-awesome.min.css', array( ) );
 	wp_enqueue_style( 'fcorpo-style', get_stylesheet_uri(), array( ) );
 	
 	wp_enqueue_style( 'fcorpo-fonts', fcorpo_fonts_url(), array(), null );
@@ -125,9 +116,9 @@ function fcorpo_load_scripts() {
 	wp_enqueue_script( 'fcorpo-js', get_template_directory_uri() . '/js/utilities.js', array( 'jquery' ) );
 
 	// Load Slider JS Scripts
-	wp_enqueue_script( 'fcorpo-jquery-mobile-js', get_template_directory_uri() . '/js/jquery.mobile.customized.min.js', array( 'jquery' ) );
-	wp_enqueue_script( 'fcorpo-jquery-easing-js', get_template_directory_uri() . '/js/jquery.easing.1.3.js', array( 'jquery' ) );
-	wp_enqueue_script( 'fcorpo-camera-js', get_template_directory_uri() . '/js/camera.min.js', array( 'jquery' ) );
+	wp_enqueue_script( 'jquery.mobile.customized', get_template_directory_uri() . '/js/jquery.mobile.customized.min.js', array( 'jquery' ) );
+	wp_enqueue_script( 'jquery.easing.1.3', get_template_directory_uri() . '/js/jquery.easing.1.3.js', array( 'jquery' ) );
+	wp_enqueue_script( 'camera', get_template_directory_uri() . '/js/camera.min.js', array( 'jquery' ) );
 }
 add_action( 'wp_enqueue_scripts', 'fcorpo_load_scripts' );
 
@@ -175,7 +166,7 @@ function fcorpo_show_website_logo_image_or_title() {
 		
 		echo '<a href="' . esc_url( home_url('/') ) . '" title="' . esc_attr( get_bloginfo('name') ) . '">';
 		
-		echo '<img src="' . esc_attr( $logoImgPath ) . '" alt="' . esc_attr( $siteTitle ) . '" title="' . esc_attr( $siteTitle ) . '" width="' . esc_attr( $imageWidth ) . '" height="' . esc_attr( $imageHeight ) . '" />';
+		echo '<img src="' . esc_url( $logoImgPath ) . '" alt="' . esc_attr( $siteTitle ) . '" title="' . esc_attr( $siteTitle ) . '" width="' . esc_attr( $imageWidth ) . '" height="' . esc_attr( $imageHeight ) . '" />';
 		
 		echo '</a>';
 
@@ -283,41 +274,9 @@ function fcorpo_display_social_sites() {
 }
 
 /**
- * Gets additional theme settings description
- */
-function fcorpo_get_customizer_sectoin_info() {
-
-	$premiumThemeUrl = 'https://tishonator.com/product/tcorpo';
-
-	return sprintf( __( 'The fCorpo theme is a free version of the professional WordPress theme tCorpo. <a href="%s" class="button-primary" target="_blank">Get tCorpo Theme</a><br />', 'fcorpo' ), $premiumThemeUrl );
-}
-
-/**
  * Register theme settings in the customizer
  */
 function fcorpo_customize_register( $wp_customize ) {
-
-	// Header Image Section
-	$wp_customize->add_section( 'header_image', array(
-		'title' => __( 'Header Image', 'fcorpo' ),
-		'description' => fcorpo_get_customizer_sectoin_info(),
-		'theme_supports' => 'custom-header',
-		'priority' => 60,
-	) );
-
-	// Colors Section
-	$wp_customize->add_section( 'colors', array(
-		'title' => __( 'Colors', 'fcorpo' ),
-		'description' => fcorpo_get_customizer_sectoin_info(),
-		'priority' => 50,
-	) );
-
-	// Background Image Section
-	$wp_customize->add_section( 'background_image', array(
-			'title' => __( 'Background Image', 'fcorpo' ),
-			'description' => fcorpo_get_customizer_sectoin_info(),
-			'priority' => 70,
-		) );
 
 	/**
 	 * Add Slider Section
@@ -327,7 +286,6 @@ function fcorpo_customize_register( $wp_customize ) {
 		array(
 			'title'       => __( 'Slider', 'fcorpo' ),
 			'capability'  => 'edit_theme_options',
-			'description' => fcorpo_get_customizer_sectoin_info(),
 		)
 	);
 	
@@ -382,7 +340,6 @@ function fcorpo_customize_register( $wp_customize ) {
 		array(
 			'title'       => __( 'Footer', 'fcorpo' ),
 			'capability'  => 'edit_theme_options',
-			'description' => fcorpo_get_customizer_sectoin_info(),
 		)
 	);
 	
@@ -413,7 +370,6 @@ function fcorpo_customize_register( $wp_customize ) {
 		array(
 			'title'       => __( 'Social Sites', 'fcorpo' ),
 			'capability'  => 'edit_theme_options',
-			'description' => fcorpo_get_customizer_sectoin_info(),
 		)
 	);
 	
@@ -494,5 +450,20 @@ function fcorpo_customize_register( $wp_customize ) {
 	);
 }
 add_action('customize_register', 'fcorpo_customize_register');
+
+/*
+Enqueue Script for top buttons
+*/
+function fcorpo_customizer_controls(){
+
+	wp_register_script( 'fcorpo_customizer_top_buttons', get_template_directory_uri() . '/js/customizer-top-buttons.js', array( 'jquery' ), true  );
+	wp_enqueue_script( 'fcorpo_customizer_top_buttons' );
+
+	wp_localize_script( 'fcorpo_customizer_top_buttons', 'customBtns', array(
+		'prodemo' => esc_html__( 'Demo Premium version', 'fcorpo' ),
+        'proget' => esc_html__( 'Get Premium version', 'fcorpo' )
+	) );
+}
+add_action( 'customize_controls_enqueue_scripts', 'fcorpo_customizer_controls' );
 
 ?>

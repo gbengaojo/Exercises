@@ -88,7 +88,7 @@ class N2ElementPluginMatrix extends N2ElementHidden
                     views.eq(i).addClass("n2-active");
                     panes.eq(i).addClass("n2-active");
                 });
-            })()
+            })();
         ');
 
         return $html . parent::fetchElement();

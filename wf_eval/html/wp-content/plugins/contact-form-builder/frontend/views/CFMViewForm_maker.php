@@ -23,6 +23,11 @@ class CFMViewForm_maker {
   // Public Methods                                                                     //
   ////////////////////////////////////////////////////////////////////////////////////////
   public function display($id) {
+    wp_enqueue_style('jquery-ui');
+    wp_enqueue_style('contact_form_maker_frontend');
+    wp_enqueue_script('gmap_form_api');
+    wp_enqueue_script('gmap_form');
+    wp_enqueue_script('cfm_main_front_end');
     $form_maker_front_end = "";
     $result = $this->model->showform($id);
     if (!$result) {

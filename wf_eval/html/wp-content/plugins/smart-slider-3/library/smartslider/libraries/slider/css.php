@@ -36,13 +36,13 @@ abstract class N2SmartSliderCSSAbstract
             'canvas' => 0,
             'count'  => count($slider->slides),
             'margin' => '0px 0px 0px 0px',
-            'clear'  => ($params->get('weaker-selector', 0) ? 'clearv2.less' : 'clear.less')
+            'clear'  => ($params->get('weaker-selector', 0) ? 'clearv2.n2less' : 'clear.n2less')
         );
 
         $this->renderType($context);
 
         if ($params->get('imageload', 0)) {
-            N2LESS::addFile(NEXTEND_SMARTSLIDER_ASSETS . '/less/spinner.less', $slider->cacheId, $context, NEXTEND_SMARTSLIDER_ASSETS . '/less' . NDS);
+            N2LESS::addFile(NEXTEND_SMARTSLIDER_ASSETS . '/less/spinner.n2less', $slider->cacheId, $context, NEXTEND_SMARTSLIDER_ASSETS . '/less' . NDS);
         }
 
         $this->sizes['marginVertical']   = 0;

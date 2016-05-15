@@ -57,7 +57,7 @@ class N2RouterAbstract
     public function route($url, $params = array(), $isPost = false) {
 
 
-        if (!strpos($url, "/")) {
+        if (strpos($url, "/") === false) {
             throw new Exception("Invalid action {$url}. Valid format controller/method");
         }
 
@@ -65,7 +65,7 @@ class N2RouterAbstract
 
         $url = "";
 
-        if (strpos($this->baseUrl, "?")) {
+        if (strpos($this->baseUrl, "?") !== false) {
             $url .= $this->baseUrl . "&nextendcontroller=" . $this->normalizeParameter($parsedAction[0]);
         } else {
             $url .= $this->baseUrl . "?nextendcontroller=" . $this->normalizeParameter($parsedAction[0]);

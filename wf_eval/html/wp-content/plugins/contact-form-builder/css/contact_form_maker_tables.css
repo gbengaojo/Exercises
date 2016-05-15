@@ -1133,3 +1133,28 @@ button:focus {
 #manage_form {
   width: 98%;
 }
+
+.goodbye-text {
+  font-size: 16px;
+  font-weight: bold;
+  background: #fff;
+  padding: 15px;
+  line-height: 22px;
+}
+
+.goodbye-text a {
+	font-size: 15px;
+}
+
+
+.cfm_form {
+  width: 95%;
+}
+
+.cfm_form h2 {
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 29px;
+  margin: 0;
+  padding: 9px 15px 4px 0;
+}

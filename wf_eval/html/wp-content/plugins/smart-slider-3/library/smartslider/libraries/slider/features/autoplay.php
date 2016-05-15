@@ -1,12 +1,11 @@
 <?php
 
-class N2SmartSliderFeatureAutoplay
-{
+class N2SmartSliderFeatureAutoplay {
 
     private $slider;
 
     public $isEnabled = 0, $isStart = 0, $duration = 8000;
-    public $interval = 0, $intervalModifier = 'loop', $intervalSlide = 'current';
+    public $interval = 0, $intervalModifier = 'loop', $intervalSlide = 'current', $allowReStart = 0;
     public $stopOnClick = 1, $stopOnMouseEnter = 1, $stopOnMediaStarted = 1;
     public $resumeOnMouseLeave = 0, $resumeOnMediaEnded = 1, $resumeOnSlideChanged = 0;
 
@@ -26,6 +25,10 @@ class N2SmartSliderFeatureAutoplay
 
 
         list($this->interval, $this->intervalModifier, $this->intervalSlide) = (array)N2Parse::parse($slider->params->get('autoplayfinish', '0|*|loop|*|current'));
+
+
+        $this->allowReStart = intval($params->get('autoplayAllowReStart', 0));
+
         $this->interval = intval($this->interval);
 
         $this->stopOnClick        = intval($params->get('autoplayStopClick', 1));
@@ -36,6 +39,7 @@ class N2SmartSliderFeatureAutoplay
         $this->resumeOnClick      = intval($params->get('autoplayResumeClick', 0));
         $this->resumeOnMouse      = $params->get('autoplayResumeMouse', 0);
         $this->resumeOnMediaEnded = intval($params->get('autoplayResumeMedia', 1));
+
 
     }
 
@@ -61,6 +65,7 @@ class N2SmartSliderFeatureAutoplay
             'start'           => $this->isStart,
             'duration'        => $this->duration,
             'autoplayToSlide' => $autoplayToSlide,
+            'allowReStart'    => $this->allowReStart,
             'pause'           => array(
                 'click'        => $this->stopOnClick,
                 'mouse'        => $this->stopOnMouse,

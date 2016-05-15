@@ -51,6 +51,19 @@ Images
     License Url : https://creativecommons.org/publicdomain/zero/1.0/
 
 == Changelog ==
+
+= 1.0.63 =
+**Product detail page button overlap fix
+**Search sidebar fix
+
+= 1.0.62 =
+**Fixes for variant product icons
+**Fixed Logo Overflow issue.
+**Fixed Category Number double line issue
+
+= 1.0.61 =
+**Fixes for boxed layout responsive css
+
 = 1.0.60 =
 **Fixes for translations with updated .pot file
 

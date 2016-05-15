@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: fCorpo Theme\n"
-"POT-Creation-Date: 2015-10-03 22:45+0200\n"
-"PO-Revision-Date: 2015-10-03 22:46+0200\n"
+"POT-Creation-Date: 2016-04-02 18:21+0200\n"
+"PO-Revision-Date: 2016-04-02 18:21+0200\n"
 "Last-Translator: \n"
 "Language-Team: Tishonator Team <info@tishonator.com>\n"
 "Language: English\n"
@@ -16,134 +16,114 @@ msgstr ""
 "X-Poedit-SearchPath-0: ../"
 "fcorpo\n"
 
-#: ../search.php:19
+#: ../search.php:18
 #, php-format
 msgid "You searched for \"%s\". Here are the results:"
 msgstr ""
 
-#: ../searchform.php:20
+#: ../searchform.php:19
 msgid "Search..."
 msgstr ""
 
-#: ../single.php:33
+#: ../single.php:32
 msgid "Pages:"
 msgstr ""
 
-#: ../footer.php:27
+#: ../footer.php:26
 msgid "fCorpo Theme"
 msgstr ""
 
-#: ../footer.php:28
+#: ../footer.php:27
 msgid "WordPress"
 msgstr ""
 
-#: ../comments.php:54
-#: ../template-parts/content-page.php:29
-#: ../template-parts/content.php:59
+#: ../comments.php:53
+#: ../template-parts/content-page.php:30
+#: ../template-parts/content.php:66
 msgid "Comments are closed."
 msgstr ""
 
-#: ../functions.php:52
+#: ../functions.php:51
 msgid "primary menu"
 msgstr ""
 
-#: ../functions.php:214
+#: ../functions.php:205
 msgid "Sidebar Widget Area"
 msgstr ""
 
-#: ../functions.php:216
+#: ../functions.php:207
 msgid "The sidebar widget area"
 msgstr ""
 
-#: ../functions.php:235
+#: ../functions.php:226
 msgid ""
 "<h3>Lorem ipsum dolor</h3><p>Lorem ipsum dolor sit amet, consectetur "
 "adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna "
 "aliqua.</p><a class=\"btn\" title=\"Read more\" href=\"#\">Read more</a>"
 msgstr ""
 
-#: ../functions.php:261
+#: ../functions.php:252
 msgid "Follow us on Facebook"
 msgstr ""
 
-#: ../functions.php:267
+#: ../functions.php:258
 msgid "Follow us on Google+"
 msgstr ""
 
-#: ../functions.php:273
+#: ../functions.php:264
 msgid "Follow our RSS Feeds"
 msgstr ""
 
-#: ../functions.php:279
+#: ../functions.php:270
 msgid "Follow us on Youtube"
 msgstr ""
 
-#: ../functions.php:292
-#, php-format
-msgid ""
-"The fCorpo theme is a free version of the professional WordPress theme "
-"tCorpo. <a href=\"%s\" class=\"button-primary\" target=\"_blank\">Get tCorpo "
-"Theme</a><br />"
-msgstr ""
-
-#: ../functions.php:302
-msgid "Header Image"
-msgstr ""
-
-#: ../functions.php:310
-msgid "Colors"
-msgstr ""
-
-#: ../functions.php:317
-msgid "Background Image"
-msgstr ""
-
-#: ../functions.php:328
+#: ../functions.php:287
 msgid "Slider"
 msgstr ""
 
-#: ../functions.php:344
+#: ../functions.php:302
 msgid ""
 "<h2>Lorem ipsum dolor</h2><p>Lorem ipsum dolor sit amet, consectetur "
 "adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna "
 "aliqua.</p><a class=\"btn\" title=\"Read more\" href=\"#\">Read more</a>"
 msgstr ""
 
-#: ../functions.php:351
+#: ../functions.php:309
 #, php-format
 msgid "Slide #%s Content"
 msgstr ""
 
-#: ../functions.php:369
+#: ../functions.php:327
 #, php-format
 msgid "Slide #%s Image"
 msgstr ""
 
-#: ../functions.php:383
+#: ../functions.php:341
 msgid "Footer"
 msgstr ""
 
-#: ../functions.php:400
+#: ../functions.php:357
 msgid "Copyright Text"
 msgstr ""
 
-#: ../functions.php:414
+#: ../functions.php:371
 msgid "Social Sites"
 msgstr ""
 
-#: ../functions.php:431
+#: ../functions.php:387
 msgid "Facebook Page URL"
 msgstr ""
 
-#: ../functions.php:450
+#: ../functions.php:406
 msgid "Google+ Page URL"
 msgstr ""
 
-#: ../functions.php:469
+#: ../functions.php:425
 msgid "RSS Feeds URL"
 msgstr ""
 
-#: ../functions.php:488
+#: ../functions.php:444
 msgid "YouTube channel URL"
 msgstr ""
 
@@ -161,36 +141,36 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: ../template-parts/content-page.php:20
-#: ../template-parts/content.php:81
-#: ../template-parts/content.php:98
+#: ../template-parts/content-page.php:21
+#: ../template-parts/content.php:88
+#: ../template-parts/content.php:105
 msgid "Read More..."
 msgstr ""
 
-#: ../template-parts/content-page.php:29
-#: ../template-parts/content.php:59
+#: ../template-parts/content-page.php:30
+#: ../template-parts/content.php:66
 msgid "No Comments"
 msgstr ""
 
-#: ../template-parts/content-page.php:29
-#: ../template-parts/content.php:59
+#: ../template-parts/content-page.php:30
+#: ../template-parts/content.php:66
 msgid "1 Comment"
 msgstr ""
 
-#: ../template-parts/content-page.php:29
-#: ../template-parts/content.php:59
+#: ../template-parts/content-page.php:30
+#: ../template-parts/content.php:66
 msgid "% Comments"
 msgstr ""
 
-#: ../template-parts/content-page.php:32
-#: ../template-parts/content.php:64
+#: ../template-parts/content-page.php:33
+#: ../template-parts/content.php:71
 msgid "Edit"
 msgstr ""
 
-#: ../template-parts/content.php:110
+#: ../template-parts/content.php:117
 msgid "Categories:"
 msgstr ""
 
-#: ../template-parts/content.php:117
+#: ../template-parts/content.php:124
 msgid "Tags:"
 msgstr ""

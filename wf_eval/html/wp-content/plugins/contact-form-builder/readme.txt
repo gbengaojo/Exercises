@@ -1,10 +1,10 @@
 ﻿=== Contact Form Builder ===
 Contributors: webdorado
 Donate link: http://web-dorado.com/products/wordpress-contact-form-builder.html
-Tags:  form,  forms,  contact form, contact forms,  contact form plugin, contact forms plugin, forms plugin, Contact Form Builder, contact form manager, multiple contact forms, custom  form, Contact Form Builder with recaptcha, contact form with google map, feedback form, feedback forms, contact us, wordpress contact form, email form, feedback, web form, contact me, email, contact manager, contact us form, admin, captcha, contact, database, email, javascript, jquery, page, plugin, survey, widget, custom form, forms creator, text input, validation, send copy, form with captcha, advanced form, recaptcha, contact form with captcha
+Tags:  form,  forms,  contact form, contact forms,  contact form plugin, contact forms plugin, forms plugin, Contact Form Builder, contact form manager, multiple contact forms, custom  form, Contact Form Builder with recaptcha, contact form with google map, feedback form, feedback forms, contact us, wordpress contact form, email form, feedback, web form, contact me, email, contact manager, contact us form, admin, captcha, contact, database, email, javascript, jquery, page, plugin, survey, widget, custom form, forms creator, text input, validation, send copy, form with captcha, advanced form, recaptcha, contact form with captcha,  multiple forms
 Requires at least: 3.4
-Tested up to: 4.4
-Stable tag: 1.0.41
+Tested up to: 4.5
+Stable tag: 1.0.43
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -137,6 +137,13 @@ After downloading the ZIP file,
  
 
 == Changelog ==
+
+= 1.0.43 =
+Changed: Add scripts and styles only on necessary pages.  
+
+= 1.0.42 =
+Changed: Featured plugins, themes page.    
+Changed: Unistall page.  
 
 = 1.0.41 =
 Fixed: CC, BCC multiple emails.    

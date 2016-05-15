@@ -139,5 +139,3 @@ class N2TabDark extends N2Tab
         }
     }
 }
-
-?>

@@ -78,7 +78,7 @@ function testimonial_rotator_add_columns( $column, $post_id )
 	$this_testimonial = get_post($post_id);
 
 	if ( $column == 'ID' ) 		{ echo implode(", ", $rotator_title_array); }
-	if ( $column == 'image' ) 		echo '<a href="' . $edit_link . '">' . get_the_post_thumbnail( $post->ID, array( 50, 50 ), array( 'title' => trim( strip_tags(  $post->post_title ) ) ) ) . '</a>';
+	if ( $column == 'image' ) 		echo '<a href="' . $edit_link . '">' . get_the_post_thumbnail( $post_id, array( 50, 50 ) ) . '</a>';
 	if ( $column == 'order' ) 		echo '<a href="' . $edit_link . '">' . $this_testimonial->menu_order . '</a>';
 	if ( $column == 'rating' ) 		echo get_post_meta( $post_id, "_rating", true );
 	if ( $column == 'shortcode' ) 	

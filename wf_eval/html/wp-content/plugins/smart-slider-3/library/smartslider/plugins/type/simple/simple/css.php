@@ -45,7 +45,7 @@ class N2SmartSliderCSSSimple extends N2SmartSliderCSSAbstract
         $context['canvaswidth']  = $width . "px";
         $context['canvasheight'] = $height . "px";
 
-        N2LESS::addFile(N2Filesystem::translate(dirname(__FILE__) . NDS . 'style.less'), $this->slider->cacheId, $context, NEXTEND_SMARTSLIDER_ASSETS . '/less' . NDS);
+        N2LESS::addFile(N2Filesystem::translate(dirname(__FILE__) . NDS . 'style.n2less'), $this->slider->cacheId, $context, NEXTEND_SMARTSLIDER_ASSETS . '/less' . NDS);
     }
 
 }

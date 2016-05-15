@@ -1,7 +1,13 @@
 
 .adminhtml-smartslider3-index #footer,
-.adminhtml-smartslider3-index .footer {
+.adminhtml-smartslider3-index .footer,
+.smartslider3-index-index footer,
+#html-body header {
     display: none;
+}
+
+#html-body #anchor-content {
+    padding-top: 30px;
 }
 
 .n2-definition-list dt.n2-ss-slider-ordering {
@@ -1761,7 +1767,7 @@ html[dir="rtl"] .n2-ss-timeline-cti-dot {
     line-height: 26px;
 }
 
-.n2-ss-slider-publish code {
+.n2-ss-slider-publish .n2-code {
     display: inline-block;
     padding: 16px 30px;
     line-height: 20px;
@@ -1772,10 +1778,6 @@ html[dir="rtl"] .n2-ss-timeline-cti-dot {
     color: #6f653f;
     font-size: 12px;
     border: 0;
-}
-
-.n2-ss-slider-publish code div {
-    display: inline-block;
 }
 
 .n2-ss-slider-publish img {
@@ -1925,4 +1927,101 @@ html[dir="rtl"] .n2-ss-timeline-cti-dot {
 .n2-sidebar-inner,
 #n2-ss-slide-sidebar {
     width: 439px;
+}
+
+.n2-ss-create-slider-free-sample {
+    float: left;
+    height: 70px;
+    width: 170px;
+    cursor: pointer;
+}
+
+.n2-ss-create-slider-free-sample:HOVER {
+    background-position: 0 -80px;
+}
+
+.n2-ss-modal-subscribe > .n2-modal-window {
+    text-align: center;
+}
+
+.n2-ss-modal-subscribe .n2-form {
+    margin: 0 -20px;
+}
+
+.n2-ss-modal-subscribe .n2-h3 {
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+    line-height: 2;
+}
+
+.n2-ss-preview-subscribe .n2-input-button,
+.n2-ss-modal-subscribe .n2-input-button {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.n2-ss-preview-subscribe .n2-input-button > *,
+.n2-ss-modal-subscribe .n2-input-button > * {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.n2-ss-preview-subscribe input,
+.n2-ss-preview-subscribe input:focus,
+.n2-ss-modal-subscribe input,
+.n2-ss-modal-subscribe input:focus {
+    margin: 0 auto;
+    width: 250px;
+    height: 36px;
+    border: 2px solid #b9c3c9;
+    border-right: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    overflow: hidden;
+    padding: 0 10px;
+    line-height: 36px;
+    box-shadow: none;
+    color: #7b8898;
+    font-size: 12px;
+    background: #ffffff;
+}
+
+.n2-ss-preview-subscribe .n2-input-button .n2-button,
+.n2-ss-modal-subscribe .n2-input-button .n2-button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.n2-ss-preview-subscribe {
+    position: fixed;
+    left: 50%;
+    margin-left: -500px;
+    bottom: -100px;
+    transition: bottom 0.5s ease;
+    background: url('../images/free/subscribepreview.png');
+    width: 1000px;
+    height: 90px;
+    z-index: 1000;
+}
+
+.n2-ss-preview-subscribe.n2-active {
+    bottom: 10px;
+}
+
+.n2-ss-preview-subscribe-close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background: url('../images/free/close.png') no-repeat center center;
+}
+
+.n2-ss-preview-subscribe .n2-input-button {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    margin-top: 28px;
 }

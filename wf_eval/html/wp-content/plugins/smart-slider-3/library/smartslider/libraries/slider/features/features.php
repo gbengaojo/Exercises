@@ -68,17 +68,20 @@ class N2SmartSliderFeatures {
      */
     public $loadSpinner;
 
+    public $optimize;
+
     private $initCallbacks = array();
 
     public function __construct($slider) {
         $this->slider = $slider;
 
+        $this->optimize        = new N2SmartSliderFeatureOptimize($slider);
         $this->fadeOnLoad      = new N2SmartSliderFeatureFadeOnLoad($slider);
-        $this->responsive      = new N2SmartSliderFeatureResponsive($slider);
+        $this->align           = new N2SmartSliderFeatureAlign($slider);
+        $this->responsive      = new N2SmartSliderFeatureResponsive($slider, $this);
         $this->controls        = new N2SmartSliderFeatureControls($slider);
         $this->lazyLoad        = new N2SmartSliderFeatureLazyLoad($slider);
         $this->margin          = new N2SmartSliderFeatureMargin($slider);
-        $this->align           = new N2SmartSliderFeatureAlign($slider);
         $this->blockRightClick = new N2SmartSliderFeatureBlockRightClick($slider);
         $this->maintainSession = new N2SmartSliderFeatureMaintainSession($slider);
         $this->autoplay        = new N2SmartSliderFeatureAutoplay($slider);

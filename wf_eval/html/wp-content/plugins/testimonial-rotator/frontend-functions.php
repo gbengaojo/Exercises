@@ -36,12 +36,16 @@ function testimonial_rotator_single( $content )
 		if( !trim($template_name) ) 				$template_name = "default";
 		if( !trim($title_heading) ) 				$title_heading =  apply_filters('testimonial_rotator_title_heading', 'h2', $template_name, $rotator_id);
 
-
 		$is_single_page = true;
 		if(!$template_name) $template_name = apply_filters('testimonial_rotator_single_page_theme', 'default', $post->ID);
+		
+		
+		// SET THE STARS FONT ICON
+		$testimonial_rotator_star 	= apply_filters( 'testimonial_rotator_star', 'fa-star', $template_name, $rotator_id );
 	
-		// LOOK FOR single-testimonial IN TEMPLATE IN THEME
-		$template = locate_template( array( "single-testimonial.php" ) );
+	
+		// LOOK FOR content-testimonial IN TEMPLATE IN THEME
+		$template = locate_template( array( "content-testimonial.php" ) );
 			
 		if( !$template AND $template_name != "default" AND $template_name != "longform" AND file_exists( dirname(__FILE__) . "/../testimonial-rotator-" . $template_name . "/templates/single-testimonial.php" ) )
 		{

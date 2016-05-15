@@ -13,7 +13,7 @@ function spider_featured($current_plugin = '') {
       'content'  => 'Photo Gallery is a fully responsive WordPress Gallery plugin with advanced functionality.',
       'href'     => 'https://web-dorado.com/products/wordpress-photo-gallery-plugin.html'
     ),
-    "contact_form_bulder" => array(
+    "contact_form_builder" => array(
       'title'    => 'Contact Form Builder',
       'text'     => 'WordPress contact form builder plugin',
       'content'  => 'Contact Form Builder is the best tool for quickly arranging a contact form for your clients and visitors.',
@@ -95,7 +95,7 @@ function spider_featured($current_plugin = '') {
       'title'    => 'Folder Menu',
       'text'     => 'WordPress folder menu plugin',
       'content'  => 'Folder Menu Vertical is a WordPress Flash menu module for your website, designed to meet your needs and preferences.',
-      'href'     => 'https://web-dorado.com/products/wordpress-random-post.html'
+      'href'     => 'https://web-dorado.com/products/wordpress-menu-vertical.html'
     ),
     "random_post" => array(
       'title'    => 'Random post',
@@ -115,14 +115,23 @@ function spider_featured($current_plugin = '') {
       'content'  => 'WD Instagram Feed is a user-friendly tool for displaying user or hashtag-based feeds on your website.',
       'href'     => 'https://web-dorado.com/products/wordpress-instagram-feed-wd.html'
     ),
+    "post-slider" => array(
+      'title'    => 'Post Slider',
+      'text'     => 'WordPress Post Slider plugin',
+      'content'  => 'Post Slider WD is designed to show off the selected posts of your website in a slider.',
+      'href'     => 'https://web-dorado.com/products/wordpress-post-slider-plugin.html'
+    ),
   );
   ?>
   <div id="main_featured_plugins_page">
     <h3>Featured Plugins</h3>
     <div class="featured_header">
-      <a href="https://web-dorado.com/wordpress-plugins.html?source=<?php echo $current_plugin; ?>"  target="_blank">
+      <a target="_blank" href="https://web-dorado.com/wordpress-plugins.html?source=<?php echo $current_plugin; ?>">
         <h1>GET <?php echo $plugins[$current_plugin]["title"]; ?> +18 PLUGINS</h1>
         <h1 class="get_plugins">FOR $100 ONLY <span>- SAVE 70%</span></h1>
+        <div class="try-now">
+          <span>TRY NOW</span>
+        </div>
       </a>
 	 </div>
     <ul id="featured-plugins-list">
@@ -138,7 +147,7 @@ function spider_featured($current_plugin = '') {
 				<div class="description">
 					<p><?php echo $plugins['content']; ?></p>
 				</div>
-				<a target="_blank" href="<?php echo $plugins['href']; ?>" class="download">Download Plugin &#9658;</a>
+				<a target="_blank" href="<?php echo $plugins['href']; ?>?source=<?php echo $current_plugin; ?>" class="download">Download Plugin &#9658;</a>
 			</li>
           <?php
         }

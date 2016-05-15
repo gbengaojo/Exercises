@@ -67,7 +67,9 @@ class N2SSPluginItemYouTube extends N2SSPluginItemAbstract
         if (!empty($image)) {
             $style     = 'cursor:pointer; background: url(' . N2ImageHelper::fixed($data->get('image')) . ') no-repeat 50% 50%; background-size: cover';
             $hasImage  = 1;
-            $playImage = '<img class="n2-video-play n2-ow" src="' . N2ImageHelperAbstract::SVGToBase64('$ss$/images/play.svg') . '"/>';
+            if($data->get('playbutton', 1) != 0){
+              $playImage = '<img class="n2-video-play n2-ow" src="' . N2ImageHelperAbstract::SVGToBase64('$ss$/images/play.svg') . '"/>';
+            }
         }
 
         N2JS::addInline('window["' . $slider->elementId . '"].ready(function(){

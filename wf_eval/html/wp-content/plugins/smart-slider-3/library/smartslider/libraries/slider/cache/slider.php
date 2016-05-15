@@ -1,7 +1,6 @@
 <?php
 
-class N2CacheManifestSlider extends N2CacheManifest
-{
+class N2CacheManifestSlider extends N2CacheManifest {
 
     private $parameters = array();
 
@@ -36,12 +35,17 @@ class N2CacheManifestSlider extends N2CacheManifest
             return false;
         }
 
+        if (!isset($manifestData['currentPath']) || $manifestData['currentPath'] != md5($this->currentPath)) {
+            return false;
+        }
+
         return true;
     }
 
     protected function addManifestData(&$manifestData) {
 
         $manifestData['nextCacheRefresh'] = N2Pluggable::applyFilters('SSNextCacheRefresh', $this->parameters['slider']->slidesBuilder->getNextCacheRefresh(), array($this->parameters['slider']));
+        $manifestData['currentPath']      = md5($this->currentPath);
 
         $variations = 1;
 

@@ -4,7 +4,10 @@ N2Loader::import('libraries.form.element.radio');
 class N2ElementImageListLabel extends N2ElementRadio
 {
 
-    function fetchElement() {
+    var $_translateable = false;
+
+    function fetchElement() {    
+        $this->_translateable = intval(N2XmlHelper::getAttribute($this->_xml, 'translateable'));    
         $html = N2Html::openTag("div", array(
             'class' => 'n2-imagelist n2-imagelistlabel',
             'style' => N2XmlHelper::getAttribute($this->_xml, 'style')
@@ -28,7 +31,7 @@ class N2ElementImageListLabel extends N2ElementRadio
             $html .= N2Html::tag("div", array(
                 "class" => "n2-radio-option n2-imagelist-option" . ($selected ? ' n2-active' : ''),
                 "style" => "background-image:url(" . N2ImageHelper::fixed(N2XmlHelper::getAttribute($option, 'image')) . ");"
-            ), N2Html::tag('span', array(), (string)$option));
+            ), N2Html::tag('span', array(), ($this->_translateable ? n2_((string)$option) : ((string)$option))));
         }
 
         return $html;

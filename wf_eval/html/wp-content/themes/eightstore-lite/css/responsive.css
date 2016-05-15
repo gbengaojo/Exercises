@@ -5,6 +5,9 @@
 	.store-wrapper{
 		width: 100%;
 	}
+	body.boxed #page {
+		width: 97%;
+	}
 	.main-header, #section-below-slider, #section-product1, #section-category1, #section-category2, #section-product2, #blog-testimonial-section, 
 	.site-footer #section-footer, .site-footer #section-footer2, .footer-copyrt, .woocommerce #primary, .woocommerce #secondary, .sidebar-right #primary, 
 	.search #primary, #secondary.secondary-right, .search #secondary, #secondary.secondary-left, .woocommerce-account .entry-content, .woocommerce-account .entry-footer,

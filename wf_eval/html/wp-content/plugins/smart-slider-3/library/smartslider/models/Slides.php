@@ -5,8 +5,7 @@
  * Date: 2014.06.03.
  * Time: 8:32
  */
-class N2SmartsliderSlidesModel extends N2Model
-{
+class N2SmartsliderSlidesModel extends N2Model {
 
     public function __construct() {
         parent::__construct("nextend2_smartslider3_slides");
@@ -499,7 +498,7 @@ class N2SmartsliderSlidesModel extends N2Model
         return false;
     }
 
-    public function markChanged($sliderid) {
+    public static function markChanged($sliderid) {
         N2SmartSliderHelper::getInstance()
                            ->setSliderChanged($sliderid, 1);
     }
@@ -554,8 +553,7 @@ class N2SmartsliderSlidesModel extends N2Model
      *
      * @throws Exception
      */
-    public static function box($slide, $slider, $widget, $appType) {
-
+    public static function box($slide, $slider, $widget, $appType, $optimize) {
         $lt = array();
 
         if ($slide->isStatic()) {
@@ -635,6 +633,13 @@ class N2SmartsliderSlidesModel extends N2Model
             )
         ));
 
+        $lb      = array();
+
+        $lb[] = N2Html::tag('div', array(
+            'class' => 'n2-button-tag n2-button n2-button-x-small n2-sidebar-list-bg n2-uc n2-h5',
+            'style' => 'cursor:pointer;'
+        ), '#' . $slide->id);
+
         $widget->init("box", array(
             'attributes'         => array(
                 'class'            => 'n2-box-slide n2-box-overflow' . ($slide->isFirst() ? ' n2-first-slide' : '') . ($slide->isCurrentlyEdited() ? ' n2-ss-slide-active' : ''),
@@ -645,9 +650,11 @@ class N2SmartsliderSlidesModel extends N2Model
                 'data-image'       => N2ImageHelper::fixed($image),
                 'data-editUrl'     => $editUrl
             ),
-            'image'              => N2ImageHelper::fixed($image),
+            'image'              => $optimize->optimizeThumbnail($image),
             'firstCol'           => N2Html::link($slide->getTitle() . ($slide->hasGenerator() ? ' [' . $slide->getSlideStat() . ']' : ''), $editUrl, array('class' => 'n2-h4')),
             'lt'                 => implode('', $lt),
+            'lb'                 => implode('', $lb),
+            'lbAttributes'       => array('class' => 'n2-on-hover'),
             'rt'                 => implode('', $rt),
             'rtAttributes'       => array('class' => 'n2-on-hover'),
             'rb'                 => implode('', $rb),

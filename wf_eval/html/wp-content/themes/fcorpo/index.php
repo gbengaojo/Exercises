@@ -7,7 +7,6 @@
  * It is used to display a page when nothing more specific matches a query.
  * e.g., it puts together the home page when no home.php file exists.
  *
- * @package WordPress
  * @subpackage fCorpo
  * @author tishonator
  * @since fCorpo 1.0.0

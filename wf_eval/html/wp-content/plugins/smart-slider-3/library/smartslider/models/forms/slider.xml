@@ -37,7 +37,7 @@
         <param type="number" name="fontsize" label="Font size" default="16" style="width:20px" class="n2-hidden">
           <unit>px</unit>
         </param>
-        <param name="margin" label="Margin" type="mixed" default="0|*|0|*|0|*|0" translateable="0">
+        <param name="margin" label="Margin" type="mixed" default="0|*|0|*|0|*|0" translateable="1">
           <param type="text" style="width: 22px;" label="Top">
             <unit value="px">px</unit>
           </param>
@@ -79,6 +79,19 @@
             <option value="leave">Leave</option>
           </param>
           <param name="autoplayStopMedia" type="onoff" label="Media started" default="1"/></param>
+      </params>
+    </params>
+    <params name="optimize" type="groupped" label="Optimize">
+      <params name="optimize-images" label="Resize images">
+        <param name="optimize" type="onoff" label="Optimize" default="0"/>
+        <param label="Thumbnail" type="group">
+          <param name="optimizeThumbnailWidth" type="text" style="width: 40px;" label="Width" default="100">
+            <unit value="px">px</unit>
+          </param>
+          <param name="optimizeThumbnailHeight" type="text" style="width: 40px;" label="Height" default="60">
+            <unit value="px">px</unit>
+          </param>
+        </param>
       </params>
     </params>
     <params name="other" type="groupped" label="Other">

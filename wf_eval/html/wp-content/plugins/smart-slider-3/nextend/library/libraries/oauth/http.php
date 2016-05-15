@@ -15,8 +15,7 @@ defined('HTTP_CLIENT_ERROR_CANNOT_ACCESS_LOCAL_FILE') || define('HTTP_CLIENT_ERR
 defined('HTTP_CLIENT_ERROR_PROTOCOL_FAILURE') || define('HTTP_CLIENT_ERROR_PROTOCOL_FAILURE', 5);
 defined('HTTP_CLIENT_ERROR_INVALID_PARAMETERS') || define('HTTP_CLIENT_ERROR_INVALID_PARAMETERS', 6);
 
-class N2HTTP
-{
+class N2HTTP {
 
     var $host_name = "";
     var $host_port = 0;
@@ -119,7 +118,8 @@ class N2HTTP
             $string    = $this->next_token;
         }
         for ($character = 0; $character < strlen($separator); $character++) {
-            if (GetType($position = strpos($string, $separator[$character])) == "integer") $found = (IsSet($found) ? min($found, $position) : $position);
+            $position = strpos($string, $separator[$character]);
+            if (GetType($position) == "integer") $found = (IsSet($found) ? min($found, $position) : $position);
         }
         if (IsSet($found)) {
             $this->next_token = substr($string, $found + 1);
@@ -1055,7 +1055,7 @@ class N2HTTP
         if (strlen($this->error)) return ($this->error);
         if (strlen($name) == 0) return ($this->SetError("it was not specified a valid cookie name", HTTP_CLIENT_ERROR_INVALID_PARAMETERS));
         if (strlen($path) == 0 || strcmp($path[0], "/")) return ($this->SetError($path . " is not a valid path for setting cookie " . $name, HTTP_CLIENT_ERROR_INVALID_PARAMETERS));
-        if ($domain == "" || !strpos($domain, ".", $domain[0] == "." ? 1 : 0)) return ($this->SetError($domain . " is not a valid domain for setting cookie " . $name, HTTP_CLIENT_ERROR_INVALID_PARAMETERS));
+        if ($domain == "" || strpos($domain, ".", $domain[0] == "." ? 1 : 0) === false) return ($this->SetError($domain . " is not a valid domain for setting cookie " . $name, HTTP_CLIENT_ERROR_INVALID_PARAMETERS));
         $domain = strtolower($domain);
         if (!strcmp($domain[0], ".")) $domain = substr($domain, 1);
         if (!$verbatim) {
@@ -1540,6 +1540,3 @@ class N2HTTP
     }
 }
 
-;
-
-?>

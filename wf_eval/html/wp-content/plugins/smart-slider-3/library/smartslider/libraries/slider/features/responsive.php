@@ -1,9 +1,9 @@
 <?php
 
-class N2SmartSliderFeatureResponsive
-{
+class N2SmartSliderFeatureResponsive {
 
-    private $slider;
+    /** @var  N2SmartSliderAbstract */
+    public $slider;
 
     public $desktop = 1;
 
@@ -58,7 +58,7 @@ class N2SmartSliderFeatureResponsive
 
     public $orientationMode = 'width_and_height';
 
-    public function __construct($slider) {
+    public function __construct($slider, $features) {
 
         $this->slider = $slider;
 
@@ -71,7 +71,7 @@ class N2SmartSliderFeatureResponsive
         if (!class_exists($class)) {
             $class = 'N2SSResponsiveAuto';
         }
-        $this->modeObject      = new $class($slider->params, $this);
+        $this->modeObject      = new $class($slider->params, $this, $features);
         $this->onResizeEnabled = !$slider->disableResponsive;
 
         if (!$this->scaleDown && !$this->scaleUp) {
@@ -390,7 +390,7 @@ class N2SmartSliderFeatureResponsive
 
 
         $properties['responsive'] = array(
-            'desktop' => $this->desktop,
+            'desktop' => N2Platform::$isAdmin ? 1 : $this->desktop,
             'tablet'  => $this->tablet,
             'mobile'  => $this->mobile,
 

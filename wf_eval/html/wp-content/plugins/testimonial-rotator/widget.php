@@ -2,7 +2,7 @@
 // WIDGET
 class TestimonialRotatorWidget extends WP_Widget
 {
-	function TestimonialRotatorWidget()
+	function __construct()
 	{
 		$widget_ops = array('classname' => 'TestimonialRotatorWidget', 'description' => __('Displays rotating testimonials', 'testimonial-rotator') );
 		parent::__construct('TestimonialRotatorWidget', __('Testimonials Rotator', 'testimonial-rotator'), $widget_ops);
@@ -244,7 +244,7 @@ class TestimonialRotatorWidget extends WP_Widget
 		
 		
 		// USER DEFINED SETTINGS
-		if ( $instance['override_rotator_settings'] )
+		if ( isset($instance['override_rotator_settings']) AND $instance['override_rotator_settings'] )
 		{
 			$instance['template']			= $instance['template'];
 			$instance['fx']					= $instance['fx'];

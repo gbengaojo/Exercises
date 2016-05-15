@@ -3,13 +3,14 @@
  * Plugin Name: Contact Form Builder
  * Plugin URI: http://web-dorado.com/products/wordpress-contact-form-builder.html
  * Description: Contact Form Builder is an advanced plugin to add contact forms into your website. It comes along with multiple default templates which can be customized.
- * Version: 1.0.41
+ * Version: 1.0.43
  * Author: WebDorado
  * Author URI: http://web-dorado.com/
  * License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
 define('WD_CFM_DIR', WP_PLUGIN_DIR . "/" . plugin_basename(dirname(__FILE__)));
 define('WD_CFM_URL', plugins_url(plugin_basename(dirname(__FILE__))));
+define('WD_CFM_VERSION', '1.0.43');
 
 // Plugin menu.
 function contact_form_maker_options_panel() {
@@ -72,7 +73,7 @@ function cfm_featured() {
   require_once(WD_CFM_DIR . '/featured/featured.php');
   wp_register_style('cfm_featured', WD_CFM_URL . '/featured/style.css', array(), get_option("wd_contact_form_maker_version"));
   wp_print_styles('cfm_featured');
-  spider_featured('contact_form_bulder');
+  spider_featured('contact_form_builder');
 }
 
 function cfm_featured_themes() {
@@ -87,7 +88,7 @@ function cfm_featured_themes() {
   require_once(WD_CFM_DIR . '/featured/featured_themes.php');
   wp_register_style('cfm_featured_themes', WD_CFM_URL . '/featured/themes_style.css', array(), get_option("wd_contact_form_maker_version"));
   wp_print_styles('cfm_featured_themes');
-  spider_featured_themes();
+  spider_featured_themes('contact_form_builder');
 }
 
 add_action('wp_ajax_ContactFormMakerPreview', 'contact_form_maker_ajax');
@@ -172,7 +173,7 @@ if (class_exists('WP_Widget')) {
 // Activate plugin.
 function contact_form_maker_activate() {
   $version = get_option("wd_contact_form_maker_version");
-  $new_version = '1.0.41';
+  $new_version = WD_CFM_VERSION;
   if ($version && version_compare($version, $new_version, '<')) {
     require_once WD_CFM_DIR . "/contact-form-builder-update.php";
     contact_form_maker_update($version);
@@ -192,18 +193,16 @@ if (!isset($_GET['action']) || $_GET['action'] != 'deactivate') {
 
 // Contact Form Builder manage page styles.
 function contact_form_maker_manage_styles() {
-  $version = get_option("wd_contact_form_maker_version");
   wp_admin_css('thickbox');
-  wp_enqueue_style('contact_form_maker_tables', WD_CFM_URL . '/css/contact_form_maker_tables.css', array(), $version);
-  wp_enqueue_style('contact_form_maker_first', WD_CFM_URL . '/css/contact_form_maker_first.css', array(), $version);
+  wp_enqueue_style('contact_form_maker_tables', WD_CFM_URL . '/css/contact_form_maker_tables.css', array(), WD_CFM_VERSION);
+  wp_enqueue_style('contact_form_maker_first', WD_CFM_URL . '/css/contact_form_maker_first.css', array(), WD_CFM_VERSION);
   wp_enqueue_style('jquery-ui', WD_CFM_URL . '/css/jquery-ui-1.10.3.custom.css');
-  wp_enqueue_style('contact_form_maker_style', WD_CFM_URL . '/css/style.css', array(), $version);
+  wp_enqueue_style('contact_form_maker_style', WD_CFM_URL . '/css/style.css', array(), WD_CFM_VERSION);
   wp_enqueue_style('contact_form_maker_codemirror', WD_CFM_URL . '/css/codemirror.css');
-  wp_enqueue_style('contact_form_maker_layout', WD_CFM_URL . '/css/contact_form_maker_layout.css', array(), $version);
+  wp_enqueue_style('contact_form_maker_layout', WD_CFM_URL . '/css/contact_form_maker_layout.css', array(), WD_CFM_VERSION);
 }
 // Contact Form Builder manage page scripts.
 function contact_form_maker_manage_scripts() {
-  $version = get_option("wd_contact_form_maker_version");
   wp_enqueue_script('thickbox');
   wp_enqueue_script('jquery');
   wp_enqueue_script('jquery-ui-widget');
@@ -212,10 +211,10 @@ function contact_form_maker_manage_scripts() {
   wp_enqueue_script('gmap_form_api', 'https://maps.google.com/maps/api/js?sensor=false');
   wp_enqueue_script('gmap_form', WD_CFM_URL . '/js/if_gmap_back_end.js');
 
-  wp_enqueue_script('contact_form_maker_admin', WD_CFM_URL . '/js/contact_form_maker_admin.js', array(), $version);
-  wp_enqueue_script('contact_form_maker_manage', WD_CFM_URL . '/js/contact_form_maker_manage.js', array(), $version);
+  wp_enqueue_script('contact_form_maker_admin', WD_CFM_URL . '/js/contact_form_maker_admin.js', array(), WD_CFM_VERSION);
+  wp_enqueue_script('contact_form_maker_manage', WD_CFM_URL . '/js/contact_form_maker_manage.js', array(), WD_CFM_VERSION);
 
-  wp_enqueue_script('contactformmaker', WD_CFM_URL . '/js/contactformmaker.js', array(), $version);
+  wp_enqueue_script('contactformmaker', WD_CFM_URL . '/js/contactformmaker.js', array(), WD_CFM_VERSION);
 
   wp_enqueue_script('contact_form_maker_codemirror', WD_CFM_URL . '/js/layout/codemirror.js', array(), '2.3');
   wp_enqueue_script('contact_form_maker_clike', WD_CFM_URL . '/js/layout/clike.js', array(), '1.0.0');
@@ -577,32 +576,16 @@ function contact_form_maker_manage_scripts() {
 }
 
 function contact_form_maker_styles() {
-  wp_enqueue_style('contact_form_maker_tables', WD_CFM_URL . '/css/contact_form_maker_tables.css', array(), get_option("wd_contact_form_maker_version"));
-  wp_enqueue_style('contact_form_maker_style', WD_CFM_URL . '/css/style.css', array(), get_option("wd_contact_form_maker_version"));
+  wp_enqueue_style('contact_form_maker_tables', WD_CFM_URL . '/css/contact_form_maker_tables.css', array(), WD_CFM_VERSION);
+  wp_enqueue_style('contact_form_maker_style', WD_CFM_URL . '/css/style.css', array(), WD_CFM_VERSION);
 }
 function contact_form_maker_scripts() {
-  wp_enqueue_script('contact_form_maker_admin', WD_CFM_URL . '/js/contact_form_maker_admin.js', array(), get_option("wd_contact_form_maker_version"));
+  wp_enqueue_script('contact_form_maker_admin', WD_CFM_URL . '/js/contact_form_maker_admin.js', array(), WD_CFM_VERSION);
 }
 
 function contact_form_maker_licensing_styles() {
   wp_enqueue_style('contact_form_maker_licensing', WD_CFM_URL . '/css/contact_form_maker_licensing.css');
 }
-
-function contact_form_maker_front_end_scripts() {
-  $version = get_option("wd_contact_form_maker_version");
-  wp_enqueue_script('jquery');
-  wp_enqueue_script('jquery-ui-widget');
-  wp_enqueue_script('jquery-effects-shake');
-
-  wp_enqueue_style('jquery-ui', WD_CFM_URL . '/css/jquery-ui-1.10.3.custom.css');
-  wp_enqueue_style('contact_form_maker_frontend', WD_CFM_URL . '/css/contact_form_maker_frontend.css');
-
-  wp_enqueue_script('gmap_form_api', 'https://maps.google.com/maps/api/js?sensor=false');
-  wp_enqueue_script('gmap_form', WD_CFM_URL . '/js/if_gmap_front_end.js');
-
-  wp_enqueue_script('cfm_main_front_end', WD_CFM_URL . '/js/cfm_main_front_end.js', array(), $version);
-}
-add_action('wp_enqueue_scripts', 'contact_form_maker_front_end_scripts');
 
 // Languages localization.
 function contact_form_maker_language_load() {
@@ -614,4 +597,15 @@ if (is_admin() && (!defined('DOING_AJAX') || !DOING_AJAX)) {
 	include_once(WD_CFM_DIR . '/contact-form-builder-notices.php');
   new CFM_Notices();
 }
+
+function contact_form_maker_front_end_scripts() {
+  wp_register_style('jquery-ui', WD_CFM_URL . '/css/jquery-ui-1.10.3.custom.css');
+  wp_register_style('contact_form_maker_frontend', WD_CFM_URL . '/css/contact_form_maker_frontend.css', FALSE, WD_CFM_VERSION);
+
+  wp_register_script('gmap_form_api', 'https://maps.google.com/maps/api/js?sensor=false', array('jquery'));
+  wp_register_script('gmap_form', WD_CFM_URL . '/js/if_gmap_front_end.js', array('jquery'));
+
+  wp_register_script('cfm_main_front_end', WD_CFM_URL . '/js/cfm_main_front_end.js', array('jquery', 'jquery-ui-widget', 'jquery-effects-shake'), WD_CFM_VERSION);
+}
+add_action('wp_enqueue_scripts', 'contact_form_maker_front_end_scripts');
 ?>

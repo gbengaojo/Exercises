@@ -1,7 +1,6 @@
 <?php
 
-class N2Loader
-{
+class N2Loader {
 
     public static $paths = array(
         'core'            => N2LIBRARY,
@@ -31,7 +30,7 @@ class N2Loader
 
         if ($dirContent) {
             foreach ($dirContent as $file) {
-                if (is_file($dirName . NDS . $file)) {
+                if (is_file($dirName . NDS . $file) && substr($file, -4) == '.php') {
                     self::importPath($dirName . NDS . $file, true);
                 }
             }

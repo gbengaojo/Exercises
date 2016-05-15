@@ -9,7 +9,6 @@
  * new template file for each one. For example, tag.php (Tag archives),
  * category.php (Category archives), author.php (Author archives), etc.
  *
- * @package WordPress
  * @subpackage fCorpo
  * @author tishonator
  * @link https://codex.wordpress.org/Template_Hierarchy

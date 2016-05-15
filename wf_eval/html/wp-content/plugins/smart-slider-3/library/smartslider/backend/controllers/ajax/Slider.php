@@ -1,7 +1,6 @@
 <?php
 
-class N2SmartsliderBackendSliderControllerAjax extends N2SmartSliderControllerAjax
-{
+class N2SmartsliderBackendSliderControllerAjax extends N2SmartSliderControllerAjax {
 
     public function initialize() {
         parent::initialize();
@@ -166,6 +165,8 @@ class N2SmartsliderBackendSliderControllerAjax extends N2SmartSliderControllerAj
             N2Message::error(sprintf(n2_('Import url is not valid: %s'), $key));
             $this->response->error();
         }
+        N2Base::getApplication('smartslider')->storage->set('free', 'subscribeOnImport', 1);
+    
 
         $posts  = array(
             'action' => 'asset',
@@ -191,8 +192,8 @@ class N2SmartsliderBackendSliderControllerAjax extends N2SmartSliderControllerAj
 
             N2Loader::import('libraries.import', 'smartslider');
 
-            $import      = new N2SmartSliderImport();
-            $sliderId    = $import->import($result, 'clone', 1, false);
+            $import   = new N2SmartSliderImport();
+            $sliderId = $import->import($result, 'clone', 1, false);
 
             if ($sliderId !== false) {
                 N2Message::success(n2_('Slider imported.'));

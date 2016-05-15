@@ -2,8 +2,7 @@
 
 N2Loader::import("libraries.mvc.view");
 
-class N2Layout extends N2View
-{
+class N2Layout extends N2View {
 
     public $controller = null;
 
@@ -17,12 +16,12 @@ class N2Layout extends N2View
             $path       = $this->appType->path . NDS . "views" . NDS . $controller . NDS;
         }
 
-        if (!file_exists($path . $fileName . ".php")) {
-            throw new N2ViewException("View file ({$fileName}.php) not found in " . $path . $fileName);
+        if (!file_exists($path . $fileName . ".phtml")) {
+            throw new N2ViewException("View file ({$fileName}.phtml) not found in " . $path . $fileName);
         }
         $this->layoutFragments["nextend_" . $position][] = array(
             'params' => $viewParameters,
-            'file'   => $path . $fileName . ".php"
+            'file'   => $path . $fileName . ".phtml"
         );
     }
 
@@ -39,19 +38,19 @@ class N2Layout extends N2View
         if (is_null($path)) {
             $path = $this->appType->path . NDS . "layouts" . NDS;
         } else {
-            if (strpos(".", $path)) {
+            if (strpos(".", $path) !== false) {
                 $path = N2Filesystem::dirFormat($path);
             }
         }
 
-        if (!N2Filesystem::existsFile($path . $fileName . ".php")) {
-            throw new N2ViewException("Layout file ({$fileName}.php) not found in '{$path}'");
+        if (!N2Filesystem::existsFile($path . $fileName . ".phtml")) {
+            throw new N2ViewException("Layout file ({$fileName}.phtml) not found in '{$path}'");
         }
 
         extract($params);
 
         /** @noinspection PhpIncludeInspection */
-        include $path . $fileName . ".php";
+        include $path . $fileName . ".phtml";
     }
 
     public function render($params = array(), $layoutName = false) {
@@ -95,8 +94,7 @@ class N2Layout extends N2View
 
 }
 
-class N2LayoutAjax extends N2Layout
-{
+class N2LayoutAjax extends N2Layout {
 
     protected function renderLayout($fileName, $params = array(), $path = null) {
         $this->renderFragmentBlock('nextend_content');

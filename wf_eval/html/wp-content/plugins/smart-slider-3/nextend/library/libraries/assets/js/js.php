@@ -1,7 +1,6 @@
 <?php
 
-class N2JS
-{
+class N2JS {
 
     public static function addFile($pathToFile, $group) {
         N2AssetsManager::$js->addFile($pathToFile, $group);
@@ -9,6 +8,10 @@ class N2JS
 
     public static function addFiles($path, $files, $group) {
         N2AssetsManager::$js->addFiles($path, $files, $group);
+    }
+
+    public static function addStaticGroup($file, $group) {
+        N2AssetsManager::$js->addStaticGroup($file, $group);
     }
 
     public static function addCode($code, $group) {
@@ -48,10 +51,6 @@ class N2JS
             }
         }
     
-
-        self::addFiles(N2LIBRARYASSETS . '/js', array(
-            "console.js"
-        ), "nextend-frontend");
     }
 
     public static function modernizr() {

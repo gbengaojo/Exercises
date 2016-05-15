@@ -2,8 +2,7 @@
 
 N2Loader::import('libraries.plugins.N2SliderWidgetAbstract', 'smartslider');
 
-class N2SSPluginWidgetArrowImage extends N2SSPluginWidgetAbstract
-{
+class N2SSPluginWidgetArrowImage extends N2SSPluginWidgetAbstract {
 
     private static $key = 'widget-arrow-';
 
@@ -113,11 +112,11 @@ class N2SSPluginWidgetArrowImage extends N2SSPluginWidgetAbstract
         }
         if ($previous || $next) {
 
-            N2LESS::addFile(N2Filesystem::translate(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'image' . DIRECTORY_SEPARATOR . 'style.less'), $slider->cacheId, array(
+            N2LESS::addFile(N2Filesystem::translate(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'image' . DIRECTORY_SEPARATOR . 'style.n2less'), $slider->cacheId, array(
                 "sliderid" => $slider->elementId
             ), NEXTEND_SMARTSLIDER_ASSETS . '/less' . NDS);
-
-            N2JS::addFile(N2Filesystem::translate(dirname(__FILE__) . '/image/arrow.js'), $id);
+            N2JS::addFile(N2Filesystem::translate(dirname(__FILE__) . '/image/arrow.min.js'), $id);
+        
 
             list($displayClass, $displayAttributes) = self::getDisplayAttributes($params, self::$key);
 
@@ -176,9 +175,18 @@ class N2SSPluginWidgetArrowImage extends N2SSPluginWidgetAbstract
         }
 
         if ($imageHover === null) {
-            $image = N2Html::image($image, 'Arrow', array('class' => 'n2-ow', 'data-no-lazy' => '1'));
+            $image = N2Html::image($image, 'Arrow', array(
+                'class'        => 'n2-ow',
+                'data-no-lazy' => '1'
+            ));
         } else {
-            $image = N2Html::image($image, 'Arrow', array('class' => 'n2-arrow-normal-img n2-ow', 'data-no-lazy' => '1')) . N2Html::image($imageHover, 'Arrow', array('class' => 'n2-arrow-hover-img n2-ow', 'data-no-lazy' => '1'));
+            $image = N2Html::image($image, 'Arrow', array(
+                    'class'        => 'n2-arrow-normal-img n2-ow',
+                    'data-no-lazy' => '1'
+                )) . N2Html::image($imageHover, 'Arrow', array(
+                    'class'        => 'n2-arrow-hover-img n2-ow',
+                    'data-no-lazy' => '1'
+                ));
         }
 
         if ($animation == 'none' || $animation == 'fade') {
@@ -218,8 +226,7 @@ class N2SSPluginWidgetArrowImage extends N2SSPluginWidgetAbstract
 }
 
 
-class N2SSPluginWidgetArrowImageSmallRectangle extends N2SSPluginWidgetArrowImage
-{
+class N2SSPluginWidgetArrowImageSmallRectangle extends N2SSPluginWidgetArrowImage {
 
     var $_name = 'imageSmallRectangle';
 
@@ -236,8 +243,7 @@ class N2SSPluginWidgetArrowImageSmallRectangle extends N2SSPluginWidgetArrowImag
 N2Plugin::addPlugin('sswidgetarrow', 'N2SSPluginWidgetArrowImageSmallRectangle');
 
 
-class N2SSPluginWidgetArrowImageEmpty extends N2SSPluginWidgetArrowImage
-{
+class N2SSPluginWidgetArrowImageEmpty extends N2SSPluginWidgetArrowImage {
 
     var $_name = 'imageEmpty';
 

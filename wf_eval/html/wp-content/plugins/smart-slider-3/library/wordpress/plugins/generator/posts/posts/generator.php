@@ -11,6 +11,23 @@ class N2GeneratorPostsPosts extends N2GeneratorAbstract
 
         list($orderBy, $order) = N2Parse::parse($this->data->get('postscategoryorder', 'post_date|*|desc'));
 
+        $allTags   = $this->data->get('posttags', '');
+        $tax_query = '';
+        if (!empty($allTags)) {
+            $tags = explode('||', $allTags);
+            if (!in_array('0', $tags)) {
+                $tax_query = array();
+                foreach ($tags AS $tag) {
+                    $tax_query[] = array(
+                        'taxonomy' => 'post_tag',
+                        'terms'    => $tag,
+                        'field'    => 'id'
+                    );
+                }
+                $tax_query['relation'] = 'OR';
+            }
+        }
+
         $postsFilter = array(
             'include'          => '',
             'exclude'          => '',
@@ -24,7 +41,8 @@ class N2GeneratorPostsPosts extends N2GeneratorAbstract
             'offset'           => $startIndex,
             'posts_per_page'   => $count,
             'orderby'          => $orderBy,
-            'order'            => $order
+            'order'            => $order,
+            'tax_query'        => $tax_query
         );
 
         $categories = (array)N2Parse::parse($this->data->get('postscategory'));
@@ -71,8 +89,15 @@ class N2GeneratorPostsPosts extends N2GeneratorAbstract
             if (class_exists('acf')) {
                 $fields = get_fields($post->ID);
                 if (count($fields)) {
-                    foreach ($fields AS $k => $v) {
-                        $record[$k] = $v;
+                    if (is_array($fields) && !empty($fields)) {
+                        foreach ($fields AS $k => $v) {
+                        $k = str_replace('-','',$k);
+                            if (!is_array($v)) {
+                                $record[$k] = $v;
+                            } else if (isset($v['url'])) {
+                                $record[$k] = $v['url'];
+                            }
+                        }
                     }
                 }
             }

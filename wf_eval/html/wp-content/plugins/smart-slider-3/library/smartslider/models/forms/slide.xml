@@ -22,7 +22,7 @@
       <param name="backgroundImageOpacity" label="Opacity" type="numberautocomplete" default="100" style="width: 22px;" min="0" max="100" values="100,80,60,40,20,0">
         <unit value="%">%</unit>
       </param>
-      <param name="backgroundAlt" type="text" label="Alt" default=""/></param>
+      <param name="backgroundAlt" type="text" label="Alt tag" default=""/></param>
     <param name="backgroundMode" type="imagelistlabel" label="Fill mode" default="default" translateable="1">
       <option value="default" image="$ss$/images/fillmode/default.png">Slider&apos;s default</option>
       <option value="fill" image="$ss$/images/fillmode/fill.png">Fill</option>

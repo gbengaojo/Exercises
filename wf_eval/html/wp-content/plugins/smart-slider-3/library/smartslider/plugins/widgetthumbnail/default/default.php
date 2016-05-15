@@ -77,10 +77,11 @@ class N2SSPluginWidgetThumbnailDefault extends N2SSPluginWidgetAbstract {
             // Nothing to show
             return '';
         }
+        N2JS::addFile(N2Filesystem::translate(dirname(__FILE__) . '/default/thumbnail.min.js'), $id);
+    
 
-        N2JS::addFile(N2Filesystem::translate(dirname(__FILE__) . '/default/thumbnail.js'), $id);
 
-        N2LESS::addFile(N2Filesystem::translate(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'default' . DIRECTORY_SEPARATOR . 'style.less'), $slider->cacheId, array(
+        N2LESS::addFile(N2Filesystem::translate(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'default' . DIRECTORY_SEPARATOR . 'style.n2less'), $slider->cacheId, array(
             "sliderid" => $slider->elementId
         ), NEXTEND_SMARTSLIDER_ASSETS . '/less' . NDS);
 
@@ -197,7 +198,7 @@ class N2SSPluginWidgetThumbnailDefault extends N2SSPluginWidgetAbstract {
                 $imgstyle = "width: {$width}px; height: {$height}px;";
                 $image    = N2Html::tag('div', array(
                     'class' => 'n2-ss-thumb-image',
-                    'style' => "background-image: URL('" . $slide->getThumbnail() . "');" . $imgstyle . $thumbnailCode
+                    'style' => "background-image: URL('" . $slider->features->optimize->optimizeThumbnail($slide->getThumbnail()) . "');" . $imgstyle . $thumbnailCode
                 ), $slide->getThumbnailTypeHTML());
             }
 

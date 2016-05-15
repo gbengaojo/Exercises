@@ -15,7 +15,7 @@
 
 	$table_name  =  $wpdb->prefix . "juna_it_slider_manager";
 	$table_name1 =  $wpdb->prefix . "juna_it_photo_manager";
-	$table_name3 =  $wpdb->prefix . "juna_it_pslider_effect";
+	$table_name3 =  $wpdb->prefix . "juna_it_pslider_effects";
 
 	if(isset($_POST['JIT_PSlider_Save_Submit']))
 	{
@@ -127,7 +127,7 @@
 <form method="POST" enctype="multipart/form-data">
 	<div id="JIT_PSlider_main"> 
 		<div class="JIT_PSlider_Submenu_Footer_Div">
-			<a href="http://juna-it.com" target="_blank" title="Click to Visit"><img src="http://juna-it.com/image/logo-white.png" class="Juna_IT_Logo_Orange"></a>
+			<a href="http://juna-it.com" target="_blank" title="Click to Visit"><img src="<?php echo plugins_url('/Images/logo-white.png',__FILE__);?>" class="Juna_IT_Logo_Orange"></a>
 			<div class="JIT_PSlider_Submenu_Div">
 				<span class="JIT_PSlider_Title_Span">Name:</span> 
 				<input type="text"   class="JIT_PSlider_search_text" id="JIT_PSlider_search_text" onclick="JIT_PSlider_Search()" placeholder="Search">
@@ -215,7 +215,7 @@
 			</tr>
 		</table>			
 	</div>
-	<div class="JIT_PSlider_Add_Photo_Div" onclick="JIT_PSlider_Add_Photo_Div_Clicked()">
+	<div class="JIT_PSlider_Add_Photo_Div">
 		<table class="JIT_PSlider_Upload_Photo_Table">
 			<tr>
 				<td><label>Title:</label></td>
@@ -249,7 +249,7 @@
 			<input type="button" class="JIT_PSlider_Upload_Photo_Button" id="JIT_PSlider_Button_U" value="Update" onclick="JIT_PSlider_Up_Clicked()">
 		</div>
 	</div>
-	<div id="JIT_PSlider_Photos" class="JIT_PSlider_Photos">
+	<div id="JIT_PSlider_Photos" class="JIT_PSlider_Photos" onclick="JIT_PSlider_Sort()">
 		<ul id="JIT_PSlider_Photos_Ul">
 		</ul>			
 	</div>

@@ -2,7 +2,6 @@
 /**
  * The template for displaying all single posts and attachments
  *
- * @package WordPress
  * @subpackage fCorpo
  * @author tishonator
  * @since fCorpo 1.0.0

@@ -38,7 +38,7 @@
 
 			$table_name  =  $wpdb->prefix . "juna_it_slider_manager";
 			$table_name1 =  $wpdb->prefix . "juna_it_photo_manager";
-			$table_name3 =  $wpdb->prefix . "juna_it_pslider_effect";
+			$table_name3 =  $wpdb->prefix . "juna_it_pslider_effects";
 
 			$JIT_PSlider_SN=$wpdb->get_results($wpdb->prepare("SELECT * FROM $table_name WHERE id=%d",$JIT_PSlider_Name));
 			$JIT_PSlider_IWP=$wpdb->get_results($wpdb->prepare("SELECT * FROM $table_name1 WHERE slider_id=%s order by id",$JIT_PSlider_Name));
@@ -727,10 +727,10 @@
 				        <?php if($JIT_PSlider_PFS[0]->JIT_PSlider_ShowArr=='Yes'){?>
 				        	<!-- Arrow Navigator -->
 					        <span data-u="arrowleft" class="JIT_PSlider_HTS_LI" style="left:8px;">
-					        	<img src="http://juna-it.com/image/image-gallery/icon-<?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_Hidden_E1I;?>.png">
+					        	<img src="<?php echo plugins_url('/Images/icon-'. $JIT_PSlider_PFS[0]->JIT_PSlider_Hidden_E1I .'.png',__FILE__);?>">
 					        </span>
 					        <span data-u="arrowright" class="JIT_PSlider_HTS_RI" style="right:8px;">
-					        <img src="http://juna-it.com/image/image-gallery/icon-<?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_Hidden_E1I;?>-<?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_Hidden_E1I;?>.png">
+					        <img src="<?php echo plugins_url('/Images/icon-'. $JIT_PSlider_PFS[0]->JIT_PSlider_Hidden_E1I .'-'. $JIT_PSlider_PFS[0]->JIT_PSlider_Hidden_E1I .'.png',__FILE__);?>">
 					        </span>
 					    <?php }?>	
 				    </div>
@@ -874,13 +874,98 @@
 				        <?php if($JIT_PSlider_PFS[0]->JIT_PSlider_ShowArr=='Yes'){?>
 				        	<!-- Arrow Navigator -->
 					        <span data-u="arrowleft" class="JIT_PSlider_TS_LI" style="left:8px;">
-					        	<img src="http://juna-it.com/image/image-gallery/icon-<?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_Hidden_E1I;?>.png">
+					        	<img src="<?php echo plugins_url('/Images/icon-'. $JIT_PSlider_PFS[0]->JIT_PSlider_Hidden_E1I .'.png',__FILE__);?>">
 					        </span>
 					        <span data-u="arrowright" class="JIT_PSlider_TS_RI" style="right:8px;">
-					        <img src="http://juna-it.com/image/image-gallery/icon-<?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_Hidden_E1I;?>-<?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_Hidden_E1I;?>.png">
+					        <img src="<?php echo plugins_url('/Images/icon-'. $JIT_PSlider_PFS[0]->JIT_PSlider_Hidden_E1I .'-'. $JIT_PSlider_PFS[0]->JIT_PSlider_Hidden_E1I .'.png',__FILE__);?>">
 					        </span>
 					    <?php }?>	
 				    </div>
+				<?php
+			}
+			else if($JIT_PSlider_PFS[0]->JIT_PSlider_ET=='3D Slider')
+			{
+				$ContHei=explode('px', $JIT_PSlider_PFS[0]->JIT_PSlider_SH)[0]+explode('px', $JIT_PSlider_PFS[0]->JIT_PSlider_AFS)[0]+explode('px', $JIT_PSlider_PFS[0]->JIT_PSlider_TFS)[0]+50;
+				$JIT_PSlider_3D_ADMT=explode('px', $JIT_PSlider_PFS[0]->JIT_PSlider_AFS)[0]+10;
+				?>
+			        <input type="text" style="display: none;" id="JIT_PSlider_3D_AutoPlay" value="<?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_AutoPlay;?>">
+			        <input type="text" style="display: none;" id="JIT_PSlider_3D_SD"       value="<?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_SD;?>">
+			        <input type="text" style="display: none;" id="JIT_PSlider_3D_Deg"      value="<?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_Deg;?>">
+					<input type="text" style="display: none;" id="JIT_PSlider_ET6"         value="<?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_ET;?>">
+					<style type="text/css">
+						.JIT_PSlider_3DAD_<?php echo $JIT_PSlider_Name;?>
+						{
+							background-color: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_TBC;?>;
+							color: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_TC;?>;
+							font-size: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_TFS;?>;
+							font-family: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_TFF;?>;
+							opacity: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_TO;?>;
+							text-align: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_TTA;?>;
+							border:<?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_TBrW;?> <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_TBrS;?> <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_TBrC;?>;
+							border-radius: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_TBrR;?>;
+							display: <?php if($JIT_PSlider_PFS[0]->JIT_PSlider_ShowTitle=='No'){echo 'none' ;}?>;
+    						text-shadow: 1px 1px 1px <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_SBC;?>;
+    						margin-top: <?php echo $JIT_PSlider_3D_ADMT.'px';?>;
+						}
+						.JIT_PSlider_3Dwrap_<?php echo $JIT_PSlider_Name;?>
+						{
+							width: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_SW.'px';?>;
+							height: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_SH;?>;
+						}
+						.JIT_PSlider_3DCont_<?php echo $JIT_PSlider_Name;?>
+						{
+							height: <?php echo $ContHei.'px';?>;
+						}
+						.JIT_PSlider_3DAI_<?php echo $JIT_PSlider_Name;?>
+						{
+							border:<?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_CBW;?> <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_CBS;?> <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_CBC;?>;
+							border-radius: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_CBR;?>;
+						}
+						.JIT_PSlider_3DA_<?php echo $JIT_PSlider_Name;?>
+						{
+   							border-radius: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_CBR;?>;
+    						box-shadow: 0px 0px 30px <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_SSC;?>;
+						}
+						.JIT_PSlider_3DNS_<?php echo $JIT_PSlider_Name;?>
+						{
+							font-size: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_AFS;?>;
+							color: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_AC;?>;
+							margin-top: 5px;
+						}
+						.JIT_PSlider_3DNS_<?php echo $JIT_PSlider_Name;?>:hover
+						{
+							color: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_AHC;?>;
+						}
+						.JIT_PSlider_3DNS_<?php echo $JIT_PSlider_Name;?>:active
+						{
+							color: <?php echo $JIT_PSlider_PFS[0]->JIT_PSlider_AC;?>;
+						}
+					</style>
+					<section class="JIT_PSlider_3DCont JIT_PSlider_3DCont_<?php echo $JIT_PSlider_Name;?>">
+						<div class="JIT_PSlider_3Dwrap JIT_PSlider_3Dwrap_<?php echo $JIT_PSlider_Name;?>">
+			            	<?php for($j=0;$j<count($JIT_PSlider_IWP);$j++){
+		            			$u = explode(')*^*(', $JIT_PSlider_IWP[$j]->photo_title);
+								$y = implode('"', $u);
+								$t = explode(")*&*(", $y);
+								$Photo_Title = implode("'", $t);
+								?>
+									<a class="JIT_PSlider_3DA_<?php echo $JIT_PSlider_Name;?>" href="<?php if($JIT_PSlider_IWP[$j]->photo_link!=''){ echo $JIT_PSlider_IWP[$j]->photo_link; }?>" target="<?php if($JIT_PSlider_IWP[$j]->open_NT=='Yes'){echo '_blank';}?>">
+										<img class="JIT_PSlider_3DAI_<?php echo $JIT_PSlider_Name;?>" src="<?php echo $JIT_PSlider_IWP[$j]->photo_url;?>" alt="image<?php echo $j;?>">
+										<div class="JIT_PSlider_3DAD_<?php echo $JIT_PSlider_Name;?>"><?php echo $Photo_Title; ?></div>
+									</a>
+							<?php }?>
+						</div>
+						<nav>	
+							<span class="JIT_PSlider_3DPrev"><i class="JIT_PSlider_3DNS_<?php echo $JIT_PSlider_Name;?> junaiticons-style <?php echo $JIT_PSlider_Left_Icon;?>"></i></span>
+							<span class="JIT_PSlider_3DNext"><i class="JIT_PSlider_3DNS_<?php echo $JIT_PSlider_Name;?> junaiticons-style <?php echo $JIT_PSlider_Right_Icon;?>"></i></span>
+						</nav>
+					</section>
+
+					<script type="text/javascript">
+						jQuery(function(){
+							jQuery('.JIT_PSlider_3DCont').gallery();
+						});
+					</script>
 				<?php
 			}
  		}

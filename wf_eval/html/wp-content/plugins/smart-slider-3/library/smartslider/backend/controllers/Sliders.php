@@ -15,7 +15,6 @@ class N2SmartsliderBackendSlidersController extends N2SmartSliderController
 
     public function actionIndex() {
         N2Loader::import(array(
-            'models.Layouts',
             'models.SliderItems'
         ), 'smartslider');
 

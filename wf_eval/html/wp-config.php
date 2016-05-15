@@ -26,8 +26,7 @@ define('DB_NAME', 'hack_test');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-// define('DB_PASSWORD', 'haXme');
-define('DB_PASSWORD', 'Inc0ming$');
+define('DB_PASSWORD', 'haXme');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

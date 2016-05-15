@@ -9,7 +9,6 @@ class N2SmartSliderController extends N2BackendController
         N2JS::addFirstCode('window.ss2lang = {};');
 
         N2Loader::import(array(
-            'models.GroupStorage',
             'models.License',
             'models.Update'
         ), 'smartslider');
@@ -50,7 +49,6 @@ class N2SmartSliderControllerAjax extends N2BackendControllerAjax
         parent::initialize();
 
         N2Loader::import(array(
-            'models.GroupStorage',
             'models.License'
         ), 'smartslider');
     }

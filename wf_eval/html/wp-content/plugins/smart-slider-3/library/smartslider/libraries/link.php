@@ -45,6 +45,17 @@ class N2LinkToSlide
     }
 }
 
+class N2LinkToSlideID
+{
+
+    public static function parse($argument, &$attributes, $isEditor = false) {
+        if (!$isEditor) {
+            $attributes['onclick'] = "n2ss.applyAction(this, 'slideToID', " . intval($argument) . "); return false";
+        }
+        return '#';
+    }
+}
+
 class N2LinkSlideEvent
 {
 

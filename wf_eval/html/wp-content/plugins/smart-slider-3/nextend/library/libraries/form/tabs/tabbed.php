@@ -83,7 +83,7 @@ class N2TabTabbed extends N2Tab
                     views.eq(i).addClass("n2-active");
                     panes.eq(i).addClass("n2-active");
                 });
-            })()
+            })();
         ');
         ?>
     <?php

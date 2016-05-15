@@ -165,13 +165,17 @@ class N2SmartsliderBackendSlidesControllerAjax extends N2SmartSliderControllerAj
         N2Message::success(n2_('Slide duplicated.'));
 
         $sliderObj = new N2SmartSlider($slide['slider'], array());
+        $sliderObj->loadSliderParams();
+        $optimize          = new N2SmartSliderFeatureOptimize($sliderObj);
+
         $slideObj  = new N2SmartSliderSlide($sliderObj, $slide);
         $slideObj->initGenerator();
         $slideObj->fillSample();
 
         $this->addView('slidebox', array(
             'slider' => $sliderObj,
-            'slide'  => $slideObj
+            'slide'  => $slideObj,
+            'optimize' => $optimize
         ));
         ob_start();
         $this->render();
@@ -211,6 +215,9 @@ class N2SmartsliderBackendSlidesControllerAjax extends N2SmartSliderControllerAj
         $this->validateVariable(count($images), 'Images');
 
         $sliderObj   = new N2SmartSlider($sliderId, array());
+        $sliderObj->loadSliderParams();
+        $optimize          = new N2SmartSliderFeatureOptimize($sliderObj);
+
         $slidesModel = new N2SmartsliderSlidesModel();
         foreach ($images AS $image) {
             $newSlideId = $slidesModel->createQuickImage($image, $sliderId);
@@ -222,7 +229,8 @@ class N2SmartsliderBackendSlidesControllerAjax extends N2SmartSliderControllerAj
 
             $this->addView('slidebox', array(
                 'slider' => $sliderObj,
-                'slide'  => $slideObj
+                'slide'  => $slideObj,
+                'optimize' => $optimize
             ));
         }
 
@@ -250,13 +258,17 @@ class N2SmartsliderBackendSlidesControllerAjax extends N2SmartSliderControllerAj
         $this->validateDatabase($slide);
 
         $sliderObj = new N2SmartSlider($slide['slider'], array());
+        $sliderObj->loadSliderParams();
+        $optimize          = new N2SmartSliderFeatureOptimize($sliderObj);
+
         $slideObj  = new N2SmartSliderSlide($sliderObj, $slide);
         $slideObj->initGenerator();
         $slideObj->fillSample();
 
         $this->addView('slidebox', array(
             'slider' => $sliderObj,
-            'slide'  => $slideObj
+            'slide'  => $slideObj,
+            'optimize' => $optimize
         ));
 
         ob_start();
@@ -283,13 +295,17 @@ class N2SmartsliderBackendSlidesControllerAjax extends N2SmartSliderControllerAj
         $this->validateDatabase($slide);
 
         $sliderObj = new N2SmartSlider($slide['slider'], array());
+        $sliderObj->loadSliderParams();
+        $optimize          = new N2SmartSliderFeatureOptimize($sliderObj);
+
         $slideObj  = new N2SmartSliderSlide($sliderObj, $slide);
         $slideObj->initGenerator();
         $slideObj->fillSample();
 
         $this->addView('slidebox', array(
             'slider' => $sliderObj,
-            'slide'  => $slideObj
+            'slide'  => $slideObj,
+            'optimize' => $optimize
         ));
 
         ob_start();

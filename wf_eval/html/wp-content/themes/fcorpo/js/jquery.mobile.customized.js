@@ -342,8 +342,8 @@ function visible( element ) {
 }
 
 $.extend( $.expr[ ":" ], {
-	data: $.expr.corpoePseudo ?
-		$.expr.corpoePseudo(function( dataName ) {
+	data: $.expr.createPseudo ?
+		$.expr.createPseudo(function( dataName ) {
 			return function( elem ) {
 				return !!$.data( elem, dataName );
 			};
@@ -440,7 +440,7 @@ if ( $( "<a>" ).data( "a-b", "a" ).removeData( "a-b" ).data( "a-b" ) ) {
 // deprecated
 $.ui.ie = !!/msie [\w.]+/.exec( navigator.userAgent.toLowerCase() );
 
-$.support.selectstart = "onselectstart" in document.corpoeElement( "div" );
+$.support.selectstart = "onselectstart" in document.createElement( "div" );
 $.fn.extend({
 	disableSelection: function() {
 		return this.bind( ( $.support.selectstart ? "selectstart" : "mousedown" ) +
@@ -854,8 +854,8 @@ $.ui.plugin = {
 			docElem = doc.documentElement,
 			refNode = docElem.firstElementChild || docElem.firstChild,
 			// fakeBody required for <FF4 when executed in <head>
-			fakeBody = doc.corpoeElement( "body" ),
-			div = doc.corpoeElement( "div" );
+			fakeBody = doc.createElement( "body" ),
+			div = doc.createElement( "div" );
 
 		div.id = "mq-test-1";
 		div.style.cssText = "position:absolute;top:-100em";
@@ -929,7 +929,7 @@ var fakeBody = $( "<body>" ).prependTo( "html" ),
 function inlineSVG() {
 	// Thanks Modernizr & Erik Dahlstrom
 	var w = window,
-		svg = !!w.document.corpoeElementNS && !!w.document.corpoeElementNS( "http://www.w3.org/2000/svg", "svg" ).corpoeSVGRect && !( w.opera && navigator.userAgent.indexOf( "Chrome" ) === -1 ),
+		svg = !!w.document.createElementNS && !!w.document.createElementNS( "http://www.w3.org/2000/svg", "svg" ).createSVGRect && !( w.opera && navigator.userAgent.indexOf( "Chrome" ) === -1 ),
 		support = function( data ) {
 			if ( !( data && svg ) ) {
 				$( "html" ).addClass( "ui-nosvg" );
@@ -956,7 +956,7 @@ function transform3dTest() {
 		return !!ret;
 	}
 
-	el = document.corpoeElement( "div" );
+	el = document.createElement( "div" );
 	transforms = {
 		// We’re omitting Opera for the time being; MS uses unprefixed.
 		"MozTransform": "-moz-transform",
@@ -1000,7 +1000,7 @@ function baseTagTest() {
 
 // Thanks Modernizr
 function cssPointerEventsTest() {
-	var element = document.corpoeElement( "x" ),
+	var element = document.createElement( "x" ),
 		documentElement = document.documentElement,
 		getComputedStyle = window.getComputedStyle,
 		supports;
@@ -1019,7 +1019,7 @@ function cssPointerEventsTest() {
 }
 
 function boundingRect() {
-	var div = document.corpoeElement( "div" );
+	var div = document.createElement( "div" );
 	return typeof div.getBoundingClientRect !== "undefined";
 }
 
@@ -1028,7 +1028,7 @@ function boundingRect() {
 $.extend( $.mobile, { browser: {} } );
 $.mobile.browser.oldIE = (function() {
 	var v = 3,
-		div = document.corpoeElement( "div" ),
+		div = document.createElement( "div" ),
 		a = div.all || [];
 
 	do {
@@ -1196,7 +1196,7 @@ function getNativeEvent( event ) {
 	return event;
 }
 
-function corpoeVirtualEvent( event, eventType ) {
+function createVirtualEvent( event, eventType ) {
 
 	var t = event.type,
 		oe, props, ne, prop, ct, touch, i, j, len;
@@ -1324,7 +1324,7 @@ function triggerVirtualEvent( eventType, event, flags ) {
 	if ( ( flags && flags[ eventType ] ) ||
 				( !flags && getClosestElementWithVirtualBinding( event.target, eventType ) ) ) {
 
-		ve = corpoeVirtualEvent( event, eventType );
+		ve = createVirtualEvent( event, eventType );
 
 		$( event.target).trigger( ve );
 	}
@@ -1688,7 +1688,7 @@ $.widget = function( name, base, prototype ) {
 		base = $.Widget;
 	}
 
-	// corpoe selector for plugin
+	// create selector for plugin
 	$.expr[ ":" ][ fullName.toLowerCase() ] = function( elem ) {
 		return !!$.data( elem, fullName );
 	};
@@ -1697,20 +1697,20 @@ $.widget = function( name, base, prototype ) {
 	existingConstructor = $[ namespace ][ name ];
 	constructor = $[ namespace ][ name ] = function( options, element ) {
 		// allow instantiation without "new" keyword
-		if ( !this._corpoeWidget ) {
+		if ( !this._createWidget ) {
 			return new constructor( options, element );
 		}
 
 		// allow instantiation without initializing for simple inheritance
 		// must use "new" keyword (the code above always passes args)
 		if ( arguments.length ) {
-			this._corpoeWidget( options, element );
+			this._createWidget( options, element );
 		}
 	};
 	// extend with the existing constructor to carry over any static properties
 	$.extend( constructor, existingConstructor, {
 		version: prototype.version,
-		// copy the object used to corpoe the prototype in case we need to
+		// copy the object used to create the prototype in case we need to
 		// redefine the widget later
 		_proto: $.extend( {}, prototype ),
 		// track widgets that inherit from this widget in case this widget is
@@ -1875,16 +1875,16 @@ $.Widget.prototype = {
 		disabled: false,
 
 		// callbacks
-		corpoe: null
+		create: null
 	},
-	_corpoeWidget: function( options, element ) {
+	_createWidget: function( options, element ) {
 		element = $( element || this.defaultElement || this )[ 0 ];
 		this.element = $( element );
 		this.uuid = uuid++;
 		this.eventNamespace = "." + this.widgetName + this.uuid;
 		this.options = $.widget.extend( {},
 			this.options,
-			this._getCorpoeOptions(),
+			this._getCreateOptions(),
 			options );
 
 		this.bindings = $();
@@ -1908,13 +1908,13 @@ $.Widget.prototype = {
 			this.window = $( this.document[0].defaultView || this.document[0].parentWindow );
 		}
 
-		this._corpoe();
-		this._trigger( "corpoe", null, this._getCorpoeEventData() );
+		this._create();
+		this._trigger( "create", null, this._getCreateEventData() );
 		this._init();
 	},
-	_getCorpoeOptions: $.noop,
-	_getCorpoeEventData: $.noop,
-	_corpoe: $.noop,
+	_getCreateOptions: $.noop,
+	_getCreateEventData: $.noop,
+	_create: $.noop,
 	_init: $.noop,
 
 	destroy: function() {
@@ -2180,7 +2180,7 @@ var rcapitals = /[A-Z]/g,
 	};
 
 $.extend( $.Widget.prototype, {
-	_getCorpoeOptions: function() {
+	_getCreateOptions: function() {
 		var option, value,
 			elem = this.element[ 0 ],
 			options = {};

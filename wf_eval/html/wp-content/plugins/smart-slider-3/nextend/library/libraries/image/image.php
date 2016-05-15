@@ -2,8 +2,7 @@
 
 N2Loader::import('libraries.cache.image');
 
-class N2Image extends N2CacheImage
-{
+class N2Image extends N2CacheImage {
 
     public function __construct($group) {
         parent::__construct($group, true);
@@ -27,7 +26,7 @@ class N2Image extends N2CacheImage
         return $filePath;
     }
 
-    public static function resizeImage($group, $imageUrl, $targetWidth, $targetHeight, $mode = 'cover', $backgroundColor = false, $resizeRemote = false) {
+    public static function resizeImage($group, $imageUrl, $targetWidth, $targetHeight, $mode = 'cover', $backgroundColor = false, $resizeRemote = false, $optimize = false) {
         $originalImageUrl = $imageUrl;
         if ($targetWidth > 0 && $targetHeight > 0 && function_exists('exif_imagetype') && function_exists('imagecreatefrompng')) {
 
@@ -60,7 +59,8 @@ class N2Image extends N2CacheImage
                     $targetWidth,
                     $targetHeight,
                     $mode,
-                    $backgroundColor
+                    $backgroundColor,
+                    $optimize
                 )));
 
             } else {
@@ -87,17 +87,18 @@ class N2Image extends N2CacheImage
                     $targetHeight,
                     $mode,
                     $backgroundColor,
-                    filemtime($imagePath)
+                    $optimize
                 )));
             }
         }
     }
 
-    protected function _resizeRemoteImage($filePath, $extension, $imageUrl, $targetWidth, $targetHeight, $mode, $backgroundColor) {
-        $this->_resizeImage($filePath, $extension, $imageUrl, $targetWidth, $targetHeight, $mode, $backgroundColor);
+    protected function _resizeRemoteImage($filePath, $extension, $imageUrl, $targetWidth, $targetHeight, $mode, $backgroundColor, $optimize) {
+        $this->_resizeImage($filePath, $extension, $imageUrl, $targetWidth, $targetHeight, $mode, $backgroundColor, $optimize);
     }
 
-    protected function _resizeImage($filePath, $extension, $imagePath, $targetWidth, $targetHeight, $mode, $backgroundColor, $originalFileModified = null) {
+    protected function _resizeImage($filePath, $extension, $imagePath, $targetWidth, $targetHeight, $mode, $backgroundColor, $optimize = false) {
+        $rotated = false;
         if ($extension == 'png') {
             $image = @imagecreatefrompng($imagePath);
         } else if ($extension == 'jpg') {
@@ -116,6 +117,25 @@ class N2Image extends N2CacheImage
         if ($image) {
             $originalWidth  = imagesx($image);
             $originalHeight = imagesy($image);
+
+            if ($optimize) {
+
+                if ($originalWidth <= $targetWidth || $originalHeight <= $targetHeight) {
+                    if ($extension == 'png') {
+                        imagepng($image, $filePath);
+                    } else if ($extension == 'jpg') {
+                        imagejpeg($image, $filePath, 100);
+                    }
+                    imagedestroy($image);
+                    return true;
+                }
+                
+                if ($originalWidth / $targetWidth > $originalHeight / $targetHeight) {
+                    $targetWidth = $originalWidth / ($originalHeight / $targetHeight);
+                } else {
+                    $targetHeight = $originalHeight / ($originalWidth / $targetWidth);
+                }
+            }
             if ($rotated || $originalWidth != $targetWidth || $originalHeight != $targetHeight) {
                 $newImage = imagecreatetruecolor($targetWidth, $targetHeight);
                 if ($extension == 'png') {
@@ -210,8 +230,7 @@ class N2Image extends N2CacheImage
                 ), array(
                     $extension,
                     $imagePath,
-                    $scale,
-                    filemtime($imagePath)
+                    $scale
                 ))));
             }
         }
@@ -221,7 +240,7 @@ class N2Image extends N2CacheImage
         $this->_scaleImage($filePath, $extension, $imageUrl, $scale);
     }
 
-    protected function _scaleImage($filePath, $extension, $imagePath, $scale, $originalFileModified = null) {
+    protected function _scaleImage($filePath, $extension, $imagePath, $scale) {
         if ($extension == 'png') {
             $image = @imagecreatefrompng($imagePath);
         } else if ($extension == 'jpg') {

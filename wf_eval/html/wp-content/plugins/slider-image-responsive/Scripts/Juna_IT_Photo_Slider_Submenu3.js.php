@@ -132,6 +132,17 @@
 				jQuery('#PSlider_Effec6').fadeIn();
 			},500)
 		}
+		else if(Edited_ID==6)
+		{
+			jQuery('#JIT_PSlider_EN').val('3D Slider');
+			jQuery('#JIT_PSlider_ET').val('3D Slider');
+
+			setTimeout(function(){
+				jQuery('.JIT_PSlider_Submenu1_Div1').fadeIn();
+				jQuery('.JIT_PSlider_Main_Fieldset1').fadeIn();
+				jQuery('#PSlider_Effec7').fadeIn();
+			},500)
+		}
 	}
 	function JIT_PSlider_ET_Changed()
 	{
@@ -141,6 +152,7 @@
 		jQuery('#PSlider_Effec4').fadeOut();
 		jQuery('#PSlider_Effec5').fadeOut();
 		jQuery('#PSlider_Effec6').fadeOut();
+		jQuery('#PSlider_Effec7').fadeOut();
 		setTimeout(function(){
 			if(jQuery('#JIT_PSlider_ET').val()=='Juna Slider')
 			{
@@ -165,6 +177,10 @@
 			else if(jQuery('#JIT_PSlider_ET').val()=='Thumbnail Slider')
 			{
 				jQuery('#PSlider_Effec6').fadeIn();
+			}
+			else if(jQuery('#JIT_PSlider_ET').val()=='3D Slider')
+			{
+				jQuery('#PSlider_Effec7').fadeIn();
 			}
 		},500)	
 	}

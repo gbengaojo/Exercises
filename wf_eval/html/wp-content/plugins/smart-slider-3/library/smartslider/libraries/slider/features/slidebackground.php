@@ -1,7 +1,6 @@
 <?php
 
-class N2SmartSliderFeatureSlideBackground
-{
+class N2SmartSliderFeatureSlideBackground {
 
     private $slider;
 
@@ -57,7 +56,7 @@ class N2SmartSliderFeatureSlideBackground
         if (empty($backgroundImage)) {
             $src = N2Image::base64Transparent();
         } else {
-            $src = $backgroundImage;
+            $src = N2ImageHelper::dynamic($this->slider->features->optimize->optimizeBackground($backgroundImage));
         }
         $alt      = $slide->fill($slide->parameters->get('backgroundAlt', ''));
         $title    = $slide->fill($slide->parameters->get('backgroundTitle', ''));

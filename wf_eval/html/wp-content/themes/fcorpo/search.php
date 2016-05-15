@@ -2,7 +2,6 @@
 /**
  * The template for displaying search results pages.
  *
- * @package WordPress
  * @subpackage fCorpo
  * @author tishonator
  * @since fCorpo 1.0.0

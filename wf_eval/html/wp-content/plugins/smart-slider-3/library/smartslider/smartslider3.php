@@ -1,36 +1,32 @@
 <?php
 
-class N2SS3
-{
+class N2SS3 {
 
-    public static $version = '3.0.28';
+    public static $version = '3.0.31';
 
     public static $product = 'smartslider3';
 
     public static $source = '';
 
-    public static function getProUrlHome() {
-        $query = '';
+    public static function getProUrlHome($params = array()) {
         if (!empty(self::$source)) {
-            $query = '?source=' . self::$source;
+            $params['source'] = self::$source;
         }
-        return 'http://smartslider3.com/' . $query;
+        return 'http://smartslider3.com/?' . http_build_query($params);
     }
 
-    public static function getProUrlPricing() {
-        $query = '';
+    public static function getProUrlPricing($params = array()) {
         if (!empty(self::$source)) {
-            $query = '?source=' . self::$source;
+            $params['source'] = self::$source;
         }
-        return 'http://smartslider3.com/pricing/' . $query;
+        return 'http://smartslider3.com/pricing/?' . http_build_query($params);
     }
 
-    public static function getWhyProUrl() {
-        $query = '';
+    public static function getWhyProUrl($params = array()) {
         if (!empty(self::$source)) {
-            $query = '?source=' . self::$source;
+            $params['source'] = self::$source;
         }
-        return 'http://smartslider3.com/why-upgrade-to-pro/' . $query;
+        return 'http://smartslider3.com/why-upgrade-to-pro/?' . http_build_query($params);
     }
 
     public static function getUpdateInfo() {

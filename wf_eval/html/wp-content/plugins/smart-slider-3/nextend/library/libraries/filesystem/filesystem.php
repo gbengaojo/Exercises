@@ -5,7 +5,7 @@ define('N2_DS_INV', DIRECTORY_SEPARATOR == '/' ? '\\' : '/');
 if (!defined('NEXTEND_RELATIVE_CACHE_WEB')) {
     define('NEXTEND_RELATIVE_CACHE_WEB', '/cache/nextend/web');
     define('NEXTEND_CUSTOM_CACHE', 0);
-}else{
+} else {
     define('NEXTEND_CUSTOM_CACHE', 1);
 }
 if (!defined('NEXTEND_RELATIVE_CACHE_NOTWEB')) {
@@ -23,6 +23,10 @@ abstract class N2FilesystemAbstract {
     public $_basepath;
 
     public $_librarypath;
+
+    public static $dirPermission = 0777;
+
+    public static $filePermission = 0666;
 
     public static function getInstance() {
         static $instance;
@@ -49,6 +53,17 @@ abstract class N2FilesystemAbstract {
         }
     }
 
+    public static function measurePermission($testDir) {
+        while ('.' != $testDir && !is_dir($testDir)) {
+            $testDir = dirname($testDir);
+        }
+
+        if ($stat = @stat($testDir)) {
+            self::$dirPermission  = $stat['mode'] & 0007777;
+            self::$filePermission = self::$dirPermission & 0000666;
+        }
+    }
+
     /**
      * @param $path
      *
@@ -67,7 +82,7 @@ abstract class N2FilesystemAbstract {
     }
 
     public static function getWebCachePath() {
-        if(!NEXTEND_CUSTOM_CACHE) {
+        if (!NEXTEND_CUSTOM_CACHE) {
             self::check(self::getBasePath(), 'cache');
         }
         return self::getBasePath() . NEXTEND_RELATIVE_CACHE_WEB;
@@ -192,7 +207,7 @@ abstract class N2FilesystemAbstract {
      * @return bool
      */
     public static function createFolder($path) {
-        return mkdir($path, 0777, true);
+        return mkdir($path, self::$dirPermission, true);
     }
 
     /**
@@ -205,7 +220,7 @@ abstract class N2FilesystemAbstract {
         foreach (scandir($dir) as $file) {
             if ($file == '.' || $file == '..') continue;
             if (!self::deleteFolder($dir . DIRECTORY_SEPARATOR . $file)) {
-                chmod($dir . DIRECTORY_SEPARATOR . $file, 0777);
+                chmod($dir . DIRECTORY_SEPARATOR . $file, self::$dirPermission);
                 if (!self::deleteFolder($dir . DIRECTORY_SEPARATOR . $file)) return false;
             };
         }

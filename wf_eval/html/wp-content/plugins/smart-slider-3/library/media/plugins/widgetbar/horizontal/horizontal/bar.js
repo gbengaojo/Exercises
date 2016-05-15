@@ -42,10 +42,20 @@
                 this.slider.responsive.addStaticMargin(side, this);
             }
         }
+
+        var event = 'click';
+        if (this.slider.parameters.controls.touch != '0' && this.slider.parameters.controls.touch) {
+            event = 'n2click';
+        }
+
+        this.bar.on('click', $.proxy(function (e) {
+            this.slider.sliderElement.find('.n2-ss-slide-active .n2-ss-layers-container').trigger(event);
+        }, this));
     };
 
     NextendSmartSliderWidgetBarHorizontal.prototype.onSliderSwitchTo = function (e, targetSlideIndex) {
-        this.innerBar.html(this.bars[targetSlideIndex]);
+        this.innerBar.html(this.bars[targetSlideIndex].html);
+        this.setCursor(this.bars[targetSlideIndex].hasLink);
     };
 
     NextendSmartSliderWidgetBarHorizontal.prototype.onSliderSwitchToAnimateStart = function () {
@@ -68,13 +78,23 @@
             var innerBar = this.innerBar.clone();
             this.innerBar.remove();
             this.innerBar = innerBar.css('opacity', 0)
-                .html(this.bars[targetSlideIndex])
+                .html(this.bars[targetSlideIndex].html)
                 .appendTo(this.bar);
+
+            this.setCursor(this.bars[targetSlideIndex].hasLink);
 
             this.tween = NextendTween.to(this.innerBar, 0.3, {
                 opacity: 1
             }).play();
         }, this));
+    };
+
+    NextendSmartSliderWidgetBarHorizontal.prototype.setCursor = function (hasLink) {
+        if (hasLink) {
+            this.innerBar.css('cursor', 'pointer');
+        } else {
+            this.innerBar.css('cursor', 'inherit');
+        }
     };
 
     NextendSmartSliderWidgetBarHorizontal.prototype.isVisible = function () {

@@ -49,8 +49,9 @@ class N2SSPluginWidgetShadowShadow extends N2SSPluginWidgetAbstract
         if (!$shadow) {
             return '';
         }
+        N2JS::addFile(N2Filesystem::translate(dirname(__FILE__) . '/shadow/shadow.min.js'), $id);
+    
 
-        N2JS::addFile(N2Filesystem::translate(dirname(__FILE__) . '/shadow/shadow.js'), $id);
 
         list($displayClass, $displayAttributes) = self::getDisplayAttributes($params, self::$key);
 

@@ -1,7 +1,6 @@
 <?php
 
-class N2SmartSliderTypeSimple extends N2SmartSliderType
-{
+class N2SmartSliderTypeSimple extends N2SmartSliderType {
 
     private $backgroundAnimation = false;
 
@@ -24,29 +23,16 @@ class N2SmartSliderTypeSimple extends N2SmartSliderType
             'animation-shifted-background-animation' => 'auto',
             'carousel'                               => 1,
 
-            'background-animation'                   => '',
-            'kenburns-animation'                     => ''
+            'background-animation' => '',
+            'kenburns-animation'   => ''
         );
     }
 
     protected function renderType() {
 
         $params = $this->slider->params;
-
-        N2JS::addFiles(N2Filesystem::translate(dirname(__FILE__) . "/gsap"), array(
-            "MainAnimationSimple.js",
-            "TypeSimple.js",
-            "ResponsiveSimple.js"
-        ), "smartslider-simple-type-frontend");
-
-        N2JS::addFiles(N2Filesystem::translate(dirname(__FILE__) . "/gsap"), array(
-            "BackgroundAnimation.js"
-        ), "smartslider-simple-type-frontend");
-
-        N2JS::addFiles(NEXTEND_SMARTSLIDER_ASSETS . "/js/animation", array(
-            "BackgroundAnimationAbstract.js",
-            'Flux.js'
-        ), "smartslider-simple-type-frontend");
+        N2JS::addStaticGroup(N2Filesystem::translate(dirname(__FILE__)) . '/dist/smartslider-simple-type-frontend.min.js', 'smartslider-simple-type-frontend');
+    
 
         $background = $params->get('background');
         $css        = $params->get('slider-css');

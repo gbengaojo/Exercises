@@ -20,6 +20,8 @@ class N2SmartSliderSlide {
 
     protected $underEdit = false;
 
+    public $hasLink = false;
+
     /**
      * @var bool|N2SmartSliderSlidesGenerator
      */
@@ -134,7 +136,7 @@ class N2SmartSliderSlide {
                 $target = '_self';
             }
 
-            $url = $this->fill($url);
+            $url = N2ImageHelper::fixed($this->fill($url));
 
             $this->containerAttributes['onclick'] = '';
             if (strpos($url, 'javascript:') === 0) {
@@ -155,6 +157,7 @@ class N2SmartSliderSlide {
                 }
             }
             $this->containerAttributes['style'] .= 'cursor:pointer;';
+            $this->hasLink = true;
         }
     }
 

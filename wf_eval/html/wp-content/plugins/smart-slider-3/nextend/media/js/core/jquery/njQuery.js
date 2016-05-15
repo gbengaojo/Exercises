@@ -8,9 +8,9 @@
         fire: function (cb) {
             cb.call(window.n2 || window.jQuery, window.n2 || window.jQuery);
         }
-    }
+    };
 // Poll to see if jQuery is ready
-    function waitForJQuery() {
+    var waitForJQuery = function () {
 
         if (window.jQuery || window.n2) {
             ready = true;
@@ -20,7 +20,7 @@
         } else {
             setTimeout(waitForJQuery, 20);
         }
-    }
+    };
 
     waitForJQuery();
 })();

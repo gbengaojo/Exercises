@@ -61,6 +61,15 @@ Help documents and code snippets can be viewed at http://halgatewood.com/docs/pl
 
 == Changelog ==
 
+= 2.1.5 - Apr 19, 2016 = 
+* Change the single page testimonial by adding a content-testimonial.php file in your theme folder.
+
+= 2.1.4.1 - Apr 18, 2016 =
+Cleaned up error in the admin
+
+= 2.1.4 - Apr 18, 2016 =
+* PHP7 Compatibility
+
 = 2.1.3 - Jan 21, 2016 =
 * Single template for Longform template had an extra closing div tag. Thanks @kevinmorton
 

@@ -4,7 +4,6 @@
  *
  * Contains the closing of the "body-content-wrapper" div and all content after.
  *
- * @package WordPress
  * @subpackage fCorpo
  * @author tishonator
  * @since fCorpo 1.0.0

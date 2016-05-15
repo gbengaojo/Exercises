@@ -67,8 +67,9 @@ class N2SSPluginItemImage extends N2SSPluginItemAbstract
     private function getHtml($data, $id, $slider, $slide) {
 
         $size = (array)N2Parse::parse($data->get('size', ''));
-        if (!isset($size[0])) $size[0] = 'auto';
-        if (!isset($size[1])) $size[1] = 'auto';
+        if (empty($size[0])) $size[0] = 'auto';
+        if (empty($size[1])) $size[1] = 'auto';
+
 
         $html = N2Html::tag('img', self::optimizeImage($slide->fill($data->get('image', '')), $data, $slider) + array(
                 "id"    => $id,

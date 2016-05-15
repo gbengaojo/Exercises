@@ -7,6 +7,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="page-content">
+		<?php echo '<h1 class="entry-title">'.get_the_title().'</h1>'; ?>
 		<?php
 			/**
 			 * Display Thumbnails if thumbnail is set for the post

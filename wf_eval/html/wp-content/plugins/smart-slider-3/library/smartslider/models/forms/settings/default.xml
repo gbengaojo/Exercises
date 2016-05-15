@@ -13,6 +13,7 @@
         <param type="onoff" name="hardware-acceleration" label="Hardware acceleration on sliders" default="1"/>
         <param type="onoff" name="slide-as-file" label="Send slide as file" default="0"/>
         <param type="onoff" name="improved-small-screen" label="Improved small screen" default="1"/>
+        <param type="onoff" name="preview-new-window" label="Open preview in new window" default="0"/>
     </params>
     <params name="reponsive" label="Responsive mode">
         <param type="radio" label="Based on" name="responsive-basedon" default="combined">

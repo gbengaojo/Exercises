@@ -5,7 +5,6 @@
  * The area of the page that contains both current comments
  * and the comment form.
  *
- * @package WordPress
  * @subpackage fCorpo
  * @author tishonator
  * @since fCorpo 1.0.0

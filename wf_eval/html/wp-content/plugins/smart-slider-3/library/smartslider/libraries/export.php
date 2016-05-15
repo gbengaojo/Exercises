@@ -2,8 +2,7 @@
 N2Loader::import('libraries.zip.zip_lib');
 N2Loader::import('libraries.backup', 'smartslider');
 
-class N2SmartSliderExport
-{
+class N2SmartSliderExport {
 
     private $uniqueCounter = 1;
 
@@ -183,7 +182,9 @@ class N2SmartSliderExport
                     'media' => 'screen, print'
                 )) . "\n";
         }
-        array_unshift($css['files'], N2LIBRARYASSETS . '/normalize.css');
+        array_unshift($css['files'], N2LIBRARYASSETS . '/normalize.min.css');
+    
+
         foreach ($css['files'] AS $file) {
             $path               = 'css/' . basename($file);
             $this->files[$path] = file_get_contents($file);

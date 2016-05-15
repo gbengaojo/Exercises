@@ -61,7 +61,7 @@
 #main_featured_plugins_page #featured-plugins-list  li.flash-calendar .product {background:url("images/flash.calendar.png") center center no-repeat;}
 #main_featured_plugins_page #featured-plugins-list  li.player  .product {background:url("images/player.png") center center no-repeat;  }
 #main_featured_plugins_page #featured-plugins-list  li.spider-calendar  .product {background:url("images/spider.calendar.png") center center no-repeat;}
-#main_featured_plugins_page #featured-plugins-list  li.contact_form_bulder .product {background:url("images/contact.builder.png") center center no-repeat;}
+#main_featured_plugins_page #featured-plugins-list  li.contact_form_builder .product {background:url("images/contact.builder.png") center center no-repeat;}
 #main_featured_plugins_page #featured-plugins-list  li.random_post  .product {background:url("images/random.post.png") center center no-repeat;}
 #main_featured_plugins_page #featured-plugins-list  li.slider_wd  .product {background:url("images/slider.png") center center no-repeat;}
 #main_featured_plugins_page #featured-plugins-list  li.folder_menu  .product {background:url("images/folder.menu.png") center center no-repeat;}
@@ -72,6 +72,7 @@
 #main_featured_plugins_page #featured-plugins-list  li.events-wd  .product {background:url("images/events-wd.png") center center no-repeat;}
 #main_featured_plugins_page #featured-plugins-list  li.faq_wd  .product {background:url("images/faq_wd.png") center center no-repeat;}
 #main_featured_plugins_page #featured-plugins-list  li.instagram_feed  .product {background:url("images/instagram_feed.png") center center no-repeat;}
+#main_featured_plugins_page #featured-plugins-list  li.post-slider  .product {background:url("images/post-slider.png") center center no-repeat;}
 
 #main_featured_plugins_page #featured-plugins-list li .title .heading {
 	display: block;
@@ -125,8 +126,8 @@
 	color: #F47629;
 }
 
-.featured_header{
-  background: #FFFFFF;
+.featured_header {
+  background: #11465F;
   border-right: 3px solid #E5E5E5;
   border-bottom: 3px solid #E5E5E5;
   position: relative;
@@ -141,18 +142,30 @@
 
 .featured_header h1.get_plugins {
   color: #FFFFFF;
-  background:url("images/featured_plugins_bg.png") no-repeat;
   height: 85px;
   margin: 0;
   background-size: 85% 100%;
   background-position: center;
   line-height: 60px;
 }
-	
+
+.featured_header .try-now {
+	text-align: center;
+}
+
+.featured_header .try-now span {
+	display: inline-block;
+  padding: 7px 16px;
+  background: #F47629;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 23px;
+}
+
 .featured_header h1 {
 	font-size: 50px;
   text-align: center;
-	color: #F47629;
+	color: #FFFFFF;
 	letter-spacing: 3px;
   text-transform: uppercase;
 }

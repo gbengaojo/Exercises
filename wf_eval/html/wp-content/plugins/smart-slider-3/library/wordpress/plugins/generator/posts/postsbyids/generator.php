@@ -46,7 +46,7 @@ class N2GeneratorPostsPostsByIDs extends N2GeneratorAbstract
 
             if (class_exists('acf')) {
                 $fields = get_fields($post->ID);
-                if (count($fields)) {
+                if (count($fields) && !empty($fields)) {
                     foreach ($fields AS $k => $v) {
                         $record[$k] = $v;
                     }

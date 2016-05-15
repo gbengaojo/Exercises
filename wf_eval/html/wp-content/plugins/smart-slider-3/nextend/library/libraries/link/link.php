@@ -20,6 +20,8 @@ class N2LinkParser {
                     $isEditor
                 ));
             }
+        } else {
+            $url = N2ImageHelper::fixed($url);
         }
         return $url;
     }

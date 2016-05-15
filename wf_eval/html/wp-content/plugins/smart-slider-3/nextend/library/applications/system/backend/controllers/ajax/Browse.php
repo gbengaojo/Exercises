@@ -16,10 +16,18 @@ class N2SystemBackendBrowseControllerAjax extends N2BackendControllerAjax
             $directories[basename($_directories[$i])] = N2Filesystem::toLinux($this->relative($_directories[$i], $root));
         }
 
-        $_files = glob($path . NDS . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
-        $files  = array();
+        $extensions = array(
+            'jpg',
+            'jpeg',
+            'png',
+            'gif'
+        );
+        $_files     = scandir($path);
+        $files      = array();
         for ($i = 0; $i < count($_files); $i++) {
-            if (self::check_utf8($_files[$i])) {
+            $_files[$i] = $path . NDS . $_files[$i];
+            $ext        = strtolower(pathinfo($_files[$i], PATHINFO_EXTENSION));
+            if (self::check_utf8($_files[$i]) && in_array($ext, $extensions)) {
                 $files[basename($_files[$i])] = N2ImageHelper::dynamic(N2Filesystem::pathToAbsoluteURL($_files[$i]));
             }
         }
@@ -305,9 +313,9 @@ class N2BulletProof
      * @return $this
      * @throws N2ImageUploaderException
      */
-    public function uploadDir($directoryName, $filePermissions = 0666) {
+    public function uploadDir($directoryName) {
         if (!file_exists($directoryName) && !is_dir($directoryName)) {
-            $createFolder = mkdir("" . $directoryName, $filePermissions, true);
+            $createFolder = mkdir("" . $directoryName, N2Filesystem::$dirPermission, true);
             if (!$createFolder) {
                 throw new N2ImageUploaderException("Folder " . $directoryName . " could not be created");
             }

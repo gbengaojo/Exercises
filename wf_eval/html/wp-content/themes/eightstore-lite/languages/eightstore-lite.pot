@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: EightStore Lite\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: Mon Mar 28 2016 11:39:09 GMT+0545 (Nepal Standard Time)\n"
-"POT-Revision-Date: Mon Mar 28 2016 11:39:30 GMT+0545 (Nepal Standard Time)\n"
+"POT-Creation-Date: Tue May 03 2016 12:20:08 GMT+0545 (Nepal Standard Time)\n"
+"POT-Revision-Date: Tue May 03 2016 12:20:38 GMT+0545 (Nepal Standard Time)\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -159,23 +159,23 @@ msgstr ""
 msgid "Search Results for: %s"
 msgstr ""
 
-#: ../searchform.php:8
+#: ../searchform-header.php:8
 msgid "Search..."
 msgstr ""
 
-#: ../searchform.php:10
+#: ../searchform-header.php:10
 msgid "in"
 msgstr ""
 
-#: ../searchform.php:12
+#: ../searchform-header.php:12
 msgid "All"
 msgstr ""
 
-#: ../searchform.php:13 ../woocommerce/cart/cart.php:27
+#: ../searchform-header.php:13 ../woocommerce/cart/cart.php:27
 msgid "Product"
 msgstr ""
 
-#: ../searchform.php:14
+#: ../searchform-header.php:14
 msgid "Post"
 msgstr ""
 
@@ -771,38 +771,38 @@ msgstr ""
 msgid "No products in the cart."
 msgstr ""
 
-#: ../inc/eightstore-functions.php:663 ../inc/eightstore-tgm.php:333
+#: ../inc/eightstore-functions.php:656 ../inc/eightstore-tgm.php:333
 msgid "Install Required Plugins"
 msgstr ""
 
-#: ../inc/eightstore-functions.php:664 ../inc/eightstore-tgm.php:334
+#: ../inc/eightstore-functions.php:657 ../inc/eightstore-tgm.php:334
 msgid "Install Plugins"
 msgstr ""
 
-#: ../inc/eightstore-functions.php:665 ../inc/eightstore-tgm.php:335
+#: ../inc/eightstore-functions.php:658 ../inc/eightstore-tgm.php:335
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
 
-#: ../inc/eightstore-functions.php:666 ../inc/eightstore-tgm.php:336
+#: ../inc/eightstore-functions.php:659 ../inc/eightstore-tgm.php:336
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: ../inc/eightstore-functions.php:667 ../inc/eightstore-tgm.php:337
+#: ../inc/eightstore-functions.php:660 ../inc/eightstore-tgm.php:337
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:672 ../inc/eightstore-tgm.php:342
+#: ../inc/eightstore-functions.php:665 ../inc/eightstore-tgm.php:342
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:677 ../inc/eightstore-tgm.php:347
+#: ../inc/eightstore-functions.php:670 ../inc/eightstore-tgm.php:347
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %1$s "
@@ -813,7 +813,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:682 ../inc/eightstore-tgm.php:352
+#: ../inc/eightstore-functions.php:675 ../inc/eightstore-tgm.php:352
 #, php-format
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
@@ -824,14 +824,14 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:687 ../inc/eightstore-tgm.php:357
+#: ../inc/eightstore-functions.php:680 ../inc/eightstore-tgm.php:357
 #, php-format
 msgid "There is an update available for: %1$s."
 msgid_plural "There are updates available for the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:692 ../inc/eightstore-tgm.php:362
+#: ../inc/eightstore-functions.php:685 ../inc/eightstore-tgm.php:362
 #, php-format
 msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
 msgid_plural ""
@@ -840,21 +840,21 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:697 ../inc/eightstore-tgm.php:367
+#: ../inc/eightstore-functions.php:690 ../inc/eightstore-tgm.php:367
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:702 ../inc/eightstore-tgm.php:372
+#: ../inc/eightstore-functions.php:695 ../inc/eightstore-tgm.php:372
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:707 ../inc/eightstore-tgm.php:377
+#: ../inc/eightstore-functions.php:700 ../inc/eightstore-tgm.php:377
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %1$s "
@@ -865,66 +865,66 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:712 ../inc/eightstore-tgm.php:382
+#: ../inc/eightstore-functions.php:705 ../inc/eightstore-tgm.php:382
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:717 ../inc/eightstore-tgm.php:387
+#: ../inc/eightstore-functions.php:710 ../inc/eightstore-tgm.php:387
 msgid "Begin updating plugin"
 msgid_plural "Begin updating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:722 ../inc/eightstore-tgm.php:392
+#: ../inc/eightstore-functions.php:715 ../inc/eightstore-tgm.php:392
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:727 ../inc/eightstore-tgm.php:397
+#: ../inc/eightstore-functions.php:720 ../inc/eightstore-tgm.php:397
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
-#: ../inc/eightstore-functions.php:728 ../inc/eightstore-tgm.php:398
+#: ../inc/eightstore-functions.php:721 ../inc/eightstore-tgm.php:398
 msgid "Return to the dashboard"
 msgstr ""
 
-#: ../inc/eightstore-functions.php:729 ../inc/eightstore-tgm.php:399 ..
+#: ../inc/eightstore-functions.php:722 ../inc/eightstore-tgm.php:399 ..
 #: /inc/eightstore-tgm.php:3027
 msgid "Plugin activated successfully."
 msgstr ""
 
-#: ../inc/eightstore-functions.php:730 ../inc/eightstore-tgm.php:400 ..
+#: ../inc/eightstore-functions.php:723 ../inc/eightstore-tgm.php:400 ..
 #: /inc/eightstore-tgm.php:2830
 msgid "The following plugin was activated successfully:"
 msgid_plural "The following plugins were activated successfully:"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../inc/eightstore-functions.php:731 ../inc/eightstore-tgm.php:401
+#: ../inc/eightstore-functions.php:724 ../inc/eightstore-tgm.php:401
 #, php-format
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
-#: ../inc/eightstore-functions.php:732 ../inc/eightstore-tgm.php:402
+#: ../inc/eightstore-functions.php:725 ../inc/eightstore-tgm.php:402
 #, php-format
 msgid ""
 "Plugin not activated. A higher version of %s is needed for this theme. "
 "Please update the plugin."
 msgstr ""
 
-#: ../inc/eightstore-functions.php:733 ../inc/eightstore-tgm.php:403
+#: ../inc/eightstore-functions.php:726 ../inc/eightstore-tgm.php:403
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
-#: ../inc/eightstore-functions.php:734 ../inc/eightstore-tgm.php:404
+#: ../inc/eightstore-functions.php:727 ../inc/eightstore-tgm.php:404
 msgid "Dismiss this notice"
 msgstr ""
 
-#: ../inc/eightstore-functions.php:735 ../inc/eightstore-tgm.php:405
+#: ../inc/eightstore-functions.php:728 ../inc/eightstore-tgm.php:405
 msgid "Please contact the administrator of this site for help."
 msgstr ""
 

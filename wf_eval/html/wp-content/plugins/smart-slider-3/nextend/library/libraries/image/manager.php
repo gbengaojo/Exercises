@@ -98,9 +98,15 @@ class N2StorageImage
     }
 
     public function getByImage($image) {
-        return $this->model->db->findByAttributes(array(
-            "hash" => md5($image)
-        ));
+        static $cache = array();
+        
+        if(!isset($cache[$image])){
+            $cache[$image] = $this->model->db->findByAttributes(array(
+                "hash" => md5($image)
+            ));
+        }
+        
+        return $cache[$image];
     }
 
     public function setById($id, $value) {

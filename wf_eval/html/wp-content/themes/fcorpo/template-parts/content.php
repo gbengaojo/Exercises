@@ -4,7 +4,6 @@
  *
  * Used for single, index, archive, and search contents.
  *
- * @package WordPress
  * @subpackage fcorpo
  *
  */
@@ -12,11 +11,19 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php if ( !is_single() ) :
+	<?php if ( is_single() ) : ?>
+
+			<h1 class="entry-title">
+				<?php the_title(); ?>
+			</h1>
+
+	<?php else : ?>
 	
-			echo '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark" title="'.get_the_title().'">'.get_the_title().'</a></h1>';
+			<h1 class="entry-title">
+				<a href="<?php echo esc_url( get_permalink() ); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+			</h1>
 	
-		  endif; ?>
+	<?php endif; ?>
 
 	<div class="before-content">
 		<span class="author-icon">
@@ -115,7 +122,7 @@
 					<?php if ( has_tag() ) : ?>
 							<span class="tags-icon">
 									<?php _e('Tags:', 'fcorpo'); ?>
-									<?php echo get_the_tag_list( '', ', ','' ); ?>
+									<?php the_tags(); ?>
 								</span><!-- .tags-icon -->						
 					<?php endif; ?>
 

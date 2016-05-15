@@ -80,7 +80,7 @@
 		$Search_effect=$_POST['foobar'];
 		
 		global $wpdb;
-		$table_name3 = $wpdb->prefix . "juna_it_pslider_effect";
+		$table_name3 = $wpdb->prefix . "juna_it_pslider_effects";
 
 		$Searched_JITPSE=$wpdb->get_results($wpdb->prepare("SELECT * FROM $table_name3 WHERE id>%d",0));
 

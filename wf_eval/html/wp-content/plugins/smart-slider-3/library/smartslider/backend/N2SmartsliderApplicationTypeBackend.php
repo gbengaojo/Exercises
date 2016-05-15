@@ -16,11 +16,7 @@ class N2SmartsliderApplicationTypeBackend extends N2ApplicationType
         ));
 
         N2Loader::import(array(
-            'libraries.settings.settings',
-            'libraries.settings.layout',
-            'libraries.settings.stylemanager',
-            'libraries.settings.font',
-            'libraries.language'
+            'libraries.settings.settings'
         ), 'smartslider');
 
         N2Loader::import('helpers.controller.N2SmartSliderController', 'smartslider.backend');

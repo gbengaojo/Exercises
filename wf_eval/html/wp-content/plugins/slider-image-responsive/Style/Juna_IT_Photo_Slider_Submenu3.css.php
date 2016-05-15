@@ -66,7 +66,7 @@
 		cursor: pointer;
 		color: #f68935;
 	}
-	#PSlider_Effec1,#PSlider_Effec2,#PSlider_Effec3,#PSlider_Effec4,#PSlider_Effec5,#PSlider_Effec6
+	#PSlider_Effec1,#PSlider_Effec2,#PSlider_Effec3,#PSlider_Effec4,#PSlider_Effec5,#PSlider_Effec6,#PSlider_Effec7
 	{
 		display: none;
 		width: 60%;
@@ -85,7 +85,7 @@
 	{
 		height: 50px;
 		width: 250px;
-		background-image: url("http://juna-it.com/image/full-version.png");
+		background-image: url("<?php echo plugins_url('../Images/full-version.png',__FILE__);?>");
 		background-size: 250px 50px;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -94,7 +94,7 @@
 	}
 	.JIT_PSlider_Full_Version_Image:hover
 	{
-		background-image: url("http://juna-it.com/image/full-version-1.png");
+		background-image: url("<?php echo plugins_url('../Images/full-version-1.png',__FILE__);?>");
 	}
 	.JIT_PSlider_Main_Fieldset1
 	{

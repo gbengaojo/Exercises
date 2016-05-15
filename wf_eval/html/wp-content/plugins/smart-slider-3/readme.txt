@@ -3,8 +3,8 @@ Contributors: nextendweb
 Tags: wordpress slider,carousel,gallery slider,horizontal slider,image slider,layer slider,responsive slider,slide,slider,slideshow,vertical slider,wordpress slideshow,youtube slider,HTML5 slider,Photo Slider,animation,banner rotator,best slider,content slider,fullwidth slider,gallery,hardware accelerate,mobile slider,post slider,swipe,touch slider,page slider,slider plugin,slider shortcode
 Donate link: https://www.facebook.com/nextendweb
 Requires at least: 4.0
-Tested up to: 4.4
-Stable tag: 3.0.28
+Tested up to: 4.5
+Stable tag: 3.0.31
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -97,6 +97,8 @@ Upgrade to [Pro Version](http://smartslider3.com/pricing/)
 
 > *"Taking all this into consideration we can safely say that Smart Slider 3 is one of the top WordPress slider plugins around and should definitely be taken into consideration when choosing the next slider plugin to implement on your WordPress site." - Mark Zahra - [wpmayor.com](http://www.wpmayor.com/smart-slider-3/)*
 
+> *"I was actually blown away by the features and quality of the Smart Slider. They took an interesting approach with their sales model by letting you try the slider for free and then offering license options with more options and pre-built sliders for once you’re hooked on the product." - WD&S - [webdesignandsuch.com](http://webdesignandsuch.com/smart-slider-free-alternative-to-wordpress-revolution-layer-sliders/)*
+
 
 #### Translations
 
@@ -172,6 +174,31 @@ Of course! Smart Slider use protocol relative urls which works fine on http:// a
 7. [Static slider](http://smartslider3.com/free-static/) - sample slider included
 
 == Changelog ==
+
+= 3.0.31 - 26. April 2016. =
+* Feature: The slider now can be accessed via the WordPress admin bar!
+* Feature: Slide ID display on slide list
+* Feature: Bar control will have the slide's link too
+* Fix: Video static slide fixed
+* Fix: Show on devices - Desktop off - Preview
+
+= 3.0.29 - 20. April 2016. =
+* Feature: New link action to be able to slide to a slide ID instead of the index, so you could reorder your slides
+* Feature: Youtube layer play button on/off switcher
+* Feature: WordPress posts tag filter
+* Feature: Image from folder - new variable: filename without extension
+* Feature: Asset manager changes - far less cache file needed
+* Feature: Background image optimize
+* Feature: Autoplay allow restart when autoplay finished
+* Fix: Database query optimization
+* Fix: Scroll control fix for Mac
+* Fix: Divi compatibility
+* Fix: Image layer missing width in rare cases
+* Fix: YouTube layer mute issue on OSX Safari
+* Fix: Backend html code was changed to avoid copy pasting code tags during copying shortcodes
+* Fix: Fullwidth + center aligned sliders won't look wrong anymore, they will just have normal aligning
+* Fix: All in One events calendar timezone fix
+* Fix: WordPress post generator fix when Advanced custom fields plugin was used
 
 = 3.0.28 - 22. March 2016. =
 * Feature: Option to disable the small screen friendly backend

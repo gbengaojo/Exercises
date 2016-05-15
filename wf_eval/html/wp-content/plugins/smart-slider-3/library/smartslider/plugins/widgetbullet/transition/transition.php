@@ -3,8 +3,7 @@
 N2Loader::import('libraries.plugins.N2SliderWidgetAbstract', 'smartslider');
 N2Loader::import('libraries.image.color');
 
-class N2SSPluginWidgetBulletTransition extends N2SSPluginWidgetAbstract
-{
+class N2SSPluginWidgetBulletTransition extends N2SSPluginWidgetAbstract {
 
     var $_name = 'transition';
 
@@ -55,9 +54,9 @@ class N2SSPluginWidgetBulletTransition extends N2SSPluginWidgetAbstract
      * @return string
      */
     static function render($slider, $id, $params) {
-
-        N2JS::addFile(N2Filesystem::translate(dirname(__FILE__) . '/transition/bullet.js'), $id);
-        N2CSS::addFile(N2Filesystem::translate(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'transition' . DIRECTORY_SEPARATOR . 'style.css'), $id);
+        N2CSS::addFile(N2Filesystem::translate(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'transition' . DIRECTORY_SEPARATOR . 'style.min.css'), $id);
+        N2JS::addFile(N2Filesystem::translate(dirname(__FILE__) . '/transition/bullet.min.js'), $id);
+    
 
         list($displayClass, $displayAttributes) = self::getDisplayAttributes($params, self::$key);
 
@@ -78,10 +77,10 @@ class N2SSPluginWidgetBulletTransition extends N2SSPluginWidgetAbstract
         }
 
         $orientation = self::getOrientationByPosition($params->get(self::$key . 'position-mode'), $params->get(self::$key . 'position-area'), $params->get(self::$key . 'orientation'));
-        if($orientation == 'auto'){
+        if ($orientation == 'auto') {
             $orientation = 'horizontal';
         }
-        $html        = '';
+        $html = '';
         switch ($orientation) {
             case 'vertical':
                 $html .= implode('<br>', $dots);

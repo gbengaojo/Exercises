@@ -2,6 +2,7 @@
     <params name="youtube-item" label="Youtube item settings" hidetitle="1">
         <param name="youtubeurl" type="text" label="Youtube url"/>
         <param name="image" type="image" label="Cover image" fixed="1" style="width: 144px;"/>
+        <param name="playbutton" label="Play button" type="onoff"  default="1"/>
         <param name="start" type="text" label="Start time" default="0" style="width:36px;">
             <unit>sec</unit>
         </param>

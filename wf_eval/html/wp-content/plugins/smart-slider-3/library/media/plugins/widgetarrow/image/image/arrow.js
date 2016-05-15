@@ -42,7 +42,7 @@
         this.tabletRatio = tabletRatio;
         this.mobileRatio = mobileRatio;
 
-        $.when(this.previous.imagesLoaded(), this.next.imagesLoaded()).always($.proxy(this.loaded, this));
+        $.when(this.previous.n2imagesLoaded(), this.next.n2imagesLoaded()).always($.proxy(this.loaded, this));
     };
 
     NextendSmartSliderWidgetArrowImage.prototype.loaded = function () {

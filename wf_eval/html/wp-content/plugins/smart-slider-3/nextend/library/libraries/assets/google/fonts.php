@@ -31,9 +31,8 @@ class N2AssetsGoogleFonts extends N2AssetsAbstract {
         }
         $subsets = array_unique($this->inline);
         $familyQuery[count($familyQuery) - 1] .= ':' . implode(',', $subsets);
-        N2JS::addFiles(N2LIBRARYASSETS . "/js", array(
-            'webfontloader.js',
-        ), 'nextend-webfontloader');
+        N2JS::addStaticGroup(N2LIBRARYASSETS . "/dist/nextend-webfontloader.min.js", 'nextend-webfontloader');
+    
 
         N2JS::addInline("
         nextend.fontsLoaded = false;

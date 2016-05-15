@@ -7,14 +7,14 @@
 	wp_enqueue_media();
 	wp_enqueue_script( 'custom-header' );
 
-	$table_name3 =  $wpdb->prefix . "juna_it_pslider_effect";
+	$table_name3 =  $wpdb->prefix . "juna_it_pslider_effects";
 
 	$JIT_PSlider_Effects=$wpdb->get_results($wpdb->prepare("SELECT * FROM $table_name3 WHERE id>%d",0));
 ?>
 <form method='POST'>
 	<div id="JIT_PSlider_main"> 
 		<div class="JIT_PSlider_Submenu_Footer_Div">
-			<a href="http://juna-it.com" target="_blank" title="Click to Visit"><img src="http://juna-it.com/image/logo-white.png" class="Juna_IT_Logo_Orange"></a>
+			<a href="http://juna-it.com" target="_blank" title="Click to Visit"><img src="<?php echo plugins_url('/Images/logo-white.png',__FILE__);?>" class="Juna_IT_Logo_Orange"></a>
 			<div class="JIT_PSlider_Submenu1_Div">
 				<span class="JIT_PSlider_Title_Span">Title:</span> 
 				<input type="text"   class="JIT_PSlider_search_text" id="JIT_PSlider_search_text1" onclick="JIT_PSlider_Search1()" placeholder="Search">
@@ -29,7 +29,7 @@
 			</div>
 		</div>
 		<div id="JIT_PSlider_Button_Div" class="JIT_PSlider_Button_Div">
-			<a href="http://juna-it.com/index.php/photo-slider" target="_blank"<abbr title="Click to Buy"><div class="JIT_PSlider_Full_Version_Image"></div></a>
+			<a href="http://juna-it.com/index.php/photo-slider" target="_blank" title="Click to Buy"><div class="JIT_PSlider_Full_Version_Image"></div></a>
 			<span style="display:block;color:#ffffff;font-size:16px;">This is the free version of the plugin. Click "GET THE FULL VERSION" for more advanced options.</span><br>
 			<span style="display:block;color:#ffffff;font-size:16px;margin-top:-15px;"> We appreciate every customer.</span>
 		</div>
@@ -43,7 +43,7 @@
 		</table>
 		<table class = 'JIT_PSlider_Effect_Table'>
 			<?php for($i=0;$i<count($JIT_PSlider_Effects);$i++) {
-				if($i<6){
+				if($i<7){
 					?>
 					<tr>
 						<td class='JIT_PSlider_id_item1'><B><I><?php echo $i+1 ;?></I></B></td>
@@ -74,6 +74,7 @@
 						<option value="Vertical Thumbnail">Vertical Thumbnail Slider</option>
 						<option value="Horizontal Thumbnail">Horizontal Thumbnail Slider</option>
 						<option value="Thumbnail Slider">Thumbnail Slider</option>
+						<option value="3D Slider">3D Slider</option>
 					</select>
 				</td>
 			</tr>			
@@ -85,4 +86,5 @@
 	<img id="PSlider_Effec4" src="<?php echo plugins_url('/Images/Vertical Thumbnail Slider.png',__FILE__);?>">
 	<img id="PSlider_Effec5" src="<?php echo plugins_url('/Images/Horizontal Thumbnail.png',__FILE__);?>">
 	<img id="PSlider_Effec6" src="<?php echo plugins_url('/Images/Thumbnail Slider.png',__FILE__);?>">
+	<img id="PSlider_Effec7" src="<?php echo plugins_url('/Images/3D_Slider.png',__FILE__);?>">
 </form>

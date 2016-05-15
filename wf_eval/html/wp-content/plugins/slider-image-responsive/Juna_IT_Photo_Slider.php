@@ -3,12 +3,11 @@
 	Plugin Name: Juna-IT Slider
 	Plugin URI: http://juna-it.com/index.php/photo-slider/
 	Description: This Photo Slider plugin easy to use. It Helps you to create and show your images in your web-page how you designed it.
-	Version: 1.0.5
+	Version: 1.1.11
 	Author: Juna-IT
 	Author URI: http://juna-it.com/
 	License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
 */
-
 	add_action('widgets_init', function() {
 	 	register_widget('Juna_Photo_Slider');
 	});
@@ -36,11 +35,11 @@
 
 	function Juna_IT_Photo_Slider_Admin_Menu() 
 	{
-		add_menu_page('Juna_IT_Photo_Slider_Admin_Menu','Photo Slider','manage_options','Juna_IT_Photo_Slider_Admin_Menu','Manage_Juna_IT_Photo_Slider_Admin_Menu','http://juna-it.com/image/photo-slider/photo-slider-admin.png');
+		add_menu_page('Juna_IT_Photo_Slider_Admin_Menu','Photo Slider','manage_options','Juna_IT_Photo_Slider_Admin_Menu','Manage_Juna_IT_Photo_Slider_Admin_Menu',plugins_url('/Images/photo-slider-admin.png',__FILE__));
 
  		add_submenu_page( 'Juna_IT_Photo_Slider_Admin_Menu', 'Juna_IT_Photo_Slider_Admin_Menu_page_1', 'Slider Manager', 'manage_options', 'Juna_IT_Photo_Slider_Admin_Menu', 'Manage_Juna_IT_Photo_Slider_Admin_Menu');
 		add_submenu_page( 'Juna_IT_Photo_Slider_Admin_Menu', 'Juna_IT_Photo_Slider_Admin_Menu_page_3', 'General Options', 'manage_options', 'Juna_IT_Photo_Slider_Admin_Menu_General_Options', 'Manage_Juna_IT_Photo_Slider_Admin_Menu_submenu_3');
-
+		add_submenu_page( 'Juna_IT_Photo_Slider_Admin_Menu', 'Juna-IT Products', 'Juna-IT Products', 'manage_options', 'Juna_IT_Products', 'Manage_Juna_IT_Products_Photo_Slider');
 	}
 	function Manage_Juna_IT_Photo_Slider_Admin_Menu()
 	{
@@ -53,6 +52,10 @@
 		require_once('Juna_IT_Photo_Slider_Admin_Menu_General_Options.php');
 		require_once('Scripts/Juna_IT_Photo_Slider_Submenu3.js.php');
 		require_once('Style/Juna_IT_Photo_Slider_Submenu3.css.php');
+	}
+	function Manage_Juna_IT_Products_Photo_Slider()
+	{
+		require_once('Juna-IT-Products.php');
 	}
 	
 	add_action('admin_init', function() {

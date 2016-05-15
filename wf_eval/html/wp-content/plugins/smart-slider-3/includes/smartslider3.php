@@ -6,8 +6,7 @@ if (!class_exists('N2WP', false)) {
     require_once(dirname(NEXTEND_SMARTSLIDER_3__FILE__) . '/library/smartslider/smartslider3.php');
 }
 
-class N2_SMARTSLIDER_3
-{
+class N2_SMARTSLIDER_3 {
 
     public static function init() {
         if (class_exists('N2Wordpress')) {
@@ -27,10 +26,12 @@ class N2_SMARTSLIDER_3
         require_once dirname(NEXTEND_SMARTSLIDER_3__FILE__) . DIRECTORY_SEPARATOR . 'includes/shortcode.php';
         require_once dirname(NEXTEND_SMARTSLIDER_3__FILE__) . DIRECTORY_SEPARATOR . 'includes/widget.php';
         require_once dirname(NEXTEND_SMARTSLIDER_3__FILE__) . DIRECTORY_SEPARATOR . 'editor' . DIRECTORY_SEPARATOR . 'shortcode.php';
-        
+
         add_action('et_builder_ready', 'N2_SMARTSLIDER_3::Divi_load_module');
 
         add_action('vc_after_set_mode', 'N2_SMARTSLIDER_3::initVisualComposer');
+
+        add_action('admin_bar_menu', 'N2_SMARTSLIDER_3::admin_bar_menu', 81);
     }
 
     public static function registerApplication() {
@@ -144,6 +145,74 @@ class N2_SMARTSLIDER_3
 
     public static function initVisualComposer() {
         require_once dirname(__FILE__) . '/vc.php';
+    }
+
+    /**
+     * @param WP_Admin_Bar $wp_admin_bar
+     */
+    public static function admin_bar_menu($wp_admin_bar) {
+        global $wpdb;
+
+        $wp_admin_bar->add_node(array(
+            'id'     => 'new_content_smart_slider',
+            'parent' => 'new-content',
+            'title'  => 'Slider [Smart Slider 3]',
+            'href'   => admin_url("admin.php?page=" . NEXTEND_SMARTSLIDER_3_URL_PATH . '#createslider')
+        ));
+
+        $wp_admin_bar->add_node(array(
+            'id'    => 'smart_slider_3',
+            'title' => 'Smart Slider',
+            'href'  => admin_url("admin.php?page=" . NEXTEND_SMARTSLIDER_3_URL_PATH)
+        ));
+
+        $wp_admin_bar->add_node(array(
+            'id'     => 'smart_slider_3_dashboard',
+            'parent' => 'smart_slider_3',
+            'title'  => 'Dashboard',
+            'href'   => admin_url("admin.php?page=" . NEXTEND_SMARTSLIDER_3_URL_PATH)
+        ));
+
+        $wp_admin_bar->add_node(array(
+            'id'     => 'smart_slider_3_create_slider',
+            'parent' => 'smart_slider_3',
+            'title'  => 'Create slider',
+            'href'   => admin_url("admin.php?page=" . NEXTEND_SMARTSLIDER_3_URL_PATH . '#createslider')
+        ));
+
+        $query   = 'SELECT sliders.title, sliders.id, slides.thumbnail
+            FROM ' . $wpdb->prefix . 'nextend2_smartslider3_sliders AS sliders
+            LEFT JOIN ' . $wpdb->prefix . 'nextend2_smartslider3_slides AS slides ON slides.id = (SELECT id FROM ' . $wpdb->prefix . 'nextend2_smartslider3_slides WHERE slider = sliders.id AND published = 1 AND generator_id = 0 AND thumbnail NOT LIKE \'\' ORDER BY ordering DESC LIMIT 1)
+            ORDER BY time DESC LIMIT 10';
+        $sliders = $wpdb->get_results($query, ARRAY_A);
+
+        if (count($sliders)) {
+
+            $wp_admin_bar->add_node(array(
+                'id'     => 'smart_slider_3_edit',
+                'parent' => 'smart_slider_3',
+                'title'  => 'Edit slider',
+                'href'   => admin_url("admin.php?page=" . NEXTEND_SMARTSLIDER_3_URL_PATH)
+            ));
+
+            foreach ($sliders AS $slider) {
+                $wp_admin_bar->add_node(array(
+                    'id'     => 'smart_slider_3_slider_' . $slider['id'],
+                    'parent' => 'smart_slider_3_edit',
+                    'title'  => '#' . $slider['id'] . ' - ' . $slider['title'],
+                    'href'   => admin_url("admin.php?page=" . NEXTEND_SMARTSLIDER_3_URL_PATH . '&nextendcontroller=slider&nextendaction=edit&sliderid=' . $slider['id'])
+                ));
+            }
+
+            if (count($sliders) == 10) {
+                $wp_admin_bar->add_node(array(
+                    'id'     => 'smart_slider_3_slider_view_all',
+                    'parent' => 'smart_slider_3_edit',
+                    'title'  => 'View all',
+                    'href'   => admin_url("admin.php?page=" . NEXTEND_SMARTSLIDER_3_URL_PATH)
+                ));
+            }
+        }
     }
 }
 

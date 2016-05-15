@@ -66,6 +66,14 @@ class Nextend_ET_Builder_Module_Smart_Slider_Fullwidth extends Nextend_ET_Builde
     }
 }
 
+function Nextend_et_builder_get_child_modules_fix($child_modules){
+    if($child_modules === ''){
+        $child_modules = array();
+    }
+    return $child_modules;
+}
+
+add_filter( 'et_builder_get_child_modules', 'Nextend_et_builder_get_child_modules_fix');
 
 new Nextend_ET_Builder_Module_Smart_Slider;
 new Nextend_ET_Builder_Module_Smart_Slider_Fullwidth;

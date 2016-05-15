@@ -6,7 +6,6 @@ N2Loader::import('libraries.parse.font');
 N2Loader::import('libraries.slider.type', 'smartslider');
 N2Loader::import('libraries.slider.css', 'smartslider');
 N2Loader::importAll('libraries.slider.features', 'smartslider');
-N2Loader::import('libraries.slider.javascript', 'smartslider');
 N2Loader::importAll('libraries.slider.slide', 'smartslider');
 N2Loader::import('libraries.settings.settings', 'smartslider');
 N2Loader::import('libraries.slider.widget.widgets', 'smartslider');
@@ -127,6 +126,17 @@ abstract class N2SmartSliderAbstract {
     abstract public function parseSlider($slider);
 
     abstract public function addCMSFunctions($slider);
+
+    public function loadSliderParams() {
+
+        $slidersModel = new N2SmartsliderSlidersModel();
+        $slider       = $slidersModel->get($this->sliderId);
+        if (empty($slider)) {
+            return false;
+        }
+        $this->data   = new N2Data($slider);
+        $this->params = new N2Data($slider['params'], true);
+    }
 
     public function loadSlider() {
 

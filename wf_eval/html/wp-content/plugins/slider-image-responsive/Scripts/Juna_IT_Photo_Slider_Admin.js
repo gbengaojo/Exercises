@@ -12,8 +12,9 @@ function JIT_PSlider_Upload_Photo_Clicked()
 		}
 	},100)
 }
-jQuery(function(){
-    jQuery('#JIT_PSlider_Photos_Ul').sortable({
+function JIT_PSlider_Sort()
+{
+	jQuery('#JIT_PSlider_Photos_Ul').sortable({
       	update: function() {
         	jQuery("#JIT_PSlider_Photos_Ul > li").each(function(){
 				jQuery(this).find('.JITPSLider_Uploaded_Title').attr('id','JITPSLider_Uploaded_Title_'+parseInt(parseInt(jQuery(this).index())+1));
@@ -30,7 +31,7 @@ jQuery(function(){
 			});         
        	}
     });	
-});
+}
 function JIT_PSlider_Remove_U(Remove_Title)
 {
 	jQuery('#JIT_PSlider_Photos_Ul_Li_'+Remove_Title).remove();

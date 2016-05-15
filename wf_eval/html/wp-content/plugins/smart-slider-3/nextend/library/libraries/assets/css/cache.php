@@ -16,7 +16,7 @@ class N2AssetsCacheCSS extends N2AssetsCache
         $this->basePath = dirname($originalFilePath);
         $this->baseUrl  = N2Filesystem::pathToAbsoluteURL($this->basePath);
 
-        return preg_replace_callback('#url\([\'"]([^"\'\)]+)[\'"]\)#', array(
+        return preg_replace_callback('#url\([\'"]?([^"\'\)]+)[\'"]?\)#', array(
             $this,
             'makeUrl'
         ), $content);

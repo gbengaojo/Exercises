@@ -42,7 +42,7 @@
             this.tabletRatio = tabletRatio;
             this.mobileRatio = mobileRatio;
 
-            this.button.imagesLoaded().always($.proxy(this.loaded, this));
+            this.button.n2imagesLoaded().always($.proxy(this.loaded, this));
         }
     };
 

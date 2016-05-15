@@ -1,7 +1,6 @@
 <?php
 
-class N2SS3Widget extends WP_Widget
-{
+class N2SS3Widget extends WP_Widget {
 
     private $preventRender = false;
 
@@ -65,7 +64,8 @@ class N2SS3Widget extends WP_Widget
     function form($instance) {
         global $wpdb;
         $instance = wp_parse_args((array)$instance, array(
-            'title' => ''
+            'title'  => '',
+            'slider' => -1
         ));
         $title    = $instance['title'];
         ?>
@@ -91,14 +91,14 @@ class N2SS3Widget extends WP_Widget
                         ?>
                         <option <?php if ($r->id == $slider) { ?>selected="selected"
                                 <?php } ?>value="<?php echo $r->id; ?>"><?php echo $r->title; ?></option>
-                    <?php
+                        <?php
                     }
                     ?>
                 </select>
             </label>
         </p>
         <p>You can create Sliders in the left sidebar.</p>
-    <?php
+        <?php
     }
 
     function update($new_instance, $old_instance) {

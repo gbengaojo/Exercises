@@ -73,7 +73,7 @@
 							<a href="javascript:void(0)"><i class="fa fa-search"></i></a>
 							<div class="search-box">
 								<div class="close"> &times; </div>
-								<?php get_search_form(); ?>
+								<?php get_template_part('searchform-header'); ?>
 							</div>
 						</div> <!--  search-form-->
 						<?php } ?>

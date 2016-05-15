@@ -1,7 +1,6 @@
 <?php
 
-class N2SSShortcodeInsert
-{
+class N2SSShortcodeInsert {
 
     public static function init() {
         add_action('admin_init', array(
@@ -20,8 +19,8 @@ class N2SSShortcodeInsert
             'post.php',
             'page.php'
         ))) {
-
-            wp_register_style('smart-slider-editor', plugin_dir_url(__FILE__) . "editor.css", array(), '3.22', 'screen');
+            wp_register_style('smart-slider-editor', plugin_dir_url(__FILE__) . 'editor.min.css', array(), '3.22', 'screen');
+        
             wp_enqueue_style('smart-slider-editor');
 
             add_action('admin_print_footer_scripts', array(

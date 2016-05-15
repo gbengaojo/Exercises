@@ -4,7 +4,6 @@
  *
  * Displays all of the head element and everything up until the "body-content-wrapper" div.
  *
- * @package WordPress
  * @subpackage fCorpo
  * @author tishonator
  * @since fCorpo 1.0.0

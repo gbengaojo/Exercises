@@ -36,10 +36,21 @@
 
 #main_featured_themes_page {
   font-family: Oswald;
+  width: 90%;
+  margin: 15px auto 0px auto;
+}
+
+#main_featured_themes_page h3 {
+  border-bottom: 2px solid #CECECE;
+  color: rgb(111, 111, 111);
+  font-family: Segoe UI;
+  font-size: 18pt;
+  margin: 0px auto 15px auto;
+  padding: 20px 0;
 }
 
 #main_featured_themes_page #featured-plugins-list  li.sauron .product {background:url("images/sauron.jpg") left center no-repeat;}
-#main_featured_themes_page #featured-plugins-list  li.portfolio .product {background:url("images/portfolio.png") left center no-repeat;}
+#main_featured_themes_page #featured-plugins-list  li.portfolio_gallery .product {background:url("images/portfolio.png") left center no-repeat;}
 #main_featured_themes_page #featured-plugins-list  li.business_elite  .product {background:url("images/business_elite.jpg") left center no-repeat;}
 #main_featured_themes_page #featured-plugins-list  li.mottomag  .product {background:url("images/mottomag.jpg") left center no-repeat;  }
 #main_featured_themes_page #featured-plugins-list  li.business_world  .product {background:url("images/business_world.jpg") left center no-repeat;}
@@ -102,17 +113,12 @@
 	color: #F47629;
 }
 
-.featured_header > div {
-	background: #FFFFFF;
+.featured_header {
+  background: #11465F;
   border-right: 3px solid #E5E5E5;
   border-bottom: 3px solid #E5E5E5;
-	padding: 20px 0;
-}
-
-.featured_header {
   position: relative;
-  width: 90%;
-  margin: 15px auto 0px auto;
+  padding: 20px 0;
 }
 
 .featured_header .old_price {
@@ -122,25 +128,42 @@
 }
 
 .featured_header h1.get_plugins {
-	color: #FFFFFF;
-	background: url("images/featured_plugins_bg.png") no-repeat;
-	height: 85px;
+  color: #FFFFFF;
+  height: 85px;
   margin: 0;
-  background-size: 95% 100%;
+  background-size: 85% 100%;
   background-position: center;
   line-height: 60px;
 }
 
+.featured_header .try-now{
+	text-align: center;
+}
+	
+.featured_header .try-now span {
+	display: inline-block;
+  padding: 7px 16px;
+  background: #F47629;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 23px;
+}
+	
 .featured_header h1 {
-	font-size: 45px;
-  text-align: center;
-	color: #F47629;
+	font-size: 50px;
+	text-align: center;
+	color: #FFFFFF;
 	letter-spacing: 3px;
-	line-height: 10px;
+	text-transform: uppercase;
 }
 
 .featured_header a {
 	text-decoration: none;
+}
+
+.featured_header .old-price {
+	color: #889CA8;
+	text-decoration: line-through;
 }
 
 @media screen and (max-width: 1035px) {

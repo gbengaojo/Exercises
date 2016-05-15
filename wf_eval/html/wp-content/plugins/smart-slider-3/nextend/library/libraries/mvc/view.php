@@ -31,8 +31,8 @@ class N2View
             $path = $this->appType->path . NDS . "inline" . NDS;
         }
 
-        if (!strpos($fileName, ".php")) {
-            $fileName = $fileName . ".php";
+        if (strpos($fileName, ".phtml") === false) {
+            $fileName = $fileName . ".phtml";
         }
 
         /**

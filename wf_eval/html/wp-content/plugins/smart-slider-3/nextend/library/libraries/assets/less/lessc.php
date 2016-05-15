@@ -68,7 +68,7 @@ class n2lessc
     protected function findImport($url) {
         foreach ((array)$this->importDir as $dir) {
             $full = $dir . (substr($dir, -1) != '/' ? '/' : '') . $url;
-            if ($this->fileExists($file = $full . '.less') || $this->fileExists($file = $full)) {
+            if ($this->fileExists($file = $full . '.n2less') || $this->fileExists($file = $full)) {
                 return $file;
             }
         }

@@ -1,7 +1,6 @@
 <?php
 
-class N2Platform
-{
+class N2Platform {
 
     public static $isAdmin = false;
 
@@ -35,6 +34,10 @@ class N2Platform
     public static function getPublicDir() {
         $upload_dir = wp_upload_dir();
         return $upload_dir['basedir'];
+    }
+
+    public static function getUserEmail() {
+        return wp_get_current_user()->user_email;
     }
 
     public static function adminHideCSS() {

@@ -1,6 +1,7 @@
 <root>
     <params name="posts" label="Filter">
         <param name="postscategory" label="Categories" type="wpcategories" default="0" multiple="1" size="10"/>
+        <param name="posttags" label="Tags" type="wptags" default="0" multiple="1" size="10"/>
     </params>
 
     <params name="order" label="Order by">

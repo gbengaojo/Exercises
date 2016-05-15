@@ -2,7 +2,6 @@
 /**
  * The sidebar containing the main widget area
  *
- * @package WordPress
  * @subpackage fCorpo
  * @author tishonator
  * @since fCorpo 1.0.0

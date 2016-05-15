@@ -26,11 +26,18 @@ class CFMViewUninstall_cfm {
     global $wpdb;
     $prefix = $wpdb->prefix;
     ?>
-    <form method="post" action="admin.php?page=uninstall_cfm" style="width:95%;">
+    <form method="post" action="admin.php?page=uninstall_cfm" class="cfm_form">
       <?php wp_nonce_field('nonce_cfm', 'nonce_cfm'); ?>
       <div class="wrap">
         <span class="uninstall_icon"></span>
         <h2><?php echo __("Uninstall Contact Form Builder", "contact_form_maker"); ?></h2>
+        <div class="goodbye-text">
+          <?php
+          $support_team = '<a href="https://web-dorado.com/support/contact-us.html?source=form-builder" target="_blank">' . __('support team', 'contact_form_maker') . '</a>';
+          $contact_us = '<a href="https://web-dorado.com/support/contact-us.html?source=form-builder" target="_blank">' . __('Contact us', 'contact_form_maker') . '</a>';
+          echo sprintf(__("Before uninstalling the plugin, please Contact our %s. We'll do our best to help you out with your issue. We value each and every user and value what's right for our users in everything we do.<br />
+          However, if anyway you have made a decision to uninstall the plugin, please take a minute to %s and tell what you didn't like for our plugins further improvement and development. Thank you !!!", "contact_form_maker"), $support_team, $contact_us); ?>
+        </div>
         <p>
           <?php echo __("Deactivating Contact Form Builder plugin does not remove any data that may have been created, such as the Forms and the Submissions. To completely remove this plugin, you can uninstall it here", "contact_form_maker"); ?>.
         </p>
