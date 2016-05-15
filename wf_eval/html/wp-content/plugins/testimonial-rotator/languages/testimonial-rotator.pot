@@ -1,0 +1,563 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Testimonial Rotator 2.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/testimonial-rotator\n"
+"POT-Creation-Date: 2016-01-06 06:57:26+00:00\n"
+"POT-Revision-Date: Tue Jan 12 2016 15:31:11 GMT-0600 (CST)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../frontend-functions.php:45
+msgid "View Full"
+msgstr ""
+
+#: ../frontend-functions.php:57
+msgid "Something unknown went wrong"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Testimonial Rotator"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://halgatewood.com/testimonial-rotator"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A handy plugin for WordPress developers to add testimonials to their site. "
+"Enough functionality to be helpful and also stays out of your way."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Hal Gatewood"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.halgatewood.com"
+msgstr ""
+
+#: ../testimonial-rotator.php:109 ../testimonial-rotator.php:121
+msgid "Testimonials"
+msgstr ""
+
+#: ../testimonial-rotator.php:110
+msgid "Testimonial"
+msgstr ""
+
+#: ../testimonial-rotator.php:111 ../testimonial-rotator.php:145 ../admin/admin-
+#: functions.php:203 ../admin/admin-functions.php:203
+msgid "Add New"
+msgstr ""
+
+#: ../testimonial-rotator.php:112
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../testimonial-rotator.php:113
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../testimonial-rotator.php:114
+msgid "New Testimonial"
+msgstr ""
+
+#: ../testimonial-rotator.php:115
+msgid "All Testimonials"
+msgstr ""
+
+#: ../testimonial-rotator.php:116
+msgid "View Testimonial"
+msgstr ""
+
+#: ../testimonial-rotator.php:117
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../testimonial-rotator.php:118
+msgid "No testimonials found"
+msgstr ""
+
+#: ../testimonial-rotator.php:119
+msgid "No testimonials found in Trash"
+msgstr ""
+
+#: ../testimonial-rotator.php:143
+msgid "Testimonial Rotators"
+msgstr ""
+
+#: ../testimonial-rotator.php:144 ../widget.php:48 ../widget.php:62 ..
+#: /admin/admin-functions.php:50 ../admin/admin-functions.php:62
+msgid "Rotator"
+msgstr ""
+
+#: ../testimonial-rotator.php:146
+msgid "Add New Rotator"
+msgstr ""
+
+#: ../testimonial-rotator.php:147
+msgid "Edit Rotator"
+msgstr ""
+
+#: ../testimonial-rotator.php:148
+msgid "New Rotator"
+msgstr ""
+
+#: ../testimonial-rotator.php:149 ../widget.php:50
+msgid "All Rotators"
+msgstr ""
+
+#: ../testimonial-rotator.php:150
+msgid "View Rotator"
+msgstr ""
+
+#: ../testimonial-rotator.php:151
+msgid "Search Rotators"
+msgstr ""
+
+#: ../testimonial-rotator.php:152
+msgid "No rotators found"
+msgstr ""
+
+#: ../testimonial-rotator.php:153
+msgid "No rotators found in Trash"
+msgstr ""
+
+#: ../testimonial-rotator.php:155 ../admin/admin-functions.php:202 ../admin/admin-
+#: functions.php:202
+msgid "Rotators"
+msgstr ""
+
+#: ../testimonial-rotator.php:228
+msgid "Testimonial is not a testimonial post type"
+msgstr ""
+
+#: ../testimonial-rotator.php:233
+#, php-format
+msgid "Testimonial could not be found with ID: %d"
+msgstr ""
+
+#: ../testimonial-rotator.php:262
+#, php-format
+msgid "Rotator could not be found with ID: %d"
+msgstr ""
+
+#: ../testimonial-rotator.php:468
+#, php-format
+msgid "The template: %s could be found"
+msgstr ""
+
+#: ../testimonial-rotator.php:526
+msgid "Next Testimonials"
+msgstr ""
+
+#: ../testimonial-rotator.php:527
+msgid "Previous Testimonials"
+msgstr ""
+
+#: ../widget.php:7
+msgid "Displays rotating testimonials"
+msgstr ""
+
+#: ../widget.php:8
+msgid "Testimonials Rotator"
+msgstr ""
+
+#: ../widget.php:45
+msgid "Title:"
+msgstr ""
+
+#: ../widget.php:58
+msgid "Limit:"
+msgstr ""
+
+#: ../widget.php:61
+msgid "Display:"
+msgstr ""
+
+#: ../widget.php:63
+msgid "List"
+msgstr ""
+
+#: ../widget.php:67
+msgid "Show as:"
+msgstr ""
+
+#: ../widget.php:68
+msgid "Full"
+msgstr ""
+
+#: ../widget.php:69
+msgid "Excerpt"
+msgstr ""
+
+#: ../widget.php:74
+msgid "Custom Excerpt Length:"
+msgstr ""
+
+#: ../widget.php:91
+msgid "Override Rotator Settings?"
+msgstr ""
+
+#: ../widget.php:111
+msgid "Template"
+msgstr ""
+
+#: ../widget.php:117 ../widget.php:127
+msgid "Rotator Default"
+msgstr ""
+
+#: ../widget.php:122 ../admin/metaboxes-rotator.php:75
+msgid "Transition Effect"
+msgstr ""
+
+#: ../widget.php:132 ../admin/metaboxes-rotator.php:84
+msgid "Image Size"
+msgstr ""
+
+#: ../widget.php:137 ../admin/metaboxes-rotator.php:89
+msgid "Seconds per Testimonial"
+msgstr ""
+
+#: ../widget.php:142 ../admin/metaboxes-rotator.php:94
+msgid "Transition Speed (in seconds)"
+msgstr ""
+
+#: ../widget.php:147 ../admin/metaboxes-rotator.php:104
+msgid "Element for Title Field"
+msgstr ""
+
+#: ../widget.php:152 ../widget.php:161 ../widget.php:170 ../widget.php:179 ..
+#: /widget.php:188
+msgid "Default"
+msgstr ""
+
+#: ../widget.php:153 ../widget.php:162 ../widget.php:171 ../widget.php:180 ..
+#: /widget.php:189
+msgid "Yes"
+msgstr ""
+
+#: ../widget.php:154 ../widget.php:163 ../widget.php:172 ../widget.php:181 ..
+#: /widget.php:190
+msgid "No"
+msgstr ""
+
+#: ../widget.php:156 ../admin/metaboxes-rotator.php:21 ../admin/metaboxes-rotator.
+#: php:112
+msgid "Randomize Testimonials"
+msgstr ""
+
+#: ../widget.php:165 ../admin/metaboxes-rotator.php:117
+msgid "Vertical Align (Center Testimonials Height)"
+msgstr ""
+
+#: ../widget.php:174 ../admin/metaboxes-rotator.php:122
+msgid "Show Previous/Next Buttons"
+msgstr ""
+
+#: ../widget.php:183 ../admin/metaboxes-rotator.php:127
+msgid "Hide Featured Image"
+msgstr ""
+
+#: ../widget.php:192 ../admin/metaboxes-rotator.php:132
+msgid "Hide Microdata (hReview)"
+msgstr ""
+
+#: ../widget.php:196 ../admin/metaboxes-rotator.php:139
+msgid "Name of Item Being Reviewed (optional):"
+msgstr ""
+
+#: ../widget.php:197 ../admin/metaboxes-rotator.php:140
+msgid "Company Name, Product Name, etc."
+msgstr ""
+
+#: ../admin/admin-functions.php:8
+msgid "Testimonial Options"
+msgstr ""
+
+#: ../admin/admin-functions.php:11
+msgid "Testimonial Image"
+msgstr ""
+
+#: ../admin/admin-functions.php:14
+msgid "Testimonial Order"
+msgstr ""
+
+#: ../admin/admin-functions.php:20
+msgid "Associated Testimonials"
+msgstr ""
+
+#: ../admin/admin-functions.php:23
+msgid "Rotator Shortcode"
+msgstr ""
+
+#: ../admin/admin-functions.php:27
+msgid "Rotator Options"
+msgstr ""
+
+#: ../admin/admin-functions.php:37
+msgid "Enter Highlight Here"
+msgstr ""
+
+#: ../admin/admin-functions.php:47
+msgid "Image"
+msgstr ""
+
+#: ../admin/admin-functions.php:48 ../admin/admin-functions.php:61 ../admin/admin-
+#: functions.php:96
+msgid "Title"
+msgstr ""
+
+#: ../admin/admin-functions.php:49
+msgid "Rating"
+msgstr ""
+
+#: ../admin/admin-functions.php:51
+msgid "Order"
+msgstr ""
+
+#: ../admin/admin-functions.php:52
+msgid "Shortcode"
+msgstr ""
+
+#: ../admin/admin-functions.php:86
+msgid "Display as Single"
+msgstr ""
+
+#: ../admin/admin-functions.php:97
+msgid "Theme"
+msgstr ""
+
+#: ../admin/admin-functions.php:98
+msgid "Testimonial Count"
+msgstr ""
+
+#: ../admin/admin-functions.php:99
+msgid "Shortcodes"
+msgstr ""
+
+#: ../admin/admin-functions.php:109
+msgid "Use Rotator Settings"
+msgstr ""
+
+#: ../admin/admin-functions.php:112
+msgid "Display as List"
+msgstr ""
+
+#: ../admin/admin-functions.php:139
+msgid "None assigned yet"
+msgstr ""
+
+#: ../admin/admin-functions.php:179 ../admin/admin-functions.php:179 ..
+#: /admin/admin-functions.php:266 ../admin/admin-functions.php:266
+msgid "Add Rotator"
+msgstr ""
+
+#: ../admin/admin-functions.php:183 ../admin/admin-functions.php:183 ..
+#: /admin/admin-functions.php:244
+msgid "Settings"
+msgstr ""
+
+#: ../admin/admin-functions.php:242
+msgid "Donate"
+msgstr ""
+
+#: ../admin/admin-functions.php:243
+msgid "Themes"
+msgstr ""
+
+#: ../admin/admin-functions.php:286
+msgid "You must choose a rotator"
+msgstr ""
+
+#: ../admin/admin-functions.php:302
+msgid "Choose a Rotator"
+msgstr ""
+
+#: ../admin/admin-functions.php:310
+msgid ""
+"No rotators have been created yet. Please create one first and then you will "
+"be able to select it here."
+msgstr ""
+
+#: ../admin/admin-functions.php:313
+msgid "Insert Rotator"
+msgstr ""
+
+#: ../admin/admin-functions.php:314 ../admin/admin-functions.php:314
+msgid "Cancel"
+msgstr ""
+
+#: ../admin/admin-settings.php:8
+msgid "Testimonial Rotator Settings"
+msgstr ""
+
+#: ../admin/admin-settings.php:30
+msgid "Error Handling"
+msgstr ""
+
+#: ../admin/admin-settings.php:31
+msgid "Who Sees Rotator Menu?"
+msgstr ""
+
+#: ../admin/admin-settings.php:32
+msgid "Hide Font Awesome?"
+msgstr ""
+
+#: ../admin/admin-settings.php:33
+msgid "Register for Updates"
+msgstr ""
+
+#: ../admin/admin-settings.php:40
+msgid "Settings Updated"
+msgstr ""
+
+#: ../admin/admin-settings.php:49
+msgid "Hidden in Source"
+msgstr ""
+
+#: ../admin/admin-settings.php:50
+msgid "Display if Admin"
+msgstr ""
+
+#: ../admin/admin-settings.php:51
+msgid "Display for Anyone"
+msgstr ""
+
+#: ../admin/admin-settings.php:54
+msgid "What should the plugin do when there is an error?"
+msgstr ""
+
+#: ../admin/admin-settings.php:72
+msgid ""
+"Select the roles that will be able to see the Rotator List View and 'Add "
+"New' Button in the admin menu."
+msgstr ""
+
+#: ../admin/admin-settings.php:84
+msgid ""
+"Already loading Font Awesome with your theme or another plugin? You can turn "
+"off our version here."
+msgstr ""
+
+#: ../admin/admin-settings.php:92
+msgid "Defined in wp-config"
+msgstr ""
+
+#: ../admin/admin-settings.php:98
+msgid "This is used to update your plugin when new versions become available."
+msgstr ""
+
+#: ../admin/admin-settings.php:100
+msgid "Insert the email address you used to purchase this plugin."
+msgstr ""
+
+#: ../admin/admin-settings.php:103
+msgid "Check out the themes available"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:9
+msgid "Base Rotator"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:12
+msgid "List All Testimonials"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:15
+msgid "Limit Results to 10 and list"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:18
+msgid "Hide Titles"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:99
+msgid "Limit Number of Testimonials"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:140
+msgid "not visible on your website, used for search engines"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:165
+msgid "Select a Theme:"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:173
+msgid "Use"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:179
+msgid "Go"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:190
+msgid "Make a Custom Template:"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:191
+msgid "To create custom layouts for this rotator create a file called"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:192
+msgid "and place it in your theme."
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:255
+msgid "View in Edit List"
+msgstr ""
+
+#: ../admin/metaboxes-rotator.php:259
+msgid "No testimonials have been associated to this rotator yet."
+msgstr ""
+
+#: ../admin/metaboxes-testimonial.php:19
+msgid "No Testimonial Rotators have been created."
+msgstr ""
+
+#: ../admin/metaboxes-testimonial.php:20
+msgid ""
+"You need to publish this testimonial so you don't lose your work and then go "
+"create a Testimonial Rotator. You can then edit this testimonial and select "
+"the rotator here."
+msgstr ""
+
+#: ../admin/metaboxes-testimonial.php:24
+msgid "Attach to Rotator: "
+msgstr ""
+
+#: ../admin/metaboxes-testimonial.php:33
+msgid "Star Rating:"
+msgstr ""
+
+#: ../admin/metaboxes-testimonial.php:39
+msgid "Don't Show"
+msgstr ""
+
+#: ../admin/metaboxes-testimonial.php:43
+msgid "Author Information:"
+msgstr ""
+
+#: ../admin/metaboxes-testimonial.php:44
+msgid ""
+"Company Name, Credentials, etc. (this info shows below the author's "
+"testimonial by default)"
+msgstr ""

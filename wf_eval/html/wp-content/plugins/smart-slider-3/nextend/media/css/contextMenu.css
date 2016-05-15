@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/*!
+ * jQuery contextMenu - Plugin for simple contextMenu handling
+ *
+ * Version: v2.1.0
+ *
+ * Authors: Björn Brala (SWIS.nl), Rodney Rehm, Addy Osmani (patches for FF)
+ * Web: http://swisnl.github.io/jQuery-contextMenu/
+ *
+ * Copyright (c) 2011-2016 SWIS BV and contributors
+ *
+ * Licensed under
+ *   MIT License http://www.opensource.org/licenses/mit-license
+ *
+ * Date: 2016-01-08T20:22:20.182Z
+ */
+
+.context-menu-icon:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 28px;
+    font-family: 'Nextend' !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color: #cedae2;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.context-menu-hover .context-menu-icon:before {
+    color: #fff;
+}
+
+.context-menu-icon-delete:before {
+    content: "\e612";
+}
+
+.context-menu-icon-duplicate:before {
+    content: "\e611";
+}
+
+.context-menu-icon-copy:before {
+    content: "\e907";
+}
+
+.context-menu-icon-paste:before {
+    content: "\e908";
+}
+
+.context-menu-icon-in:before {
+    content: "\e641";
+}
+
+.context-menu-icon-loop:before {
+    content: "\e642";
+}
+
+.context-menu-icon-out:before {
+    content: "\e640";
+}
+
+.context-menu-icon.context-menu-hover:before {
+    color: #fff;
+}
+
+.context-menu-list {
+    position: absolute;
+    display: inline-block;
+    min-width: 100px;
+    max-width: 360px;
+    padding: 5px 0;
+    margin: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    list-style-type: none;
+    background: RGBA(43, 52, 63, 1);
+    border-radius: 3px;
+}
+
+.context-menu-item {
+    position: relative;
+    padding: 0 30px;
+    line-height: 32px;
+    color: #cedae2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.context-menu-separator {
+    padding: 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #20272e;
+}
+
+.context-menu-html {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.context-menu-item > label > input,
+.context-menu-item > label > textarea {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+.context-menu-item.context-menu-hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #1890d7;
+}
+
+.context-menu-item.context-menu-disabled {
+    color: #626262;
+    background-color: #fff;
+}
+
+.context-menu-item.context-menu-disabled {
+    color: #626262;
+}
+
+.context-menu-input.context-menu-hover,
+.context-menu-item.context-menu-disabled.context-menu-hover {
+    cursor: default;
+    background-color: #eee;
+}
+
+.context-menu-submenu:after {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    content: '';
+    border-color: transparent transparent transparent #cedae2;
+    border-style: solid;
+    border-width: 4px 0 4px 4px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/**
+ * Inputs
+ */
+.context-menu-item.context-menu-input {
+    padding: 5px 10px;
+}
+
+/* vertically align inside labels */
+.context-menu-input > label > * {
+    vertical-align: top;
+}
+
+/* position checkboxes and radios as icons */
+.context-menu-input > label > input[type="checkbox"],
+.context-menu-input > label > input[type="radio"] {
+    position: relative;
+    top: 3px;
+}
+
+.context-menu-input > label,
+.context-menu-input > label > input[type="text"],
+.context-menu-input > label > textarea,
+.context-menu-input > label > select {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.context-menu-input > label > textarea {
+    height: 100px;
+}
+
+.context-menu-item > .context-menu-list {
+    top: 5px;
+    /* re-positioned by js */
+    right: -5px;
+    display: none;
+}
+
+.context-menu-item.context-menu-visible > .context-menu-list {
+    display: block;
+}
+
+.context-menu-accesskey {
+    text-decoration: underline;
+}

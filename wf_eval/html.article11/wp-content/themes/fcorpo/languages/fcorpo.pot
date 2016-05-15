@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fCorpo Theme\n"
+"POT-Creation-Date: 2015-10-03 22:45+0200\n"
+"PO-Revision-Date: 2015-10-03 22:46+0200\n"
+"Last-Translator: \n"
+"Language-Team: Tishonator Team <info@tishonator.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../"
+"fcorpo\n"
+
+#: ../search.php:19
+#, php-format
+msgid "You searched for \"%s\". Here are the results:"
+msgstr ""
+
+#: ../searchform.php:20
+msgid "Search..."
+msgstr ""
+
+#: ../single.php:33
+msgid "Pages:"
+msgstr ""
+
+#: ../footer.php:27
+msgid "fCorpo Theme"
+msgstr ""
+
+#: ../footer.php:28
+msgid "WordPress"
+msgstr ""
+
+#: ../comments.php:54
+#: ../template-parts/content-page.php:29
+#: ../template-parts/content.php:59
+msgid "Comments are closed."
+msgstr ""
+
+#: ../functions.php:52
+msgid "primary menu"
+msgstr ""
+
+#: ../functions.php:214
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: ../functions.php:216
+msgid "The sidebar widget area"
+msgstr ""
+
+#: ../functions.php:235
+msgid ""
+"<h3>Lorem ipsum dolor</h3><p>Lorem ipsum dolor sit amet, consectetur "
+"adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna "
+"aliqua.</p><a class=\"btn\" title=\"Read more\" href=\"#\">Read more</a>"
+msgstr ""
+
+#: ../functions.php:261
+msgid "Follow us on Facebook"
+msgstr ""
+
+#: ../functions.php:267
+msgid "Follow us on Google+"
+msgstr ""
+
+#: ../functions.php:273
+msgid "Follow our RSS Feeds"
+msgstr ""
+
+#: ../functions.php:279
+msgid "Follow us on Youtube"
+msgstr ""
+
+#: ../functions.php:292
+#, php-format
+msgid ""
+"The fCorpo theme is a free version of the professional WordPress theme "
+"tCorpo. <a href=\"%s\" class=\"button-primary\" target=\"_blank\">Get tCorpo "
+"Theme</a><br />"
+msgstr ""
+
+#: ../functions.php:302
+msgid "Header Image"
+msgstr ""
+
+#: ../functions.php:310
+msgid "Colors"
+msgstr ""
+
+#: ../functions.php:317
+msgid "Background Image"
+msgstr ""
+
+#: ../functions.php:328
+msgid "Slider"
+msgstr ""
+
+#: ../functions.php:344
+msgid ""
+"<h2>Lorem ipsum dolor</h2><p>Lorem ipsum dolor sit amet, consectetur "
+"adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna "
+"aliqua.</p><a class=\"btn\" title=\"Read more\" href=\"#\">Read more</a>"
+msgstr ""
+
+#: ../functions.php:351
+#, php-format
+msgid "Slide #%s Content"
+msgstr ""
+
+#: ../functions.php:369
+#, php-format
+msgid "Slide #%s Image"
+msgstr ""
+
+#: ../functions.php:383
+msgid "Footer"
+msgstr ""
+
+#: ../functions.php:400
+msgid "Copyright Text"
+msgstr ""
+
+#: ../functions.php:414
+msgid "Social Sites"
+msgstr ""
+
+#: ../functions.php:431
+msgid "Facebook Page URL"
+msgstr ""
+
+#: ../functions.php:450
+msgid "Google+ Page URL"
+msgstr ""
+
+#: ../functions.php:469
+msgid "RSS Feeds URL"
+msgstr ""
+
+#: ../functions.php:488
+msgid "YouTube channel URL"
+msgstr ""
+
+#: ../template-parts/content-none.php:14
+msgid "Oh no! Article not found! 404 error!"
+msgstr ""
+
+#: ../template-parts/content-none.php:18
+msgid "No Results Found!"
+msgstr ""
+
+#: ../template-parts/content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../template-parts/content-page.php:20
+#: ../template-parts/content.php:81
+#: ../template-parts/content.php:98
+msgid "Read More..."
+msgstr ""
+
+#: ../template-parts/content-page.php:29
+#: ../template-parts/content.php:59
+msgid "No Comments"
+msgstr ""
+
+#: ../template-parts/content-page.php:29
+#: ../template-parts/content.php:59
+msgid "1 Comment"
+msgstr ""
+
+#: ../template-parts/content-page.php:29
+#: ../template-parts/content.php:59
+msgid "% Comments"
+msgstr ""
+
+#: ../template-parts/content-page.php:32
+#: ../template-parts/content.php:64
+msgid "Edit"
+msgstr ""
+
+#: ../template-parts/content.php:110
+msgid "Categories:"
+msgstr ""
+
+#: ../template-parts/content.php:117
+msgid "Tags:"
+msgstr ""

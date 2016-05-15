@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: contact_form_maker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-19 10:42+0400\n"
+"PO-Revision-Date: 2014-06-19 10:42+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress3.5\\wp-content\\plugins"
+"\\contact-forms\n"
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:78
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:93
+msgid "Error, incorrect Security code."
+msgstr "오류, 잘못된 보안 코드입니다."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:105
+msgid "Your ip is blacklisted. Please contact the website administrator."
+msgstr "당신의 IP가 블랙리스트됩니다. 웹 사이트 관리자에게 문의하십시오."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:277
+#, php-format
+msgid ""
+"This field %s requires a unique entry and this value was already submitted."
+msgstr "이 필드 %s 고유 항목을 필요하며이 값은 이미 제출되었습니다."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:308
+msgid "Nothing was submitted."
+msgstr "아무것도 제출되지 않았습니다."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:870
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:883
+msgid "Your form was successfully submitted."
+msgstr "양식이 성공적으로 제출되었습니다."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:878
+msgid "Error, email was not sent."
+msgstr "오류, 이메일이 전송되지 않았습니다."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:201
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:240
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:282
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:322
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:364
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:413
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:474
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:566
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:578
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:675
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:734
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:822
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:898
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:961
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:996
+msgid "field is required."
+msgstr "필드가 필요합니다."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:747
+msgid "This is not a valid email address."
+msgstr "이것은 유효한 이메일 주소가 아닙니다."
+
+#~ msgid "Street Address"
+#~ msgstr "번지:"
+
+#~ msgid "Street Address Line 2"
+#~ msgstr "주소 입력란 2"
+
+#~ msgid "City"
+#~ msgstr "시"
+
+#~ msgid "State / Province / Region"
+#~ msgstr "주 /도 / 지역"
+
+#~ msgid "Postal / Zip Code"
+#~ msgstr "우편 / 우편 번호"
+
+#~ msgid "Country"
+#~ msgstr "국가"
+
+#~ msgid "January"
+#~ msgstr "1월"
+
+#~ msgid "February"
+#~ msgstr "2월"
+
+#~ msgid "March"
+#~ msgstr "3월"
+
+#~ msgid "April"
+#~ msgstr "4월"
+
+#~ msgid "May"
+#~ msgstr "5월"
+
+#~ msgid "June"
+#~ msgstr "6월"
+
+#~ msgid "July"
+#~ msgstr "7월"
+
+#~ msgid "August"
+#~ msgstr "8월"
+
+#~ msgid "September"
+#~ msgstr "9월"
+
+#~ msgid "October"
+#~ msgstr "10월"
+
+#~ msgid "November"
+#~ msgstr "11월"
+
+#~ msgid "December"
+#~ msgstr "12월"
+
+#~ msgid "Quantity"
+#~ msgstr "수량"
+
+#~ msgid "The file exceeds the allowed size of"
+#~ msgstr "파일의 허용 크기를 초과"
+
+#~ msgid "Sorry, you are not allowed to upload this type of file."
+#~ msgstr "죄송합니다, 당신은이 파일 형식을 업로드할 수 없습니다."
+
+#~ msgid "Error, file cannot be moved."
+#~ msgstr "오류는 파일은 이동할 수 없습니다."
+
+#, fuzzy
+#~ msgid "Error, file destination does not exist."
+#~ msgstr "오류, 이메일이 전송되지 않았습니다."
+
+#~ msgid "The"
+#~ msgstr "The"
+
+#~ msgid "value must be between"
+#~ msgstr "값 사이에 있어야합니다 "
+
+#~ msgid "Your score should be less than"
+#~ msgstr "당신의 점수는보다 작아야합니다 "
+
+#~ msgid "Title"
+#~ msgstr "제목"
+
+#~ msgid "First"
+#~ msgstr "첫 번째"
+
+#~ msgid "Last"
+#~ msgstr "마지막"
+
+#~ msgid "Middle"
+#~ msgstr "중간"
+
+#~ msgid "Area Code"
+#~ msgstr "지역 코드"
+
+#~ msgid "Phone Number"
+#~ msgstr "전화 번호"
+
+#~ msgid "Dollars"
+#~ msgstr "달러"
+
+#~ msgid "Cents"
+#~ msgstr "센트"
+
+#~ msgid "From"
+#~ msgstr "에서"
+
+#~ msgid "To"
+#~ msgstr "에"

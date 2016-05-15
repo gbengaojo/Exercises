@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: contact_form_maker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-19 10:25+0400\n"
+"PO-Revision-Date: 2014-06-19 10:25+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress3.5\\wp-content\\plugins"
+"\\contact-forms\n"
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:78
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:93
+msgid "Error, incorrect Security code."
+msgstr "Chyba, nesprávný bezpečnostní kód."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:105
+msgid "Your ip is blacklisted. Please contact the website administrator."
+msgstr "Vaše IP je na černé listině. Prosím, obraťte se na správce webu. "
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:277
+#, php-format
+msgid ""
+"This field %s requires a unique entry and this value was already submitted."
+msgstr ""
+"Toto pole %s vyžaduje jedinečný přístup a tato hodnota byla již podána."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:308
+msgid "Nothing was submitted."
+msgstr "Nic byl předložen."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:870
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:883
+msgid "Your form was successfully submitted."
+msgstr "Váš formulář byl úspěšně odeslán."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:878
+msgid "Error, email was not sent."
+msgstr "Chyba, byl e-mail neposlal."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:201
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:240
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:282
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:322
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:364
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:413
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:474
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:566
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:578
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:675
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:734
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:822
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:898
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:961
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:996
+msgid "field is required."
+msgstr "pole je povinné."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:747
+msgid "This is not a valid email address."
+msgstr "Toto není platná e-mailová adresa."
+
+#~ msgid "Street Address"
+#~ msgstr "Ulice"
+
+#~ msgid "Street Address Line 2"
+#~ msgstr "Ulice řádek 2"
+
+#~ msgid "City"
+#~ msgstr "Město"
+
+#~ msgid "State / Province / Region"
+#~ msgstr "Stát / provincie / Region"
+
+#~ msgid "Postal / Zip Code"
+#~ msgstr "Poštovní / PSČ"
+
+#~ msgid "Country"
+#~ msgstr "Země"
+
+#~ msgid "January"
+#~ msgstr "Leden"
+
+#~ msgid "February"
+#~ msgstr "Únor"
+
+#~ msgid "March"
+#~ msgstr "Březen"
+
+#~ msgid "April"
+#~ msgstr "Duben"
+
+#~ msgid "May"
+#~ msgstr "Květen"
+
+#~ msgid "June"
+#~ msgstr "Červen"
+
+#~ msgid "July"
+#~ msgstr "Červenec"
+
+#~ msgid "August"
+#~ msgstr "Srpen"
+
+#~ msgid "September"
+#~ msgstr "Září"
+
+#~ msgid "October"
+#~ msgstr "Říjen"
+
+#~ msgid "November"
+#~ msgstr "Listopad"
+
+#~ msgid "December"
+#~ msgstr "Prosinec"
+
+#~ msgid "Quantity"
+#~ msgstr "množství "
+
+#~ msgid "The file exceeds the allowed size of"
+#~ msgstr "Souboru přesáhne povolenou velikost"
+
+#~ msgid "Sorry, you are not allowed to upload this type of file."
+#~ msgstr "Je nám líto, ale nemáte možnost nahrát tento typ souboru."
+
+#~ msgid "Error, file cannot be moved."
+#~ msgstr "Chyba může soubor nelze přesunout."
+
+#, fuzzy
+#~ msgid "Error, file destination does not exist."
+#~ msgstr "Chyba, byl e-mail neposlal."
+
+#~ msgid "The"
+#~ msgstr "The"
+
+#~ msgid "value must be between"
+#~ msgstr "hodnota musí být mezi "
+
+#~ msgid "Your score should be less than"
+#~ msgstr "Vaše skóre by měla být menší než "
+
+#~ msgid "Title"
+#~ msgstr "Název"
+
+#~ msgid "First"
+#~ msgstr "Za prvé"
+
+#~ msgid "Last"
+#~ msgstr "Poslední"
+
+#~ msgid "Middle"
+#~ msgstr "na střed"
+
+#~ msgid "Area Code"
+#~ msgstr "Kód oblasti"
+
+#~ msgid "Phone Number"
+#~ msgstr "Telefonní číslo"
+
+#~ msgid "Dollars"
+#~ msgstr "dolarů "
+
+#~ msgid "Cents"
+#~ msgstr "centů "
+
+#~ msgid "From"
+#~ msgstr "od "
+
+#~ msgid "To"
+#~ msgstr "na"

@@ -1,0 +1,2626 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: contact_form_maker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-28 09:43+0300\n"
+"PO-Revision-Date: 2015-05-28 09:43+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\wordpress2\\wp-content\\plugins\\contact-"
+"form-builder\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress2\\wp-content\\plugins"
+"\\contact-form-builder\n"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerContactFormMakerEditCSS.php:82
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:46
+msgid "Item Succesfully Saved."
+msgstr "Στοιχείο Succesfully Αποθηκευμένες."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerContactFormMakerEditCSS.php:85
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:62
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:78
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:52
+msgid "Error. Please install plugin again."
+msgstr "Σφάλμα. Παρακαλώ εγκαταστήστε plugin πάλι."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:59
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:75
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:58
+msgid "Item Succesfully Deleted."
+msgstr "Είδη Succesfully διαγραφεί."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:82
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:112
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:138
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:76
+msgid "You must select at least one item."
+msgstr "Πρέπει να επιλέξετε τουλάχιστον ένα στοιχείο."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:109
+#, fuzzy
+msgid "IPs Succesfully Blocked."
+msgstr "Είδη Succesfully διαγραφεί."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:135
+#, fuzzy
+msgid "IPs Succesfully Unblocked."
+msgstr "Είδη Succesfully διαγραφεί."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerWidget.php:21
+msgid "Add Conatct Form Builder widget."
+msgstr "Φόρμα Επικοινωνίας Builder"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:448
+msgid "Alabama"
+msgstr "Αλαμπάμα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:449
+msgid "Alaska"
+msgstr "Αλάσκα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:450
+msgid "Arizona"
+msgstr "Αριζόνα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:451
+msgid "Arkansas"
+msgstr "Αρκάνσας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:452
+msgid "California"
+msgstr "Καλιφόρνια"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:453
+msgid "Colorado"
+msgstr "Κολοράντο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:454
+msgid "Connecticut"
+msgstr "Κονέκτικατ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:455
+msgid "Delaware"
+msgstr "Delaware"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:457
+msgid "Florida"
+msgstr "Φλόριντα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:318
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:458
+msgid "Georgia"
+msgstr "Γεωργία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:459
+msgid "Hawaii"
+msgstr "Χαβάη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:460
+msgid "Idaho"
+msgstr "Αϊντάχο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:461
+msgid "Illinois"
+msgstr "Ιλινόις"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:462
+msgid "Indiana"
+msgstr "Ιντιάνα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:463
+msgid "Iowa"
+msgstr "Αϊόβα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:464
+msgid "Kansas"
+msgstr "Κάνσας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:465
+msgid "Kentucky"
+msgstr "Κεντάκι"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:466
+msgid "Louisiana"
+msgstr "Λουιζιάνα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:467
+msgid "Maine"
+msgstr "Μέιν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:468
+msgid "Maryland"
+msgstr "Μέριλαντ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:469
+msgid "Massachusetts"
+msgstr "Μασαχουσέτη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:470
+msgid "Michigan"
+msgstr "Μίσιγκαν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:471
+msgid "Minnesota"
+msgstr "Μινεσότα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:472
+msgid "Mississippi"
+msgstr "Μισισιπής"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:473
+msgid "Missouri"
+msgstr "Μιζούρι"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:474
+msgid "Montana"
+msgstr "Μοντάνα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:475
+msgid "Nebraska"
+msgstr "Νεμπράσκα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:476
+msgid "Nevada"
+msgstr "Νεβάδα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:477
+msgid "New Hampshire"
+msgstr "New Hampshire"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:478
+msgid "New Jersey"
+msgstr "New Jersey"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:479
+msgid "New Mexico"
+msgstr "Νέο Μεξικό"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:480
+msgid "New York"
+msgstr "Νέα Υόρκη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:481
+msgid "North Carolina"
+msgstr "Βόρεια Καρολίνα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:482
+msgid "North Dakota"
+msgstr "Βόρεια Ντακότα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:483
+msgid "Ohio"
+msgstr "Οχάιο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:484
+msgid "Oklahoma"
+msgstr "Οκλαχόμα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:485
+msgid "Oregon"
+msgstr "Όρεγκον"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:486
+msgid "Pennsylvania"
+msgstr "Πενσυλβάνια"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:487
+msgid "Rhode Island"
+msgstr "Ρόουντ Άιλαντ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:488
+msgid "South Carolina"
+msgstr "Νότια Καρολίνα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:489
+msgid "South Dakota"
+msgstr "Νότια Ντακότα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:490
+msgid "Tennessee"
+msgstr "Τενεσί"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:491
+msgid "Texas"
+msgstr "Τέξας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:492
+msgid "Utah"
+msgstr "Γιούτα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:493
+msgid "Vermont"
+msgstr "Βερμόντ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:494
+msgid "Virginia"
+msgstr "Βιργινία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:495
+msgid "Washington"
+msgstr "Ουάσινγκτον"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:496
+msgid "West Virginia"
+msgstr "Δυτική Βιρτζίνια"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:497
+msgid "Wisconsin"
+msgstr "Ουισκόνσιν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:308
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:498
+msgid "Wyoming"
+msgstr "Ουαϊόμινγκ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:255
+msgid "Afghanistan"
+msgstr "Αφγανιστάν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:256
+msgid "Albania"
+msgstr "Αλβανία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:257
+msgid "Algeria"
+msgstr "Αλγερία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:258
+msgid "Andorra"
+msgstr "Ανδόρα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:259
+msgid "Angola"
+msgstr "Αγκόλα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:260
+msgid "Antigua and Barbuda"
+msgstr "Αντίγκουα και Μπαρμπούντα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:261
+msgid "Argentina"
+msgstr "Αργεντινή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:262
+msgid "Armenia"
+msgstr "Αρμενία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:263
+msgid "Australia"
+msgstr "Αυστραλία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:264
+msgid "Austria"
+msgstr "Αυστρία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:265
+msgid "Azerbaijan"
+msgstr "Αζερμπαϊτζάν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:266
+msgid "Bahamas"
+msgstr "Μπαχάμες"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:267
+msgid "Bahrain"
+msgstr "Μπαχρέιν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:268
+msgid "Bangladesh"
+msgstr "Μπαγκλαντές"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:269
+msgid "Barbados"
+msgstr "Μπαρμπάντος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:270
+msgid "Belarus"
+msgstr "Λευκορωσία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:271
+msgid "Belgium"
+msgstr "Βέλγιο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:272
+msgid "Belize"
+msgstr "Μπελίζ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:273
+msgid "Benin"
+msgstr "Μπενίν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:274
+msgid "Bhutan"
+msgstr "Μπουτάν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:275
+msgid "Bolivia"
+msgstr "Βολιβία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:276
+msgid "Bosnia and Herzegovina"
+msgstr "Βοσνία και Ερζεγοβίνη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:277
+msgid "Botswana"
+msgstr "Μποτσουάνα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:278
+msgid "Brazil"
+msgstr "Βραζιλία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:279
+msgid "Brunei"
+msgstr "Μπρουνέι"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:280
+msgid "Bulgaria"
+msgstr "Βουλγαρία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:281
+msgid "Burkina Faso"
+msgstr "Μπουρκίνα Φάσο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:282
+msgid "Burundi"
+msgstr "Μπουρούντι"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:283
+msgid "Cambodia"
+msgstr "Καμπότζη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:284
+msgid "Cameroon"
+msgstr "Καμερούν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:285
+msgid "Canada"
+msgstr "Καναδάς"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:286
+msgid "Cape Verde"
+msgstr "Πράσινο Ακρωτήριο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:287
+msgid "Central African Republic"
+msgstr "Κεντροαφρικανική Δημοκρατία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:288
+msgid "Chad"
+msgstr "Τσαντ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:289
+msgid "Chile"
+msgstr "Χιλή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:290
+msgid "China"
+msgstr "Κίνα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:291
+msgid "Colombi"
+msgstr "Colombi"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:292
+msgid "Comoros"
+msgstr "Κομόρες"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:293
+msgid "Congo (Brazzaville)"
+msgstr "Κονγκό (Μπραζαβίλ)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:294
+msgid "Congo"
+msgstr "Κογκό"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:295
+msgid "Costa Rica"
+msgstr "Κόστα Ρίκα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+msgid "Cote d\\'Ivoire"
+msgstr "Cote d 'Ελεφαντοστού"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:297
+msgid "Croatia"
+msgstr "Κροατία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:298
+msgid "Cuba"
+msgstr "Κούβα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:299
+msgid "Cyprus"
+msgstr "Κύπρος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:300
+msgid "Czech Republic"
+msgstr "Τσεχική Δημοκρατία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:301
+msgid "Denmark"
+msgstr "Δανία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:302
+msgid "Djibouti"
+msgstr "Τζιμπουτί"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:303
+msgid "Dominica"
+msgstr "Ντομίνικα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:304
+msgid "Dominican Republic"
+msgstr "Δομινικανή Δημοκρατία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:305
+msgid "East Timor (Timor Timur)"
+msgstr "Ανατολικό Τιμόρ (Τιμόρ Τιμούρ)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:306
+msgid "Ecuador"
+msgstr "Εκουαδόρ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:307
+msgid "Egypt"
+msgstr "Αίγυπτος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:308
+msgid "El Salvador"
+msgstr "Ελ Σαλβαδόρ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:309
+msgid "Equatorial Guinea"
+msgstr "Ισημερινή Γουινέα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:310
+msgid "Eritrea"
+msgstr "Ερυθραία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:311
+msgid "Estonia"
+msgstr "Εσθονία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:312
+msgid "Ethiopia"
+msgstr "Αιθιοπία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:313
+msgid "Fiji"
+msgstr "Φίτζι"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:314
+msgid "Finland"
+msgstr "Φινλανδία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:315
+msgid "France"
+msgstr "Γαλλία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:316
+msgid "Gabon"
+msgstr "Γκαμπόν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:317
+msgid "Gambia, The"
+msgstr "Γκάμπια"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:319
+msgid "Germany"
+msgstr "Γερμανία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:320
+msgid "Ghana"
+msgstr "Γκάνα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:321
+msgid "Greece"
+msgstr "Ελλάδα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:322
+msgid "Grenada"
+msgstr "Γρενάδα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:323
+msgid "Guatemala"
+msgstr "Γουατεμάλα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:324
+msgid "Guinea"
+msgstr "Γουινέα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:325
+msgid "Guinea-Bissau"
+msgstr "Γουινέα-Μπισάου"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:326
+msgid "Guyana"
+msgstr "Γουιάνα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:327
+msgid "Haiti"
+msgstr "Αϊτή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:328
+msgid "Honduras"
+msgstr "Ονδούρα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:329
+msgid "Hungary"
+msgstr "Ουγγαρία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:330
+msgid "Iceland"
+msgstr "Ισλανδία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:331
+msgid "India"
+msgstr "Ινδία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:332
+msgid "Indonesia"
+msgstr "Ινδονησία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:333
+msgid "Iran"
+msgstr "Ιράν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:334
+msgid "Iraq"
+msgstr "Ιράκ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:335
+msgid "Ireland"
+msgstr "Ιρλανδία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:336
+msgid "Israel"
+msgstr "Ισραήλ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:337
+msgid "Italy"
+msgstr "Ιταλία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:338
+msgid "Jamaica"
+msgstr "Ιαμαϊκή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:339
+msgid "Japan"
+msgstr "Ιαπωνία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:340
+msgid "Jordan"
+msgstr "Ιορδανία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:341
+msgid "Kazakhstan"
+msgstr "Καζακστάν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:342
+msgid "Kenya"
+msgstr "Κένυα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:343
+msgid "Kiribati"
+msgstr "Κιριμπάτι"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:344
+msgid "Korea, North"
+msgstr "Βόρεια Κορέα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:345
+msgid "Korea, South"
+msgstr "Κορέα, Νότια"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:346
+msgid "Kuwait"
+msgstr "Κουβέιτ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:347
+msgid "Kyrgyzstan"
+msgstr "Κιργιστάν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:348
+msgid "Laos"
+msgstr "Λάος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:349
+msgid "Latvia"
+msgstr "Λετονία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:350
+msgid "Lebanon"
+msgstr "Λίβανος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:351
+msgid "Lesotho"
+msgstr "Λεσότο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:352
+msgid "Liberia"
+msgstr "Λιβερία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:353
+msgid "Libya"
+msgstr "Λιβύη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:354
+msgid "Liechtenstein"
+msgstr "Λιχτενστάιν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:355
+msgid "Lithuania"
+msgstr "Λιθουανία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:356
+msgid "Luxembourg"
+msgstr "Λουξεμβούργο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:357
+msgid "Macedonia"
+msgstr "Μακεδονίας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:358
+msgid "Madagascar"
+msgstr "Μαδαγασκάρη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:359
+msgid "Malawi"
+msgstr "Μαλάουι"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:360
+msgid "Malaysia"
+msgstr "Μαλαισία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:361
+msgid "Maldives"
+msgstr "Μαλδίβες"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:362
+msgid "Mali"
+msgstr "Μάλι"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:363
+msgid "Malta"
+msgstr "Μάλτα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:364
+msgid "Marshall Islands"
+msgstr "νησιά Μάρσαλ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:365
+msgid "Mauritania"
+msgstr "Μαυριτανία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:366
+msgid "Mauritius"
+msgstr "Μαυρίκιος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:367
+msgid "Mexico"
+msgstr "Μεξικό"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:368
+msgid "Micronesia"
+msgstr "Μικρονησία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:369
+msgid "Moldova"
+msgstr "Μολδαβία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:370
+msgid "Monaco"
+msgstr "Μονακό"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:371
+msgid "Mongolia"
+msgstr "Μογγολία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:372
+msgid "Morocco"
+msgstr "Μαρόκο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:373
+msgid "Mozambique"
+msgstr "Μοζαμβίκη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:374
+msgid "Myanmar"
+msgstr "Μιανμάρ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:375
+msgid "Namibia"
+msgstr "Ναμίμπια"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:376
+msgid "Nauru"
+msgstr "Ναουρού"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:377
+msgid "Nepa"
+msgstr "Ν.Ε.Π.Α."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:378
+msgid "Netherlands"
+msgstr "Ολλανδία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:379
+msgid "New Zealand"
+msgstr "νέα Ζηλανδία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:380
+msgid "Nicaragua"
+msgstr "Νικαράγουα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:381
+msgid "Niger"
+msgstr "Νίγηρας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:382
+msgid "Nigeria"
+msgstr "Νιγηρία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:383
+msgid "Norway"
+msgstr "Νορβηγία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:384
+msgid "Oman"
+msgstr "Ομάν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:385
+msgid "Pakistan"
+msgstr "Πακιστάν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:386
+msgid "Palau"
+msgstr "Παλάου"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:387
+msgid "Panama"
+msgstr "Παναμάς"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:388
+msgid "Papua New Guinea"
+msgstr "Παπούα Νέα Γουινέα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:389
+msgid "Paraguay"
+msgstr "Παραγουάη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:390
+msgid "Peru"
+msgstr "Περού"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:391
+msgid "Philippines"
+msgstr "Φιλιππίνες"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:392
+msgid "Poland"
+msgstr "Πολωνία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:393
+msgid "Portugal"
+msgstr "Πορτογαλία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:394
+msgid "Qatar"
+msgstr "Κατάρ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:395
+msgid "Romania"
+msgstr "Ρουμανία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:396
+msgid "Russia"
+msgstr "Ρωσία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:397
+msgid "Rwanda"
+msgstr "Ρουάντα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:398
+msgid "Saint Kitts and Nevis"
+msgstr "Άγιος Χριστόφορος και Νέβις"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:399
+msgid "Saint Lucia"
+msgstr "Αγία Λουκία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:400
+msgid "Saint Vincent"
+msgstr "Άγιος Βικέντιος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:401
+msgid "Samoa"
+msgstr "Σαμόα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:402
+msgid "San Marino"
+msgstr "Σαν Μαρίνο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:403
+msgid "Sao Tome and Principe"
+msgstr "Σάο Τομέ και Πρίνσιπε"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:404
+msgid "Saudi Arabia"
+msgstr "Σαουδική Αραβία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:405
+msgid "Senegal"
+msgstr "Σενεγάλη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:406
+msgid "Serbia and Montenegro"
+msgstr "Σερβία και Μαυροβούνιο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:407
+msgid "Seychelles"
+msgstr "Σεϋχέλλες"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:408
+msgid "Sierra Leone"
+msgstr "Σιέρα Λεόνε"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:409
+msgid "Singapore"
+msgstr "Σιγκαπούρη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:410
+msgid "Slovakia"
+msgstr "Σλοβακία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:411
+msgid "Slovenia"
+msgstr "Σλοβενία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:412
+msgid "Solomon Islands"
+msgstr "Νησιά Σολομώντα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:413
+msgid "Somalia"
+msgstr "Σομαλία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:414
+msgid "South Africa"
+msgstr "Νότια Αφρική"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:415
+msgid "Spain"
+msgstr "Ισπανία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:416
+msgid "Sri Lanka"
+msgstr "Σρι Λάνκα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:417
+msgid "Sudan"
+msgstr "Σουδάν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:418
+msgid "Suriname"
+msgstr "Σουρινάμ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:419
+msgid "Swaziland"
+msgstr "Σουαζιλάνδη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:420
+msgid "Sweden"
+msgstr "Σουηδία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:421
+msgid "Switzerland"
+msgstr "Ελβετία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:422
+msgid "Syria"
+msgstr "Συρία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:423
+msgid "Taiwan"
+msgstr "Ταϊβάν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:424
+msgid "Tajikistan"
+msgstr "Τατζικιστάν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:425
+msgid "Tanzania"
+msgstr "Τανζανία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:426
+msgid "Thailand"
+msgstr "Ταϊλάνδη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:427
+msgid "Togo"
+msgstr "Να Πάω"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:428
+msgid "Tonga"
+msgstr "Τόνγκα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:429
+msgid "Trinidad and Tobago"
+msgstr "Τρινιντάντ και Τομπάγκο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:430
+msgid "Tunisia"
+msgstr "Τυνησία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:431
+msgid "Turkey"
+msgstr "Τουρκία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:432
+msgid "Turkmenistan"
+msgstr "Τουρκμενιστάν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:433
+msgid "Tuvalu"
+msgstr "Τουβαλού"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:434
+msgid "Uganda"
+msgstr "Ουγκάντα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:435
+msgid "Ukraine"
+msgstr "Ουκρανία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:436
+msgid "United Arab Emirates"
+msgstr "Ηνωμένα Αραβικά Εμιράτα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:437
+msgid "United Kingdom"
+msgstr "Ηνωμένο Βασίλειο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:438
+msgid "United States"
+msgstr "Ηνωμένες Πολιτείες"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:439
+msgid "Uruguay"
+msgstr "Ουρουγουάη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:440
+msgid "Uzbekistan"
+msgstr "Ουζμπεκιστάν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:441
+msgid "Vanuatu"
+msgstr "Βανουάτου"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:442
+msgid "Vatican City"
+msgstr "Πόλη του Βατικανού"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:443
+msgid "Venezuela"
+msgstr "Βενεζουέλα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:444
+msgid "Vietnam"
+msgstr "Βιετνάμ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:445
+msgid "Yemen"
+msgstr "Υεμένη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:446
+msgid "Zambia"
+msgstr "Ζάμπια"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:651
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:660
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:664
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:668
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:557
+msgid "Move the field to the left"
+msgstr "Μετακινήστε το στην αριστερή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:651
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:660
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:664
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:668
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:554
+msgid "Move the field up"
+msgstr "Μετακινήστε το πεδίο επάνω"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:651
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:660
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:664
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:668
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:555
+msgid "Move the field down"
+msgstr "Μετακινήστε το πεδίο κάτω"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:651
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:660
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:664
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:668
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:556
+msgid "Move the field to the right"
+msgstr "Μετακινήστε το πεδίο προς τα δεξιά"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:651
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:655
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:660
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:664
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:668
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:552
+msgid "Edit the field"
+msgstr "Επεξεργαστείτε το πεδίο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:651
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:655
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:660
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:664
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:668
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:550
+msgid "Disable the field"
+msgstr "Απενεργοποιήστε το πεδίο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:655
+msgid "section break"
+msgstr "διάλειμμα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:664
+msgid "custom"
+msgstr "έθιμο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:220
+#, fuzzy
+msgid "Street Address"
+msgstr "Οδός Διεύθυνση 2"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:223
+msgid "Street Address Line 2"
+msgstr "Οδός Διεύθυνση 2"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:226
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerIPInfo.php:76
+msgid "City"
+msgstr "Πόλη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:229
+msgid "State / Province / Region"
+msgstr "Πολιτεία / Επαρχία / Περιφέρεια"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:232
+msgid "Postal / Zip Code"
+msgstr "Ταχυδρομική / Τ.Κ."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:235
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerIPInfo.php:70
+msgid "Country"
+msgstr "Χώρα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:575
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:864
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:873
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:917
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:66
+msgid "Yes"
+msgstr "Ναί"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:575
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:865
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:874
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:918
+msgid "No"
+msgstr "Όχι"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:36
+msgid "This section allows you to block IPs."
+msgstr "Αυτό το τμήμα σας επιτρέπει να μπλοκάρει διευθύνσεις IP."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:37
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:37
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:396
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:811
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:166
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:37
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:159
+msgid "Read More in User Manual"
+msgstr "Διαβάστε περισσότερα στο εγχειρίδιο χρήσης"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:42
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:26
+msgid "Blocked IPs"
+msgstr "Αποκλεισμένες IPs"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:44
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerEditCSS.php:43
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:411
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:827
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1493
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:166
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:45
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:77
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:114
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:83
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:125
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:230
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:260
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:371
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:52
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:86
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:134
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:541
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:45
+msgid "Do you want to unblock selected IPs?"
+msgstr "Θέλετε να καταργήσετε τον αποκλεισμό επιλεγμένων IPs;"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:76
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:109
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:77
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:103
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:120
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:85
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:104
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:129
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:570
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:613
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:87
+msgid "Add IP"
+msgstr "Προσθέστε IP"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewCFMShortcode.php:59
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewCFMShortcode.php:62
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:180
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewWidget.php:62
+msgid "Select a Form"
+msgstr "Επιλέξτε ένα Έντυπο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewCFMShortcode.php:78
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerEditCSS.php:52
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:413
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:839
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1495
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:169
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewCFMShortcode.php:81
+msgid "Insert"
+msgstr "Εισαγωγή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerEditCSS.php:46
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:412
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:838
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1494
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:168
+msgid "Apply"
+msgstr "Εφαρμογή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerEditCSS.php:50
+#, fuzzy
+msgid "Save as New"
+msgstr "Αποθήκευση ως Αντιγραφή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerEditCSS.php:51
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:212
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:127
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:290
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerEditCSS.php:57
+msgid "Theme title"
+msgstr "Τίτλος θέματος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerIPInfo.php:73
+msgid "CountryCode"
+msgstr "Κωδικός χώρας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerIPInfo.php:79
+msgid "Timezone"
+msgstr "Ζώνη Ώρας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerIPInfo.php:82
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:548
+msgid "Latitude"
+msgstr "Γεωγραφικό πλάτος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerIPInfo.php:85
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:547
+msgid "Longitude"
+msgstr "Γεωγραφικό μήκος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerSubmits.php:70
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:36
+msgid "This section allows you to edit forms"
+msgstr "Αυτό το τμήμα σας επιτρέπει να επεξεργαστείτε φόρμες"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:38
+msgid ""
+"There is no possibility of adding new form fields, whereas you can edit, "
+"enable/disable the current fields included in each form"
+msgstr ""
+"Δεν υπάρχει η δυνατότητα προσθήκης νέων πεδίων φόρμας, ενώ μπορείτε να "
+"επεξεργαστείτε, να ενεργοποιήσετε / απενεργοποιήσετε τα σημερινά πεδία που "
+"περιλαμβάνονται σε κάθε μορφή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:46
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:65
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:57
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:76
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:174
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewWidget.php:58
+msgid "Title"
+msgstr "Τίτλος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:72
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:936
+msgid "Email to send submissions to"
+msgstr "Email για να στείλετε υποβολές για να"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:74
+msgid "Shortcode"
+msgstr "Σύντομος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:75
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:926
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:927
+msgid "function"
+msgstr "λειτουργία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:76
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:114
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:892
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:78
+msgid "Delete selected items"
+msgstr "Παρακαλώ επιλέξτε το πεδίο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:78
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:225
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:48
+msgid "Do you want to delete selected items?"
+msgstr "Θέλετε να διαγράψετε τα επιλεγμένα στοιχεία;"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:113
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:891
+msgid "Form Preview"
+msgstr "Φόρμα Προεπισκόπηση"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:163
+msgid "Edit form "
+msgstr "Επεξεργασία φόρμας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:163
+msgid "Create new form"
+msgstr "Δημιουργία νέας φόρμας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:177
+msgid "Please wait while page loading"
+msgstr "Παρακαλώ περιμένετε ενώ φόρτωσης της σελίδας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:395
+msgid "This section allows you to enable/disable fields in your form"
+msgstr ""
+"Αυτό το τμήμα σας επιτρέπει να ενεργοποιήσετε / απενεργοποιήσετε τα πεδία "
+"στη φόρμα σας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:402
+msgid "Form Options"
+msgstr "Επιλογές μορφή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:403
+msgid "Form Layout"
+msgstr "Διάταξη Φόρμα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:407
+msgid "Save as Copy"
+msgstr "Αποθήκευση ως Αντιγραφή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:422
+msgid "Form title"
+msgstr "Τίτλος μορφή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:444
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:549
+msgid "add"
+msgstr "προσθέστε"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:445
+msgid "cancel"
+msgstr "ακυρώσει"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:486
+msgid "Enable Drag & Drop"
+msgstr "Ενεργοποίηση drag & drop"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:488
+msgid ""
+"You can use drag and drop to move the fields up/down for the change of the "
+"order and left/right for creating columns within the form."
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε το drag and drop για να μετακινήσετε τα πεδία "
+"πάνω / κάτω για την αλλαγή της παραγγελίας και αριστερά / δεξιά για τη "
+"δημιουργία στηλών μέσα στη φόρμα."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:492
+msgid "Form"
+msgstr "Μορφή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:494
+msgid "Saving"
+msgstr "Οικονομία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:771
+msgid " form options"
+msgstr " Επιλογές μορφή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:810
+msgid "This section allows you to edit form options"
+msgstr "Αυτό το τμήμα σας επιτρέπει να επεξεργαστείτε τις επιλογές μορφή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:845
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:857
+msgid "General Options"
+msgstr "Γενικές επιλογές"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:848
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:910
+msgid "Email Options"
+msgstr "Επιλογές ηλεκτρονικού ταχυδρομείου"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:851
+msgid "Actions after Submission"
+msgstr "Ενέργειες μετά την υποβολή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:861
+msgid "Published"
+msgstr "Δημοσιεύθηκε"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:870
+msgid "Save data(to database)"
+msgstr "Αποθήκευση δεδομένων (με βάση)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:879
+msgid "Theme"
+msgstr "Θέμα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:894
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:895
+msgid "Edit CSS"
+msgstr "Επεξεργασία CSS"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:901
+msgid "Required fields mark"
+msgstr "Τα υποχρεωτικά πεδία σηματοδοτήσει"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:914
+msgid "Send E-mail"
+msgstr "Να στείλετε e-mail"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:923
+msgid "Mailer"
+msgstr "Μέιλερ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:932
+msgid "Email to Administrator"
+msgstr "Αποστολή email σε Διαχειριστή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:943
+msgid "Add more emails"
+msgstr "Προσθήκη περισσότερων μηνυμάτων ηλεκτρονικού ταχυδρομείου"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:953
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:572
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:615
+msgid "Delete Email"
+msgstr "Διαγραφή Email"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:964
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1174
+msgid "Email From"
+msgstr "Email Από"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:995
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1182
+msgid "From Name"
+msgstr "Από Όνομα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1026
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1213
+msgid "Reply to"
+msgstr "Απάντηση σε"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1026
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1213
+msgid "if different from 'Email From'"
+msgstr "αν είναι διαφορετική από την «e-mail από '"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1050
+msgid "Other"
+msgstr "Άλλος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1073
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1237
+msgid "Subject"
+msgstr "Θέμα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1104
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1268
+msgid "Mode"
+msgstr "Τρόπος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1108
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1272
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1380
+msgid "Text"
+msgstr "Κείμενο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1113
+msgid "Custom Text in Email For Administrator"
+msgstr "Προσαρμοσμένο κείμενο στο e-mail για την Administrator"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1129
+msgid "All fields list"
+msgstr "Όλα τα πεδία λίστας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1146
+msgid "Email to User"
+msgstr "Αποστολή email σε χρήστη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1150
+msgid "Send to"
+msgstr "Στελνω σε"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1157
+msgid "There is no email field"
+msgstr "Δεν υπάρχει πεδίο e-mail"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1277
+msgid "Custom Text in Email For User"
+msgstr "Προσαρμοσμένο κείμενο σε Email για το χρήστη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1311
+msgid "Actions after submission"
+msgstr "Ενέργειες μετά την υποβολή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1315
+msgid "Action type"
+msgstr "Τύπος Δράσης"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1318
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1327
+msgid "Stay on Form"
+msgstr "Μείνετε σε φόρμα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1319
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1335
+msgid "Post"
+msgstr "Θέση"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1320
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1357
+msgid "Page"
+msgstr "Σελίδα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1321
+msgid "Custom Text"
+msgstr "Προσαρμοσμένο κείμενο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1339
+msgid "Select Post"
+msgstr "Επιλέξτε Δημοσίευση"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1361
+msgid "Select Page"
+msgstr "Επιλέξτε Σελίδα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1456
+msgid "Uncheck the Auto-Generate Layout box."
+msgstr "Καταργήστε την επιλογή Αυτόματη Δημιουργία πλαίσιο Διάταξη."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1497
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1498
+msgid ""
+"To customize the layout of the form fields uncheck the Auto-Generate Layout "
+"box and edit the HTML"
+msgstr ""
+"Για να προσαρμόσετε τη διάταξη των πεδίων της φόρμας καταργήστε το πλαίσιο "
+"διάταξης Auto-Δημιουργία και επεξεργασία του HTML"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1499
+msgid ""
+"You can change positioning, add in-line styles and etc. Click on the "
+"provided buttons to add the corresponding field"
+msgstr ""
+"Μπορείτε να αλλάξετε την τοποθέτηση, προσθέστε in-line στυλ και το κ.λπ. "
+"Κάντε κλικ στις παρέχονται κουμπιά για να προσθέσετε το αντίστοιχο πεδίο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1499
+msgid "This will add the following line"
+msgstr "Αυτό θα προσθέσει την ακόλουθη γραμμή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1501
+msgid "where"
+msgstr "όπου"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1501
+msgid "is used to set a row"
+msgstr "χρησιμοποιείται για να ορίσετε μια σειρά"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1502
+msgid ""
+"To return to the default settings you should check Auto-Generate Layout box"
+msgstr ""
+"Για να επιστρέψετε στις προεπιλεγμένες ρυθμίσεις θα πρέπει να ελέγξετε Auto-"
+"Δημιουργία πλαίσιο Διάταξη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1503
+msgid "Notice"
+msgstr "Ειδοποίηση"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1504
+msgid ""
+"Make sure not to publish the same field twice. This will cause "
+"malfunctioning of the form"
+msgstr ""
+"Φροντίστε να μην δημοσιεύσει το ίδιο πεδίο δυο φορές. Αυτό θα προκαλέσει την "
+"δυσλειτουργία του εντύπου"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1506
+msgid "Auto Generate Layout"
+msgstr "Αυτόματη Δημιουργία διάταξης"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1524
+msgid "Apply Source Formatting"
+msgstr "Εφαρμογή μορφοποίησης προέλευσης"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1524
+msgid "ctrl-enter"
+msgstr "ctrl-εισάγετε"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:143
+msgid "Select Columns"
+msgstr "Επιλέξτε Στήλες"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:144
+msgid "All"
+msgstr "Όλα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:160
+msgid "Done"
+msgstr "Ολοκληρώθηκε"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:165
+msgid "This section allows you to view form submissions"
+msgstr "Αυτό το τμήμα σας επιτρέπει να δείτε υποβολές μορφή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:195
+msgid "Entries"
+msgstr "Καταχωρήσεις"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:196
+msgid "Views"
+msgstr "Απόψεις"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:197
+msgid "Conversion Rate"
+msgstr "Τιμή Μετατροπής"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:202
+msgid "Export to"
+msgstr "Εξαγωγή σε"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:210
+msgid "Search by fields"
+msgstr "Αναζήτηση με πεδία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:211
+msgid "Go"
+msgstr "Πηγαίνω"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:219
+#, fuzzy
+msgid "Add/Remove Columns"
+msgstr "Επιλέξτε Στήλες"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:223
+msgid "Block IP"
+msgstr "Block IP"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:224
+msgid "Unblock IP"
+msgstr "Απεμπλοκή IP"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:265
+#, fuzzy
+msgid "Submit date"
+msgstr "IP Submitter του"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:273
+msgid "Submitter's IP"
+msgstr "IP Submitter του"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:303
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:459
+msgid "From"
+msgstr "από "
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:312
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:462
+#, fuzzy
+msgid "To"
+msgstr "να"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:377
+#, fuzzy
+msgid "Show submission"
+msgstr "Υποβολές"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:382
+msgid "Show submitter information"
+msgstr "Εμφάνιση πληροφοριών που υπέβαλε"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:432
+msgid "Statistics"
+msgstr "Στατιστική"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:436
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:440
+msgid "Select a Field"
+msgstr "Επιλέξτε ένα πεδίο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:456
+msgid "Select a Date"
+msgstr "Επιλέξτε μια ημερομηνία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:466
+msgid "Show"
+msgstr "Σόου"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:498
+#, fuzzy
+msgid "Please select the field"
+msgstr "Ενεργοποιήστε το πεδίο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:541
+msgid "Choices"
+msgstr "Επιλογές"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:542
+msgid "Percentage"
+msgstr "Ποσοστό"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:543
+msgid "Count"
+msgstr "Υπολογίζω"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:567
+msgid "Unanswered"
+msgstr "Αναπάντητα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:574
+msgid "Total"
+msgstr "Σύνολο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:36
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:158
+msgid "This section allows you to edit form themes"
+msgstr "Αυτό το τμήμα σας επιτρέπει να επεξεργαστείτε θέματα μορφή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:43
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:30
+msgid "Themes"
+msgstr "Θέματα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:45
+msgid "Add new"
+msgstr "Προσθήκη νέου"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:83
+msgid "Default"
+msgstr "Αθέτηση"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:155
+#, fuzzy
+msgid "Edit theme"
+msgstr "Επεξεργαστείτε το πεδίο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:155
+#, fuzzy
+msgid "Create new theme"
+msgstr "Δημιουργία νέας φόρμας"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:33
+msgid "Uninstall Contact Form Builder"
+msgstr "Καταργήστε την εγκατάσταση Φόρμα Επικοινωνίας Builder"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:35
+msgid ""
+"Deactivating Contact Form Builder plugin does not remove any data that may "
+"have been created, such as the Forms and the Submissions. To completely "
+"remove this plugin, you can uninstall it here"
+msgstr ""
+"Απενεργοποίηση Φόρμα Επικοινωνίας Builder plugin δεν καταργήσει όλα τα "
+"δεδομένα που μπορεί να έχουν δημιουργηθεί, όπως και τα έντυπα και τις "
+"υποβολές. Για να καταργήσετε εντελώς αυτό το plugin, μπορείτε να το "
+"απεγκαταστήσετε εδώ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:38
+msgid "WARNING"
+msgstr "ΠΡΟΕΙΔΟΠΟΙΗΣΗ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:39
+msgid ""
+"Once uninstalled, this cannot be undone. You should use a Database Backup "
+"plugin of WordPress to back up all the data first"
+msgstr ""
+"Μόλις απεγκαταστήσει, αυτό δεν μπορεί να αναιρεθεί. Θα πρέπει να "
+"χρησιμοποιείτε μια βάση δεδομένων αντιγράφων ασφαλείας plugin του WordPress "
+"για να δημιουργήσετε αντίγραφα ασφαλείας όλων των δεδομένων πρώτη"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:42
+msgid "The following WordPress Options/Tables will be DELETED"
+msgstr "Το ακόλουθο WordPress Επιλογές / τραπέζια θα διαγραφούν"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:47
+msgid "Database Tables"
+msgstr "Οι πίνακες της βάσης δεδομένων"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:63
+msgid "Do you really want to uninstall Conatct Form Builder"
+msgstr "Θέλετε πραγματικά να απεγκαταστήσετε Conatct Δόμηση Έντυπο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:69
+msgid "UNINSTALL"
+msgstr "UNINSTALL"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:70
+msgid ""
+"You are About to Uninstall Contact Form Builder from WordPress.\\nThis "
+"Action Is Not Reversible."
+msgstr ""
+"Είστε έτοιμοι να απεγκαταστήσετε Φόρμα Επικοινωνίας Builder από WordPress. "
+"\\ NΗ ενέργεια αυτή δεν είναι αναστρέψιμη."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:94
+msgid "The following Database Tables succesfully deleted"
+msgstr "Οι παρακάτω Πίνακες Database επιτυχώς διαγράφεται"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:102
+msgid "Uninstall Conact Form Builder"
+msgstr "Καταργήστε την εγκατάσταση conact Δόμηση Έντυπο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:103
+msgid "Click Here"
+msgstr "Κανε Κλικ Εδώ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:103
+msgid ""
+"To Finish the Uninstallation and Contact Form Builder will be Deactivated "
+"Automatically"
+msgstr ""
+"Για να ολοκληρωθεί η απεγκατάσταση και Επικοινωνία Builder θα "
+"απενεργοποιείται αυτόματα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewWidget.php:60
+msgid "Select a form"
+msgstr "Επιλέξτε μια φόρμα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:18
+msgid "Manager"
+msgstr "Διευθυντής"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:22
+msgid "Submissions"
+msgstr "Υποβολές"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:34
+msgid "Featured Plugins"
+msgstr "Προτεινόμενα Πρόσθετα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:36
+msgid "Uninstall"
+msgstr "Απεγκατάσταση"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:247
+msgid "Only letters, numbers, hyphens and underscores are allowed."
+msgstr "Μόνο γράμματα, αριθμούς, παύλες και τις κάτω παύλες επιτρέπεται."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:248
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:608
+msgid "The name of the attribute is required."
+msgstr "Το όνομα του χαρακτηριστικού απαιτείται."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:249
+msgid ""
+"Sorry, you cannot add a style attribute here. Use \"Class name\" instead."
+msgstr ""
+"Λυπούμαστε, δεν μπορείτε να προσθέσετε ένα χαρακτηριστικό στυλ εδώ. "
+"Χρησιμοποιήστε \"όνομα Κατηγορίας \" αντ 'αυτού."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:250
+msgid "The name of the attribute cannot be a number."
+msgstr "Το όνομα της παραμέτρου δεν μπορεί να είναι ένας αριθμός."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:251
+msgid "The name of the attribute cannot contain a space."
+msgstr "Το όνομα του χαρακτηριστικού δεν πρέπει να περιέχουν ένα χώρο."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:252
+msgid "Sorry, the labels must be unique."
+msgstr "Δυστυχώς, οι ετικέτες πρέπει να είναι μοναδικό."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:253
+msgid "The field label is required."
+msgstr "Η ετικέτα πεδίο είναι υποχρεωτικό."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:254
+msgid "Please select an element to add."
+msgstr "Επιλέξτε ένα στοιχείο για να προσθέσετε."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:296
+msgid "Cote d'Ivoire"
+msgstr "Ακτή Ελεφαντοστού"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:447
+msgid "Zimbabwe"
+msgstr "Ζιμπάμπουε"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:456
+msgid "District Of Columbia"
+msgstr "Περιφέρεια της Κολούμπια"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:500
+msgid "Enable field"
+msgstr "Ενεργοποίηση πεδίο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:501
+msgid "Submit button label"
+msgstr "Υποβολή ημερομηνία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:502
+msgid "Submit function"
+msgstr "Υποβολή ημερομηνία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:503
+msgid "Reset button label"
+msgstr "Επαναφορά ετικέτα του κουμπιού"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:504
+msgid "Display Reset button"
+msgstr "Οθόνη Κουμπί επαναφοράς"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:505
+msgid "Reset function"
+msgstr "Επαναφορά λειτουργία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:506
+msgid "Class name"
+msgstr "Όνομα της κλάσης"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:507
+msgid "Additional Attributes"
+msgstr "Πρόσθετα Χαρακτηριστικά"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:508
+msgid "Name"
+msgstr "Όνομα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:509
+msgid "Value"
+msgstr "Τιμή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:510
+msgid "Field label"
+msgstr "Ετικέτα Πεδίο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:511
+msgid "Field label size(px) "
+msgstr "Μέγεθος ετικέτας πεδίο (px)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:512
+msgid "Field label position"
+msgstr "Θέση ετικέτας πεδίο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:513
+msgid "Required"
+msgstr "Απαραίτητα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:514
+msgid "Field size(px)"
+msgstr "Μέγεθος πεδίου (px)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:515
+msgid "Value if empty"
+msgstr "Αξία και αν είναι άδειο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:516
+msgid "Allow only unique values"
+msgstr "Επιτρέψτε μόνο μοναδικές τιμές"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:517
+msgid "Deactive Class name"
+msgstr "Ανενεργή όνομα της κλάσης"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:518
+msgid "Active Class name"
+msgstr "Ενεργά όνομα Class"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:519
+msgid "Name Format"
+msgstr "Όνομα Format"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:520
+msgid "Overall size(px)"
+msgstr "Συνολικό μέγεθος (px)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:521
+msgid "Disable field(s)"
+msgstr "Απενεργοποίηση πεδίο (-α)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:522
+msgid "Use list for US states"
+msgstr "Λίστα για αμερικανικές πολιτείες Χρήση"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:523
+msgid "Public key"
+msgstr "Δημόσιο κλειδί"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:524
+msgid "Private key"
+msgstr "Το ιδιωτικό κλειδί"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:525
+msgid "Recaptcha Theme"
+msgstr "ReCAPTCHA Θέμα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:526
+msgid "Red"
+msgstr "Κόκκινος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:527
+msgid "White"
+msgstr "Λευκό"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:528
+msgid "Blackglass"
+msgstr "Blackglass"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:529
+msgid "Clean"
+msgstr "Καθαρός"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:530
+msgid "Recaptcha doesn't display in back end"
+msgstr "ReCAPTCHA δεν θα εμφανιστεί στο πίσω άκρο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:531
+msgid "Captcha size"
+msgstr "Captcha μέγεθος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:532
+msgid "Relative Position"
+msgstr "Σχετική Θέση"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:533
+msgid "Rows/Columns"
+msgstr "Προσθήκη / Αφαίρεση στηλών"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:534
+msgid "Randomize in frontend"
+msgstr "Τυχαιοποίηση στο frontend"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:535
+msgid "Allow other"
+msgstr "Επιτρέπουν σε άλλους"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:536
+msgid "Options"
+msgstr "Επιλογές"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:537
+msgid ""
+"IMPORTANT! Check the \"Empty value\" checkbox only if you want the option to "
+"be considered as empty."
+msgstr ""
+"ΣΗΜΑΝΤΙΚΟ! Ελέγξτε το \"κενή τιμή \" κουτάκι μόνο αν θέλετε η επιλογή να "
+"θεωρούνται ως άδειες."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:538
+msgid "Option name"
+msgstr "Το όνομά Επιλογή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:539
+msgid "Price"
+msgstr "Τιμή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:540
+msgid "Empty value"
+msgstr "Κενή τιμή"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:542
+msgid "Drag the marker to change marker position."
+msgstr "Σύρετε το δείκτη για να αλλάξετε τη θέση δείκτη."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:543
+msgid "Location"
+msgstr "Τοποθεσία"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:544
+msgid "Map size"
+msgstr "Μέγεθος Χάρτης"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:545
+msgid "Marker Info"
+msgstr "Marker Πληροφορίες"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:546
+msgid "Address"
+msgstr "Οδός"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:551
+msgid "Enable the field"
+msgstr "Ενεργοποιήστε το πεδίο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:553
+msgid "Dublicate the field"
+msgstr "Dublicate το πεδίο"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:558
+msgid "Left"
+msgstr "Αριστερά"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:559
+msgid "Top"
+msgstr "να"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:560
+msgid ""
+"Use the field to allow the user to choose whether to receive a copy of the "
+"submitted form or not. Do not forget to fill in User Email section in Email "
+"Options in advance."
+msgstr ""
+"Χρησιμοποιήστε το πεδίο για να επιτρέψει στο χρήστη να επιλέξει αν θα λάβει "
+"ένα αντίγραφο της υποβληθείσας ή όχι. Μην ξεχάσετε να συμπληρώσετε στο "
+"χρήστη ενότητα Email σε επιλογών email εκ των προτέρων."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:561
+msgid "The labels of the fields are editable. Please, click the label to edit."
+msgstr ""
+"Οι ετικέτες των πεδίων είναι επεξεργάσιμο. Παρακαλώ, κάντε κλικ στην ετικέτα "
+"για να επεξεργαστείτε."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:562
+msgid "Normal"
+msgstr "Κανονικός"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:563
+msgid "Extended"
+msgstr "Επέκταση"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:564
+msgid "Use US states"
+msgstr "Χρησιμοποιήστε πολιτείες των ΗΠΑ"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:565
+msgid "Vertical"
+msgstr "Κατακόρυφος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:566
+msgid "Horizontal"
+msgstr "Οριζόντιος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:567
+msgid "Width"
+msgstr "Πλάτος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:568
+msgid "Height"
+msgstr "Ύψος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:569
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:612
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:751
+msgid "This is not a valid email address."
+msgstr "Αυτό δεν είναι μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:571
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:573
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:614
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:616
+msgid "Items Succesfully Saved."
+msgstr "Στοιχείο Succesfully Αποθηκευμένες."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:574
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:617
+msgid "Save IP"
+msgstr "Αποθήκευση IP"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:575
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:618
+msgid "* field is required."
+msgstr "το πεδίο είναι υποχρεωτικό."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:607
+msgid "The theme must have a title."
+msgstr "Το θέμα πρέπει να έχει έναν τίτλο."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:64
+msgid "You can't delete default theme"
+msgstr "Δεν μπορείτε να διαγράψετε προεπιλεγμένο θέμα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:70
+msgid "Items Succesfully Deleted."
+msgstr "Είδη Succesfully διαγραφεί."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:82
+msgid "The item is successfully set as default."
+msgstr "Το στοιχείο έχει ρυθμιστεί με επιτυχία ως προεπιλογή."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:88
+msgid "Options Succesfully Saved."
+msgstr "Επιλογές Succesfully Αποθηκευμένες."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:126
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:289
+msgid "Search"
+msgstr "Έρευνα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:222
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:360
+msgid "item"
+msgstr "είδος"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:222
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:360
+msgid "items"
+msgstr "αντικειμένων"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:246
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:384
+msgid "Go to the first page"
+msgstr "Πήγαινε στην πρώτη σελίδα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:247
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:385
+msgid "Go to the previous page"
+msgstr "Μετάβαση στην προηγούμενη σελίδα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:250
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:388
+msgid "Go to the page"
+msgstr "Μετάβαση στη σελίδα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:251
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:389
+msgid "of"
+msgstr "του"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:256
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:394
+msgid "Go to the next page"
+msgstr "Μετάβαση στην επόμενη σελίδα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:257
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:395
+msgid "Go to the last page"
+msgstr "Πηγαίνετε στην τελευταία σελίδα"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:80
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:95
+msgid "Error, incorrect Security code."
+msgstr "Σφάλματος, λανθασμένα τον κωδικό ασφαλείας."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:107
+msgid "Your ip is blacklisted. Please contact the website administrator."
+msgstr ""
+"Ip σας είναι στη μαύρη λίστα. Παρακαλώ επικοινωνήστε με τον διαχειριστή της "
+"ιστοσελίδας. "
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:280
+#, php-format
+msgid ""
+"This field %s requires a unique entry and this value was already submitted."
+msgstr ""
+"Αυτό το πεδίο %s απαιτεί μια μοναδική εγγραφή και αυτή η τιμή έχει ήδη "
+"υποβληθεί."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:311
+msgid "Nothing was submitted."
+msgstr "Τίποτα δεν υποβλήθηκε."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:739
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:752
+msgid "Your form was successfully submitted."
+msgstr "Φόρμα σας υποβλήθηκε με επιτυχία."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:747
+msgid "Error, email was not sent."
+msgstr "Σφάλμα, e-mail δεν σταλεί."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:204
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:243
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:285
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:325
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:367
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:416
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:478
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:570
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:582
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:679
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:738
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:821
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:893
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:956
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:991
+msgid "field is required."
+msgstr "το πεδίο είναι υποχρεωτικό."
+
+#~ msgid "Licensing/Donation"
+#~ msgstr "Αδειοδότηση / Δωρεά"
+
+#~ msgid "Contact"
+#~ msgstr "Επαφή"
+
+#~ msgid "Builder"
+#~ msgstr "Οικοδόμος"
+
+#~ msgid "yes"
+#~ msgstr "ναί"
+
+#~ msgid "updated"
+#~ msgstr "ενημερώθηκε"
+
+#~ msgid "error"
+#~ msgstr "σφάλμα"
+
+#~ msgid "Blocked"
+#~ msgstr "Αποκλεισμένοι"
+
+#~ msgid "January"
+#~ msgstr "Ιανουάριος"
+
+#~ msgid "February"
+#~ msgstr "Φεβρουάριος"
+
+#~ msgid "April"
+#~ msgstr "Απρίλης"
+
+#~ msgid "May"
+#~ msgstr "Μάιος"
+
+#~ msgid "June"
+#~ msgstr "Ιούνιος"
+
+#~ msgid "July"
+#~ msgstr "Ιούλιος"
+
+#~ msgid "August"
+#~ msgstr "Αύγουστος"
+
+#~ msgid "September"
+#~ msgstr "Σεπτέμβριος"
+
+#~ msgid "October"
+#~ msgstr "Οκτώβριος"
+
+#~ msgid "November"
+#~ msgstr "Νοέμβριος"
+
+#~ msgid "December"
+#~ msgstr "Δεκέμβριος"
+
+#~ msgid "Quantity"
+#~ msgstr "ποσότητα "
+
+#~ msgid "The file exceeds the allowed size of"
+#~ msgstr "Το αρχείο υπερβαίνει το επιτρεπόμενο μέγεθος των"
+
+#~ msgid "Sorry, you are not allowed to upload this type of file."
+#~ msgstr ""
+#~ "Λυπούμαστε, αλλά δεν έχετε δικαίωμα να ανεβάσετε αυτό το είδος του "
+#~ "αρχείου."
+
+#~ msgid "Error, file cannot be moved."
+#~ msgstr "Σφάλμα, το αρχείο δεν μπορεί να μετακινηθεί."
+
+#, fuzzy
+#~ msgid "Error, file destination does not exist."
+#~ msgstr "Σφάλμα, e-mail δεν σταλεί."
+
+#~ msgid "The"
+#~ msgstr "ο "
+
+#~ msgid "value must be between"
+#~ msgstr "τιμή πρέπει να είναι μεταξύ "
+
+#~ msgid "Your score should be less than"
+#~ msgstr "Το σκορ σας θα πρέπει να είναι μικρότερη από "
+
+#~ msgid "First"
+#~ msgstr "Πρώτο"
+
+#~ msgid "Last"
+#~ msgstr "Τελευταία"
+
+#~ msgid "Middle"
+#~ msgstr "Μέσον"
+
+#~ msgid "Area Code"
+#~ msgstr "Κώδικας περιοχής"
+
+#~ msgid "Phone Number"
+#~ msgstr "Αριθμός τηλεφώνου"
+
+#~ msgid "Dollars"
+#~ msgstr "δολάρια "
+
+#~ msgid "Cents"
+#~ msgstr "cents "

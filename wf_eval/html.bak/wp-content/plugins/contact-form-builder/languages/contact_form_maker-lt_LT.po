@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: contact_form_maker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-19 10:42+0400\n"
+"PO-Revision-Date: 2014-06-19 10:42+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress3.5\\wp-content\\plugins"
+"\\contact-forms\n"
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:78
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:93
+msgid "Error, incorrect Security code."
+msgstr "Klaida, neteisingą apsaugos kodą."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:105
+msgid "Your ip is blacklisted. Please contact the website administrator."
+msgstr ""
+"Jūsų ip yra juodajame sąraše. Prašome susisiekti su svetainės "
+"administratoriumi"
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:277
+#, php-format
+msgid ""
+"This field %s requires a unique entry and this value was already submitted."
+msgstr ""
+"Šis laukelis %s reikalauja unikalų įrašą, o ši vertė jau buvo pateiktas."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:308
+msgid "Nothing was submitted."
+msgstr "Nieko nebuvo pateikta."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:870
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:883
+msgid "Your form was successfully submitted."
+msgstr "Jūsų forma buvo sėkmingai pateikta."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:878
+msgid "Error, email was not sent."
+msgstr "Klaida, laiškas nebuvo išsiųstas."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:201
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:240
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:282
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:322
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:364
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:413
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:474
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:566
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:578
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:675
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:734
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:822
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:898
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:961
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:996
+msgid "field is required."
+msgstr "laukas būtinas."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:747
+msgid "This is not a valid email address."
+msgstr "Tai nėra galiojantis elektroninio pašto adresą."
+
+#~ msgid "Street Address"
+#~ msgstr "Gatvė"
+
+#~ msgid "Street Address Line 2"
+#~ msgstr "Gatvė Line 2"
+
+#~ msgid "City"
+#~ msgstr "Miestas"
+
+#~ msgid "State / Province / Region"
+#~ msgstr "Valstija / provincija / regionas"
+
+#~ msgid "Postal / Zip Code"
+#~ msgstr "Pašto kodas / indeksas"
+
+#~ msgid "Country"
+#~ msgstr "Šalis"
+
+#~ msgid "January"
+#~ msgstr "Sausis"
+
+#~ msgid "February"
+#~ msgstr "Vasaris"
+
+#~ msgid "March"
+#~ msgstr "Kovas"
+
+#~ msgid "April"
+#~ msgstr "Balandis"
+
+#~ msgid "May"
+#~ msgstr "Gegužės"
+
+#~ msgid "June"
+#~ msgstr "Birželis"
+
+#~ msgid "July"
+#~ msgstr "Liepa"
+
+#~ msgid "August"
+#~ msgstr "Rugpjūtis"
+
+#~ msgid "September"
+#~ msgstr "Rugsėjis"
+
+#~ msgid "October"
+#~ msgstr "Spalis"
+
+#~ msgid "November"
+#~ msgstr "Lapkritis"
+
+#~ msgid "December"
+#~ msgstr "Gruodis"
+
+#~ msgid "Quantity"
+#~ msgstr "Kiekis"
+
+#~ msgid "The file exceeds the allowed size of"
+#~ msgstr "Failas viršija leistiną dydį"
+
+#~ msgid "Sorry, you are not allowed to upload this type of file."
+#~ msgstr "Atsiprašome, bet jums neleidžiama įkelti šį failo tipą."
+
+#~ msgid "Error, file cannot be moved."
+#~ msgstr "Klaida, failas negali būti perkeltas."
+
+#, fuzzy
+#~ msgid "Error, file destination does not exist."
+#~ msgstr "Klaida, laiškas nebuvo išsiųstas."
+
+#~ msgid "The"
+#~ msgstr "The"
+
+#~ msgid "value must be between"
+#~ msgstr "vertė turi būti tarp "
+
+#~ msgid "Your score should be less than"
+#~ msgstr "Jūsų rezultatas turi būti mažesnis nei "
+
+#~ msgid "Title"
+#~ msgstr "Kreipinys"
+
+#~ msgid "First"
+#~ msgstr "Pirmas"
+
+#~ msgid "Last"
+#~ msgstr "Paskutinis"
+
+#~ msgid "Middle"
+#~ msgstr "Vidurinis"
+
+#~ msgid "Area Code"
+#~ msgstr "Rajono kodas"
+
+#~ msgid "Phone Number"
+#~ msgstr "Telefono numeris"
+
+#~ msgid "Dollars"
+#~ msgstr "Dolerių"
+
+#~ msgid "Cents"
+#~ msgstr "Centų"
+
+#~ msgid "From"
+#~ msgstr "Nuo"
+
+#~ msgid "To"
+#~ msgstr "Į"

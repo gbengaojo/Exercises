@@ -1,0 +1,23 @@
+fCorpo 1.0.5, 2015-10-04
+------------------------
+- update readme.txt file
+
+fCorpo 1.0.4, 2015-10-03
+------------------------
+- Full theme rewrite to use customizer instead of a parent theme tkidd
+
+fCorpo 1.0.3, 2015-05-23
+------------------------
+- small bug fixes
+
+fCorpo 1.0.2, 2015-05-02
+------------------------
+- small bug fixes
+
+fCorpo 1.0.1, 2015-04-17
+------------------------
+- Fix issue with text domain loading
+
+fCorpo 1.0.0, 2015-01-29
+------------------------
+- Initial release

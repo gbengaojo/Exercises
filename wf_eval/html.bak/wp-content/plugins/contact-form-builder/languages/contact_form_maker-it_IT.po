@@ -1,0 +1,2711 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: contact_form_maker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-19 16:46+0300\n"
+"PO-Revision-Date: 2015-11-20 13:15+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\wordpress2\\wp-content\\plugins\\contact-"
+"form-builder\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress2\\wp-content\\plugins"
+"\\contact-form-builder\n"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerContactFormMakerEditCSS.php:82
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:46
+msgid "Item Succesfully Saved."
+msgstr "Salvataggio effettuato"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerContactFormMakerEditCSS.php:85
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:62
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:78
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:52
+msgid "Error. Please install plugin again."
+msgstr "Errore. Si prega di re-installare il plug-in."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:59
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:75
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:58
+msgid "Item Succesfully Deleted."
+msgstr "Eliminazione effettuata"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:82
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:112
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:138
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:76
+msgid "You must select at least one item."
+msgstr "È necessario selezionare almeno un elemento."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:109
+msgid "IPs Succesfully Blocked."
+msgstr "Indirizzi IP bloccati"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerSubmissions_cfm.php:135
+msgid "IPs Succesfully Unblocked."
+msgstr "Indirizzi IP sbloccati."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/controllers/CFMControllerWidget.php:21
+msgid "Add Conatct Form Builder widget."
+msgstr "Modulo di contatto Builder"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:83
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:548
+msgid "Disable the field"
+msgstr "Disattivare il campo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:154
+msgid "Incorrect Value"
+msgstr "Valore errato"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:446
+msgid "Alabama"
+msgstr "Alabama"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:447
+msgid "Alaska"
+msgstr "Alaska"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:448
+msgid "Arizona"
+msgstr "Arizona"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:449
+msgid "Arkansas"
+msgstr "Arkansas"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:450
+msgid "California"
+msgstr "California"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:451
+msgid "Colorado"
+msgstr "Colorado"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:452
+msgid "Connecticut"
+msgstr "Connecticut"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:453
+msgid "Delaware"
+msgstr "Delaware"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:455
+msgid "Florida"
+msgstr "Florida"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:316
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:456
+msgid "Georgia"
+msgstr "Georgia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:457
+msgid "Hawaii"
+msgstr "Hawaii"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:458
+msgid "Idaho"
+msgstr "Idaho"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:459
+msgid "Illinois"
+msgstr "Illinois"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:460
+msgid "Indiana"
+msgstr "Indiana"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:461
+msgid "Iowa"
+msgstr "Iowa"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:462
+msgid "Kansas"
+msgstr "Kansas"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:463
+msgid "Kentucky"
+msgstr "Kentucky"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:464
+msgid "Louisiana"
+msgstr "Louisiana"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:465
+msgid "Maine"
+msgstr "Maine"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:466
+msgid "Maryland"
+msgstr "Maryland"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:467
+msgid "Massachusetts"
+msgstr "Massachusetts"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:468
+msgid "Michigan"
+msgstr "Michigan"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:469
+msgid "Minnesota"
+msgstr "Minnesota"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:470
+msgid "Mississippi"
+msgstr "Mississippi"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:471
+msgid "Missouri"
+msgstr "Missouri"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:472
+msgid "Montana"
+msgstr "Montana"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:473
+msgid "Nebraska"
+msgstr "Nebraska"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:474
+msgid "Nevada"
+msgstr "Nevada"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:475
+msgid "New Hampshire"
+msgstr "New Hampshire"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:476
+msgid "New Jersey"
+msgstr "New Jersey"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:477
+msgid "New Mexico"
+msgstr "Nuovo Messico"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:478
+msgid "New York"
+msgstr "New York"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:479
+msgid "North Carolina"
+msgstr "Nord Carolina"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:480
+msgid "North Dakota"
+msgstr "Dakota del Nord"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:481
+msgid "Ohio"
+msgstr "Ohio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:482
+msgid "Oklahoma"
+msgstr "Oklahoma"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:483
+msgid "Oregon"
+msgstr "Oregon"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:484
+msgid "Pennsylvania"
+msgstr "Pennsylvania"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:485
+msgid "Rhode Island"
+msgstr "Rhode Island"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:486
+msgid "South Carolina"
+msgstr "Carolina Del Sud"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:487
+msgid "South Dakota"
+msgstr "Dakota del Sud"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:488
+msgid "Tennessee"
+msgstr "Tennessee"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:489
+msgid "Texas"
+msgstr "Texas"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:490
+msgid "Utah"
+msgstr "Utah"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:491
+msgid "Vermont"
+msgstr "Vermont"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:492
+msgid "Virginia"
+msgstr "Virginia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:493
+msgid "Washington"
+msgstr "Washington"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:494
+msgid "West Virginia"
+msgstr "Virginia Occidentale"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:495
+msgid "Wisconsin"
+msgstr "Wisconsin"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:321
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:496
+msgid "Wyoming"
+msgstr "Wyoming"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:253
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:254
+msgid "Albania"
+msgstr "Albania"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:255
+msgid "Algeria"
+msgstr "Algeria"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:256
+msgid "Andorra"
+msgstr "Andorra"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:257
+msgid "Angola"
+msgstr "Angola"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:258
+msgid "Antigua and Barbuda"
+msgstr "Antigua e Barbuda"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:259
+msgid "Argentina"
+msgstr "Argentina"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:260
+msgid "Armenia"
+msgstr "Armenia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:261
+msgid "Australia"
+msgstr "Australia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:262
+msgid "Austria"
+msgstr "Austria"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:263
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:264
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:265
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:266
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:267
+msgid "Barbados"
+msgstr "Barbados"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:268
+msgid "Belarus"
+msgstr "Bielorussia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:269
+msgid "Belgium"
+msgstr "Belgio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:270
+msgid "Belize"
+msgstr "Belize"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:271
+msgid "Benin"
+msgstr "Benin"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:272
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:273
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:274
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia Erzegovina"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:275
+msgid "Botswana"
+msgstr "Botswana"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:276
+msgid "Brazil"
+msgstr "Brasile"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:277
+msgid "Brunei"
+msgstr "Brunei"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:278
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:279
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:280
+msgid "Burundi"
+msgstr "Burundi"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:281
+msgid "Cambodia"
+msgstr "Cambogia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:282
+msgid "Cameroon"
+msgstr "Cameroon"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:283
+msgid "Canada"
+msgstr "Canada"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:284
+msgid "Cape Verde"
+msgstr "Capo Verde"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:285
+msgid "Central African Republic"
+msgstr "Repubblica Centrafricana"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:286
+msgid "Chad"
+msgstr "Chad"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:287
+msgid "Chile"
+msgstr "Chile"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:288
+msgid "China"
+msgstr "Porcellana"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:289
+msgid "Colombi"
+msgstr "Colombi"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:290
+msgid "Comoros"
+msgstr "Comoros"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:291
+msgid "Congo (Brazzaville)"
+msgstr "Congo (Brazzaville)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:292
+msgid "Congo"
+msgstr "Congo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:293
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+msgid "Cote d\\'Ivoire"
+msgstr "Cote d 'Avorio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:295
+msgid "Croatia"
+msgstr "Croazia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:296
+msgid "Cuba"
+msgstr "Cuba"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:297
+msgid "Cyprus"
+msgstr "Cipro"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:298
+msgid "Czech Republic"
+msgstr "Repubblica Ceca"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:299
+msgid "Denmark"
+msgstr "Danimarca"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:300
+msgid "Djibouti"
+msgstr "Gibuti"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:301
+msgid "Dominica"
+msgstr "Dominica"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:302
+msgid "Dominican Republic"
+msgstr "Repubblica Dominicana"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:303
+msgid "East Timor (Timor Timur)"
+msgstr "Timor Est (Timor Timur)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:304
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:305
+msgid "Egypt"
+msgstr "Egitto"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:306
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:307
+msgid "Equatorial Guinea"
+msgstr "Guinea Equatoriale"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:308
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:309
+msgid "Estonia"
+msgstr "Estonia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:310
+msgid "Ethiopia"
+msgstr "Etiopia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:311
+msgid "Fiji"
+msgstr "Fiji"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:312
+msgid "Finland"
+msgstr "Finlandia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:313
+msgid "France"
+msgstr "Francia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:314
+msgid "Gabon"
+msgstr "Gabon"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:315
+msgid "Gambia, The"
+msgstr "Gambia, The"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:317
+msgid "Germany"
+msgstr "Germania"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:318
+msgid "Ghana"
+msgstr "Ghana"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:319
+msgid "Greece"
+msgstr "Grecia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:320
+msgid "Grenada"
+msgstr "Grenada"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:321
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:322
+msgid "Guinea"
+msgstr "Guinea"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:323
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:324
+msgid "Guyana"
+msgstr "Guyana"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:325
+msgid "Haiti"
+msgstr "Haiti"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:326
+msgid "Honduras"
+msgstr "Honduras"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:327
+msgid "Hungary"
+msgstr "Ungheria"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:328
+msgid "Iceland"
+msgstr "Islanda"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:329
+msgid "India"
+msgstr "India"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:330
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:331
+msgid "Iran"
+msgstr "Ho Corso"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:332
+msgid "Iraq"
+msgstr "Iraq"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:333
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:334
+msgid "Israel"
+msgstr "Israele"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:335
+msgid "Italy"
+msgstr "Italia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:336
+msgid "Jamaica"
+msgstr "Giamaica"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:337
+msgid "Japan"
+msgstr "Giappone"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:338
+msgid "Jordan"
+msgstr "Giordania"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:339
+msgid "Kazakhstan"
+msgstr "Kazakistan"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:340
+msgid "Kenya"
+msgstr "Kenia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:341
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:342
+msgid "Korea, North"
+msgstr "Corea del Nord"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:343
+msgid "Korea, South"
+msgstr "Corea del Sud"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:344
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:345
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:346
+msgid "Laos"
+msgstr "Laos"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:347
+msgid "Latvia"
+msgstr "Lettonia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:348
+msgid "Lebanon"
+msgstr "Libano"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:349
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:350
+msgid "Liberia"
+msgstr "Liberia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:351
+msgid "Libya"
+msgstr "Libia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:352
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:353
+msgid "Lithuania"
+msgstr "Lituania"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:354
+msgid "Luxembourg"
+msgstr "Lussemburgo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:355
+msgid "Macedonia"
+msgstr "Macedonia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:356
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:357
+msgid "Malawi"
+msgstr "Malawi"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:358
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:359
+msgid "Maldives"
+msgstr "Maldive"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:360
+msgid "Mali"
+msgstr "Mali"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:361
+msgid "Malta"
+msgstr "Malta"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:362
+msgid "Marshall Islands"
+msgstr "Isole Marshall"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:363
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:364
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:365
+msgid "Mexico"
+msgstr "Messico"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:366
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:367
+msgid "Moldova"
+msgstr "Moldova"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:368
+msgid "Monaco"
+msgstr "Monaco"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:369
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:370
+msgid "Morocco"
+msgstr "Marocco"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:371
+msgid "Mozambique"
+msgstr "Mozambico"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:372
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:373
+msgid "Namibia"
+msgstr "Namibia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:374
+msgid "Nauru"
+msgstr "Nauru"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:375
+msgid "Nepa"
+msgstr "Nepa"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:376
+msgid "Netherlands"
+msgstr "Paesi Bassi"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:377
+msgid "New Zealand"
+msgstr "Nuova Zelanda"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:378
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:379
+msgid "Niger"
+msgstr "Niger"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:380
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:381
+msgid "Norway"
+msgstr "Norvegia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:382
+msgid "Oman"
+msgstr "Oman"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:383
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:384
+msgid "Palau"
+msgstr "Palau"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:385
+msgid "Panama"
+msgstr "Panama"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:386
+msgid "Papua New Guinea"
+msgstr "Papua Nuova Guinea"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:387
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:388
+msgid "Peru"
+msgstr "Perù"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:389
+msgid "Philippines"
+msgstr "Filippine"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:390
+msgid "Poland"
+msgstr "Polonia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:391
+msgid "Portugal"
+msgstr "Portogallo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:392
+msgid "Qatar"
+msgstr "Qatar"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:393
+msgid "Romania"
+msgstr "Romania"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:394
+msgid "Russia"
+msgstr "Russia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:395
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:396
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts e Nevis"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:397
+msgid "Saint Lucia"
+msgstr "Santa Lucia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:398
+msgid "Saint Vincent"
+msgstr "Saint Vincent"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:399
+msgid "Samoa"
+msgstr "Samoa"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:400
+msgid "San Marino"
+msgstr "San Marino"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:401
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome e Principe"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:402
+msgid "Saudi Arabia"
+msgstr "Arabia Saudita"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:403
+msgid "Senegal"
+msgstr "Senegal"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:404
+msgid "Serbia and Montenegro"
+msgstr "Serbia e Montenegro"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:405
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:406
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:407
+msgid "Singapore"
+msgstr "Singapore"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:408
+msgid "Slovakia"
+msgstr "Slovacchia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:409
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:410
+msgid "Solomon Islands"
+msgstr "Isole Salomone"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:411
+msgid "Somalia"
+msgstr "Somalia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:412
+msgid "South Africa"
+msgstr "Sud Africa"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:413
+msgid "Spain"
+msgstr "Spagna"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:414
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:415
+msgid "Sudan"
+msgstr "Sudan"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:416
+msgid "Suriname"
+msgstr "Suriname"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:417
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:418
+msgid "Sweden"
+msgstr "Svezia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:419
+msgid "Switzerland"
+msgstr "Svizzera"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:420
+msgid "Syria"
+msgstr "Siria"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:421
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:422
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:423
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:424
+msgid "Thailand"
+msgstr "Thailandia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:425
+msgid "Togo"
+msgstr "Andare"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:426
+msgid "Tonga"
+msgstr "Tonga"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:427
+msgid "Trinidad and Tobago"
+msgstr "Trinidad e Tobago"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:428
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:429
+msgid "Turkey"
+msgstr "Tacchino"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:430
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:431
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:432
+msgid "Uganda"
+msgstr "Uganda"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:433
+msgid "Ukraine"
+msgstr "Ucraina"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:434
+msgid "United Arab Emirates"
+msgstr "Emirati Arabi Uniti"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:435
+msgid "United Kingdom"
+msgstr "Regno Unito"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:436
+msgid "United States"
+msgstr "Stati Uniti"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:437
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:438
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:439
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:440
+msgid "Vatican City"
+msgstr "Città Del Vaticano"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:441
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:442
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:443
+msgid "Yemen"
+msgstr "Yemen"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:333
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:444
+msgid "Zambia"
+msgstr "Zambia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:664
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:673
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:677
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:681
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:555
+msgid "Move the field to the left"
+msgstr "Spostare il campo verso sinistra"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:664
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:673
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:677
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:681
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:552
+msgid "Move the field up"
+msgstr "Spostare il campo verso l’alto"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:664
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:673
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:677
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:681
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:553
+msgid "Move the field down"
+msgstr "Spostare il campo verso il basso"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:664
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:673
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:677
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:681
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:554
+msgid "Move the field to the right"
+msgstr "Spostare il campo a destra"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:664
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:668
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:673
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:677
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:681
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:550
+msgid "Edit the field"
+msgstr "Modificare il campo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:668
+msgid "section break"
+msgstr "interruzione di sezione"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelManage_cfm.php:677
+msgid "custom"
+msgstr "custom"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:220
+msgid "Street Address"
+msgstr "Indirizzo riga 1"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:223
+msgid "Street Address Line 2"
+msgstr "Indirizzo riga 2"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:226
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerIPInfo.php:76
+msgid "City"
+msgstr "Città"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:229
+msgid "State / Province / Region"
+msgstr "Stato / Provincia / Regione"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:232
+msgid "Postal / Zip Code"
+msgstr "CAP"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:235
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerIPInfo.php:70
+msgid "Country"
+msgstr "Paese"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:575
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:863
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:872
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:916
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:66
+msgid "Yes"
+msgstr "Sì"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/models/CFMModelSubmissions_cfm.php:575
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:864
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:873
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:917
+msgid "No"
+msgstr "No"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:36
+msgid "This section allows you to block IPs."
+msgstr "Questa sezione consente di bloccare indirizzi IP."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:37
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:37
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:395
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:810
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:166
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:37
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:159
+msgid "Read More in User Manual"
+msgstr "Per saperne di più leggi il manuale utente"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:42
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:26
+msgid "Blocked IPs"
+msgstr "IP bloccati"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:44
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerEditCSS.php:43
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:410
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:826
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1492
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:166
+msgid "Save"
+msgstr "Salva"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:45
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:77
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:114
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:83
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:125
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:230
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:260
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:371
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:52
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:86
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:134
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:539
+msgid "Delete"
+msgstr "Cancellare"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:45
+msgid "Do you want to unblock selected IPs?"
+msgstr "Vuoi sbloccare gli indirizzi IP selezionati?"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:76
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:109
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:77
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:103
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:120
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:85
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:104
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:129
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:568
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:630
+msgid "Edit"
+msgstr "Modifica"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewBlocked_ips_cfm.php:87
+msgid "Add IP"
+msgstr "Aggiungi indirizzo IP"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewCFMShortcode.php:59
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewCFMShortcode.php:62
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:180
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewWidget.php:62
+msgid "Select a Form"
+msgstr "Seleziona un Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewCFMShortcode.php:78
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerEditCSS.php:52
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:412
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:838
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1494
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:169
+msgid "Cancel"
+msgstr "Cancellare"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewCFMShortcode.php:81
+msgid "Insert"
+msgstr "Inseririscie"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerEditCSS.php:46
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:411
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:837
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1493
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:168
+msgid "Apply"
+msgstr "Applica"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerEditCSS.php:50
+msgid "Save as New"
+msgstr "Salva come nuovo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerEditCSS.php:51
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:212
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:127
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:290
+msgid "Reset"
+msgstr "Reset"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerEditCSS.php:57
+msgid "Theme title"
+msgstr "Titolo del Tema"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerIPInfo.php:73
+msgid "CountryCode"
+msgstr "Prefisso internazionale"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerIPInfo.php:79
+msgid "Timezone"
+msgstr "Fuso Orario"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerIPInfo.php:82
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:546
+msgid "Latitude"
+msgstr "Latitudine"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerIPInfo.php:85
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:545
+msgid "Longitude"
+msgstr "Longitudine"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewContactFormMakerSubmits.php:70
+msgid "Date"
+msgstr "Data"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:36
+msgid "This section allows you to edit forms"
+msgstr "Questa sezione consente di modificare i modelli"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:38
+msgid ""
+"There is no possibility of adding new form fields, whereas you can edit, "
+"enable/disable the current fields included in each form"
+msgstr ""
+"Non possibile  aggiungere nuovi campi al Modulo, solo possibile modificare. "
+"attivare / disattivare i campi dei modelli esistenti."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:46
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:65
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:57
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:76
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:174
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewWidget.php:58
+msgid "Title"
+msgstr "Titolo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:72
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:935
+msgid "Email to send submissions to"
+msgstr "E-mail al quale inviare il messaggio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:74
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:75
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:925
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:926
+msgid "function"
+msgstr "funzione"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:76
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:114
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:891
+msgid "Preview"
+msgstr "Anteprima"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:78
+msgid "Delete selected items"
+msgstr "Cancella gli elementi selezionati "
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:78
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:225
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:48
+msgid "Do you want to delete selected items?"
+msgstr "Non è possibile eliminare tema di default"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:113
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:890
+msgid "Form Preview"
+msgstr " Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:163
+msgid "Edit form "
+msgstr "Modifica il Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:163
+msgid "Create new form"
+msgstr "Crea un nuovo Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:175
+msgid "Please wait while page loading"
+msgstr "Per favore attendi che il caricamento della pagina"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:394
+msgid "This section allows you to enable/disable fields in your form"
+msgstr "Questa sezione permette di abilitare / disabilitare i campi nel Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:401
+msgid "Form Options"
+msgstr "Opzioni del Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:402
+msgid "Form Layout"
+msgstr "Disposizione form"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:406
+msgid "Save as Copy"
+msgstr "come duplicato"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:421
+msgid "Form title"
+msgstr "Titolo del Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:443
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:547
+msgid "add"
+msgstr "aggiungere"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:444
+msgid "cancel"
+msgstr "Cancellare"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:485
+msgid "Enable Drag & Drop"
+msgstr "Abilita drag&drop"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:487
+msgid ""
+"You can use drag and drop to move the fields up/down for the change of the "
+"order and left/right for creating columns within the form."
+msgstr ""
+"Utilizza  il drag&drop per modificare l’ordine spostando il campo verso "
+"l’alto o il basso oppure verso sinistra o destra per la creare una  colonnae "
+"all'interno del Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:491
+msgid "Form"
+msgstr "Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:493
+msgid "Saving"
+msgstr "Salvataggio in corso"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:770
+msgid " form options"
+msgstr "Opzioni e-mail"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:809
+msgid "This section allows you to edit form options"
+msgstr "Questa sezione permette di modificare le opzioni del Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:844
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:856
+msgid "General Options"
+msgstr "Opzioni generali"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:847
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:909
+msgid "Email Options"
+msgstr "Opzioni e-mail"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:850
+msgid "Actions after Submission"
+msgstr "Azioni successive all'invio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:860
+msgid "Published"
+msgstr "Pubblicato"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:869
+msgid "Save data(to database)"
+msgstr "Salva i dati (nel database)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:878
+msgid "Theme"
+msgstr "Tema"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:893
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:894
+msgid "Edit CSS"
+msgstr "Edit CSS"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:900
+msgid "Required fields mark"
+msgstr "Simbolo campi obbligatori"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:913
+msgid "Send E-mail"
+msgstr "Invia E-email"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:922
+msgid "Mailer"
+msgstr "Mailer"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:931
+msgid "Email to Administrator"
+msgstr "mail all’Amministratore"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:942
+msgid "Add more emails"
+msgstr "Aggiungi altri indirizzi email "
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:952
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:570
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:632
+msgid "Delete Email"
+msgstr "Cancella e-mail"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:963
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1173
+msgid "Email From"
+msgstr "e-mail da"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:994
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1181
+msgid "From Name"
+msgstr "Da Nome"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1025
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1212
+msgid "Reply to"
+msgstr "Rispondi a"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1025
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1212
+msgid "if different from 'Email From'"
+msgstr "se diversa da 'e-mail da'"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1049
+msgid "Other"
+msgstr "Altro"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1072
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1236
+msgid "Subject"
+msgstr "Soggetto"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1103
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1267
+msgid "Mode"
+msgstr "Modo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1107
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1271
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1379
+msgid "Text"
+msgstr "Testo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1112
+msgid "Custom Text in Email For Administrator"
+msgstr "Testo personalizzato in-mail per l'amministratore"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1128
+msgid "All fields list"
+msgstr "Lista di tutti i campi"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1145
+msgid "Email to User"
+msgstr "e-mail a Utente"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1149
+msgid "Send to"
+msgstr "Invia a"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1156
+msgid "There is no email field"
+msgstr "Non c'è  il campo e-mail"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1276
+msgid "Custom Text in Email For User"
+msgstr "Testo custom per e-mail a Utente"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1310
+msgid "Actions after submission"
+msgstr "Azioni successive all’invio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1314
+msgid "Action type"
+msgstr "Tipo di azione"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1317
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1326
+msgid "Stay on Form"
+msgstr "Rimani sul Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1318
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1334
+msgid "Post"
+msgstr "Post"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1319
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1356
+msgid "Page"
+msgstr "Pagina"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1320
+msgid "Custom Text"
+msgstr "Testo custom"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1338
+msgid "Select Post"
+msgstr "Seleziona il Post"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1360
+msgid "Select Page"
+msgstr "Seleziona la pagina"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1455
+msgid "Uncheck the Auto-Generate Layout box."
+msgstr "Deseleziona la casella Generazione Automatica Layout"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1496
+msgid "Description"
+msgstr "Descrizione"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1497
+msgid ""
+"To customize the layout of the form fields uncheck the Auto-Generate Layout "
+"box and edit the HTML"
+msgstr ""
+"Per personalizzare il layout dei campi modulo deselezionare la casella Auto "
+"Layout-Generare e modificare il codice HTML"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1498
+msgid ""
+"You can change positioning, add in-line styles and etc. Click on the "
+"provided buttons to add the corresponding field"
+msgstr ""
+"È possibile modificare la posizione, aggiungere stili in linea,   ecc. "
+"Clicca i pulsanti per aggiungere il campo corrispondente"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1498
+msgid "This will add the following line"
+msgstr "Questo aggiungerà la seguente riga"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1500
+msgid "where"
+msgstr "dove"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1500
+msgid "is used to set a row"
+msgstr "viene utilizzato per impostare una riga"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1501
+msgid ""
+"To return to the default settings you should check Auto-Generate Layout box"
+msgstr ""
+"Per tornare alle impostazioni di default seleziona la casella “Generazione "
+"Automatica Layout"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1502
+msgid "Notice"
+msgstr "Avviso"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1503
+msgid ""
+"Make sure not to publish the same field twice. This will cause "
+"malfunctioning of the form"
+msgstr ""
+"Assicurati di non pubblicare lo stesso campo due volte. Questo put causare "
+"un malfunzionamento del Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1505
+msgid "Auto Generate Layout"
+msgstr "Generazione Automatica Layout"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1523
+msgid "Apply Source Formatting"
+msgstr "Applica la formattazione di origine"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewManage_cfm.php:1523
+msgid "ctrl-enter"
+msgstr "Ctrl + Invio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:143
+msgid "Select Columns"
+msgstr "Seleziona colonne"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:144
+msgid "All"
+msgstr "Tutto"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:160
+msgid "Done"
+msgstr "Fatto"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:165
+msgid "This section allows you to view form submissions"
+msgstr "Questa sezione permette di visualizzare l'invio di moduli"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:195
+msgid "Entries"
+msgstr "Inputs"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:196
+msgid "Views"
+msgstr "Visualizzazioni"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:197
+msgid "Conversion Rate"
+msgstr "Tasso Di Conversione"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:202
+msgid "Export to"
+msgstr "Esporta in"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:210
+msgid "Search by fields"
+msgstr "Ricerca per campi"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:211
+msgid "Go"
+msgstr "Procedi"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:219
+msgid "Add/Remove Columns"
+msgstr "Aggiungi/rimuovi colonne"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:223
+msgid "Block IP"
+msgstr "Blocca indirizzo IP"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:224
+msgid "Unblock IP"
+msgstr "Sblocca indirizzo IP"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:265
+msgid "Submit date"
+msgstr "Data di invio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:273
+msgid "Submitter's IP"
+msgstr "Indirizzo IP del mittente"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:303
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:459
+msgid "From"
+msgstr "Da"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:312
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:462
+msgid "To"
+msgstr "Per"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:377
+msgid "Show submission"
+msgstr "Visualizza l’Invio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:382
+msgid "Show submitter information"
+msgstr "Visualizza informazioni del mittente"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:432
+msgid "Statistics"
+msgstr "Statistichea"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:436
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:440
+msgid "Select a Field"
+msgstr "Selezionar un campo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:456
+msgid "Select a Date"
+msgstr "Scegli una data"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:466
+msgid "Show"
+msgstr "Visualizza"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:499
+msgid "Please select the field!"
+msgstr "Prego seleziona il campo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:543
+msgid "Choices"
+msgstr "Scelte"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:544
+msgid "Percentage"
+msgstr "Percentuale"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:545
+msgid "Count"
+msgstr "Contatore"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:569
+msgid "Unanswered"
+msgstr "Senza risposta"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewSubmissions_cfm.php:576
+msgid "Total"
+msgstr "Totale"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:36
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:158
+msgid "This section allows you to edit form themes"
+msgstr "Questa sezione permette di modificare  temi dei modelli"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:43
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:30
+msgid "Themes"
+msgstr "Temi"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:45
+msgid "Add new"
+msgstr "Aggiungi nuovo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:83
+msgid "Default"
+msgstr "Default"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:155
+msgid "Edit theme"
+msgstr "Modifica il Tema"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewThemes_cfm.php:155
+msgid "Create new theme"
+msgstr "Crea un nuovo Tema"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:33
+msgid "Uninstall Contact Form Builder"
+msgstr "Disinstalla  Contact Form Builder "
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:35
+msgid ""
+"Deactivating Contact Form Builder plugin does not remove any data that may "
+"have been created, such as the Forms and the Submissions. To completely "
+"remove this plugin, you can uninstall it here"
+msgstr ""
+" La disattivazione del plugin Contact Form Builder non comporta la rimozione "
+"dei dati creati Modelli e Invii. Per rimuovere completamente questo plugin, "
+"è possibile disinstallarlo qui"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:38
+msgid "WARNING"
+msgstr "ATTENZIONE"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:39
+msgid ""
+"Once uninstalled, this cannot be undone. You should use a Database Backup "
+"plugin of WordPress to back up all the data first"
+msgstr ""
+"Una volta disinstallato, non è possibile il ripristino. Si consiglia di "
+"effettuare prima un backup con un plugin specifico di backup per WordPress ."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:42
+msgid "The following WordPress Options/Tables will be DELETED"
+msgstr "Le seguenti opzioni e tabelle di WordPress saranno ELIMINATE."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:47
+msgid "Database Tables"
+msgstr "tabelle di database"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:63
+msgid "Do you really want to uninstall Conatct Form Builder"
+msgstr "Sei sicuro di voler  disinstallare Contact Form Builder"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:69
+msgid "UNINSTALL"
+msgstr "DISINSTALLA"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:70
+msgid ""
+"You are About to Uninstall Contact Form Builder from WordPress.\\nThis "
+"Action Is Not Reversible."
+msgstr ""
+"Stai per disinstallare Contact Form Builder da WordPress. \\ NQuesta azione "
+"è irreversibile.\""
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:94
+msgid "The following Database Tables succesfully deleted"
+msgstr "Le seguenti tabelle database sono state eliminate con successo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:102
+msgid "Uninstall Conact Form Builder"
+msgstr "Disinstallare Contact Form Builder "
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:103
+msgid "Click Here"
+msgstr "Clicca Qui"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewUninstall_cfm.php:103
+msgid ""
+"To Finish the Uninstallation and Contact Form Builder will be Deactivated "
+"Automatically"
+msgstr ""
+"Per completare la disinstallazione e modulo di contatto Builder viene "
+"automaticamente disattivata"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/admin/views/CFMViewWidget.php:60
+msgid "Select a form"
+msgstr "Seleziona un Modulo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:18
+msgid "Manager"
+msgstr "Direttore"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:22
+msgid "Submissions"
+msgstr "Invii"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:34
+msgid "Featured Plugins"
+msgstr "Plugin in primo piano"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:35
+msgid "Featured Themes"
+msgstr "Temi in primo piano"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:37
+msgid "Uninstall"
+msgstr "Disinsta"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:245
+msgid "Only letters, numbers, hyphens and underscores are allowed."
+msgstr "Sono ammessi solo lettere, numeri, trattini alti e bassi."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:246
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:625
+msgid "The name of the attribute is required."
+msgstr "È richiesto il nome dell'attributo."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:247
+msgid ""
+"Sorry, you cannot add a style attribute here. Use \"Class name\" instead."
+msgstr ""
+"On è possibile aggiungere qui un attributo stile. Utilizza invece \"Nome "
+"classe \"."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:248
+msgid "The name of the attribute cannot be a number."
+msgstr "Il nome dell'attributo non può essere un numero."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:249
+msgid "The name of the attribute cannot contain a space."
+msgstr "Il nome dell'attributo non può contenere uno spazio."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:250
+msgid "Sorry, the labels must be unique."
+msgstr "Le etichette devono essere univoche."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:251
+msgid "The field label is required."
+msgstr "È richiesta la etichetta del campo."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:252
+msgid "Please select an element to add."
+msgstr "Seleziona un elemento da aggiungere."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:294
+msgid "Cote d'Ivoire"
+msgstr "Costa d'Avorio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:445
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:454
+msgid "District Of Columbia"
+msgstr "Distretto Della Colombia"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:498
+msgid "Enable field"
+msgstr "Disattiva il campo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:499
+msgid "Submit button label"
+msgstr "etichetta pulsante Invio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:500
+msgid "Submit function"
+msgstr "Funzione Invio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:501
+msgid "Reset button label"
+msgstr "Etichetta del pulsante di reset"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:502
+msgid "Display Reset button"
+msgstr "Mostra pulsante Reset"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:503
+msgid "Reset function"
+msgstr "Funzione di reset"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:504
+msgid "Class name"
+msgstr "Nome classe"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:505
+msgid "Additional Attributes"
+msgstr "Attributi aggiuntivi"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:506
+msgid "Name"
+msgstr "Nome"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:507
+msgid "Value"
+msgstr "Valore"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:508
+msgid "Field label"
+msgstr "Etichetta del campo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:509
+msgid "Field label size(px) "
+msgstr "Dimensioni dell'etichetta Campo (px)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:510
+msgid "Field label position"
+msgstr "Posizione dell'etichetta Campo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:511
+msgid "Required"
+msgstr "Richiesto"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:512
+msgid "Field size(px)"
+msgstr "Dimensioni del campo (px)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:513
+msgid "Value if empty"
+msgstr "Valore se vuoto"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:514
+msgid "Allow only unique values"
+msgstr "Consenti solo valori univoci"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:515
+msgid "Deactive Class name"
+msgstr "Attiva Nome Classe"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:516
+msgid "Active Class name"
+msgstr "Nome classe attiva"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:517
+msgid "Name Format"
+msgstr "Nome Formato"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:518
+msgid "Overall size(px)"
+msgstr "Dimensione complessiva (px)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:519
+msgid "Disable field(s)"
+msgstr "Disattiva  i(l) campo(i)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:520
+msgid "Use list for US states"
+msgstr "Utilizza la lista degli stati USA "
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:521
+msgid "Public key"
+msgstr "Chiave pubblica"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:522
+msgid "Private key"
+msgstr "Chiave privata"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:523
+msgid "Recaptcha Theme"
+msgstr "Tema Recaptcha "
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:524
+msgid "Red"
+msgstr "Rosso"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:525
+msgid "White"
+msgstr "Bianco"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:526
+msgid "Blackglass"
+msgstr "Blackglass"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:527
+msgid "Clean"
+msgstr "Pulisci"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:528
+msgid "Recaptcha doesn't display in back end"
+msgstr "Recaptcha non viene visualizzato in back-end"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:529
+msgid "Captcha size"
+msgstr "Formato Captcha"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:530
+msgid "Relative Position"
+msgstr "Posizione relativa"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:531
+msgid "Rows/Columns"
+msgstr "Righe/colonne"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:532
+msgid "Randomize in frontend"
+msgstr "Randomizza in frontend"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:533
+msgid "Allow other"
+msgstr "Consenti altro"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:534
+msgid "Options"
+msgstr "Opzioni"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:535
+msgid ""
+"IMPORTANT! Check the \"Empty value\" checkbox only if you want the option to "
+"be considered as empty."
+msgstr ""
+"IMPORTANTE! Seleziona la casella \"valore Empty \" solo se si vuole che "
+"l'opzione sia considerata come vuota."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:536
+msgid "Option name"
+msgstr "Nome opzione"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:537
+msgid "Price"
+msgstr "Prezzo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:538
+msgid "Empty value"
+msgstr "Valore vuoto"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:540
+msgid "Drag the marker to change marker position."
+msgstr "Trascina l'indicatore per cambiare la posizione del marcatore."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:541
+msgid "Location"
+msgstr "Posizione"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:542
+msgid "Map size"
+msgstr "Dimensioni mappa"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:543
+msgid "Marker Info"
+msgstr "Info del marcatore"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:544
+msgid "Address"
+msgstr "Indirizzo:"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:549
+msgid "Enable the field"
+msgstr "Disattiva il campo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:551
+msgid "Dublicate the field"
+msgstr "Disattivare il campo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:556
+msgid "Left"
+msgstr "Sinistra"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:557
+msgid "Top"
+msgstr "Inizio"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:558
+msgid ""
+"Use the field to allow the user to choose whether to receive a copy of the "
+"submitted form or not. Do not forget to fill in User Email section in Email "
+"Options in advance."
+msgstr ""
+"Utilizza il campo per consentire all' Utente di scegliere se ricevere una "
+"copia del messaggio inviato . Non dimenticare di compilare prima la sezione "
+"e-mail Utente in Opzioni."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:559
+msgid "The labels of the fields are editable. Please, click the label to edit."
+msgstr ""
+"Le etichette dei campi sono modificabili. Si prega di fare clic "
+"sull'etichetta da modificare."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:560
+msgid "Normal"
+msgstr "Normale"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:561
+msgid "Extended"
+msgstr "Esteso"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:562
+msgid "Use US states"
+msgstr "Utilizza stati USA"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:563
+msgid "Vertical"
+msgstr "Verticale"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:564
+msgid "Horizontal"
+msgstr "Orizzontale"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:565
+msgid "Width"
+msgstr "Larghezza"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:566
+msgid "Height"
+msgstr "Altezza"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:567
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:629
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:770
+msgid "This is not a valid email address."
+msgstr "Questo non è un indirizzo email valido."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:569
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:571
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:631
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:633
+msgid "Items Succesfully Saved."
+msgstr "Elementi salvati con successo."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:572
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:634
+msgid "Save IP"
+msgstr "Salva inidirizzo IP"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:573
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:635
+msgid "* field is required."
+msgstr "*campo obbligatorio."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:575
+msgid "Validation (Regular Exp.)"
+msgstr "Validazione (espressione regolare.)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:576
+msgid "Regular Expression"
+msgstr "Espressione regolare"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:577
+msgid "Common Regular Expressions"
+msgstr "Espressioni regolari comuni"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:578
+msgid "Case Insensitive"
+msgstr "Non sensibile alle maiuscole"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:579
+msgid "Alert Message"
+msgstr "Messaggio di avviso"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:581
+msgid "Select"
+msgstr "Seleziona"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:582
+msgid "Name(Latin letters and some symbols)"
+msgstr "Nome (lettere e alcuni simboli)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:583
+msgid "Phone Number(Digits and dashes)"
+msgstr "Numero di telefono (cifre e trattini)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:584
+msgid "Integer Number"
+msgstr "Numero intero"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:585
+msgid "Decimal Number"
+msgstr "Numero decimale"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:586
+msgid "Latin letters and Numbers"
+msgstr "Lettere e numeri"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:587
+msgid "Credit Card (16 Digits)"
+msgstr "Carta di credito (16 cifre)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:588
+msgid "Zip Code"
+msgstr "CAP"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:589
+msgid "IP Address"
+msgstr "Indirizzo IP"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:590
+msgid "Date m/d/y (e.g. 12/21/2013)"
+msgstr "Data in formato mm /gg /aa (es. 10/21/2013)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:591
+msgid "Date d.m.y (e.g. 21.12.2013)"
+msgstr "Data in formato gg.mm.aa (es. 10.21.2013)\""
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:592
+msgid "MySQL Date Format (2013-12-21)"
+msgstr "Formato data MySQL (2013/12/21)"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/contact-form-builder.php:624
+msgid "The theme must have a title."
+msgstr "Il Tema deve avere un titolo."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:64
+msgid "You can't delete default theme"
+msgstr "Non è possibile eliminare il Tema di default"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:70
+msgid "Items Succesfully Deleted."
+msgstr "Elementi cancellati con successo."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:82
+msgid "The item is successfully set as default."
+msgstr "L’elemento è stato settato come default."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:88
+msgid "Options Succesfully Saved."
+msgstr "Opzioni salvate con successo."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:126
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:289
+msgid "Search"
+msgstr "Cerca"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:222
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:360
+msgid "item"
+msgstr "articolo"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:222
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:360
+msgid "items"
+msgstr "elementi"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:246
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:384
+msgid "Go to the first page"
+msgstr "Vai alla prima pagina"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:247
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:385
+msgid "Go to the previous page"
+msgstr "Vai alla pagina precedente"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:250
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:388
+msgid "Go to the page"
+msgstr "Vai alla pagina"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:251
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:389
+msgid "of"
+msgstr "di"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:256
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:394
+msgid "Go to the next page"
+msgstr "Vai alla pagina successiva"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:257
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/framework/WDW_CFM_Library.php:395
+msgid "Go to the last page"
+msgstr "Vai all'ultima pagina"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:80
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:95
+msgid "Error, incorrect Security code."
+msgstr "Errore, codice di protezione errato."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:107
+msgid "Your ip is blacklisted. Please contact the website administrator."
+msgstr ""
+"Il tuo indirizzo IP è nella lista nera. Si prega di contattare "
+"l'amministratore del sito. "
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:277
+#, php-format
+msgid ""
+"This field %s requires a unique entry and this value was already submitted."
+msgstr ""
+"Questo campo %s richiede una valore univoco e questo valore è stato già "
+"inserito."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:308
+msgid "Nothing was submitted."
+msgstr "Invio non effettuato."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:736
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:749
+msgid "Your form was successfully submitted."
+msgstr "Il Modulo è stato inviato correttamente"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/models/CFMModelForm_maker.php:744
+msgid "Error, email was not sent."
+msgstr "Errore: e-mail non  inviata."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:201
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:244
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:303
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:343
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:385
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:434
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:496
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:588
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:600
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:697
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:756
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:841
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:913
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:976
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/frontend/views/CFMViewForm_maker.php:1011
+msgid "field is required."
+msgstr "campo è obbligatorio."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/update/update.php:21
+msgid ""
+"The easiest tool to create contact forms for your website in less than 5 "
+"minutes."
+msgstr ""
+"Lo strumento più semplice per creare moduli di contatto per il tuo sito in "
+"meno di 5 minuti."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/update/update.php:67
+msgid "Updates"
+msgstr "Aggiornamenti"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/update/update.php:98
+#, php-format
+msgid ""
+"You can download the latest version of your plugins from your %s account.\n"
+"            After deactivate and delete the current version.\n"
+"            Install the downloaded latest version of the plugin."
+msgstr ""
+"Puoi scaricare l’ultima versione dei tuoi plugin dal tuo accountr %s."
+"Successivamente, disattiva ed elimina la versione attuale.Installa l’ultima "
+"versione del plugin scaricato."
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/update/update.php:134
+#, php-format
+msgid "Current version %s"
+msgstr "Versione attuale %s"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/update/update.php:140
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/update/update.php:195
+#, php-format
+msgid "There is a new %s version"
+msgstr "É disponibile una nuova versione %s"
+
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/update/update.php:147
+#: C:\wamp\www\wordpress2\wp-content\plugins\contact-form-builder/update/update.php:182
+#, php-format
+msgid "%s is up to date."
+msgstr "\"%s è aggiornato."
+
+#~ msgid "Licensing/Donation"
+#~ msgstr "Licenza / Donazione"
+
+#~ msgid "Contact"
+#~ msgstr "Contatto"
+
+#~ msgid "Builder"
+#~ msgstr "Costruttore"
+
+#~ msgid "yes"
+#~ msgstr "sì"
+
+#~ msgid "error"
+#~ msgstr "errore"
+
+#~ msgid "Blocked"
+#~ msgstr "Bloccato"
+
+#~ msgid "January"
+#~ msgstr "Gennaio"
+
+#~ msgid "February"
+#~ msgstr "febbraio"
+
+#~ msgid "April"
+#~ msgstr "aprile"
+
+#~ msgid "May"
+#~ msgstr "Maggio"
+
+#~ msgid "June"
+#~ msgstr "giugno"
+
+#~ msgid "July"
+#~ msgstr "luglio"
+
+#~ msgid "August"
+#~ msgstr "agosto"
+
+#~ msgid "September"
+#~ msgstr "settembre"
+
+#~ msgid "October"
+#~ msgstr "ottobre"
+
+#~ msgid "November"
+#~ msgstr "novembre"
+
+#~ msgid "Quantity"
+#~ msgstr "Quantità"
+
+#~ msgid "The file exceeds the allowed size of"
+#~ msgstr "Il file supera la dimensione consentita di"
+
+#~ msgid "Sorry, you are not allowed to upload this type of file."
+#~ msgstr "Spiacenti, non sei autorizzato a caricare questo tipo di file."
+
+#~ msgid "Error, file cannot be moved."
+#~ msgstr "Errore, il file non possono essere spostati."
+
+#, fuzzy
+#~ msgid "Error, file destination does not exist."
+#~ msgstr "Errore, e-mail non è stato inviato."
+
+#~ msgid "The"
+#~ msgstr "L'"
+
+#~ msgid "value must be between"
+#~ msgstr "valore deve essere compreso tra "
+
+#~ msgid "Your score should be less than"
+#~ msgstr "Il tuo punteggio deve essere inferiore a "
+
+#~ msgid "First"
+#~ msgstr ".first"
+
+#~ msgid "Last"
+#~ msgstr "L'anno"
+
+#~ msgid "Middle"
+#~ msgstr "Centrale"
+
+#~ msgid "Area Code"
+#~ msgstr "Prefisso teleselettivo"
+
+#~ msgid "Dollars"
+#~ msgstr "Dollari. "
+
+#~ msgid "Cents"
+#~ msgstr "Cents. "

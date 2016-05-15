@@ -1,0 +1,100 @@
+.JIT_PSlider_Submenu_Footer_Div
+{
+	margin-top: 30px;
+	width: 99%;
+	height: 120px;
+	background-color: #0073aa; 
+	border-radius: 10px;
+	padding: 5px;
+}
+.Juna_IT_Logo_Orange
+{
+	float: left;
+	height: 70px;
+}
+.JIT_PSlider_Submenu_Div,.JIT_PSlider_Submenu1_Div
+{
+	margin-top: 85px;
+}
+.JIT_PSlider_Add_Photo_Div
+{
+	margin-top: 15px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	width: 60%;
+	height: 200px;
+	border: 3px dashed #0073aa;
+    display: none;
+    cursor: pointer;
+    padding: 5px;
+}
+#JIT_PSlider_Button_U
+{
+	display: none;
+}
+.JIT_PSlider_Span
+{
+	margin-left: 10px;
+	color: #ff0000;
+	display: none;
+}
+.JIT_PSlider_Title_Span
+{
+	color: white;
+	margin-left: 25px;
+	font-size: 25px;
+	font-family: Gabriola;
+}
+.JIT_PSlider_search_text
+{
+	height: 25px;
+	margin-top: -10px;
+	border-radius: 3px;
+}
+.JIT_PSlider_Reset_text
+{
+	width: 100px;
+	background-color: #0073aa;
+	color: white;
+	border: 2px solid #0073aa;
+	border-radius: 3px;
+	box-shadow: 0px 0px 30px white;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.JIT_PSlider_not
+{
+	color: white;
+	font-family: Gabriola;
+	font-size: 25px;
+	margin-left: 15px;
+}
+.JIT_PSlider_Add_Button
+{
+	cursor: pointer;
+	width: 120px;
+	background-color: #0073aa;
+	color: #f68935;
+	border: 2px solid #f68935;
+	border-radius: 3px;
+	box-shadow: 0px 0px 30px #f68935;
+	margin-right: 25px;
+	float: right;
+}
+.JIT_PSlider_Main_Table,.JIT_PSlider_Main_Table1
+{
+	width:99.5% ;
+	margin:15px 0 0 0; 
+	height:40px;
+	border:1px solid #0073aa;
+	border-radius: 5px;
+	padding: 2px;
+}
+.JIT_PSlider_first_row
+{
+	background:#0073aa !important;
+	color:white;
+	text-align: center;
+	font-family: Gabriola;
+	font-size: 20px;
+}

@@ -1,0 +1,48 @@
+.JIT_PSlider_Nav {
+    position: absolute;
+    z-index: 99999999;
+}
+.JIT_PSlider_Nav div, .JIT_PSlider_Nav div:hover, .JIT_PSlider_Nav .av {
+    position: absolute;
+    z-index: 99999999;
+    /* size of bullet elment */
+    overflow: hidden;
+    cursor: pointer;
+}
+.JIT_PSlider_LIS, .JIT_PSlider_RIS {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 9999999999999999;
+}
+.JIT_PSlider_LIS:hover, .JIT_PSlider_RIS:hover {
+    opacity: 0.7;
+}
+/* jssor slider thumbnail navigator skin 09 css */
+.JIT_PSlider_P {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+}
+.JIT_PSlider_T {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+    z-index: 999999999;
+}
+.JIT_PSlider_Slider_Div
+{
+    width: 100%;
+    float: left;
+}
+.JIT_PSlider_FWS_Div
+{
+    width:100%;
+}
