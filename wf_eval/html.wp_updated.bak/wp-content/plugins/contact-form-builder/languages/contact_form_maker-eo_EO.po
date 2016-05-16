@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: contact_form_maker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-19 10:27+0400\n"
+"PO-Revision-Date: 2014-06-19 10:27+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress3.5\\wp-content\\plugins"
+"\\contact-forms\n"
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:78
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:93
+msgid "Error, incorrect Security code."
+msgstr "Eraro, malĝusta Sekureca kodo."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:105
+msgid "Your ip is blacklisted. Please contact the website administrator."
+msgstr "Via IP estas lerta nigra. Bonvolu kontakti la retejo administranto. "
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:277
+#, php-format
+msgid ""
+"This field %s requires a unique entry and this value was already submitted."
+msgstr ""
+"Ĉi tiu kampo %s postulas unika eniro kaj ĉi tiu valoro estis jam donita."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:308
+msgid "Nothing was submitted."
+msgstr "Nenio donita."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:870
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:883
+msgid "Your form was successfully submitted."
+msgstr "Via aspekto estis sukcese afiŝita."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/models/CFMModelForm_maker.php:878
+msgid "Error, email was not sent."
+msgstr "Eraro, retpoŝto ne estis sendita."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:201
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:240
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:282
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:322
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:364
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:413
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:474
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:566
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:578
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:675
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:734
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:822
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:898
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:961
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:996
+msgid "field is required."
+msgstr "kampo estas bezonata."
+
+#: C:\wamp\www\wordpress3.5\wp-content\plugins\contact-forms/frontend/views/CFMViewForm_maker.php:747
+msgid "This is not a valid email address."
+msgstr "Tio ne estas valida retadreso."
+
+#~ msgid "Street Address"
+#~ msgstr "Strato Adreso"
+
+#~ msgid "Street Address Line 2"
+#~ msgstr "Strato Adreso Linio 2"
+
+#~ msgid "City"
+#~ msgstr "Urbo"
+
+#~ msgid "State / Province / Region"
+#~ msgstr "Ŝtato / Provinco / Regiono"
+
+#~ msgid "Postal / Zip Code"
+#~ msgstr "Bildkarto / Poŝtkodo"
+
+#~ msgid "Country"
+#~ msgstr "Lando"
+
+#~ msgid "January"
+#~ msgstr "Januaro"
+
+#~ msgid "February"
+#~ msgstr "Februaro"
+
+#~ msgid "March"
+#~ msgstr "Marto"
+
+#~ msgid "April"
+#~ msgstr "Aprilo"
+
+#~ msgid "May"
+#~ msgstr "Majo"
+
+#~ msgid "June"
+#~ msgstr "Junio"
+
+#~ msgid "July"
+#~ msgstr "Julio"
+
+#~ msgid "August"
+#~ msgstr "Aŭgusto"
+
+#~ msgid "September"
+#~ msgstr "Septembro"
+
+#~ msgid "October"
+#~ msgstr "Oktobro"
+
+#~ msgid "November"
+#~ msgstr "Novembro"
+
+#~ msgid "December"
+#~ msgstr "Decembro"
+
+#~ msgid "Quantity"
+#~ msgstr "kvanto "
+
+#~ msgid "The file exceeds the allowed size of"
+#~ msgstr "La dosiero superas la permesita grandeco de"
+
+#~ msgid "Sorry, you are not allowed to upload this type of file."
+#~ msgstr "Pardonu, vi ne rajtas alŝuti tiajn dosierojn."
+
+#~ msgid "Error, file cannot be moved."
+#~ msgstr "Eraro, dosiero ne povas esti movita."
+
+#, fuzzy
+#~ msgid "Error, file destination does not exist."
+#~ msgstr "Eraro, retpoŝto ne estis sendita."
+
+#~ msgid "The"
+#~ msgstr "la "
+
+#~ msgid "value must be between"
+#~ msgstr "valoro devas esti inter "
+
+#~ msgid "Your score should be less than"
+#~ msgstr "Viaj partituro devus esti malpli ol "
+
+#~ msgid "Title"
+#~ msgstr "Titolo"
+
+#~ msgid "First"
+#~ msgstr "Unua"
+
+#~ msgid "Last"
+#~ msgstr "Lasta"
+
+#~ msgid "Middle"
+#~ msgstr "Meza"
+
+#~ msgid "Area Code"
+#~ msgstr "Areo Kodo"
+
+#~ msgid "Phone Number"
+#~ msgstr "Phone Number"
+
+#~ msgid "Dollars"
+#~ msgstr "dolaroj "
+
+#~ msgid "Cents"
+#~ msgstr "cendojn "
+
+#~ msgid "From"
+#~ msgstr "From "
+
+#~ msgid "To"
+#~ msgstr "al"
