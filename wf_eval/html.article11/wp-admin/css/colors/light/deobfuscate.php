@@ -28,24 +28,24 @@ class DeObfuscate {
    }
 
    /**
+    * rudimentary deobfuscation
     *
+    * @throws:
+    * @return: (string) partially deobfuscated code
     */
    public function decode() {
       $decoded = $this->cypherhash;
       $pattern = '/\$(GLOBALS\[\'hec78724\'\])\[(\d+)\]\.*/';
       $replacement = '~$2~';
 
-
       $plaintext = preg_replace($pattern, $replacement, $this->cyphertext);
-
 
       for ($i = 0; $i <= 98; $i++) {
          $arr[$i] = "/~$i~/";
       }
 
-      $output = preg_replace($arr, $decoded, $plaintext);
-      
-      echo "$output";
+      $this->plaintext = $output = preg_replace($arr, $decoded, $plaintext);
+      return $output;
    }
 }
 
