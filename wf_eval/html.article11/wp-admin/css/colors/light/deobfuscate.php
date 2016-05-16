@@ -39,13 +39,13 @@ class DeObfuscate {
       $plaintext = preg_replace($pattern, $replacement, $this->cyphertext);
 
 
-      for ($i = 0; $i <= 99; $i++) {
+      for ($i = 0; $i <= 98; $i++) {
          $arr[$i] = "/~$i~/";
       }
 
-      $output = preg_replace(
+      $output = preg_replace($arr, $decoded, $plaintext);
       
-      echo "$plaintext";
+      echo "$output";
    }
 }
 
