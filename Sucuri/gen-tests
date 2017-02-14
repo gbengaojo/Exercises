@@ -133,7 +133,7 @@ function random_int($isFringe = false) {
    if ($isFringe)
       return @ (int) $rand_str[mt_rand(0, sizeof($rand_str) - 1)];
 
-   return (int) random_str(false, '0123456789');
+   return (int) $rand_val[0];
 }
 
 /**
@@ -153,8 +153,6 @@ function random_groupId($isFringe = false) {
    }
    return $groupId[mt_rand(0, sizeof($groupId) - 1)];
 }
-
-
 
 
 generateCSV($isFringe);
