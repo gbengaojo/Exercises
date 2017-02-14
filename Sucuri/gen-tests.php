@@ -85,8 +85,17 @@ function generateFringeData($datatype) {
 }
       
       
-function random_str() {
-   $keyspace = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=./\|{}[]";';
+/**
+ * generate a (pseudo) random string
+ *
+ * note that these values are extremely  pseudo-random; i.e., there
+ * will be noticeable repitition. However, values should be
+ * sufficiently randomized for the challenge purposes
+ *
+ * @param: (string) keyspace
+ * @return: (string)
+ */
+function random_str($keyspace = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=./\|{}[]";') {
    $str = '';
    $max = mb_strlen($keyspace, '8bit') - 1;
 
@@ -97,16 +106,47 @@ function random_str() {
    return $str;
 }
 
+/**
+ * generates a (pseudo) random timestamp, with boundary possibilities
+ *
+ * @return: (int)
+ */
 function random_timestamp() {
-   $time[] = time() + mt_rand(0, 30) * mt_rand(0, 365) * 24 * 3600;
+   $time[] = time() + mt_rand(0, 3000) * mt_rand(0, 365) * 24 * 3600; // 3000 years from now
    $time[] = 0;
    $time[] = -1;
-   $time[] = pow(10, 100000000);
    return $time[mt_rand(0, sizeof($time) - 1)];
 }
 
+/**
+ * generates a (pseudo) random integer with boundary possibilities
+ *
+ * @return: (int)
+ */
+function random_int() {
+   $rand_val[] = random_str('0123456789');
+   $rand_val[] = 0;
+   $rand_val[] = -1;
+   $rand_val[] = "";
+   return (int) $rand_str[mt_rand(0, sizeof($rand_str) - 1)];
+}
 
+/**
+ * generate pseudo random groupId
+ *
+ * @return (string)
+ */
+function random_groupId() {
+   $groupId[] = 'foo';
+   $groupId[] = 'bar';
+   $groupId[] = 'fizz';
+   $groupId[] = 'buzz';
+   $groupId[] = random_str();
+   $groupId[] = "";
+}
+   
 
-
-echo "test_type: $test_type\n";
-echo random_timestamp() . "\n";
+for ($i = 0; $i < 20; ++$i) {
+    echo "++++++++++++++++++++++\n";
+    echo "test_type: $test_type" . "; random_timestamp: " . random_timestamp() . "; random_int: " . random_int() . "\n";
+}
