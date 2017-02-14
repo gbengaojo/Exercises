@@ -13,8 +13,11 @@
  */
 
 class GetClients {
-   const GROUP_ID = 2;
    const CLIENT_ID = 0;
+   const TIMESTAMP = 1;
+   const GROUP_ID = 2;
+   const STATUS = 3;
+   const MESSAGE_ID = 4;
 
    protected $csv;
 
@@ -34,18 +37,63 @@ class GetClients {
     * returns an array of clientIds
     *
     * @param: (string) $groupId
+    * @throws: (Exception)
     * @return: (array)
     */
    public function getClientsByGroupId($groupId) {
+      // validate data
+      $valid = $this->validateFields();
+
       foreach ($this->csv as $line) {
          $fields = explode(",", $line);
-         print_r($fields);
+
+         if (!$valid) {
+            throw new ErrorException('Corrupt CSV data. Exiting');
+         }
 
          if ($fields[self::GROUP_ID] == $groupId)
             $clientIds[] = $fields[self::CLIENT_ID];
       }
 
       return $clientIds;
+   }
+
+   /**
+    * validate CSV fields
+    *
+    * @return (bool)
+    */
+   public function validateFields() {
+      foreach ($this->csv as $line) {
+         $fields = explode(",", $line);
+
+         // test for empty fields
+         foreach ($fields as $field) {
+            if (empty($field)) {
+               return false;
+               break;
+            }
+         }
+
+         // validate clientId
+         if (!is_string($fields[self::CLIENT_ID]))
+            return false;
+         // validate timestamp (neg ts debatable)
+         if (!is_numeric(trim($fields[self::TIMESTAMP])) || trim($fields[self::TIMESTAMP]) < 0)
+            return false;
+         // validate group id
+         if (!in_array(trim($fields[self::GROUP_ID]), array('foo', 'bar', 'fizz', 'buzz')))
+            return false;
+         // validate status
+         if (!is_numeric(trim($fields[self::STATUS])))
+            return false;
+         // validate message id
+         if (!is_numeric(trim($fields[self::MESSAGE_ID])))
+            return false;
+      }
+
+      // if all fields in all lines are good...
+      return true;
    }
 }
 
@@ -65,7 +113,7 @@ EOT;
 $prog_name = array_shift($argv);
 
 $filename = array_shift($argv);
-if (!file_exists($filename) {
+if (!file_exists($filename)) {
    print 'Error finding file';
    print($usage_msg);
    exit(0);
@@ -98,9 +146,15 @@ switch ($arg) {
 
 
 
+$results = array();
 $obj = new GetClients($filename);
-$results = $obj->getClientsByGroupId($groupId);
+try {
+   $results = $obj->getClientsByGroupId($groupId);
+} catch (ErrorException $e) {
+   print('Message: ' . $e->getMessage() . "\n");
+   print("Stack Trace:\n " . $e->getTraceAsString() . "\n");
+}
 
-echo "\n\n+++++++++++++\n";
+echo "\n\nClients matching groupId \"$groupId\":\n";
 print_r($results);
 
