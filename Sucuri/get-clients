@@ -1,0 +1,106 @@
+#!/usr/bin/php5
+<?php
+/*
+   +----------------------------------------------------------------------+
+   | get-clients.php                                                      |
+   +----------------------------------------------------------------------+
+   | returns an array of clientIds matching the desired groupId read from |
+   | a file on disk.                                                      |
+   +----------------------------------------------------------------------+
+   | Author: Gbenga Ojo <gbenga.a.ojo@gmail.com>                          |
+   | Origin Date: Feb 13, 2017                                            | 
+   +----------------------------------------------------------------------+
+ */
+
+class GetClients {
+   const GROUP_ID = 2;
+   const CLIENT_ID = 0;
+
+   protected $csv;
+
+   public function __construct($filename = 'input.csv') {
+      // open file
+      $fh = fopen($filename, 'r');
+
+      if ($fh) {
+         while (($line = fgets($fh)) !== false)
+            $this->csv[] = $line;
+      } else {
+         exit('Error opening file');
+      }
+   }
+
+   /**
+    * returns an array of clientIds
+    *
+    * @param: (string) $groupId
+    * @return: (array)
+    */
+   public function getClientsByGroupId($groupId) {
+      foreach ($this->csv as $line) {
+         $fields = explode(",", $line);
+         print_r($fields);
+
+         if ($fields[self::GROUP_ID] == $groupId)
+            $clientIds[] = $fields[self::CLIENT_ID];
+      }
+
+      return $clientIds;
+   }
+}
+
+
+$usage_msg = <<<EOT
+
+Usage:
+get-clients FILENAME TYPE
+   TYPE:
+      --foo
+      --bar
+      --fizz
+      --buzz
+
+EOT;
+
+$prog_name = array_shift($argv);
+
+$filename = array_shift($argv);
+if (!file_exists($filename) {
+   print 'Error finding file';
+   print($usage_msg);
+   exit(0);
+}
+
+$arg = array_shift($argv);
+switch ($arg) {
+   case '--foo' :
+      $groupId = 'foo';
+   break;
+
+   case '--bar' :
+      $groupId = 'bar';
+   break;
+
+   case '--fizz' :
+      $groupId = 'fizz';
+   break;
+
+   case '--buzz' :
+      $groupId = 'buzz';
+   break;
+
+   default :
+      print($usage_msg);
+      exit(0);
+}
+
+
+
+
+
+$obj = new GetClients($filename);
+$results = $obj->getClientsByGroupId($groupId);
+
+echo "\n\n+++++++++++++\n";
+print_r($results);
+

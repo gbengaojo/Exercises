@@ -4,7 +4,7 @@
    +----------------------------------------------------------------------+
    | gen-tests.php                                                        |
    +----------------------------------------------------------------------+
-   | Generates a series of test CSV files for the Sucuri Challenge        |
+   | Generate test CSV files for the Sucuri Challenge                     |
    +----------------------------------------------------------------------+
    | Author: Gbenga Ojo <gbenga.a.ojo@gmail.com>                          |
    | Origin Date: Feb 13, 2017                                            | 
@@ -14,8 +14,8 @@
 $usage_msg = <<<EOT
 
 Usage:
-gen-tests.php TYPE
-   TYPEs:
+gen-tests TYPE
+   TYPE:
    -c, --common:
       generates a CSV file holding common values
    -f, --fringe:
@@ -40,9 +40,9 @@ while (count($argv) > 0) {
    }
 
    elseif (preg_match('/^-c|^--common/', $arg)) {
-      $test_type = "common";
+      $isFringe = false;
    } elseif (preg_match('/^-f|^--fringe/', $arg)) {
-      $test_type = "fringe";
+      $isFringe = true;
    } else {
       print($usage_msg);
       exit(0);
@@ -50,40 +50,24 @@ while (count($argv) > 0) {
       
 }
 
-// based on switch (--common or --fringe), generate CSV strings
-// and write to file 'test-$test_type.csv'
+function generateCSV($isFringe) {
+   $output = '';
 
-function generateCSV($test_type) {
-   if ($test_type == 'common') {
+   if (!$isFringe) {
+      for ($i = 0; $i < 20; ++$i) {
+          $output .= random_str() . ',' . random_timestamp() . ',' . random_groupId() . ',' . random_int() . ',' . random_int() ."\n";
+      }
    }
 
-   if ($test_type == 'fringe') {
+   if ($isFringe) {
+      for ($i = 0; $i < 20; ++$i) {
+          $output .= random_str(true) . ',' . random_timestamp(true) . ',' . random_groupId(true) . ',' . random_int(true) . ',' . random_int(true) ."\n";
+      }
    }
+
+   file_put_contents('input.csv', $output);
 }
 
-/**
- * generate random edge case data
- */
-function generateFringeData($datatype) {
-   switch ($datatype) {
-      case 'int' :
-
-      break;
-
-      case 'timestamp' :
-         
-      break;
-
-      case 'float' :
-
-      break;
-
-      case 'string' :
-
-      break;
-   }
-}
-      
       
 /**
  * generate a (pseudo) random string
@@ -95,15 +79,26 @@ function generateFringeData($datatype) {
  * @param: (string) keyspace
  * @return: (string)
  */
-function random_str($keyspace = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=./\|{}[]";') {
+function random_str($isFringe = false, $keyspace = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=./\|{}[]";') {
    $str = '';
    $max = mb_strlen($keyspace, '8bit') - 1;
 
    for ($i = 0; $i < mt_rand(1, 100); ++$i) {
       $str .= $keyspace[mt_rand(0, $max)];
    }
+   
+   if (!$isFringe)
+      return $str;
 
-   return $str;
+   $string[] = $str; // valid
+   $string[] = '';   // invalid
+   for ($i = 0; $i < 100000; ++$i) {
+      $str .= $keyspace[mt_rand(0, $max)];
+   }
+   $string[] = $str; // invalid (assuming some reasonable length)
+
+   if ($isFringe)
+      return $string[mt_rand(0, sizeof($string) - 1)];
 }
 
 /**
@@ -111,11 +106,17 @@ function random_str($keyspace = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJK
  *
  * @return: (int)
  */
-function random_timestamp() {
-   $time[] = time() + mt_rand(0, 3000) * mt_rand(0, 365) * 24 * 3600; // 3000 years from now
+function random_timestamp($isFringe = false) {
+   $time[] = time() + 20 * mt_rand(0, 365) * 24 * 3600; // 20 year span; reasonable for this challenge
+   $time[] = time() + mt_rand(0, 3000) * mt_rand(0, 365) * 24 * 3600; // 3000 years from now (year 2038 problem on 32 bit machines)
+   $time[] = time() + mt_rand(0, 3000) * mt_rand(0, 365) * 24 * 3600; // negative value
    $time[] = 0;
    $time[] = -1;
-   return $time[mt_rand(0, sizeof($time) - 1)];
+
+   if ($isFringe)
+      return (int) $time[mt_rand(0, sizeof($time) - 1)];
+
+   return (int) $time[0];
 }
 
 /**
@@ -123,12 +124,16 @@ function random_timestamp() {
  *
  * @return: (int)
  */
-function random_int() {
-   $rand_val[] = random_str('0123456789');
+function random_int($isFringe = false) {
+   $rand_val[] = random_str(true, '0123456789');
    $rand_val[] = 0;
    $rand_val[] = -1;
    $rand_val[] = "";
-   return (int) $rand_str[mt_rand(0, sizeof($rand_str) - 1)];
+
+   if ($isFringe)
+      return @ (int) $rand_str[mt_rand(0, sizeof($rand_str) - 1)];
+
+   return (int) random_str(false, '0123456789');
 }
 
 /**
@@ -136,17 +141,20 @@ function random_int() {
  *
  * @return (string)
  */
-function random_groupId() {
+function random_groupId($isFringe = false) {
    $groupId[] = 'foo';
    $groupId[] = 'bar';
    $groupId[] = 'fizz';
    $groupId[] = 'buzz';
-   $groupId[] = random_str();
-   $groupId[] = "";
-}
-   
 
-for ($i = 0; $i < 20; ++$i) {
-    echo "++++++++++++++++++++++\n";
-    echo "test_type: $test_type" . "; random_timestamp: " . random_timestamp() . "; random_int: " . random_int() . "\n";
+   if ($isFringe) {
+      $groupId[] = random_str();
+      $groupId[] = "";
+   }
+   return $groupId[mt_rand(0, sizeof($groupId) - 1)];
 }
+
+
+
+
+generateCSV($isFringe);
