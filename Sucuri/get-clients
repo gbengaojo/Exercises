@@ -76,7 +76,7 @@ class GetClients {
          }
 
          // validate clientId
-         if (!is_string($fields[self::CLIENT_ID]))
+         if (!is_string($fields[self::CLIENT_ID]) || strlen(trim($fields[self::CLIENT_ID] > 100)))
             return false;
          // validate timestamp (neg ts debatable)
          if (!is_numeric(trim($fields[self::TIMESTAMP])) || trim($fields[self::TIMESTAMP]) < 0)
@@ -150,11 +150,11 @@ $results = array();
 $obj = new GetClients($filename);
 try {
    $results = $obj->getClientsByGroupId($groupId);
+   echo "\n\nClients matching groupId \"$groupId\":\n";
+   print_r($results);
+
 } catch (ErrorException $e) {
    print('Message: ' . $e->getMessage() . "\n");
    print("Stack Trace:\n " . $e->getTraceAsString() . "\n");
+   exit(0);
 }
-
-echo "\n\nClients matching groupId \"$groupId\":\n";
-print_r($results);
-
