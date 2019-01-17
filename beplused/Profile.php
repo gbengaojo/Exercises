@@ -3,7 +3,6 @@
 Class: Profle
 Author: Gbenga Ojo <gbenga.o@beplused.com>
 Origin Date: May 17, 2012
-Modified By: Nikhil Redij <nikhil@beplused.com>
 Modified: August 9, 2012
 
 Profile model for db manipulation and profile specific
@@ -11,6 +10,10 @@ functions
 
 construct
 (int) createProfile()
+(bool) editProfile (array, int)
+(array) getProfile(int)
+(int) getProfileImage(int)
+(mixed) getProfileImageLocation(int)
 ------------------------------------------------------------*/
 
 class Application_Model_Profile
